@@ -1,0 +1,59 @@
+D:\Temp\WebControl\WebControl.Web\bin\WebControl.Web.dll
+D:\Temp\WebControl\WebControl.Web\bin\WebControl.Web.pdb
+D:\Temp\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
+D:\Temp\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
+D:\Temp\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\WebControl.Web.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\WebControl.Web.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\System.ComponentModel.Composition.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\System.ComponentModel.DataAnnotations.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\de\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\es\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ja\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ru\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\de\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\es\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ja\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\bin\ru\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\WebControl.Web.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\WebControl.Web.pdb
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\System.ComponentModel.Composition.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\System.ComponentModel.DataAnnotations.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.xml
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.xml
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\de\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\es\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ja\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ru\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\de\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\es\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ja\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ru\DevExpress.Xpo.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
+D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
+D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb

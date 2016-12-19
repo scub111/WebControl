@@ -1,0 +1,49 @@
+﻿<we:ViewBase
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:we="clr-namespace:WebControl"
+    xmlns:local="clr-namespace:WebControl" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="WebControl.DevelopView"    
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1024" Loaded="ViewBase_Loaded">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Height="768" Width="1024" Background="{x:Null}">
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="Время на сервере:" Canvas.Left="68" Canvas.Top="365"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="229" FontSize="18" Content="Последнее обновление:" Canvas.Left="68" Canvas.Top="398"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="229" FontSize="18" Content="Разница во времени:" Canvas.Left="68" Canvas.Top="463"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="251" FontSize="18" Content="Разница в часовом поясе:" Canvas.Left="68" Canvas.Top="496"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="251" FontSize="18" Content="Время 1-ой записи:" Canvas.Left="68" Canvas.Top="529"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="251" FontSize="18" Content="Ошибки:" Canvas.Left="68" Canvas.Top="562"/>
+            <sdk:Label x:Name="teLastUpdateTime" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="398"/>
+            <sdk:Label x:Name="teServerClientTimeDiff" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="463"/>
+            <sdk:Label x:Name="teTimeZoneDiff" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="496"/>
+            <sdk:Label x:Name="teFirst" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="529"/>
+            <sdk:Label x:Name="teError" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="562"/>
+            <sdk:Label x:Name="teServerTime" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="365"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="251" FontSize="18" Content="Кол-во элементов:" Canvas.Left="68" Canvas.Top="595"/>
+            <sdk:Label x:Name="teItemCount" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="595"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="290" FontSize="18" Content="Время загрузики и обновления:" Canvas.Left="68" Canvas.Top="628"/>
+            <sdk:Label x:Name="teLoadTime" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="628"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="Адрес службы:" Canvas.Left="68" Canvas.Top="243"/>
+            <HyperlinkButton x:Name="teServiceAddress" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="634" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="243"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="Версия приложения:" Canvas.Left="68" Canvas.Top="187"/>
+            <sdk:Label x:Name="teVersion" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="187"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="IP сервера:" Canvas.Left="68" Canvas.Top="215"/>
+            <sdk:Label x:Name="teServerIPAddress" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="215"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="IP клиента:" Canvas.Left="68" Canvas.Top="299"/>
+            <sdk:Label x:Name="teClientIPAddress" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="299"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="GUID клиента:" Canvas.Left="68" Canvas.Top="271"/>
+            <sdk:Label x:Name="teClientGetClientGUID" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="634" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="271"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="207" FontSize="18" Content="Браузер клиента:" Canvas.Left="68" Canvas.Top="332"/>
+            <sdk:Label x:Name="teClientBrowserInformation" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="644" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="332"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="290" FontSize="18" Content="Активные записи:" Canvas.Left="68" Canvas.Top="661"/>
+            <sdk:Label x:Name="teGUI" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="661"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="290" FontSize="18" Content="Информация сервиса:" Canvas.Left="68" Canvas.Top="694"/>
+            <sdk:Label x:Name="teServiceInfo" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="694"/>
+            <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="290" FontSize="18" Content="Синх-ия обновления записей:" Canvas.Left="68" Canvas.Top="431"/>
+            <sdk:Label x:Name="teServerItemUpdateSync" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="490" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="431"/>
+        </Canvas>
+    </Viewbox>
+</we:ViewBase>

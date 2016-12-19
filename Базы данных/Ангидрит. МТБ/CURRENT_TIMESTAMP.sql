@@ -1,0 +1,1 @@
+select CURRENT_TIMESTAMP - 0.05 from rdb$database

@@ -1,0 +1,18 @@
+﻿<configuration>
+    <system.serviceModel>
+        <client>
+            <endpoint address="http://localhost:5555/DataService.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IDataService" contract="DataServiceReference.IDataService"
+                name="BasicHttpBinding_IDataService" />
+        </client>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IDataService" closeTimeout="00:00:05"
+                    openTimeout="00:00:05" receiveTimeout="00:00:20" sendTimeout="00:00:20"
+                    maxBufferSize="2147483647" maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+    </system.serviceModel>
+</configuration>

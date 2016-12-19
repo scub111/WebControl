@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DataService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:5555/DataService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:5555/DataService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:5555/DataService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfDataService" />
+      <xsd:import schemaLocation="http://localhost:5555/DataService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:5555/DataService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/System" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDataService_GetItemsFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsFull" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetItemsFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetItemsShort_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsShort" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetItemsShort_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsShortResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetItemsShortByDataNames_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsShortByDataNames" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetItemsShortByDataNames_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetItemsShortByDataNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetTrends_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTrends" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetTrends_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTrendsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetSqlCurrentTime_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSqlCurrentTime" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetSqlCurrentTime_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSqlCurrentTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetDateTimeOffset_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDateTimeOffset" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetDateTimeOffset_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDateTimeOffsetResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_SetClientInfoFull_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetClientInfoFull" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_SetClientInfoFull_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetClientInfoFullResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_SetClientInfoShort_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetClientInfoShort" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_SetClientInfoShort_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetClientInfoShortResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetMTBTIDELOGs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMTBTIDELOGs" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetMTBTIDELOGs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMTBTIDELOGsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetServiceInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceInfo" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetServiceInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServiceInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDataService">
+    <wsdl:operation name="GetItemsFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetItemsFull" message="tns:IDataService_GetItemsFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetItemsFullResponse" message="tns:IDataService_GetItemsFull_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsShort">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetItemsShort" message="tns:IDataService_GetItemsShort_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetItemsShortResponse" message="tns:IDataService_GetItemsShort_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsShortByDataNames">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetItemsShortByDataNames" message="tns:IDataService_GetItemsShortByDataNames_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetItemsShortByDataNamesResponse" message="tns:IDataService_GetItemsShortByDataNames_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTrends">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetTrends" message="tns:IDataService_GetTrends_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetTrendsResponse" message="tns:IDataService_GetTrends_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSqlCurrentTime">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetSqlCurrentTime" message="tns:IDataService_GetSqlCurrentTime_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetSqlCurrentTimeResponse" message="tns:IDataService_GetSqlCurrentTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDateTimeOffset">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetDateTimeOffset" message="tns:IDataService_GetDateTimeOffset_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetDateTimeOffsetResponse" message="tns:IDataService_GetDateTimeOffset_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetClientInfoFull">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/SetClientInfoFull" message="tns:IDataService_SetClientInfoFull_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/SetClientInfoFullResponse" message="tns:IDataService_SetClientInfoFull_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetClientInfoShort">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/SetClientInfoShort" message="tns:IDataService_SetClientInfoShort_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/SetClientInfoShortResponse" message="tns:IDataService_SetClientInfoShort_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMTBTIDELOGs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetMTBTIDELOGs" message="tns:IDataService_GetMTBTIDELOGs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetMTBTIDELOGsResponse" message="tns:IDataService_GetMTBTIDELOGs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetServiceInfo" message="tns:IDataService_GetServiceInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetServiceInfoResponse" message="tns:IDataService_GetServiceInfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDataService" type="tns:IDataService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetItemsFull">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetItemsFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsShort">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetItemsShort" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetItemsShortByDataNames">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetItemsShortByDataNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrends">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetTrends" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSqlCurrentTime">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetSqlCurrentTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDateTimeOffset">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetDateTimeOffset" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetClientInfoFull">
+      <soap:operation soapAction="http://tempuri.org/IDataService/SetClientInfoFull" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetClientInfoShort">
+      <soap:operation soapAction="http://tempuri.org/IDataService/SetClientInfoShort" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMTBTIDELOGs">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetMTBTIDELOGs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetServiceInfo">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetServiceInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataService">
+    <wsdl:port name="BasicHttpBinding_IDataService" binding="tns:BasicHttpBinding_IDataService">
+      <soap:address location="http://localhost:5555/DataService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

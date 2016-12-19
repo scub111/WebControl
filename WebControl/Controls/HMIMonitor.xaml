@@ -1,0 +1,140 @@
+﻿<we:HMIBooleanBase x:Class="WebControl.HMIMonitor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:we="clr-namespace:WebControl"
+    mc:Ignorable="d"
+    d:DesignHeight="35" d:DesignWidth="50" ItemInited="HMIMonitor_ItemInited">
+    <Viewbox>
+        <ToolTipService.ToolTip>
+            <TextBlock x:Name="tbToolTip" MaxWidth="350" 
+                       Text="Неопределен" Foreground="Black"
+                       FontSize="12" TextWrapping="Wrap"/>
+        </ToolTipService.ToolTip>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="MouseStateGroup">
+                <VisualStateGroup.Transitions>
+                    <VisualTransition GeneratedDuration="0"/>
+                </VisualStateGroup.Transitions>
+                <VisualState x:Name="ControlMouseEnter">
+                	<Storyboard>
+                		<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="recMouse">
+                			<DiscreteObjectKeyFrame KeyTime="0">
+                				<DiscreteObjectKeyFrame.Value>
+                					<Visibility>Visible</Visibility>
+                				</DiscreteObjectKeyFrame.Value>
+                			</DiscreteObjectKeyFrame>
+                		</ObjectAnimationUsingKeyFrames>
+                	</Storyboard>
+                </VisualState>
+                <VisualState x:Name="ControlMouseLeave"/>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="ValueStateGroup">
+				<VisualState x:Name="ControlValueON">
+                    <Storyboard>
+						<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="tbUnknown">
+							<DiscreteObjectKeyFrame KeyTime="0">
+								<DiscreteObjectKeyFrame.Value>
+									<Visibility>Collapsed</Visibility>
+								</DiscreteObjectKeyFrame.Value>
+							</DiscreteObjectKeyFrame>
+						</ObjectAnimationUsingKeyFrames>
+						<ColorAnimation Duration="0" To="#FF35CB1D" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="recBase" d:IsOptimized="True"/>
+					</Storyboard>
+                </VisualState>
+                <VisualState x:Name="ControlValueOFF">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="tbUnknown">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Collapsed</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+				<VisualState x:Name="ControlValueUnknown">
+                	<Storyboard>
+                		<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="tbUnknown">
+                			<DiscreteObjectKeyFrame KeyTime="0">
+                				<DiscreteObjectKeyFrame.Value>
+                					<Visibility>Visible</Visibility>
+                				</DiscreteObjectKeyFrame.Value>
+                			</DiscreteObjectKeyFrame>
+                		</ObjectAnimationUsingKeyFrames>
+                	</Storyboard>
+                </VisualState>
+			</VisualStateGroup>
+            <VisualStateGroup x:Name="ActualStateGroup">
+				<VisualState x:Name="ControlActualTrue">
+                	<Storyboard>
+                		<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="vwWarning">
+                			<DiscreteObjectKeyFrame KeyTime="0">
+                				<DiscreteObjectKeyFrame.Value>
+                					<Visibility>Collapsed</Visibility>
+                				</DiscreteObjectKeyFrame.Value>
+                			</DiscreteObjectKeyFrame>
+                		</ObjectAnimationUsingKeyFrames>
+                	</Storyboard>
+                </VisualState>
+                <VisualState x:Name="ControlActualFalse">
+                	<Storyboard>
+                		<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="vwWarning">
+                			<DiscreteObjectKeyFrame KeyTime="0">
+                				<DiscreteObjectKeyFrame.Value>
+                					<Visibility>Visible</Visibility>
+                				</DiscreteObjectKeyFrame.Value>
+                			</DiscreteObjectKeyFrame>
+                		</ObjectAnimationUsingKeyFrames>
+                	</Storyboard>
+                </VisualState>
+			</VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Canvas Height="35" Width="50">
+            <Rectangle x:Name="recBase" Height="30" Stroke="Black" Width="50">
+            	<Rectangle.Fill>
+            		<LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            			<GradientStop Color="#FF474747" Offset="1"/>
+            			<GradientStop Color="White"/>
+            		</LinearGradientBrush>
+            	</Rectangle.Fill>
+            </Rectangle>
+            <TextBlock x:Name="tbUnknown" Height="35" TextWrapping="Wrap" Text="???" Width="50" TextAlignment="Center" FontSize="26.667" RenderTransformOrigin="0.5,0.5" Foreground="Red" Canvas.Top="-3">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Path Data="M19.4376,39.1695 L35.4379,39.1695" Height="1" Canvas.Left="15.5" Stretch="Fill" Stroke="Black" Canvas.Top="33.5" UseLayoutRounding="False" Width="17">
+            	<Path.Fill>
+            		<LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            			<GradientStop Color="#FF474747" Offset="1"/>
+            			<GradientStop Color="White"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M19.8442,39.8469 L19.8442,35.4301" Height="5.417" Canvas.Left="23.5" Stretch="Fill" Stroke="Black" Canvas.Top="29.083" UseLayoutRounding="False" Width="1">
+            	<Path.Fill>
+            		<LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            			<GradientStop Color="#FF474747" Offset="1"/>
+            			<GradientStop Color="White"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Viewbox x:Name="vwWarning" Height="33" Width="32" Canvas.Left="9" Canvas.Top="2">
+            	<Grid Height="31" Width="31">
+            		<Path Data="M15.5005,-0.596458 L30.5005,31.0358 L0.500407,31.0358 z" Stretch="Fill" Stroke="Black" UseLayoutRounding="False">
+            			<Path.Fill>
+            				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            					<GradientStop Color="#FFC2E000" Offset="0"/>
+            					<GradientStop Color="#FFF0410E" Offset="1"/>
+            				</LinearGradientBrush>
+            			</Path.Fill>
+            		</Path>
+            		<TextBlock TextWrapping="Wrap" Text="!" FontSize="26.667" TextAlignment="Center"/>
+            	</Grid>
+            </Viewbox>
+            <Rectangle x:Name="recMouse" Height="35" Stroke="#FF000CFD" StrokeThickness="2" Width="50" Visibility="Collapsed"/>
+        </Canvas>
+    </Viewbox>
+</we:HMIBooleanBase>

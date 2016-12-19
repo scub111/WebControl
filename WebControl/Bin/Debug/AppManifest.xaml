@@ -1,0 +1,54 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="WebControl" EntryPointType="WebControl.App" RuntimeVersion="5.0.61118.0">
+  <Deployment.InBrowserSettings>
+    <InBrowserSettings>
+      <InBrowserSettings.SecuritySettings>
+        <SecuritySettings ElevatedPermissions="Required" />
+      </InBrowserSettings.SecuritySettings>
+    </InBrowserSettings>
+  </Deployment.InBrowserSettings>
+  <Deployment.Parts>
+    <AssemblyPart x:Name="WebControl" Source="WebControl.dll" />
+    <AssemblyPart x:Name="AmCharts.Windows.QuickCharts.SL" Source="AmCharts.Windows.QuickCharts.SL.dll" />
+    <AssemblyPart x:Name="DevExpress.Charts.v14.2.Core" Source="DevExpress.Charts.v14.2.Core.dll" />
+    <AssemblyPart x:Name="DevExpress.Data.v14.2" Source="DevExpress.Data.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Mvvm.v14.2" Source="DevExpress.Mvvm.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Printing.v14.2.Core" Source="DevExpress.Printing.v14.2.Core.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.charts.v14.2" Source="devexpress.xpf.charts.v14.2.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.controls.v14.2" Source="devexpress.xpf.controls.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Core.v14.2" Source="DevExpress.Xpf.Core.v14.2.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.docking.v14.2" Source="devexpress.xpf.docking.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Grid.v14.2.Core" Source="DevExpress.Xpf.Grid.v14.2.Core.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.grid.v14.2" Source="devexpress.xpf.grid.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Layout.v14.2.Core" Source="DevExpress.Xpf.Layout.v14.2.Core.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.layoutcontrol.v14.2" Source="devexpress.xpf.layoutcontrol.v14.2.dll" />
+    <AssemblyPart x:Name="devexpress.xpf.navbar.v14.2" Source="devexpress.xpf.navbar.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Printing.v14.2" Source="DevExpress.Xpf.Printing.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Ribbon.v14.2" Source="DevExpress.Xpf.Ribbon.v14.2.dll" />
+    <AssemblyPart x:Name="DevExpress.Xpf.Themes.VS2010.v14.2" Source="DevExpress.Xpf.Themes.VS2010.v14.2.dll" />
+    <AssemblyPart x:Name="Microsoft.CSharp" Source="Microsoft.CSharp.dll" />
+    <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
+    <AssemblyPart x:Name="System.Data.Services.Client" Source="System.Data.Services.Client.dll" />
+    <AssemblyPart x:Name="System.Reactive" Source="System.Reactive.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Data.Input" Source="System.Windows.Controls.Data.Input.dll" />
+    <AssemblyPart x:Name="system.windows.controls.datavisualization.toolkit" Source="system.windows.controls.datavisualization.toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Input.Toolkit" Source="System.Windows.Controls.Input.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Navigation" Source="System.Windows.Controls.Navigation.dll" />
+    <AssemblyPart x:Name="system.windows.controls.theming.toolkit" Source="system.windows.controls.theming.toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Controls.Toolkit" Source="System.Windows.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="System.Windows.Data" Source="System.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Xml.Linq" Source="System.Xml.Linq.dll" />
+    <AssemblyPart x:Name="System.Xml.Serialization" Source="System.Xml.Serialization.dll" />
+    <AssemblyPart x:Name="System.Xml.XPath" Source="System.Xml.XPath.dll" />
+    <AssemblyPart Source="ru/Microsoft.CSharp.resources.dll" />
+    <AssemblyPart Source="ru/System.ComponentModel.DataAnnotations.resources.dll" />
+    <AssemblyPart Source="ru/System.Data.Services.Client.resources.dll" />
+    <AssemblyPart Source="ru/System.Windows.Controls.resources.dll" />
+    <AssemblyPart Source="ru/System.Windows.Controls.Data.Input.resources.dll" />
+    <AssemblyPart Source="ru/System.Windows.Controls.Navigation.resources.dll" />
+    <AssemblyPart Source="ru/System.Windows.Data.resources.dll" />
+    <AssemblyPart Source="ru/System.Xml.Linq.resources.dll" />
+    <AssemblyPart Source="ru/System.Xml.Serialization.resources.dll" />
+    <AssemblyPart Source="ru/System.Xml.XPath.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

@@ -1,0 +1,23 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+           xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+           xmlns:amq="clr-namespace:AmCharts.Windows.QuickCharts;assembly=AmCharts.Windows.QuickCharts.SL"
+           xmlns:DynamicDataDisplay="clr-namespace:Microsoft.Research.DynamicDataDisplay;assembly=DynamicDataDisplay.Silverlight" 
+           x:Class="WebControl.TestView"
+           mc:Ignorable="d"
+           d:DesignWidth="1024" d:DesignHeight="768" Loaded="ViewBase_Loaded">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="1024" Height="768" Background="{x:Null}">
+            <local:HMIRectangle x:Name="heater4" Canvas.Left="914" Canvas.Top="165" Height="100" Width="100" DataName="heater_technograph1_K12" ValueOFF="190" ValueON="0" DataValueChanged="heater4_DataValueChanged"/>
+            <Button x:Name="btnDraw" Canvas.Left="852" Canvas.Top="550" Width="162" Height="56" Content="Draw" Click="btnDraw_Click"/>
+        </Canvas>
+    </Viewbox>
+</local:ViewBase>

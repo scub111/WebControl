@@ -1,0 +1,642 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="WebControl.AngidritVVU2HeaterView"
+           mc:Ignorable="d"
+           d:DesignWidth="1400" d:DesignHeight="1000">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="1400" Height="1000" Background="{x:Null}">
+            <Path Data="M-384.451,-585.183 L-389.496,-585.183 L-389.496,-534.473 L-273.468,-534.473 L-273.468,-585.183 L-278.513,-585.183 L-278.513,-539.544 L-384.451,-539.544 z" Height="51" Canvas.Left="574.5" Stretch="Fill" Stroke="Black" Canvas.Top="459.5" UseLayoutRounding="False" Width="116"/>
+            <Ellipse Fill="#FFB0B0B0" Height="90" Canvas.Left="335" Stroke="Black" StrokeThickness="0" Canvas.Top="115" Width="90"/>
+            <Rectangle Height="130" Canvas.Left="320" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="95" Width="120" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFA2A2A2" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Path Data="M855,539.989 L860,544.989 L865,549.989 L865,360.489 L860,365.676 L855,370.661 z" Height="189.5" Canvas.Left="695" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="1020.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,634.989 L860,629.989 L865,624.989 L865,404.989 L860,399.989 L855,394.989 z" Height="240" Canvas.Left="480" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="970" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK3" ToolTipService.ToolTip="" Canvas.Left="510" Canvas.Top="590"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BF20" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="530"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK1" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="590"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BF21" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="720"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BP23" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="750"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK2" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="780"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BP22" ToolTipService.ToolTip="" Canvas.Left="30" Canvas.Top="560"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK4" ToolTipService.ToolTip="" Canvas.Left="510" Canvas.Top="780"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK5" ToolTipService.ToolTip="" Canvas.Left="935" Canvas.Top="710"/>
+            <Path Data="M855,525.239 L860,530.239 L865,525.239 L865,425.239 L860,425.239 L855,425.239 z" Height="105" Canvas.Left="227.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="692.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="75" TranslateY="75" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="305" Canvas.Top="800" Height="40" Width="40" DataName="Angidrit_vvu_2_T_ZD7_opened" ValueON="1"/>
+            <Path Data="M853.832,757.762 L858.73,757.762 L863.628,757.762 L863.832,717.762 L858.786,712.762 L853.832,717.762 z" Height="45" Canvas.Left="337.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="743.469" UseLayoutRounding="False" Width="10.156" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="104.92199993133545" TranslateY="105.07800006866455" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855.219,534.989 L860.219,529.989 L865.219,524.989 L865,425.239 L860,425.239 L855,425.239 z" Height="109.75" Canvas.Left="227.25" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="617.281" UseLayoutRounding="False" Width="10.219" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="72.515500068664551" TranslateY="72.734499931335449" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="305" Canvas.Top="725" Height="40" Width="40" DataName="Angidrit_vvu_2_T_ZD8_opened" ValueON="1"/>
+            <Path Data="M853.832,757.762 L858.73,757.762 L863.628,757.762 L863.832,717.512 L859.016,712.512 L853.832,707.512 z" Height="50.25" Canvas.Left="342.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="667.999" UseLayoutRounding="False" Width="10.189" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="102.28049993515015" TranslateY="102.46950006484985" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M854.469,524.614 L859.469,529.614 L864.469,524.614 L865,425.239 L860,425.239 L855,425.239 z" Height="104.375" Canvas.Left="226.875" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="767.5" UseLayoutRounding="False" Width="10.531" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="75.046999931335449" TranslateY="75.578000068664551" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="305" Canvas.Top="876" Height="40" Width="40" DataName="Angidrit_vvu_2_T_ZD6_opened" ValueON="1"/>
+            <Path Data="M855.094,524.614 L860.094,529.614 L865.094,534.614 L865.094,309.614 L860.094,314.614 L855.094,319.614 z" Height="225" Canvas.Left="342.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="847.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="15" TranslateY="15" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="305" Canvas.Top="955" Height="40" Width="40" DataName="Angidrit_vvu_2_T_ZD2_opened" ValueON="1"/>
+            <Path Data="M852.5,582.739 L857.5,612.739 L862.5,582.739 L862.5,372.739 L857.5,367.739 L852.5,372.739 z" Height="245" Canvas.Left="122.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="692.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="5" TranslateY="5" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="150" Canvas.Top="800" Height="40" Width="40" DataName="Angidrit_vvu_2_T_K1_opened" ValueON="1"/>
+            <Path Data="M853.832,757.762 L858.73,757.762 L863.628,757.762 L863.832,717.762 L858.786,712.762 L853.832,717.762 z" Height="45" Canvas.Left="337.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="819.01" UseLayoutRounding="False" Width="10.156" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="104.92199993133545" TranslateY="105.07800006866455" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <local:HMIPump Canvas.Left="355" Canvas.Top="887" Height="68" Width="75" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_T_E_N1_run">
+                <local:HMIPump.RenderTransform>
+                    <CompositeTransform ScaleX="-1"/>
+                </local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <local:HMIPump Canvas.Left="355" Canvas.Top="812" Height="68" Width="75" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_T_E_N2_run">
+                <local:HMIPump.RenderTransform>
+                    <CompositeTransform ScaleX="-1"/>
+                </local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <local:HMIPump Canvas.Left="355" Canvas.Top="736" Height="68" Width="75" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_T_E_N3_run">
+                <local:HMIPump.RenderTransform>
+                    <CompositeTransform ScaleX="-1"/>
+                </local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <TextBlock Height="45" Canvas.Left="430" TextWrapping="Wrap" Text="3" Canvas.Top="735" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="430" TextWrapping="Wrap" Text="2" Canvas.Top="815" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="430" TextWrapping="Wrap" Text="1" Canvas.Top="890" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK6" ToolTipService.ToolTip="" Canvas.Left="755" Canvas.Top="570"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK7" ToolTipService.ToolTip="" Canvas.Left="870" Canvas.Top="570"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK8" ToolTipService.ToolTip="" Canvas.Left="985" Canvas.Top="570"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK9" ToolTipService.ToolTip="" Canvas.Left="1100" Canvas.Top="570"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK16" ToolTipService.ToolTip="" Canvas.Left="755" Canvas.Top="850"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK15" ToolTipService.ToolTip="" Canvas.Left="870" Canvas.Top="850"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK14" ToolTipService.ToolTip="" Canvas.Left="985" Canvas.Top="850"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK13" ToolTipService.ToolTip="" Canvas.Left="1100" Canvas.Top="850"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK19" ToolTipService.ToolTip="" Canvas.Left="755" Canvas.Top="640"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK18" ToolTipService.ToolTip="" Canvas.Left="755" Canvas.Top="710"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK17" ToolTipService.ToolTip="" Canvas.Left="755" Canvas.Top="780"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK10" ToolTipService.ToolTip="" Canvas.Left="1100" Canvas.Top="640"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK11" ToolTipService.ToolTip="" Canvas.Left="1100" Canvas.Top="710"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_K_BK12" ToolTipService.ToolTip="" Canvas.Left="1100" Canvas.Top="780"/>
+            <local:HMIValve Canvas.Left="685" Canvas.Top="660" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve10_not_opened" ValueON="0" ValueOFF="1"/>
+            <local:HMIValve Canvas.Left="685" Canvas.Top="740" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve9_not_opened" ValueON="0" ValueOFF="1"/>
+            <local:HMIValve Canvas.Left="1235" Canvas.Top="655" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve4_not_opened" ValueON="0" ValueOFF="1"/>
+            <local:HMIValve Canvas.Left="1235" Canvas.Top="735" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve5_not_opened" ValueON="0" ValueOFF="1"/>
+            <local:HMIValve Canvas.Left="847.5" Canvas.Top="504.5" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve1_not_opened" ValueON="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <local:HMIValve Canvas.Left="962.5" Canvas.Top="504.5" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve2_not_opened" ValueON="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <local:HMIValve Canvas.Left="1077.5" Canvas.Top="504.5" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve3_not_opened" ValueON="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <local:HMIValve Canvas.Left="847.5" Canvas.Top="905" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve8_not_opened" ValueON="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <local:HMIValve Canvas.Left="962.5" Canvas.Top="905" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve7_not_opened" ValueON="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <local:HMIValve Canvas.Left="1077.5" Canvas.Top="945" Height="40" Width="40" DataName="Angidrit_vvu_2_K_Valve6_not_opened" ValueON="0" RenderTransformOrigin="0,0" UseLayoutRounding="False" d:LayoutRounding="Auto" ValueOFF="1">
+                <local:HMIValve.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <TextBlock Height="45" Canvas.Left="800" TextWrapping="Wrap" Text="1" Canvas.Top="590" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="915" TextWrapping="Wrap" Text="2" Canvas.Top="590" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1030" TextWrapping="Wrap" Text="3" Canvas.Top="590" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1145" TextWrapping="Wrap" Text="4" Canvas.Top="590" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1190" TextWrapping="Wrap" Text="5" Canvas.Top="600" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1190" TextWrapping="Wrap" Text="6" Canvas.Top="670" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1190" TextWrapping="Wrap" Text="7" Canvas.Top="740" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1145" TextWrapping="Wrap" Text="8" Canvas.Top="810" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1030" TextWrapping="Wrap" Text="9" Canvas.Top="810" Width="25" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="900" TextWrapping="Wrap" Text="10" Canvas.Top="810" Width="45" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="785" TextWrapping="Wrap" Text="11" Canvas.Top="810" Width="45" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="750" TextWrapping="Wrap" Text="12" Canvas.Top="740" Width="45" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="750" TextWrapping="Wrap" Text="13" Canvas.Top="670" Width="45" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="750" TextWrapping="Wrap" Text="14" Canvas.Top="600" Width="45" Foreground="Blue" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="830" TextWrapping="Wrap" Text="1" Canvas.Top="500" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="945" TextWrapping="Wrap" Text="2" Canvas.Top="500" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1060" TextWrapping="Wrap" Text="3" Canvas.Top="500" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1280" TextWrapping="Wrap" Text="4" Canvas.Top="655" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1280" TextWrapping="Wrap" Text="5" Canvas.Top="735" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="830" TextWrapping="Wrap" Text="8" Canvas.Top="905" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="945" TextWrapping="Wrap" Text="7" Canvas.Top="905" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="1060" TextWrapping="Wrap" Text="6" Canvas.Top="905" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="635" TextWrapping="Wrap" Text="10" Canvas.Top="655" Width="45" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="45" Canvas.Left="655" TextWrapping="Wrap" Text="9" Canvas.Top="735" Width="25" FontSize="32" FontStyle="Italic"/>
+            <TextBlock Height="43" Canvas.Left="853" TextWrapping="Wrap" Canvas.Top="667" Width="255" Foreground="Black" FontSize="32" TextAlignment="Center" Text="Калориферная" FontStyle="Italic"/>
+            <TextBlock Height="30" Canvas.Left="480" TextWrapping="Wrap" Canvas.Top="635" Width="220" Foreground="Black" FontSize="21.333" TextAlignment="Center" Text="К калориферам" FontStyle="Italic"/>
+            <TextBlock Height="30" Canvas.Left="480" TextWrapping="Wrap" Canvas.Top="830" Width="220" Foreground="Black" FontSize="21.333" TextAlignment="Center" Text="От калориферов" FontStyle="Italic" />
+            <Path Data="M852.336,782.991 L872.336,782.991 L892.336,782.991 L892.336,332.991 L872.5,322.489 L852.336,342.991 z" Height="460.502" Canvas.Left="368.002" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="157.5" UseLayoutRounding="False" Width="40" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-117.75100708007813" TranslateY="-87.751007080078125" Rotation="90"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M807.666,557.392 L827.666,557.392 L847.666,557.392 L847.666,494.698 L827.666,494.698 L807.666,494.698 z" Height="110" Canvas.Left="167.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="232.5" UseLayoutRounding="False" Width="40" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-87.5" TranslateY="-57.5"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M842.25,791.489 L862.25,791.489 L882.25,791.489 L882.25,346.489 L862.25,346.489 L842.25,346.489 z" Height="445" Canvas.Left="352.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" UseLayoutRounding="False" Width="40" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0" Canvas.Top="17.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-110" TranslateY="-80" Rotation="90"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M807,617.459 L827,617.459 L847,617.459 L887.5,397.709 L862.5,372.709 L847.5,397.709 z" Height="244.75" Canvas.Left="287.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="92.75" UseLayoutRounding="False" Width="80.5" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-87.5" TranslateY="-57.5"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M847.5,750.989 L862.5,775.989 L887.5,750.989 L887.5,550.989 L862.25,521.489 L847.5,550.989 z" Height="254.5" Canvas.Left="377.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="-102.25" UseLayoutRounding="False" Width="40" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateY="15.25" Rotation="90" TranslateX="-14.75"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M811.998,622.545 L832.5,642.709 L851.998,632.545 L851.998,402.545 L841.998,377.545 L811.998,402.545 z" Height="265.164" Canvas.Left="567.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="92.5" UseLayoutRounding="False" Width="40" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-87.5" TranslateY="-57.5"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M886.998,592.545 L901.998,582.545 L916.998,562.545 L806.998,452.545 L786.998,462.545 L776.998,482.545 z" Height="140" Canvas.Left="577.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="347.5" UseLayoutRounding="False" Width="140" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-87.5" TranslateY="-57.5"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Data="M808.084,563.05 L838.084,563.05 L868.084,563.05 L868.084,494.656 L838.084,494.656 L808.084,494.656 z" Stretch="Fill" Stroke="Black" StrokeThickness="0" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Fill="#FFB0B0B0" Height="120" Canvas.Left="280.599" Canvas.Top="202.436" Width="60">
+                <Path.RenderTransform>
+                    <CompositeTransform Rotation="11" TranslateX="-74.9209" TranslateY="-73.1394"/>
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" StrokeThickness="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Data="M32.5002,2 L62.5,2 L62.5,7 L32.5002,7 z" Stretch="Fill" Height="5" Canvas.Left="192.939" Canvas.Top="198.748" Width="35.5">
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0.5,1." StartPoint="0.5,0">
+                        <GradientStop
+        					Color="#FF252525" Offset="0"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="#FF252525" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+                <Path.RenderTransform>
+                    <CompositeTransform Rotation="101" TranslateX="24.8396" TranslateY="-12.4899"/>
+                </Path.RenderTransform>
+            </Path>
+            <local:HMIMotor CharacterSpacing="90" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="30" Canvas.Left="205.145" Canvas.Top="202.764" Width="50" DataName="Angidrit_vvu_2_VUD_Motor_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-79"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIFan Height="50" Canvas.Left="216.212" RenderTransformOrigin="0.5,0.5" Canvas.Top="135.829" UseLayoutRounding="False" Width="50" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_VUD_Motor_run">
+                <local:HMIFan.RenderTransform>
+                    <CompositeTransform Rotation="11"/>
+                </local:HMIFan.RenderTransform>
+            </local:HMIFan>
+            <local:HMIDoorDouble Canvas.Left="300" Canvas.Top="280" Height="40" Width="20" DataName="Angidrit_vvu_2_L_D4_closed"/>
+            <local:HMIMotor Canvas.Left="295" Canvas.Top="325" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D7_DO_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIMotor Canvas.Left="295" Canvas.Top="255" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D4_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIDoorDouble Canvas.Left="300" Canvas.Top="140" Height="40" Width="20" DataName="Angidrit_vvu_2_L_D2_closed"/>
+            <local:HMIMotor Canvas.Left="295" Canvas.Top="115" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D2_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIDoorDouble Canvas.Left="214.125" Canvas.Top="238" Height="40" Width="20" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D3_closed">
+                <local:HMIDoorDouble.RenderTransform>
+                    <CompositeTransform Rotation="-80"/>
+                </local:HMIDoorDouble.RenderTransform>
+            </local:HMIDoorDouble>
+            <local:HMIMotor Canvas.Left="242.5" Canvas.Top="254.5" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D3_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-170"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIDoorDouble Canvas.Left="490.083" Canvas.Top="210.084" Height="39.833" Width="20" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D7_closed">
+                <local:HMIDoorDouble.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIDoorDouble.RenderTransform>
+            </local:HMIDoorDouble>
+            <local:HMIMotor Canvas.Left="450" Canvas.Top="220" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_D7_run"/>
+            <local:HMIMotor Canvas.Left="520" Canvas.Top="220" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_D7_DO_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="180"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIFlap Canvas.Left="350" Canvas.Top="130" Height="30" Width="60" DataName="Angidrit_vvu_2_L_D1_Door1_closed"/>
+            <local:HMIFlap Canvas.Left="350" Canvas.Top="160" Height="30" Width="60" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_D1_Door2_closed">
+                <local:HMIFlap.RenderTransform>
+                    <CompositeTransform Rotation="-180"/>
+                </local:HMIFlap.RenderTransform>
+            </local:HMIFlap>
+            <local:HMIMotor Canvas.Left="365" Canvas.Top="195" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D1_Door2_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIMotor Canvas.Left="365" Canvas.Top="105" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D1_Door1_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <Ellipse Fill="#FFB0B0B0" Height="90" Canvas.Left="495" Stroke="Black" StrokeThickness="0" Canvas.Top="295" Width="90"/>
+            <local:HMIFlap Canvas.Left="510" Canvas.Top="310" Height="30" Width="60" DataName="Angidrit_vvu_2_L_D8_Door1_closed"/>
+            <local:HMIFlap Canvas.Left="510" Canvas.Top="340" Height="30" Width="60" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_D8_Door2_closed">
+                <local:HMIFlap.RenderTransform>
+                    <CompositeTransform Rotation="-180"/>
+                </local:HMIFlap.RenderTransform>
+            </local:HMIFlap>
+            <local:HMIMotor Canvas.Left="525" Canvas.Top="375" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D8_Door2_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIMotor Canvas.Left="525" Canvas.Top="285" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D8_Door1_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <Ellipse Fill="#FFB0B0B0" Height="90" Canvas.Left="590" Stroke="Black" StrokeThickness="0" Canvas.Top="390" Width="90"/>
+            <local:HMIFlap Canvas.Left="605" Canvas.Top="405" Height="30" Width="60" DataName="Angidrit_vvu_2_L_D6_Door1_closed"/>
+            <local:HMIFlap Canvas.Left="605" Canvas.Top="435" Height="30" Width="60" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_D6_Door2_closed">
+                <local:HMIFlap.RenderTransform>
+                    <CompositeTransform Rotation="-180"/>
+                </local:HMIFlap.RenderTransform>
+            </local:HMIFlap>
+            <local:HMIMotor Canvas.Left="620" Canvas.Top="470" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D6_Door2_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <local:HMIMotor Canvas.Left="620" Canvas.Top="380" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" DataName="Angidrit_vvu_2_L_D6_Door1_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="90"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <TextBlock Height="23" Canvas.Left="310" TextWrapping="Wrap" Canvas.Top="72" Width="140" Foreground="Black" FontSize="16" TextAlignment="Center" Text="Калориферная"/>
+            <TextBlock Height="45.5" Canvas.Left="420" TextWrapping="Wrap" Canvas.Top="110" Width="159.5" Foreground="Black" FontSize="16" TextAlignment="Center" Text="Вентиляционный обводной канал" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock Height="45" Canvas.Left="330" TextWrapping="Wrap" Canvas.Top="275" Width="150" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        		<Run Text="Вентиляционный"/>
+				<LineBreak/>
+        		<Run Text="&quot;прямой&quot; канал"/>
+            </TextBlock>
+            <Path Data="M-384.451,-585.183 L-389.496,-585.183 L-389.496,-534.473 L-273.469,-534.473 L-273.469,-585.183 L-278.514,-585.183 L-278.514,-539.544 L-384.451,-539.544 z" Height="51" Canvas.Left="574.5" Stretch="Fill" Stroke="Black" Canvas.Top="359.5" UseLayoutRounding="False" Width="116" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform Rotation="180"/>
+                </Path.RenderTransform>
+            </Path>
+            <local:HMIDoorMove Canvas.Left="565" Canvas.Top="410" DataName="Angidrit_vvu_2_L_DL_not_closed" ValueOFF="1" ValueON="0" />
+            <local:HMIDoorMove Canvas.Left="690" Canvas.Top="360" ValueON="1" DataName="Angidrit_vvu_2_L_DR_not_closed"/>
+            <local:HMIMotor Canvas.Left="660" Canvas.Top="365" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_DR_run"/>
+            <local:HMIMotor Canvas.Left="575" Canvas.Top="485" Height="20" Width="30" RenderTransformOrigin="0.5,0.5" DataName="Angidrit_vvu_2_L_DL_run">
+                <local:HMIMotor.RenderTransform>
+                    <CompositeTransform Rotation="180"/>
+                </local:HMIMotor.RenderTransform>
+            </local:HMIMotor>
+            <TextBlock Height="45" Canvas.Left="235" TextWrapping="Wrap" Canvas.Top="360" Width="150" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        		<Run Text="Вентиляционные"/>
+        		<Run Text=" двери 4"/>
+            </TextBlock>
+            <TextBlock Height="50" Canvas.Left="65" TextWrapping="Wrap" Canvas.Top="40" Width="155" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        		<Run Text="Вентиляционные"/>
+        		<Run Text="двери 2"/>
+            </TextBlock>
+            <Path Data="M190,80 L305,145" Height="67" Canvas.Left="189" Stretch="Fill" Stroke="Black" Canvas.Top="79" UseLayoutRounding="False" Width="117"/>
+            <TextBlock Height="45" Canvas.Left="40" TextWrapping="Wrap" Canvas.Top="340" Width="150" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        		<Run Text="Вентиляционные"/>
+        		<Run Text="двери 3"/>
+            </TextBlock>
+            <Path Data="M214,79 L274,9" Height="72" Canvas.Left="159" Stretch="Fill" Stroke="Black" Canvas.Top="269" UseLayoutRounding="False" Width="62"/>
+            <TextBlock Height="21" Canvas.Left="516" TextWrapping="Wrap" Canvas.Top="5" Width="66" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="Ляда 1" FontStyle="Italic"/>
+            <Path Data="M415,120 L510,30" Height="92" Canvas.Left="414" Stretch="Fill" Stroke="Black" Canvas.Top="29" UseLayoutRounding="False" Width="97"/>
+            <TextBlock Height="21" Canvas.Left="574" TextWrapping="Wrap" Canvas.Top="280" Width="66" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="Ляда 8" FontStyle="Italic"/>
+            <TextBlock Height="21" Canvas.Left="619" TextWrapping="Wrap" Canvas.Top="334" Width="66" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="Ляда 6" FontStyle="Italic"/>
+            <TextBlock Height="46" Canvas.Left="498" TextWrapping="Wrap" Canvas.Top="440" Width="66" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="Ворота шурфа" FontStyle="Italic"/>
+            <TextBlock Height="46" Canvas.Left="701" TextWrapping="Wrap" Canvas.Top="388" Width="66" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" Text="Ворота шурфа" FontStyle="Italic"/>
+            <TextBlock Height="50" Canvas.Left="555" TextWrapping="Wrap" Canvas.Top="205" Width="155" Foreground="Black" FontSize="16" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        		<Run Text="Вентиляционные"/>
+        		<Run Text="двери 7"/>
+            </TextBlock>
+            <local:HMILabelBoolean CaptionFontSize="25" TextOFF="Нет пожара" TextON="Пожар" Actual="True" ColorON="Red" DataName="Angidrit_vvu_2_T_A_Fire" Height="80" Canvas.Left="830" Canvas.Top="80" Width="300" ColorOFF="Lime"/>
+            <Path Data="M857.5,767.239 L867.5,757.239 L867.5,757.239 L867.5,277.239 L867.5,277.239 L857.5,267.239 z" Height="500" Canvas.Left="1097.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="427.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-122.5" TranslateY="-122.5" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+            				Color="Blue"/>
+                        <GradientStop
+            				Color="White" Offset="0.5"/>
+                        <GradientStop
+            				Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855.167,749.572 L865.167,759.572 L865.167,759.572 L865.167,259.572 L865.167,259.572 L855.167,269.572 z" Height="500" Canvas.Left="1097.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="767.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-122.5" TranslateY="-122.5" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+            				Color="Blue"/>
+                        <GradientStop
+            				Color="White" Offset="0.5"/>
+                        <GradientStop
+            				Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,634.989 L865,624.989 L865,624.989 L865,369.989 L855,359.989 L855,359.989 z" Height="275" Canvas.Left="960" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="855" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+            				Color="Blue"/>
+                        <GradientStop
+            				Color="White" Offset="0.5"/>
+                        <GradientStop
+            				Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,625.239 L865,634.989 L865,634.989 L865,284.989 L855,294.989 L855,285.239 z" Height="350" Canvas.Left="1450" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="780" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+            				Color="Blue"/>
+                        <GradientStop
+            				Color="White" Offset="0.5"/>
+                        <GradientStop
+            				Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M860,635.239 L865,640.239 L870,635.239 L870,380.239 L865,375.239 L860,380.239 z" Height="265" Canvas.Left="602.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="692.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-5" TranslateY="-5" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,624.989 L865,634.989 L865,634.989 L865,559.989 L855,549.989 L855,549.989 z" Height="85" Canvas.Left="960" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="780" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,744.989 L860,744.989 L865,744.989 L865,49.989 L860,44.989 L855,49.989 z" Height="700" Canvas.Left="602.5" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="502.5" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-222.5" TranslateY="-222.5" Rotation="90"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M600.882,795.879 L610.885,795.879 L615.885,765.88 L605.884,775.88 L595.88,765.881 z" Height="30.001" Canvas.Left="91.188" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="556.187" UseLayoutRounding="False" Width="19.999" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform Rotation="-90" TranslateX="-76.1875228881836" TranslateY="58.813514709472656"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5"
+>
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+            <Path Data="M855,549.989 L860,554.989 L865,549.989 L865,369.989 L860,364.989 L855,369.989 z" Height="190" Canvas.Left="435" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="860" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <CompositeTransform TranslateX="-230" TranslateY="-230"/>
+                </Path.RenderTransform>
+                <Path.Fill>
+                    <LinearGradientBrush
+        				EndPoint="0,0.5" StartPoint="1,0.5">
+                        <GradientStop
+        					Color="Blue"/>
+                        <GradientStop
+        					Color="White" Offset="0.5"/>
+                        <GradientStop
+        					Color="Blue" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Fill>
+            </Path>
+        </Canvas>
+    </Viewbox>
+</local:ViewBase>

@@ -1,0 +1,1620 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="WebControl.AngidritASOPView"
+           mc:Ignorable="d"
+           d:DesignWidth="1400" d:DesignHeight="1000">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="1400" Height="1000" Background="{x:Null}">
+        	<Canvas Width="1211.955" Height="926.158" Canvas.Left="10" Canvas.Top="69">    
+        		<Path Stroke="#ff000000" Data="F1 M 380.625,205.367 L 258.469,187.709"/>
+        		<Path Stroke="#ff000000" Data="F1 M 381.015,211.471 L 238.086,190.818"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,157.103 L 238.086,145.183"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,315.930 L 231.636,145.166"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.631,196.239 L 238.086,139.081"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.674,215.127 L 389.652,259.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.652,259.698 C 389.430,262.018 391.132,264.079 393.452,264.301 C 393.816,264.335 394.182,264.323 394.543,264.263"/>
+        		<Path Stroke="#ff000000" Data="F1 M 393.779,271.411 C 391.456,271.827 389.738,273.807 389.653,276.166"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.653,276.166 L 389.656,413.913"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,139.081 L 238.086,29.382"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,139.177 L 231.636,83.887"/>
+        		<Path Stroke="#ff000000" Data="F1 M 261.740,149.727 L 238.086,145.183"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,31.014 L 382.601,75.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,31.014 L 389.678,75.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,31.014 L 389.678,31.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,38.003 L 389.678,38.003"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,31.014 L 389.678,38.003"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.679,67.026 L 379.134,67.026"/>
+        		<Path Stroke="#ff000000" Data="F1 M 379.134,67.026 L 379.134,31.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 379.134,31.014 L 382.679,31.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.621,67.026 L 393.461,67.026"/>
+        		<Path Stroke="#ff000000" Data="F1 M 393.461,67.026 L 393.461,31.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 393.461,31.014 L 389.621,31.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,38.118 L 421.123,38.118"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,31.129 L 421.123,38.118"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,31.129 L 421.123,31.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 410.579,67.141 L 410.579,31.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,67.141 L 410.579,67.141"/>
+        		<Path Stroke="#ff000000" Data="F1 M 410.579,31.129 L 414.124,31.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 424.906,67.141 L 424.906,31.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,67.141 L 424.906,67.141"/>
+        		<Path Stroke="#ff000000" Data="F1 M 424.906,31.129 L 421.066,31.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,31.129 L 414.046,75.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,31.129 L 421.123,174.242"/>
+        		<Path Stroke="#ff000000" Data="F1 M 0.354,67.242 L 133.119,81.348"/>
+        		<Path Stroke="#ff000000" Data="F1 M 0.354,67.242 L 5.074,23.554"/>
+        		<Path Stroke="#ff000000" Data="F1 M 5.074,23.554 L 100.753,33.890"/>
+        		<Path Stroke="#ff000000" Data="F1 M 100.753,33.890 L 98.964,50.446"/>
+        		<Path Stroke="#ff000000" Data="F1 M 98.964,50.446 L 132.598,54.080"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="45" Canvas.Top="4.183" FontSize="15" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="6.063"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="АБК"/>
+        		</TextBlock>      
+        		<Path Stroke="#ff000000" Data="F1 M 535.639,202.343 L 483.931,192.410"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,183.831 L 199.394,179.172"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,189.886 L 197.417,184.941"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,172.944 L 382.609,203.768"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,174.304 L 389.656,204.674"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,178.985 L 414.045,207.770"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,180.344 L 421.119,209.824"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.508,186.847 L 257.628,166.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 258.469,187.709 L 267.634,150.859"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.508,186.847 L 238.086,184.763"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,157.103 L 259.080,160.424"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,163.169 L 257.628,166.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 259.080,160.424 L 261.740,149.727"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.597,213.469 L 382.597,260.473"/>
+        		<Path Stroke="#ff000000" Data="F1 M 412.059,209.330 L 391.568,206.358"/>
+        		<Path Stroke="#ff000000" Data="F1 M 412.423,216.532 L 391.657,213.528"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.112,219.145 L 421.112,262.401"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.042,218.560 L 414.044,258.797"/>
+        		<Path Stroke="#ff000000" Data="F1 M 380.625,205.367 C 381.533,205.539 382.409,204.942 382.580,204.034 C 382.597,203.946 382.607,203.857 382.609,203.768"/>
+        		<Path Stroke="#ff000000" Data="F1 M 391.657,213.528 C 390.773,213.337 389.901,213.899 389.711,214.784 C 389.686,214.897 389.674,215.012 389.674,215.127"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.597,213.469 C 382.665,212.494 381.979,211.628 381.015,211.471"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.656,204.674 C 389.846,205.599 390.626,206.286 391.568,206.358"/>
+        		<Path Stroke="#ff000000" Data="F1 M 412.059,209.330 C 413.021,209.461 413.908,208.787 414.038,207.824 C 414.041,207.806 414.043,207.788 414.045,207.770"/>
+        		<Path Stroke="#ff000000" Data="F1 M 423.096,217.546 C 422.212,217.355 421.340,217.917 421.149,218.802 C 421.125,218.915 421.112,219.030 421.112,219.145"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.042,218.560 C 414.161,217.561 413.449,216.654 412.450,216.535 C 412.441,216.534 412.432,216.533 412.423,216.532"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.119,209.824 C 421.296,210.734 422.061,211.412 422.985,211.480"/>
+        		<Path Stroke="#ff000000" Data="F1 M 377.120,421.399 L 358.700,425.005"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.033,426.041 L 414.033,479.665"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.110,423.547 L 421.106,518.700"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.656,430.110 L 389.657,479.665"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.613,432.120 L 382.595,601.577"/>
+        		<Path Stroke="#ff000000" Data="F1 M 377.120,421.399 C 380.081,420.540 382.243,417.996 382.613,414.935"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.613,432.120 C 382.815,429.726 381.039,427.621 378.645,427.419 C 378.141,427.377 377.633,427.422 377.145,427.554"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.110,408.043 C 420.964,410.105 422.517,411.895 424.579,412.041 C 424.968,412.068 425.359,412.035 425.738,411.942"/>
+        		<Path Stroke="#ff000000" Data="F1 M 425.491,418.034 C 422.981,418.715 421.206,420.949 421.110,423.547"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,320.076 L 421.111,366.798"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.863,406.234 L 454.863,384.663"/>
+        		<Path Stroke="#ff000000" Data="F1 M 460.856,405.060 L 460.856,396.221"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,380.505 L 454.863,380.505"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,384.663 L 454.863,384.663"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.863,368.131 L 460.856,368.131"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,384.663 L 421.110,408.043"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.863,380.505 L 454.863,368.131"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.863,406.234 L 425.738,411.942"/>
+        		<Path Stroke="#ff000000" Data="F1 M 427.515,366.798 L 427.515,373.875"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,373.874 L 421.111,380.505"/>
+        		<Path Stroke="#ff000000" Data="F1 M 427.515,373.875 L 421.111,373.874"/>
+        		<Path Stroke="#ff000000" Data="F1 M 486.519,393.686 L 486.540,344.179"/>
+        		<Path Stroke="#ff000000" Data="F1 M 492.376,392.538 L 492.273,356.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 478.647,401.574 L 478.647,397.200"/>
+        		<Path Stroke="#ff000000" Data="F1 M 484.504,400.426 L 484.504,396.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 494.394,398.488 L 494.394,394.114"/>
+        		<Path Stroke="#ff000000" Data="F1 M 500.251,397.340 L 500.251,392.966"/>
+        		<Path Stroke="#ff000000" Data="F1 M 510.045,395.421 L 510.045,391.047"/>
+        		<Path Stroke="#ff000000" Data="F1 M 515.903,394.273 L 515.903,389.899"/>
+        		<Path Stroke="#ff000000" Data="F1 M 525.666,392.360 L 525.666,387.986"/>
+        		<Path Stroke="#ff000000" Data="F1 M 531.523,391.212 L 531.523,386.838"/>
+        		<Path Stroke="#ff000000" Data="F1 M 531.523,386.838 L 533.467,384.486"/>
+        		<Path Stroke="#ff000000" Data="F1 M 525.666,387.986 L 523.674,386.405"/>
+        		<Path Stroke="#ff000000" Data="F1 M 515.903,389.899 L 517.817,387.553"/>
+        		<Path Stroke="#ff000000" Data="F1 M 510.045,391.047 L 508.025,389.472"/>
+        		<Path Stroke="#ff000000" Data="F1 M 500.251,392.966 L 502.168,390.619"/>
+        		<Path Stroke="#ff000000" Data="F1 M 494.394,394.114 L 492.376,392.538"/>
+        		<Path Stroke="#ff000000" Data="F1 M 484.504,396.052 L 486.519,393.686"/>
+        		<Path Stroke="#ff000000" Data="F1 M 478.647,397.200 L 476.727,395.605"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.727,395.605 L 476.730,393.110"/>
+        		<Path Stroke="#ff000000" Data="F1 M 502.168,390.619 L 502.168,356.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 508.025,389.472 L 508.025,317.598"/>
+        		<Path Stroke="#ff000000" Data="F1 M 517.817,387.553 L 517.817,317.318"/>
+        		<Path Stroke="#ff000000" Data="F1 M 523.674,386.405 L 523.674,317.151"/>
+        		<Path Stroke="#ff000000" Data="F1 M 533.467,384.486 L 533.467,316.872"/>
+        		<Path Stroke="#ff000000" Data="F1 M 478.647,401.574 L 460.856,405.060"/>
+        		<Path Stroke="#ff000000" Data="F1 M 494.394,398.488 L 484.504,400.426"/>
+        		<Path Stroke="#ff000000" Data="F1 M 510.045,395.421 L 500.251,397.340"/>
+        		<Path Stroke="#ff000000" Data="F1 M 525.666,392.360 L 515.903,394.273"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.888,390.357 L 531.523,391.212"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.901,259.754 L 477.937,259.754"/>
+        		<Path Stroke="#ff000000" Data="F1 M 477.937,259.754 L 477.937,225.472"/>
+        		<Path Stroke="#ff000000" Data="F1 M 483.930,259.754 L 483.931,226.338"/>
+        		<Path Stroke="#ff000000" Data="F1 M 483.930,259.754 L 486.575,259.754"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.736,388.230 L 460.856,391.342"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.730,393.110 L 460.856,396.221"/>
+        		<Path Stroke="#ff000000" Data="F1 M 460.856,391.342 L 460.856,368.131"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.736,388.230 L 476.838,344.179"/>
+        		<Path Stroke="#ff000000" Data="F1 M 492.273,356.260 L 502.048,356.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.838,344.179 L 486.613,344.179"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.833,312.545 L 476.901,259.754"/>
+        		<Path Stroke="#ff000000" Data="F1 M 486.553,312.266 L 486.575,259.754"/>
+        		<Path Stroke="#ff000000" Data="F1 M 509.959,235.730 L 509.959,230.100"/>
+        		<Path Stroke="#ff000000" Data="F1 M 515.952,236.596 L 515.953,230.966"/>
+        		<Path Stroke="#ff000000" Data="F1 M 508.025,237.985 L 509.959,235.730"/>
+        		<Path Stroke="#ff000000" Data="F1 M 515.952,236.596 L 517.817,239.400"/>
+        		<Path Stroke="#ff000000" Data="F1 M 509.959,230.100 L 483.931,226.338"/>
+        		<Path Stroke="#ff000000" Data="F1 M 477.937,225.472 L 423.096,217.546"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.495,332.090 L 448.495,319.295"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.488,332.090 L 454.488,319.124"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.495,313.357 L 421.111,314.142"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.495,332.090 L 454.488,332.090"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.495,313.357 L 448.495,309.824"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.495,319.295 L 421.111,320.076"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.488,313.185 L 454.488,309.653"/>
+        		<Path Stroke="#ff000000" Data="F1 M 476.833,312.545 L 454.488,313.185"/>
+        		<Path Stroke="#ff000000" Data="F1 M 454.488,309.653 L 448.495,309.824"/>
+        		<Path Stroke="#ff000000" Data="F1 M 533.467,241.662 L 531.724,238.876"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.681,233.818 L 531.724,233.246"/>
+        		<Path Stroke="#ff000000" Data="F1 M 525.609,232.362 L 515.953,230.966"/>
+        		<Path Stroke="#ff000000" Data="F1 M 531.724,238.876 L 531.724,233.246"/>
+        		<Path Stroke="#ff000000" Data="F1 M 508.025,311.554 L 508.025,237.985"/>
+        		<Path Stroke="#ff000000" Data="F1 M 517.819,311.370 L 517.817,239.400"/>
+        		<Path Stroke="#ff000000" Data="F1 M 523.674,311.099 L 523.674,240.247"/>
+        		<Path Stroke="#ff000000" Data="F1 M 533.468,310.921 L 533.467,241.662"/>
+        		<Path Stroke="#ff000000" Data="F1 M 508.025,311.554 L 486.553,312.266"/>
+        		<Path Stroke="#ff000000" Data="F1 M 523.674,311.099 L 517.819,311.370"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.783,310.856 L 533.468,310.921"/>
+        		<Path Stroke="#ff000000" Data="F1 M 508.025,317.598 L 454.488,319.124"/>
+        		<Path Stroke="#ff000000" Data="F1 M 523.674,317.151 L 517.817,317.318"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.791,316.806 L 533.467,316.872"/>
+        		<Path Stroke="#ff000000" Data="F1 M 535.673,227.765 L 483.931,220.287"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.657,479.665 C 389.453,481.820 391.036,483.732 393.190,483.935 C 393.444,483.959 393.699,483.958 393.953,483.932"/>
+        		<Path Stroke="#ff000000" Data="F1 M 394.310,491.009 C 391.986,491.017 390.019,492.726 389.687,495.026"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.682,483.932 C 412.031,483.879 413.935,482.012 414.033,479.665"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.045,495.026 C 413.713,492.726 411.746,491.017 409.423,491.009"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.687,495.026 L 389.678,572.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.045,495.026 L 414.033,572.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.682,483.932 L 405.460,483.932"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.423,491.009 L 405.460,491.009"/>
+        		<Path Stroke="#ff000000" Data="F1 M 227.784,29.382 L 227.784,37.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 227.784,37.885 L 231.684,37.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 241.970,29.382 L 241.970,37.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 241.970,37.885 L 238.070,37.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 227.784,29.382 L 241.970,29.382"/>
+        		<Path Stroke="#ff000000" Data="F1 M 230.313,29.382 L 230.313,20.686"/>
+        		<Path Stroke="#ff000000" Data="F1 M 239.706,29.382 L 239.706,20.686"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,83.887 L 170.042,70.519"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,77.921 L 170.672,64.690"/>
+        		<Path Stroke="#ff000000" Data="F1 M 171.872,53.580 L 184.677,54.892"/>
+        		<Path Stroke="#ff000000" Data="F1 M 171.872,53.580 L 171.366,58.268"/>
+        		<Path Stroke="#ff000000" Data="F1 M 184.677,54.892 L 182.683,73.263"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.636,77.921 L 231.636,29.382"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.555,32.244 L 280.701,39.413 L 284.533,24.371 C 284.533,24.371 256.387,17.201 256.387,17.201 L 252.555,32.244 Z"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="259.617" Canvas.Top="19.339" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="14.003"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="АБК"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 271.142,105.095 L 328.730,110.164 L 331.778,75.535 L 274.190,70.467 L 271.142,105.095 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 271.304,103.257 L 328.908,108.139"/>
+        		<Path Stroke="#ff000000" Data="F1 M 271.467,101.357 L 329.071,106.239"/>
+        		<Path Stroke="#ff000000" Data="F1 M 271.643,99.441 L 329.248,104.323"/>
+        		<Path Stroke="#ff000000" Data="F1 M 273.780,99.607 L 273.252,105.299"/>
+        		<Path Stroke="#ff000000" Data="F1 M 276.002,99.801 L 275.475,105.493"/>
+        		<Path Stroke="#ff000000" Data="F1 M 278.225,99.996 L 277.697,105.687"/>
+        		<Path Stroke="#ff000000" Data="F1 M 280.420,100.190 L 279.892,105.882"/>
+        		<Path Stroke="#ff000000" Data="F1 M 282.699,100.385 L 282.171,106.076"/>
+        		<Path Stroke="#ff000000" Data="F1 M 285.199,100.607 L 284.671,106.298"/>
+        		<Path Stroke="#ff000000" Data="F1 M 287.617,100.829 L 287.089,106.520"/>
+        		<Path Stroke="#ff000000" Data="F1 M 290.145,101.051 L 289.617,106.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 292.773,101.249 L 292.245,106.940"/>
+        		<Path Stroke="#ff000000" Data="F1 M 295.385,101.499 L 294.857,107.190"/>
+        		<Path Stroke="#ff000000" Data="F1 M 297.885,101.721 L 297.357,107.412"/>
+        		<Path Stroke="#ff000000" Data="F1 M 300.386,101.943 L 299.858,107.634"/>
+        		<Path Stroke="#ff000000" Data="F1 M 302.914,102.165 L 302.386,107.856"/>
+        		<Path Stroke="#ff000000" Data="F1 M 305.597,102.392 L 305.069,108.083"/>
+        		<Path Stroke="#ff000000" Data="F1 M 308.265,102.642 L 307.737,108.333"/>
+        		<Path Stroke="#ff000000" Data="F1 M 311.043,102.864 L 310.515,108.555"/>
+        		<Path Stroke="#ff000000" Data="F1 M 313.627,103.114 L 313.099,108.805"/>
+        		<Path Stroke="#ff000000" Data="F1 M 316.239,103.308 L 315.711,108.999"/>
+        		<Path Stroke="#ff000000" Data="F1 M 319.018,103.558 L 318.490,109.249"/>
+        		<Path Stroke="#ff000000" Data="F1 M 322.117,103.839 L 321.589,109.530"/>
+        		<Path Stroke="#ff000000" Data="F1 M 325.535,104.144 L 325.007,109.836"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="277.333" Canvas.Top="73.855" FontSize="9" FontFamily="Courier New Italic" Width="50" Height="25.145" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic" TextAlignment="Center">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="4.844"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Калориф."/>
+					<LineBreak/>
+					<Run Text="РП-551"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 242.402,99.294 C 242.402,97.232 244.074,95.560 246.136,95.560 C 248.198,95.560 249.869,97.232 249.869,99.294 C 249.869,101.356 248.198,103.027 246.136,103.027 C 244.074,103.027 242.402,101.356 242.402,99.294 L 242.402,99.294 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.340,99.299 C 252.340,97.237 254.011,95.565 256.073,95.565 C 258.136,95.565 259.807,97.237 259.807,99.299 C 259.807,101.361 258.136,103.033 256.073,103.033 C 254.011,103.033 252.340,101.361 252.340,99.299 L 252.340,99.299 Z"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="242" Canvas.Top="106" FontSize="8" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Пожарные"/>
+					<LineBreak/>
+					<Run Text="баки"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 245.939,92.779 L 255.700,92.779"/>
+        		<Path Stroke="#ff000000" Data="F1 M 255.700,92.779 L 256.067,92.779"/>
+        		<Path Stroke="#ff000000" Data="F1 M 256.067,92.779 L 256.067,95.565"/>
+        		<Path Stroke="#ff000000" Data="F1 M 256.067,106.059 L 245.939,106.059"/>
+        		<Path Stroke="#ff000000" Data="F1 M 245.939,106.059 L 245.939,103.022"/>
+        		<Path Stroke="#ff000000" Data="F1 M 245.939,95.565 L 245.939,92.779"/>
+        		<Path Stroke="#ff000000" Data="F1 M 256.067,103.033 L 256.067,106.059"/>
+        		<Path Stroke="#ff000000" Data="F1 M 303.978,311.817 L 303.901,276.347"/>
+        		<Path Stroke="#ff000000" Data="F1 M 310.008,312.294 L 310.008,275.985"/>
+        		<Path Stroke="#ff000000" Data="F1 M 364.435,296.003 L 382.582,308.189"/>
+        		<Path Stroke="#ff000000" Data="F1 M 370.428,294.568 L 382.597,302.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 370.428,294.568 L 370.428,272.409"/>
+        		<Path Stroke="#ff000000" Data="F1 M 364.435,296.003 L 364.435,272.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.582,308.189 L 382.607,392.457"/>
+        		<Path Stroke="#ff000000" Data="F1 M 364.435,272.764 L 310.008,275.985"/>
+        		<Path Stroke="#ff000000" Data="F1 M 376.681,266.008 C 379.764,265.914 382.298,263.544 382.597,260.473"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.597,277.124 C 382.651,274.333 380.432,272.027 377.641,271.973 C 377.320,271.966 376.998,271.991 376.681,272.046"/>
+        		<Path Stroke="#ff000000" Data="F1 M 376.681,266.008 L 290.451,271.124"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.597,277.124 L 382.597,302.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 408.673,263.273 C 411.372,263.456 413.737,261.484 414.044,258.797"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.030,273.551 C 413.671,271.460 411.725,270.025 409.622,270.301"/>
+        		<Path Stroke="#ff000000" Data="F1 M 426.607,262.016 L 426.594,269.085"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.112,269.496 L 421.111,314.142"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.030,273.551 L 414.089,408.865"/>
+        		<Path Stroke="#ff000000" Data="F1 M 426.607,262.016 L 421.112,262.401"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.622,270.301 L 393.779,271.411"/>
+        		<Path Stroke="#ff000000" Data="F1 M 426.596,269.111 L 421.112,269.496"/>
+        		<Path Stroke="#ff000000" Data="F1 M 290.451,271.124 L 290.451,277.143"/>
+        		<Path Stroke="#ff000000" Data="F1 M 313.575,312.576 L 313.575,318.650"/>
+        		<Path Stroke="#ff000000" Data="F1 M 303.901,276.347 L 290.451,277.143"/>
+        		<Path Stroke="#ff000000" Data="F1 M 231.676,315.930 L 238.086,315.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 310.008,312.294 L 313.575,312.576"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,306.602 L 238.086,163.169"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,315.930 L 238.086,312.680"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.086,306.602 L 303.965,311.816"/>
+        		<Path Stroke="#ff000000" Data="F1 M 238.091,312.626 L 313.575,318.650"/>
+        		<Path Stroke="#ff000000" Data="F1 M 224.225,413.666 L 255.741,445.165"/>
+        		<Path Stroke="#ff000000" Data="F1 M 248.597,446.564 L 135.579,468.693"/>
+        		<Path Stroke="#ff000000" Data="F1 M 199.394,179.172 C 195.091,178.386 190.672,178.503 186.417,179.516"/>
+        		<Path Stroke="#ff000000" Data="F1 M 197.417,184.941 C 192.735,184.299 187.969,184.761 183.498,186.290"/>
+        		<Path Stroke="#ff000000" Data="F1 M 173.241,157.443 L 231.636,139.177"/>
+        		<Path Stroke="#ff000000" Data="F1 M 168.221,162.662 L 135.579,156.565"/>
+        		<Path Stroke="#ff000000" Data="F1 M 173.241,157.443 L 135.579,150.394"/>
+        		<Path Stroke="#ff000000" Data="F1 M 168.221,162.662 C 166.440,170.607 170.426,178.720 177.802,182.166"/>
+        		<Path Stroke="#ff000000" Data="F1 M 174.389,163.155 C 173.014,170.752 178.058,178.025 185.655,179.400 C 185.908,179.446 186.162,179.484 186.417,179.516"/>
+        		<Path Stroke="#ff000000" Data="F1 M 135.579,198.414 L 177.802,182.166"/>
+        		<Path Stroke="#ff000000" Data="F1 M 135.579,204.755 L 183.498,186.290"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.810,431.146 L 135.579,474.819"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="125" Canvas.Top="456" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-11.268"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 3"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 414.033,426.041 C 413.659,423.448 411.278,421.633 408.679,421.961"/>
+        		<Path Stroke="#ff000000" Data="F1 M 393.105,424.990 C 390.844,425.604 389.375,427.784 389.656,430.110"/>
+        		<Path StrokeThickness="0.7" Stroke="#ffcbb165" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 364.435,272.764 L 370.428,272.409"/>
+        		<Path Stroke="#ff000000" Data="F1 M 408.740,414.565 L 393.704,417.509"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.656,413.913 C 389.697,415.950 391.382,417.568 393.419,417.526 C 393.514,417.524 393.609,417.519 393.704,417.509"/>
+        		<Path Stroke="#ff000000" Data="F1 M 407.960,414.718 C 411.049,414.287 413.516,411.931 414.089,408.865"/>
+        		<Path Stroke="#ff000000" Data="F1 M 408.679,421.961 L 393.105,424.990"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="360.39" Canvas.Top="504.5" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic" Height="42.791">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Центральная"/>
+					<LineBreak/>
+        			<Run Text="порожняковая"/>
+					<LineBreak/>
+					<Run Text="штольня"/>
+					<LineBreak/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 477.937,219.421 L 477.937,191.258"/>
+        		<Path Stroke="#ff000000" Data="F1 M 483.931,220.287 L 483.931,192.410"/>
+        		<Path Stroke="#ff000000" Data="F1 M 477.937,219.421 L 422.985,211.480"/>
+        		<Path Stroke="#ff000000" Data="F1 M 477.937,191.258 L 267.634,150.859"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="495.058" Canvas.Top="206.066" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="8.619"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Верхний вент.штрек панели 2"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 535.896,396.416 L 455.646,412.129"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="526" Canvas.Top="364" FontSize="6.81" FontFamily="Courier New Italic">
+        			<Run Text="4"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="511" Canvas.Top="370" FontSize="6.81" FontFamily="Courier New Italic">
+        			<Run Text="3"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="300" Canvas.Top="254.996" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-3.435"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Пан.штрек 1"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="244.707" Canvas.Top="292.095" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="4.274"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Склад ВМ"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="218.724" Canvas.Top="294.531" FontSize="8.51" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Ходок склада ВМ"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="348.666" Canvas.Top="304.991" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="ФВК"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 395.818,19.631 C 395.818,16.066 398.708,13.176 402.273,13.176 C 405.838,13.176 408.727,16.066 408.727,19.631 C 408.727,23.195 405.838,26.085 402.273,26.085 C 398.708,26.085 395.818,23.195 395.818,19.631 L 395.818,19.631 Z"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="388" Canvas.Top="-2" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Вахта"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="171.713" Canvas.Top="90.127" FontSize="13.61" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Гараж"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 172.551,107.805 L 221.192,107.805 L 221.192,91.198 L 172.551,91.198 L 172.551,107.805 Z"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="270" Canvas.Top="151" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="11.179"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Гл. транспортный штрек"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="270" Canvas.Top="176" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="8.176"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Вент.штрек 1/3"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 421.106,524.949 L 421.092,604.354"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.677,500.101 L 463.677,484.182"/>
+        		<Path Stroke="#ff000000" Data="F1 M 473.469,497.881 L 473.469,484.182"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.677,537.620 L 463.677,523.794"/>
+        		<Path Stroke="#ff000000" Data="F1 M 473.469,537.620 L 473.469,521.574"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,503.650 L 448.027,456.753"/>
+        		<Path Stroke="#ff000000" Data="F1 M 457.820,501.429 L 457.820,456.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.019,591.673 L 448.027,527.343"/>
+        		<Path Stroke="#ff000000" Data="F1 M 457.812,589.453 L 457.820,525.122"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.126,524.351 L 450.109,518.712"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.963,523.027 L 455.963,517.453"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,520.844 L 465.592,515.383"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.449,519.516 L 471.449,514.124"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.126,524.351 L 448.027,527.343"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.963,523.027 L 457.820,525.122"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,520.844 L 463.677,523.794"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.449,519.516 L 473.469,521.574"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.120,506.092 L 450.109,512.453"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.963,504.767 L 455.963,511.193"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,502.584 L 465.592,509.119"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.449,501.256 L 471.488,507.849"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.120,506.092 L 448.027,503.650"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.963,504.767 L 457.820,501.429"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,502.584 L 463.677,500.101"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.449,501.256 L 473.469,497.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.492,537.620 L 474.539,537.620"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.492,540.297 L 474.539,540.297"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.539,537.620 L 474.539,540.297"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.492,540.297 L 462.492,537.620"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,481.504 L 474.625,481.504"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,484.182 L 474.625,484.182"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.625,481.504 L 474.625,484.182"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,484.182 L 462.577,481.504"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.677,484.182 L 473.469,484.182"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.109,512.453 L 421.106,518.700"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,509.119 L 455.963,511.193"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.109,518.712 L 421.106,524.949"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.592,515.383 L 455.963,517.453"/>
+        		<Path Stroke="#ff000000" Data="F1 M 479.579,506.106 L 479.579,512.375"/>
+        		<Path Stroke="#ff000000" Data="F1 M 479.579,506.106 L 471.488,507.849"/>
+        		<Path Stroke="#ff000000" Data="F1 M 479.579,512.375 L 471.449,514.124"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.646,412.129 L 425.491,418.034"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,136.022 L 382.601,136.022"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,132.982 L 382.601,132.982"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,136.452 L 414.046,136.452"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,133.412 L 414.046,133.412"/>
+        		<Path Stroke="#ff000000" Data="F1 M 331.778,75.535 L 421.123,75.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,82.186 L 331.316,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,82.186 L 382.601,166.842"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,82.186 L 389.678,168.201"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,82.186 L 414.046,172.882"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="174.042" Canvas.Top="143.490" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-19.223"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="штрек"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="178.334" Canvas.Top="164.951" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="л/ходок"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="480" Canvas.Top="551" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Камеры мойки СДО"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,456.753 L 457.820,456.742"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="339" Canvas.Top="60" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Вент."/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="338.694" Canvas.Top="79.981" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="канал"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,75.535 L 389.665,82.272"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,75.535 L 414.046,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,75.535 L 382.601,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 494.169,184.310 L 494.169,197.696"/>
+        		<Path Stroke="#ff000000" Data="F1 M 492.831,185.648 L 495.508,185.648"/>
+        		<Path Stroke="#ff000000" Data="F1 M 492.831,191.003 L 495.508,191.003"/>
+        		<Path Stroke="#ff000000" Data="F1 M 492.831,196.357 L 495.508,196.357"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="480" Canvas.Top="382" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="1"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="496" Canvas.Top="376" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="2"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 349.664,426.775 L 255.741,445.165"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.610,402.005 L 382.613,414.935"/>
+        		<Path Stroke="#ff000000" Data="F1 M 349.664,426.775 L 344.992,394.740"/>
+        		<Path Stroke="#ff000000" Data="F1 M 344.992,394.740 L 382.607,392.457"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.700,425.005 L 355.590,403.457"/>
+        		<Path Stroke="#ff000000" Data="F1 M 355.590,403.457 L 382.610,402.005"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,572.698 L 398.159,491.800"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,572.837 L 405.460,491.333"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.159,491.009 L 394.310,491.009"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.159,491.800 L 398.159,484.002"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.460,491.333 L 405.460,484.031"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.159,483.932 L 393.953,483.932"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.159,484.002 L 398.137,398.158"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.460,484.031 L 405.447,398.158"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="425" Canvas.Top="159.542" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="10.91"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Гл. транспортерный штрек"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,75.535 L 382.601,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.601,75.535 L 389.678,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.046,75.535 L 421.123,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.123,75.535 L 414.046,82.186"/>
+        		<Path Stroke="#ff000000" Data="F1 M 174.389,163.155 L 231.636,145.166"/>
+        		<Path Stroke="#ff000000" Data="F1 M 377.145,427.554 L 358.554,431.192"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.137,398.158 L 405.447,398.158"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.733,435.082 L 240.731,443.979"/>
+        		<Path Stroke="#ff000000" Data="F1 M 248.843,434.972 L 250.622,436.972"/>
+        		<Path Stroke="#ff000000" Data="F1 M 244.842,438.530 L 246.622,440.531"/>
+        		<Path Stroke="#ff000000" Data="F1 M 240.842,442.089 L 242.621,444.089"/>
+        		<Path Stroke="#ff000000" Data="F1 M 406.045,424.242 L 411.877,424.242 L 411.877,430.092 L 406.045,430.092 L 406.045,424.242 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 411.877,424.242 L 406.045,430.091"/>
+        		<Path Stroke="#ff000000" Data="F1 M 406.045,424.242 L 408.926,427.198"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.161,392.286 L 403.993,392.286 L 403.993,398.135 L 398.161,398.135 L 398.161,392.286 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 403.994,392.282 L 398.161,398.135"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.178,392.307 L 401.042,395.242"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.112,16.944 L 406.818,16.944 L 406.818,22.467 L 398.112,22.467 L 398.112,16.944 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.518,416.415 L 398.518,422.936"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.039,422.936 L 405.039,416.415"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.039,416.415 L 398.518,422.936"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.518,422.936 L 405.039,422.936"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.518,416.415 L 405.039,416.415"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.039,422.936 L 401.779,419.676"/>
+        		<Path Stroke="#ff000000" Data="F1 M 133.119,46.187 L 161.266,46.187 C 161.266,46.187 161.266,90.388 161.266,90.388 L 133.119,90.388 L 133.119,46.187 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 161.266,57.170 L 171.366,58.268"/>
+        		<Path Stroke="#ff000000" Data="F1 M 161.266,83.423 L 168.597,83.895"/>
+        		<Path Stroke="#ff000000" Data="F1 M 171.366,58.268 L 168.597,83.895"/>
+        		<Path Fill="#ffffff00" Data=" M 448.030,411.528 C 448.030,406.405 443.878,402.253 438.755,402.253 C 433.633,402.253 429.481,406.405 429.481,411.528 C 429.481,416.650 433.633,420.802 438.755,420.802 C 443.878,420.802 448.030,416.650 448.030,411.528 L 448.030,411.528 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 410.864,438.643 C 410.864,433.521 406.712,429.368 401.590,429.368 C 396.467,429.368 392.315,433.521 392.315,438.643 C 392.315,443.765 396.467,447.917 401.590,447.917 C 406.712,447.917 410.864,443.765 410.864,438.643 L 410.864,438.643 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 378.466,426.260 C 378.466,421.137 374.313,416.985 369.191,416.985 C 364.069,416.985 359.916,421.137 359.916,426.260 C 359.916,431.382 364.069,435.534 369.191,435.534 C 374.313,435.534 378.466,431.382 378.466,426.260 L 378.466,426.260 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 382.637,271.238 C 382.637,266.115 378.484,261.963 373.362,261.963 C 368.240,261.963 364.087,266.115 364.087,271.238 C 364.087,276.360 368.240,280.512 373.362,280.512 C 378.484,280.512 382.637,276.360 382.637,271.238 L 382.637,271.238 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 426.656,152.055 C 426.656,146.933 422.504,142.780 417.382,142.780 C 412.259,142.780 408.107,146.933 408.107,152.055 C 408.107,157.177 412.259,161.330 417.382,161.330 C 422.504,161.330 426.656,157.177 426.656,152.055 L 426.656,152.055 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 395.371,150.707 C 395.371,145.585 391.218,141.432 386.096,141.432 C 380.974,141.432 376.821,145.585 376.821,150.707 C 376.821,155.829 380.974,159.982 386.096,159.982 C 391.218,159.982 395.371,155.829 395.371,150.707 L 395.371,150.707 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.165,703.413 L 471.448,704.029"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.165,709.549 L 471.449,710.165"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.676,696.867 L 463.676,680.947"/>
+        		<Path Stroke="#ff000000" Data="F1 M 473.468,694.646 L 473.468,680.947"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.676,734.386 L 463.676,720.560"/>
+        		<Path Stroke="#ff000000" Data="F1 M 473.468,734.386 L 473.468,718.340"/>
+        		<Path Stroke="#ff000000" Data="F1 M 135.571,854.006 L 244.999,854.006"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,844.866 L 398.244,844.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,852.030 L 398.017,852.030"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,852.030 L 389.676,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 413.951,852.030 L 413.954,855.527"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.677,693.232 L 398.151,693.232"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.677,700.396 L 398.151,700.396"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,642.760 L 398.151,642.760"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,649.924 L 398.151,649.924"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.677,700.396 L 389.676,844.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 413.951,700.396 L 414.023,844.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.632,649.924 L 409.633,693.232"/>
+        		<Path Stroke="#ff000000" Data="F1 M 409.632,649.924 L 414.030,649.924"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.030,649.924 L 414.029,693.232"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,572.698 L 398.151,572.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,579.862 L 398.168,579.862"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,579.862 L 389.678,608.828"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.033,579.862 L 414.032,604.362"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,608.828 L 398.151,607.274"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,616.162 L 398.151,614.595"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,616.162 L 389.678,642.760"/>
+        		<Path Stroke="#ff000000" Data="F1 M 414.031,611.658 L 414.030,642.760"/>
+        		<Path Stroke="#ff000000" Data="F1 M 256.135,854.006 L 382.583,823.234"/>
+        		<Path Stroke="#ff000000" Data="F1 M 257.385,848.022 L 347.907,825.993"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,854.006 L 256.135,854.006"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.583,823.234 L 382.581,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 213.949,649.916 L 348.802,604.769"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.546,601.577 L 382.595,601.577"/>
+        		<Path Stroke="#ff000000" Data="F1 M 214.090,655.913 L 242.786,646.319"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.708,607.567 L 382.594,607.567"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.594,607.567 L 382.589,708.646"/>
+        		<Path Stroke="#ff000000" Data="F1 M 213.949,649.916 L 135.571,646.435"/>
+        		<Path Stroke="#ff000000" Data="F1 M 214.090,655.913 L 141.318,652.680"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.397,530.928 L 358.546,601.577"/>
+        		<Path Stroke="#ff000000" Data="F1 M 348.802,530.928 L 348.802,604.769"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="213.197" Canvas.Top="634.253" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-18.644"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 5"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,900.742 L 324.216,900.744"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,910.488 L 324.216,910.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 236.826,900.771 L 236.826,910.486"/>
+        		<Path Stroke="#ff000000" Data="F1 M 244.999,900.767 L 244.999,854.006"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,900.765 L 250.856,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 244.999,900.767 L 236.826,900.771"/>
+        		<Path Stroke="#ff000000" Data="F1 M 244.999,910.485 L 236.826,910.486"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,865.607 L 329.405,865.607"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,871.591 L 268.121,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 268.121,900.748 L 268.121,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 273.978,900.742 L 273.978,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 297.958,900.718 L 297.958,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 303.815,900.712 L 303.815,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 318.359,925.803 L 318.359,910.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 324.216,925.803 L 324.216,910.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,865.607 L 250.856,854.006"/>
+        		<Path Stroke="#ff000000" Data="F1 M 250.856,925.803 L 250.856,910.485"/>
+        		<Path Stroke="#ff000000" Data="F1 M 273.978,871.591 L 297.961,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 303.815,871.591 L 318.362,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 324.216,871.591 L 330.422,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,902.717 L 357.963,902.717"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,908.701 L 356.069,908.701"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,900.742 L 329.736,902.717"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.736,908.701 L 329.736,910.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 318.359,900.698 L 318.359,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 324.216,900.742 L 324.216,871.591"/>
+        		<Path Stroke="#ff000000" Data="F1 M 318.359,900.698 L 303.815,900.712"/>
+        		<Path Stroke="#ff000000" Data="F1 M 318.359,910.488 L 250.856,910.485"/>
+        		<Path Stroke="#ff000000" Data="F1 M 329.405,865.607 L 358.268,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 330.422,871.591 L 359.285,861.492"/>
+        		<Path Stroke="#ff000000" Data="F1 M 358.268,855.507 L 436.421,855.534"/>
+        		<Path Stroke="#ff000000" Data="F1 M 359.285,861.492 L 371.009,861.492"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.581,861.492 L 382.559,892.770"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,861.492 L 389.676,925.803"/>
+        		<Path Stroke="#ff000000" Data="F1 M 413.958,861.492 L 414.020,925.803"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.106,861.492 L 421.107,925.803"/>
+        		<Path Stroke="#ff000000" Data="F1 M 350.657,925.803 L 356.069,908.701"/>
+        		<Path Stroke="#ff000000" Data="F1 M 356.934,925.803 L 362.346,908.701"/>
+        		<Path Stroke="#ff000000" Data="F1 M 377.286,861.492 L 440.936,861.417"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.963,902.717 L 371.009,861.492"/>
+        		<Path Stroke="#ff000000" Data="F1 M 364.239,902.717 L 377.286,861.492"/>
+        		<Path Stroke="#ff000000" Data="F1 M 268.121,900.748 L 250.856,900.765"/>
+        		<Path Stroke="#ff000000" Data="F1 M 297.958,900.718 L 273.978,900.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 362.554,908.563 C 369.922,908.424 377.008,905.705 382.579,900.880"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.579,900.880 L 382.576,925.803"/>
+        		<Path StrokeThickness="0.7" Stroke="#ffff9e7e" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 389.678,642.760 L 389.678,649.924"/>
+        		<Path StrokeThickness="0.7" Stroke="#ffff9e7e" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 389.677,693.232 L 389.677,700.396"/>
+        		<Path Stroke="#ff000000" Data="F1 M 131.578,659.378 L 131.574,848.015"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,652.680 L 141.318,661.994"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,646.319 L 242.786,661.994"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,643.062 L 252.530,646.345"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,634.979 L 347.907,646.345"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.545,634.979 L 357.590,714.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.651,823.622 L 382.583,817.554"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,848.022 L 257.385,848.022"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,848.013 L 242.786,847.984"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,643.062 L 358.708,607.567"/>
+        		<Path Stroke="#ff000000" Data="F1 M 131.578,659.378 L 135.379,652.416"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,661.994 L 242.786,661.994"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,671.786 L 242.786,671.786"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,693.378 L 242.786,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,703.171 L 242.786,703.170"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,709.027 L 242.786,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,718.821 L 242.786,718.819"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,677.631 L 252.530,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,687.374 L 252.530,687.374"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,724.219 L 242.786,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,734.012 L 242.786,734.011"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,646.345 L 347.907,646.345"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,656.137 L 347.907,656.137"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,661.994 L 347.907,661.994"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,671.786 L 347.907,671.786"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,677.631 L 141.318,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,687.374 L 141.318,687.374"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,693.378 L 347.907,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,703.169 L 347.907,703.168"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,709.027 L 347.907,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,734.010 L 347.907,734.009"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,718.818 L 347.907,718.817"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,724.219 L 347.907,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,755.799 L 242.836,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,765.592 L 242.786,765.590"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,771.448 L 242.786,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,781.241 L 242.786,781.239"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,740.052 L 252.530,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,749.795 L 252.530,749.795"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,786.640 L 242.836,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,796.433 L 242.836,796.431"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,740.052 L 141.318,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.836,749.795 L 141.318,749.795"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,755.799 L 347.907,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,765.590 L 347.907,765.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,771.448 L 347.907,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,796.431 L 347.907,796.429"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,781.239 L 347.907,781.237"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,786.640 L 347.907,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,802.437 L 242.786,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,812.230 L 242.786,812.228"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,817.629 L 242.786,817.629"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,827.422 L 242.786,827.420"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,802.437 L 347.907,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,827.420 L 297.905,827.419"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,812.228 L 347.907,812.226"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,817.629 L 297.905,817.629"/>
+        		<Path Stroke="#ff000000" Data="F1 M 297.905,817.611 L 297.905,827.436"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,827.420 L 242.786,847.984"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,827.420 L 252.530,847.984"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,812.228 L 252.530,817.629"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,812.228 L 242.786,817.629"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.836,796.431 L 242.786,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,781.239 L 242.786,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,796.431 L 252.530,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,781.239 L 252.530,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,765.590 L 242.786,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.836,749.795 L 242.836,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,749.795 L 252.530,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,765.590 L 252.530,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,734.011 L 242.786,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,734.010 L 252.530,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,718.819 L 242.786,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,718.818 L 252.530,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,703.170 L 242.786,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,687.374 L 242.786,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 242.786,671.786 L 242.786,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,703.169 L 252.530,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,687.374 L 252.530,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,671.786 L 252.530,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,656.137 L 252.530,661.994"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,703.171 L 141.318,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,687.374 L 141.318,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,671.786 L 141.318,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,765.592 L 141.318,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,749.795 L 141.318,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,734.012 L 141.318,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,718.821 L 141.318,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,827.422 L 141.318,848.013"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,812.230 L 141.318,817.629"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,796.433 L 141.318,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 141.318,781.241 L 141.318,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.844,634.979 L 357.545,634.979"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,812.226 L 347.907,825.993"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,796.429 L 347.907,802.437"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,781.237 L 347.907,786.640"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,765.589 L 347.907,771.448"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,749.795 L 347.907,755.799"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,734.009 L 347.907,740.052"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,718.817 L 347.907,724.219"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,703.168 L 347.907,709.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,687.374 L 347.907,693.378"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,671.786 L 347.907,677.631"/>
+        		<Path Stroke="#ff000000" Data="F1 M 347.907,656.137 L 347.907,661.994"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="344.356" Canvas.Top="800.975" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Вентиляционный штрек 1"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="241.056" Canvas.Top="782.507" FontSize="8.51" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Транспортный штрек"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="369.582" Canvas.Top="807.908" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Центральная порожняковая штольня"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="401.311" Canvas.Top="838.889" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Центральная грузовая штольня"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 536.179,584.639 L 455.659,598.433"/>
+        		<Path Stroke="#ff000000" Data="F1 M 536.187,590.709 L 455.645,604.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.104,610.424 L 421.105,715.465"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 536.459,796.376 L 482.475,808.616"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 536.450,790.241 L 455.666,808.559"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.106,822.531 L 421.106,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,700.415 L 448.027,614.348"/>
+        		<Path Stroke="#ff000000" Data="F1 M 457.819,698.195 L 457.819,612.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 252.530,646.345 L 252.530,643.062"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.809,809.893 L 449.809,803.879"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.666,808.565 L 455.666,802.551"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.809,809.893 L 421.106,816.395"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,801.806 L 449.809,803.879"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.666,802.551 L 457.819,799.585"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,801.806 L 448.027,785.538"/>
+        		<Path Stroke="#ff000000" Data="F1 M 457.819,799.585 L 457.819,721.888"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.125,721.116 L 450.107,715.005"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.962,719.792 L 455.962,713.677"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,717.609 L 465.591,711.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.448,716.281 L 471.448,710.160"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.107,715.005 L 421.105,721.581"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,711.494 L 455.962,713.677"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.125,721.116 L 448.027,724.108"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.962,719.792 L 457.819,721.888"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,717.609 L 463.676,720.560"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.448,716.281 L 473.468,718.340"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.119,702.858 L 450.109,708.868"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.962,701.533 L 455.962,707.541"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,699.350 L 465.591,705.357"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.448,698.021 L 471.448,704.029"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.119,702.858 L 448.027,700.415"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.962,701.533 L 457.819,698.195"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,699.350 L 463.676,696.867"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.448,698.021 L 473.468,694.646"/>
+        		<Path Stroke="#ff000000" Data="F1 M 450.109,708.868 L 421.105,715.465"/>
+        		<Path Stroke="#ff000000" Data="F1 M 465.591,705.357 L 455.962,707.541"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.788,611.156 L 449.788,605.510"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.645,610.099 L 455.645,604.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.788,605.510 L 421.104,610.424"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,614.348 L 449.788,611.156"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.645,610.099 L 457.819,612.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.165,700.876 L 474.165,712.923"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.165,712.923 L 471.488,712.923"/>
+        		<Path Stroke="#ff000000" Data="F1 M 471.488,700.876 L 474.165,700.876"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.105,721.581 L 421.106,816.395"/>
+        		<Path Stroke="#ff000000" Data="F1 M 436.421,855.534 C 458.691,852.239 475.043,832.909 474.602,810.401"/>
+        		<Path Stroke="#ff000000" Data="F1 M 440.936,861.417 C 466.114,856.805 483.920,834.171 482.475,808.616"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 474.602,810.401 L 421.106,822.531"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="421.484" Canvas.Top="797.821" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-13.015"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 6"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 462.491,734.386 L 474.538,734.386"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.491,737.063 L 474.538,737.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.538,734.386 L 474.538,737.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.491,737.063 L 462.491,734.386"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,678.270 L 474.624,678.270"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,680.947 L 474.624,680.947"/>
+        		<Path Stroke="#ff000000" Data="F1 M 474.624,678.270 L 474.624,680.947"/>
+        		<Path Stroke="#ff000000" Data="F1 M 462.577,680.947 L 462.577,678.270"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.676,680.947 L 473.468,680.947"/>
+        		<Path Stroke="#ff000000" Data="F1 M 463.676,734.386 L 473.468,734.386"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.802,599.436 L 449.802,593.746"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.659,598.433 L 455.659,592.418"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.019,591.673 L 449.802,593.746"/>
+        		<Path Stroke="#ff000000" Data="F1 M 455.659,592.418 L 457.812,589.453"/>
+        		<Path Stroke="#ff000000" Data="F1 M 449.802,599.436 L 421.092,604.354"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.698,734.070 L 448.027,734.070"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.698,743.862 L 448.027,743.862"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.698,734.070 L 439.698,743.862"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.532,754.724 L 448.027,754.724"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.532,764.516 L 448.027,764.516"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.532,754.724 L 439.532,764.516"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.874,775.745 L 448.027,775.745"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.874,785.538 L 448.027,785.538"/>
+        		<Path Stroke="#ff000000" Data="F1 M 439.874,775.745 L 439.874,785.538"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,734.070 L 448.027,724.108"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,754.724 L 448.027,743.862"/>
+        		<Path Stroke="#ff000000" Data="F1 M 448.027,775.745 L 448.027,764.516"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="478" Canvas.Top="746" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Камера отстоя"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="425" Canvas.Top="846" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-35.927"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Кроссинг"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,844.751 L 398.151,783.064"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.344,783.064 L 405.344,845.174"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="385.628" Canvas.Top="784.68" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Конв. штольня"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 405.380,852.030 L 405.380,855.524"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.017,852.030 L 398.017,855.521"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.017,861.442 L 398.017,925.803"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.380,861.442 L 405.603,925.803"/>
+        		<Path Stroke="#ff000000" Data="F1 M 364.217,902.650 C 371.684,902.981 378.730,899.185 382.561,892.767"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,783.064 L 398.151,663.260"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.344,783.064 L 405.452,633.455"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.519,714.437 L 382.716,708.477"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.519,722.384 L 382.737,717.218"/>
+        		<Path Stroke="#ff000000" Data="F1 M 357.594,721.762 L 357.651,823.622"/>
+        		<Path Stroke="#ff000000" Data="F1 M 382.588,717.040 L 382.583,817.554"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.446,642.760 L 414.030,642.760"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.404,700.396 L 413.951,700.396"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,617.516 L 389.678,664.530"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,855.507 L 382.581,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.380,852.030 L 413.951,852.030"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,633.520 L 398.151,581.067"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,633.455 L 405.452,582.055"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,605.935 L 414.032,604.362"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,613.245 L 414.031,611.658"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,663.260 L 398.151,633.520"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.678,664.530 L 389.676,844.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.466,579.862 L 414.045,579.862"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,581.067 L 398.151,572.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,582.055 L 405.452,572.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.426,572.698 L 414.033,572.698"/>
+        		<Path Stroke="#ff000000" Data="F1 M 398.151,544.688 L 398.151,530.928"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.452,544.529 L 405.452,530.928"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,852.030 L 389.676,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 389.676,852.030 L 389.676,855.507"/>
+        		<Path Stroke="#ff000000" Data="F1 M 405.285,844.866 L 414.023,844.866"/>
+        		<Path Fill="#ffffff00" Data=" M 487.607,805.780 C 487.607,800.658 483.454,796.505 478.332,796.505 C 473.210,796.505 469.057,800.658 469.057,805.780 C 469.057,810.902 473.210,815.055 478.332,815.055 C 483.454,815.055 487.607,810.902 487.607,805.780 L 487.607,805.780 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 410.766,877.362 C 410.766,872.240 406.613,868.087 401.491,868.087 C 396.369,868.087 392.216,872.240 392.216,877.362 C 392.216,882.484 396.369,886.637 401.491,886.637 C 406.613,886.637 410.766,882.484 410.766,877.362 L 410.766,877.362 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 421.111,366.798 L 427.515,366.798"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.571,513.863 L 1061.571,531.774"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.689,513.863 L 1067.689,531.790"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.571,535.990 L 1061.571,590.638"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.689,535.942 L 1067.689,590.638"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.571,590.638 L 1067.689,590.638"/>
+        		<Path Stroke="#ff000000" Data="F1 M 938.460,462.991 L 797.554,462.987"/>
+        		<Path Stroke="#ff000000" Data="F1 M 938.460,468.918 L 797.554,469.027"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.540,576.549 L 1044.612,663.522"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.655,447.780 L 1075.984,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.655,453.764 L 1076.020,453.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.578,453.764 L 1044.578,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.655,453.764 L 1051.654,494.981"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.095,447.780 L 1083.301,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.095,453.764 L 1084.291,453.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,453.764 L 1076.020,494.978"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.095,453.764 L 1083.096,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.578,490.025 L 1044.572,500.909"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.651,326.758 L 1075.980,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.651,332.742 L 1076.016,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.545,332.756 L 1044.542,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.655,332.742 L 1051.655,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.016,332.742 L 1075.984,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.656,218.930 L 1075.992,218.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.656,224.914 L 1075.990,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.542,224.914 L 1044.536,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.656,224.914 L 1051.655,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1075.990,224.914 L 1075.988,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,490.025 L 801.324,490.025"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.547,127.201 L 1044.542,218.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 936.242,447.780 L 936.242,429.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.099,447.780 L 942.099,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.837,399.873 L 963.674,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.837,405.866 L 1044.542,405.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 973.466,399.873 L 973.466,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 979.323,399.873 L 979.323,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 989.115,399.873 L 989.115,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 994.972,399.873 L 994.972,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1004.764,399.873 L 1004.764,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.621,399.873 L 1010.621,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.414,399.873 L 1020.414,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.875,414.596 L 916.726,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.875,420.589 L 957.830,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 936.242,429.563 L 972.375,429.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.099,435.556 L 972.375,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.542,405.866 L 1044.542,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.541,420.589 L 1044.540,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.414,399.873 L 1044.542,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1004.764,399.873 L 1010.621,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 989.115,399.873 L 994.972,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 973.466,399.873 L 979.323,399.873"/>
+        		<Path Stroke="#ff000000" Data="F1 M 963.674,399.873 L 963.674,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.817,399.873 L 957.817,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 972.375,414.596 L 1044.542,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.167,414.596 L 948.024,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.167,414.596 L 942.167,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 948.024,414.596 L 948.024,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.830,420.589 L 957.837,405.866"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,420.589 L 994.934,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 926.518,414.596 L 926.518,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 932.375,414.596 L 932.375,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 916.726,414.596 L 916.726,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 926.518,414.596 L 932.375,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.869,414.596 L 910.869,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,447.780 L 807.181,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,447.780 L 822.830,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.623,447.780 L 838.480,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,447.780 L 854.129,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,447.780 L 869.778,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,447.780 L 885.427,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 895.220,447.780 L 901.077,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.870,447.780 L 936.242,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.870,447.780 L 910.875,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 901.077,447.780 L 901.077,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 895.220,447.780 L 895.220,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,447.780 L 879.570,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 885.427,447.780 L 885.427,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 869.778,447.780 L 869.778,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,447.780 L 863.921,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 822.830,447.780 L 822.830,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.623,447.780 L 832.623,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 838.480,447.780 L 838.472,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,447.780 L 848.272,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 854.129,447.780 L 854.129,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,447.780 L 801.324,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.181,447.780 L 807.181,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,447.780 L 816.973,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,224.906 L 807.181,224.900"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,235.612 L 801.324,235.612"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,236.888 L 801.324,235.612"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,236.888 L 807.181,236.888"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,242.881 L 807.181,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.181,236.888 L 807.181,224.900"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,236.888 L 822.807,236.888"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,236.888 L 816.973,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,242.881 L 822.830,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,224.914 L 854.129,224.916"/>
+        		<Path Stroke="#ff000000" Data="F1 M 822.807,235.600 L 832.599,235.600"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.599,236.876 L 832.599,235.600"/>
+        		<Path Stroke="#ff000000" Data="F1 M 822.807,236.876 L 822.807,235.600"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,326.758 L 807.181,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,332.742 L 807.181,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,326.758 L 801.324,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.181,326.758 L 807.181,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,326.758 L 822.830,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,332.742 L 822.830,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.623,326.758 L 838.480,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,326.758 L 854.129,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,326.758 L 869.778,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,326.758 L 885.427,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 895.220,326.758 L 901.077,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.623,332.742 L 838.472,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,332.742 L 854.129,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,332.742 L 869.778,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,332.742 L 885.427,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 895.220,332.742 L 901.077,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 816.973,326.758 L 816.973,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 822.830,326.758 L 822.830,242.881"/>
+        		<Path Stroke="#ff000000" Data="F1 M 832.623,326.758 L 832.623,236.921"/>
+        		<Path Stroke="#ff000000" Data="F1 M 838.480,326.758 L 838.480,231.180"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.869,326.758 L 916.726,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.869,332.742 L 916.726,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 926.518,326.758 L 932.403,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 926.518,332.742 L 932.403,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.167,326.758 L 948.024,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.167,332.742 L 948.024,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.817,326.758 L 963.674,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.817,332.742 L 963.674,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 973.466,326.758 L 979.323,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 973.466,332.742 L 979.377,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 989.115,326.758 L 995.007,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 989.115,332.742 L 994.972,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1004.764,326.758 L 1010.621,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1004.764,332.742 L 1010.637,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.414,326.758 L 1044.536,326.758"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.414,332.742 L 1044.574,332.742"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1004.764,326.758 L 1004.764,229.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.621,326.758 L 1010.621,229.945"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.414,326.758 L 1020.414,229.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 973.466,326.758 L 973.466,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 979.323,326.758 L 979.323,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 989.115,326.758 L 989.115,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.167,326.758 L 942.167,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 948.024,326.758 L 948.024,224.880"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.817,326.758 L 957.817,224.880"/>
+        		<Path Stroke="#ff000000" Data="F1 M 963.674,326.758 L 963.674,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.869,326.758 L 910.869,224.880"/>
+        		<Path Stroke="#ff000000" Data="F1 M 916.726,326.758 L 916.726,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 926.518,326.758 L 926.518,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 932.375,326.758 L 932.375,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,326.758 L 879.570,231.180"/>
+        		<Path Stroke="#ff000000" Data="F1 M 885.427,326.758 L 885.427,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 895.220,326.758 L 895.220,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 901.077,326.758 L 901.077,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,326.758 L 848.272,237.141"/>
+        		<Path Stroke="#ff000000" Data="F1 M 854.129,326.758 L 854.129,237.167"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,326.758 L 863.921,237.167"/>
+        		<Path Stroke="#ff000000" Data="F1 M 869.778,326.758 L 869.778,237.141"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,231.176 L 854.129,231.174"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,237.167 L 854.129,237.167"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,237.167 L 869.778,237.167"/>
+        		<Path Stroke="#ff000000" Data="F1 M 854.129,231.174 L 854.129,224.916"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,231.174 L 863.921,224.916"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,231.174 L 869.778,231.174"/>
+        		<Path Stroke="#ff000000" Data="F1 M 863.921,224.914 L 901.077,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 838.480,229.904 L 848.272,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 848.272,231.180 L 848.272,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 838.480,231.180 L 838.480,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 869.778,229.904 L 879.570,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 879.570,231.180 L 879.570,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 869.778,231.180 L 869.778,229.904"/>
+        		<Path Stroke="#ff000000" Data="F1 M 885.427,229.843 L 895.220,229.837"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.869,224.914 L 948.024,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 916.726,229.843 L 926.518,229.843"/>
+        		<Path Stroke="#ff000000" Data="F1 M 932.375,229.843 L 942.167,229.843"/>
+        		<Path Stroke="#ff000000" Data="F1 M 963.674,229.843 L 973.466,229.843"/>
+        		<Path Stroke="#ff000000" Data="F1 M 957.817,224.914 L 1044.542,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 979.323,229.843 L 989.115,229.843"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,218.930 L 1044.542,218.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 972.375,447.780 L 972.375,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,447.780 L 978.233,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.633,447.780 L 1020.633,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1026.490,447.780 L 1026.490,429.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1026.490,447.780 L 1044.540,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 942.099,447.780 L 972.375,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,447.780 L 1020.633,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,429.563 L 994.934,429.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,435.556 L 1020.633,435.556"/>
+        		<Path Stroke="#ff000000" Data="F1 M 978.233,429.563 L 978.233,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 972.375,429.563 L 972.375,414.596"/>
+        		<Path Stroke="#ff000000" Data="F1 M 994.934,429.563 L 994.934,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1000.791,429.563 L 1000.791,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1000.791,420.589 L 1044.541,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1000.791,429.563 L 1026.490,429.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,669.570 L 1076.020,669.570"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,663.613 L 801.324,663.612"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.671,176.500 L 1075.952,188.813"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.698,184.605 L 1075.979,196.917"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.698,184.605 L 1051.656,218.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1075.979,196.917 L 1075.992,218.930"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1089.330,197.802 L 1089.330,204.879"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1089.330,197.802 L 1083.093,197.802"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1089.330,204.879 L 1083.093,204.878"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.093,204.878 L 1083.094,259.806"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.657,127.201 L 1051.657,176.500"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1075.995,127.201 L 1075.993,188.813"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1055" Canvas.Top="446" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="сб 13"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1055" Canvas.Top="325" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="сб 12"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1055" Canvas.Top="217" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="сб 11"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1057.922" Canvas.Top="177.644" FontSize="6.81" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="26.718"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="сб 10"/>
+        		</TextBlock>
+        		<Path StrokeThickness="0.7" Stroke="#ffffff00" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 1004.868,373.678 L 1004.608,373.678"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="828.338" Canvas.Top="572.574" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="1.539"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Транспортный штрек 14"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.092,127.201 L 1083.093,167.430"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.093,179.478 L 1083.093,197.802"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.094,259.806 L 1083.095,447.780"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1084.291,453.764 L 1199.329,416.427"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.301,447.780 L 1199.321,410.119"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1098.970,576.551 L 1199.498,543.923"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1097.988,570.563 L 1199.490,537.615"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.540,570.563 L 1076.020,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.577,576.551 L 1076.020,576.551"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,576.551 L 1076.020,663.582"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.096,570.563 L 1097.988,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.096,576.551 L 1083.097,663.581"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.096,576.551 L 1098.970,576.551"/>
+        		<Path Stroke="#ff000000" Data="F1 M 938.460,468.918 L 1002.825,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 938.460,462.991 L 1044.578,462.979"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1141.375,468.918 L 1199.374,450.094"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1140.269,462.969 L 1194.301,445.430"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.606,508.130 L 1061.605,500.909"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,508.129 L 1067.540,500.909"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,508.129 L 1074.514,508.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,462.977 L 1076.020,462.976"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.601,462.977 L 1061.600,453.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,468.918 L 1076.020,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,462.977 L 1067.540,453.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.654,462.979 L 1061.601,462.977"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.654,468.918 L 1061.601,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.095,462.975 L 1140.269,462.969"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.095,468.918 L 1113.517,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.572,500.909 L 1076.020,500.909"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.654,494.981 L 1076.020,494.978"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.604,494.980 L 1061.601,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.540,494.979 L 1067.540,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,500.909 L 1076.020,531.759"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.405,468.918 L 1031.346,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1013.426,468.918 L 1024.364,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1020.405,468.918 L 1044.578,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1048.782,508.131 L 1061.606,508.130"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1046.077,514.063 L 1046.130,514.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1028.692,490.025 L 1046.077,514.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1035.675,490.025 L 1048.782,508.144"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1121.937,468.918 L 1083.096,507.967"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1113.517,468.918 L 1083.096,499.502"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,506.615 L 1074.514,508.129"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1121.937,468.918 L 1141.375,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1097.988,663.581 L 1199.613,630.594"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.097,663.581 L 1097.988,663.581"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,669.570 L 1076.047,677.856"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.097,669.569 L 1083.097,677.856"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1199.356,436.173 L 1194.301,445.430"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1086.291" Canvas.Top="430.497" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-18.048"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 12"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1091.401" Canvas.Top="556.253" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-17.558"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Транспортный штрек 14"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1083.339" Canvas.Top="396.268" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" FontStyle="Italic" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Центральная грузовая штольня"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,490.025 L 801.324,563.712"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,490.025 L 807.449,563.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,563.885 L 1003.048,569.394"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,569.699 L 801.324,663.612"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,569.871 L 1044.577,576.551"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,663.612 L 1076.020,663.585"/>
+        		<Path Stroke="#ff000000" Data="F1 M 916.746,356.895 L 916.746,413.840"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="970" Canvas.Top="405" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="трансп.сб-ка 1-8"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="911" Canvas.Top="420" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="трансп.сб-ка 1-2"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1005.513,414.596 L 1005.513,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1009.012,414.596 L 1009.012,420.589"/>
+        		<Path Stroke="#ff000000" Data="F1 M 972.375,428.475 L 978.225,428.475"/>
+        		<Path Stroke="#ff000000" Data="F1 M 972.375,425.679 L 978.225,425.679"/>
+        		<Path Stroke="#ff000000" Data="F1 M 995.017,425.679 L 1000.791,425.679"/>
+        		<Path Stroke="#ff000000" Data="F1 M 994.934,428.475 L 1000.791,428.475"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1077.978" Canvas.Top="491.503" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-45.044"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Обгонная"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1088" Canvas.Top="503.231" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-45.837"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="выработка"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.234,468.918 L 1010.234,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.234,490.144 L 1010.234,569.375"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1002.825,468.918 L 1002.825,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1002.825,490.144 L 1002.825,569.375"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.166,569.595 L 1044.540,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.234,569.375 L 1010.166,569.595"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1002.825,490.144 L 1002.825,490.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.234,490.144 L 1010.235,490.014"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.234,468.918 L 1013.426,468.918"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,453.764 L 1044.578,453.764"/>
+        		<Path Stroke="#ff000000" Data="F1 M 797.554,484.041 L 1044.578,484.041"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.542,447.780 L 1061.542,397.390"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.568,447.780 L 1067.568,397.139"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1048.75" Canvas.Top="434.724" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Конв. штольня"/>
+        		</TextBlock>
+        		<Path StrokeThickness="0.7" Stroke="#ffff9e7e" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 1051.534,447.697 L 1051.534,447.697"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1026" Canvas.Top="460" FontSize="8.51" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="КПС"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1060.142,127.201 L 1060.142,180.796"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.875,127.201 L 1067.875,184.717"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1060.142,188.262 L 1060.142,218.725"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.843,192.390 L 1067.843,219.235"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.987,224.914 L 1067.987,288.653"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.583,514.063 L 1076.020,514.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1010.621,229.945 L 1020.414,229.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,490.025 L 1044.581,490.025"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.987,288.653 L 1067.987,327.108"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.542,397.390 L 1061.542,332.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.568,397.139 L 1067.568,332.535"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1061.174,326.714 L 1061.174,224.914"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1046.077,514.063 L 1046.077,536.019"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1046.077,536.019 L 1076.156,536.019"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1050.957,513.932 L 1050.957,531.701"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1050.957,531.701 L 1076.032,531.701"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1050.919,514.063 L 1061.871,514.063"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,535.945 L 1076.020,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1085.698,167.433 L 1085.688,179.480"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1085.688,179.480 L 1083.010,179.478"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.021,167.430 L 1085.698,167.433"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,531.701 L 1076.020,536.019"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1003.048,569.394 L 1010.200,569.485"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,563.712 L 801.324,569.699"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1003.048,569.394 L 807.449,563.885"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,563.885 L 807.449,490.025"/>
+        		<Path Stroke="#ff000000" Data="F1 M 801.324,490.025 L 801.324,563.712"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,500.909 L 1076.020,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.096,507.967 L 1083.096,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1076.020,576.551 L 1076.020,639.490"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.096,576.551 L 1083.097,663.581"/>
+        		<Path Stroke="#ff000000" Data="F1 M 807.449,569.871 L 807.449,663.612"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.635,576.551 L 1052.105,663.542"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.791,484.150 L 1073.623,484.150 L 1073.623,489.999 L 1067.791,489.999 L 1067.791,484.150 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 994.972,326.758 L 994.972,229.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 901.236,453.657 L 901.236,484.067"/>
+        		<Path Stroke="#ff000000" Data="F1 M 910.848,453.764 L 910.848,484.041"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="901" Canvas.Top="479" FontSize="6.81" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-90"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="сб 1"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1073.624,484.146 L 1067.767,490.023"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1069.946,489.825 L 1069.970,489.825"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1067.807,484.171 L 1070.672,487.106"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1069.212,560.115 L 1075.044,560.115 L 1075.044,565.965 L 1069.212,565.965 L 1069.212,560.115 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1075.045,560.111 L 1069.188,565.988"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1069.228,560.136 L 1072.093,563.071"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1068.902,584.853 L 1074.734,584.853 L 1074.734,590.702 L 1068.902,590.702 L 1068.902,584.853 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1074.735,584.849 L 1068.878,590.725"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1068.918,584.873 L 1071.783,587.808"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.527,551.809 L 1044.540,570.563"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1044.520,551.810 L 1051.635,551.796"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1051.635,551.796 L 1051.635,570.563"/>
+        		<Path StrokeThickness="0.0" Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 1067.689,570.563 L 1076.020,570.563"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 1124.507,568.262 L 1124.507,633.481"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 1113.964,571.684 L 1113.914,633.481"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 1109.548,573.117 L 1109.548,633.483"/>
+        		<Path Stroke="#ff000000" StrokeDashArray="10.80,5.40" Data="F1 M 1098.970,576.551 L 1099.005,633.510"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1099.005,633.510 L 1109.548,633.483"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1113.914,633.481 L 1124.507,633.481"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1099.005,633.510 L 1099.005,663.251"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1109.548,633.483 L 1109.548,659.829"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1113.914,633.481 L 1113.894,658.418"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1124.507,633.481 L 1124.507,654.973"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1100" Canvas.Top="638" FontSize="6.81" FontFamily="Courier New Italic">
+        			<Run Text="37"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1115" Canvas.Top="638" FontSize="6.81" FontFamily="Courier New Italic">
+        			<Run Text="38"/>
+        		</TextBlock>
+        		<Path StrokeThickness="0.7" Stroke="#ff0000ff" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 901.236,481.359 L 901.236,484.037"/>
+        		<Path Stroke="#ff000000" Data="F1 M 901.243,481.364 L 901.243,484.041"/>
+        		<Path Fill="#ffffff00" Data=" M 1103.178,667.585 C 1103.178,662.463 1099.025,658.310 1093.903,658.310 C 1088.781,658.310 1084.628,662.463 1084.628,667.585 C 1084.628,672.707 1088.781,676.859 1093.903,676.859 C 1099.025,676.859 1103.178,672.707 1103.178,667.585 L 1103.178,667.585 Z"/>
+        		<Path Fill="#ffffff00" Data=" M 1045.324,451.095 C 1045.324,445.972 1041.172,441.820 1036.050,441.820 C 1030.927,441.820 1026.775,445.972 1026.775,451.095 C 1026.775,456.217 1030.927,460.369 1036.050,460.369 C 1041.172,460.369 1045.324,456.217 1045.324,451.095 L 1045.324,451.095 Z"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,4.697 L 763.373,84.667"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,4.697 L 756.162,33.571"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,4.697 L 770.621,33.570"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 756.162,33.571 L 763.339,25.458"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.339,25.458 L 770.621,33.570"/>
+        		<Path Fill="#ff000000" Data=" M 756.162,33.571 L 763.373,25.420 L 763.373,4.697 L 756.162,33.571 Z"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="774.167" Canvas.Top="4.060" FontSize="17.02" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="C"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="774" Canvas.Top="63" FontSize="17.02" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Ю"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,84.667 L 758.646,89.364"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,84.667 L 768.093,89.395"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 758.646,89.364 L 758.646,65.083"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 768.093,89.395 L 768.093,65.037"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 758.713,65.020 L 763.373,60.715"/>
+        		<Path Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 763.373,60.715 L 768.093,65.037"/>
+        		<Path Fill="#ff000000" Data=" M 758.646,89.364 L 763.373,84.667 L 763.373,60.715 L 758.646,65.082 L 758.646,89.364 Z"/>
+        		<Path Stroke="#ff000000" Data="F1 M 244.999,925.803 L 244.999,910.488"/>
+        		<Path Stroke="#ff000000" Data="F1 M 994.972,229.823 L 1004.764,229.823"/>
+        		<Path Stroke="#ff000000" Data="F1 M 525.609,237.992 L 525.609,232.362"/>
+        		<Path Stroke="#ff000000" Data="F1 M 523.674,240.247 L 525.609,237.992"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="253.409" Canvas.Top="852.206" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Станочное отд."/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="243" Canvas.Top="898" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic">
+        			<Run Text="Камера сборки"/>
+        		</TextBlock>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="1102.999" Canvas.Top="667.665" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-17.657"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 14"/>
+        		</TextBlock>
+        		<Path Stroke="#ff000000" Data="F1 M 1097.988,669.569 L 1199.613,636.581"/>
+        		<Path Stroke="#ff000000" Data="F1 M 1083.097,669.569 L 1097.988,669.569"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="449" Canvas.Top="413.959" FontSize="10.21" FontFamily="Courier New Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" FontStyle="Italic">
+        			<TextBlock.RenderTransform>
+        				<CompositeTransform Rotation="-10.929"/>
+        			</TextBlock.RenderTransform>
+        			<Run Text="Панельный штрек 2"/>
+        		</TextBlock>
+        		<Path StrokeThickness="0.0" Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 797.554,218.930 L 797.554,224.906"/>
+        		<Path StrokeThickness="0.0" Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 1076.047,677.856 L 1083.097,677.856"/>
+        		<Path StrokeThickness="0.0" Stroke="#ff000000" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" Data="F1 M 222.141,420.086 L 224.225,413.666"/>
+        		<Path Stroke="#ff000000" Data="F1 M 348.802,530.928 L 358.397,530.928"/>
+        		<Path Stroke="#ff000000" Data="F1 M 408.673,263.273 L 394.543,264.263"/>
+        		<Path Stroke="#ff000000" Data="F1 M 222.141,420.086 L 248.597,446.564"/>
+        		<TextBlock Foreground="#ff000000" Canvas.Left="941" Canvas.Top="670" FontSize="10.21" FontFamily="Courier New Italic" FontStyle="Italic" RenderTransformOrigin="0.5,0.5">
+        			<Run Text="Панельный штрек 14"/>
+        		</TextBlock>
+        	</Canvas>
+
+        	<Grid Height="185" Canvas.Left="35" Canvas.Top="551" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD05CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD05V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD05T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD05DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD05SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD05CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD05V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD05T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD05DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD05SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 5" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="35" Canvas.Top="326" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD03CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD03V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD03T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD03DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD03SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD03CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD03V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD03T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD03DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD03SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 3" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="575" Canvas.Top="326" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD04CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD04V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD04T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD04DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD04SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD04CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD04V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD04T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD04DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD04SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 4" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="575" Canvas.Top="776" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD06CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD06V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD06T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD06DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD06SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD06CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD06V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD06T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD06DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD06SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 6" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="1206" Canvas.Top="346" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD07CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD07V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD07T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD07DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD07SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD07CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD07V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD07T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD07DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD07SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 7" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="801" Canvas.Top="686" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD08CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD08V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD08T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD08DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD08SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD08CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD08V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD08T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD08DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD08SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 8" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="575" Canvas.Top="551" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD09CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD09V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD09T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD09DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD09SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD09CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD09V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD09T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD09DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD09SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 9" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="35" Canvas.Top="776" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD10CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD10V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD10T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD10DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD10SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD10CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD10V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD10T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD10DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD10SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 10" Foreground="Black" FontSize="18.667" Margin="15,1,10,160"/>
+        	</Grid>
+        	<Path Data="M239.082,-98.956 L446.869,-85.152" Height="15" Canvas.Left="184.5" Stretch="Fill" Stroke="Red" Canvas.Top="205.5" UseLayoutRounding="False" Width="212.25"/>
+        	<Ellipse Height="20" Canvas.Left="386" Stroke="Black" Canvas.Top="210" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Path Data="M333.877,-45.6705 L481.081,-59.8716" Height="15.403" Canvas.Left="426.375" Stretch="Fill" Stroke="Red" Canvas.Top="205.639" UseLayoutRounding="False" Width="150.658"/>
+        	<Ellipse Height="20" Canvas.Left="417" Stroke="Black" Canvas.Top="211" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Grid Height="185" Canvas.Left="575" Canvas.Top="101" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD02CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD02V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD02T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD02DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD02SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD02CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD02V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD02T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD02DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD02SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 2" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Grid Height="185" Canvas.Left="35" Canvas.Top="101" Width="150">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD01CO" ToolTipService.ToolTip="" Margin="35,30,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD01V" ToolTipService.ToolTip="" Margin="35,60,0,0"/>
+        		<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_asop_FA000SD01T" ToolTipService.ToolTip="" Margin="35,90,0,0"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет роста Т" TextON="Рост Т" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD01DT" Margin="35,120,5,35"/>
+        		<local:HMILabelBoolean CaptionFontSize="16" TextOFF="Нет дыма" TextON="Дым" Actual="True" ColorON="Red" DataName="Angidrit_asop_FA000SD01SM" Margin="35,150,5,5"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD01CO_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,29,115,126"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD01V_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,59,115,96"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD01T_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,89,115,66"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD01DT_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,119,115,36"/>
+        		<local:HMILamp DataName="Angidrit_asop_FA000SD01SM_F" ValueON="1" ColorON="#FFF70202" ColorOFF="#FF35CB1D" Margin="5,150,115,5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,160"/>
+        		<TextBlock TextWrapping="Wrap" Text="SD Tex № 1" Foreground="Black" FontSize="18.667" Margin="20,1,15,160"/>
+        	</Grid>
+        	<Path Data="M247.074,-78.743 L441.828,-168.469" Height="92" Canvas.Left="184.5" Stretch="Fill" Stroke="Red" Canvas.Top="339.5" UseLayoutRounding="False" Width="199"/>
+        	<Path Data="M258.262,-79.729 L449.081,-238.475" Height="162" Canvas.Left="184.5" Stretch="Fill" Stroke="Red" Canvas.Top="494.5" UseLayoutRounding="False" Width="195"/>
+        	<Path Data="M278.016,-46.205 L401.869,-94.519" Height="50" Canvas.Left="448.583" Stretch="Fill" Stroke="Red" Canvas.Top="430.5" UseLayoutRounding="False" Width="126.917"/>
+        	<Path Data="M257.606,-249.322 L417.606,-103.393" Height="149" Canvas.Left="411.833" Stretch="Fill" Stroke="Red" Canvas.Top="507.5" UseLayoutRounding="False" Width="163.667"/>
+        	<Path Data="M247.074,-49.163 L470.292,17.5769" Height="68.688" Canvas.Left="184.5" Stretch="Fill" Stroke="Red" Canvas.Top="880.5" UseLayoutRounding="False" Width="227.938"/>
+        	<Path Data="M332.648,-45.219 L417.606,-39.303" Height="7" Canvas.Left="488.125" Stretch="Fill" Stroke="Red" Canvas.Top="874.5" UseLayoutRounding="False" Width="87.375"/>
+        	<Path Data="M312.361,-89.589 L463.425,-142.669" Height="54.833" Canvas.Left="950" Stretch="Fill" Stroke="Red" Canvas.Top="736.667" UseLayoutRounding="False" Width="154.583"/>
+        	<Path Data="M262.238,-60.995 L419.205,-129.029" Height="70" Canvas.Left="1045.417" Stretch="Fill" Stroke="Red" Canvas.Top="450.5" UseLayoutRounding="False" Width="160.583"/>
+        	<Ellipse Height="20" Canvas.Left="369" Stroke="Black" Canvas.Top="485" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="402" Stroke="Black" Canvas.Top="498" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="439" Stroke="Black" Canvas.Top="470" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="402" Stroke="Black" Canvas.Top="939" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="479" Stroke="Black" Canvas.Top="865" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="373" Stroke="Black" Canvas.Top="330" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="1036" Stroke="Black" Canvas.Top="510" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<Ellipse Height="20" Canvas.Left="1094" Stroke="Black" Canvas.Top="727" Width="20">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<TextBlock TextWrapping="Wrap" Text="ЮГ" Foreground="Black" FontSize="32" Height="42" Canvas.Left="1010" Width="130" TextAlignment="Center" Canvas.Top="10" FontStyle="Italic"/>
+        	<TextBlock TextWrapping="Wrap" Text="СЕВЕР" Foreground="Black" FontSize="32" Height="42" Canvas.Left="350" Width="130" TextAlignment="Center" Canvas.Top="10" FontStyle="Italic"/>
+        	<Path Data="M357.975,-15.5981 L387.483,-69.8268" Height="56" Stretch="Fill" Stroke="Red" Canvas.Top="59.5" UseLayoutRounding="False" Width="31" Canvas.Left="24.5"/>
+        	<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_abk_technograph1_K1" ToolTipService.ToolTip="" Canvas.Left="10" Canvas.Top="30"/>
+        	<Path Data="M357.483,-15.1051 L324.533,-46.9029" Height="33.25" Stretch="Fill" Stroke="Red" Canvas.Top="447.25" UseLayoutRounding="False" Width="34.5" Canvas.Left="323"/>
+        	<Ellipse Height="10" Canvas.Left="20" Stroke="Black" Canvas.Top="110" Width="10">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+        	<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_abk_technograph1_K2" ToolTipService.ToolTip="" Canvas.Left="255" Canvas.Top="418"/>
+        	<Ellipse Height="10" Canvas.Left="352" Stroke="Black" Canvas.Top="475" Width="10">
+        		<Ellipse.Fill>
+        			<RadialGradientBrush>
+        				<GradientStop Color="White" Offset="0"/>
+        				<GradientStop Color="#FF00CD00" Offset="1"/>
+        			</RadialGradientBrush>
+        		</Ellipse.Fill>
+        	</Ellipse>
+
+		</Canvas>
+    </Viewbox>
+</local:ViewBase>

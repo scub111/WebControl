@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1BA90677-B588-4EDE-A251-3CC9856233A9}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebControl</RootNamespace>
+    <AssemblyName>WebControl</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>ru</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>WebControl.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>WebControl.App</SilverlightAppEntry>
+    <TestPageFileName>WebControlTestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>
+    </LinkedServerProject>
+    <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AmCharts.Windows.QuickCharts.SL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\amChartsQuickCharts\QuickChartsSL\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="devexpress.xpf.charts.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="devexpress.xpf.controls.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="devexpress.xpf.docking.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="devexpress.xpf.grid.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v13.1.Core, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Layout.v13.1.Core, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="devexpress.xpf.layoutcontrol.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Mvvm.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="devexpress.xpf.navbar.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Themes.VS2010.v13.1, Version=13.1.5.5, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=5.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.Services.Client, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>..\packages\Rx-Main.1.0.10621\lib\SL4\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="system">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>$(TargetFrameworkDirectory)System.Core.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Controls, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Data.Input, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="system.windows.controls.datavisualization.toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Input.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Controls.Navigation, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="system.windows.controls.theming.toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Toolkit, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Data, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Browser">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Serialization, Version=5.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\EventExtension.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Classes\Links.cs" />
+    <Compile Include="Controls\CheckUpdateLabel.xaml.cs">
+      <DependentUpon>CheckUpdateLabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIBooleanBase.cs" />
+    <Compile Include="Controls\HMIRealBase.cs" />
+    <Compile Include="Controls\HMISimpleBase.cs" />
+    <Compile Include="Classes\RealClass.cs" />
+    <Compile Include="Classes\ThreadTimer.cs" />
+    <Compile Include="Controls\HMILabel.xaml.cs">
+      <DependentUpon>HMILabel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIVFD.xaml.cs">
+      <DependentUpon>HMIVFD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIValve.xaml.cs">
+      <DependentUpon>HMIValve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIFan.xaml.cs">
+      <DependentUpon>HMIFan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIHeater.xaml.cs">
+      <DependentUpon>HMIHeater.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIBrake.xaml.cs">
+      <DependentUpon>HMIBrake.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMILamp.xaml.cs">
+      <DependentUpon>HMILamp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIRectangle.xaml.cs">
+      <DependentUpon>HMIRectangle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMILevel.xaml.cs">
+      <DependentUpon>HMILevel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIDoorDouble.xaml.cs">
+      <DependentUpon>HMIDoorDouble.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIFlap.xaml.cs">
+      <DependentUpon>HMIFlap.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIDoorMove.xaml.cs">
+      <DependentUpon>HMIDoorMove.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMILabelBoolean.xaml.cs">
+      <DependentUpon>HMILabelBoolean.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMISwitch.xaml.cs">
+      <DependentUpon>HMISwitch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMITrolley.xaml.cs">
+      <DependentUpon>HMITrolley.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIDoor.xaml.cs">
+      <DependentUpon>HMIDoor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIComputer.xaml.cs">
+      <DependentUpon>HMIComputer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConnectStatus.xaml.cs">
+      <DependentUpon>ConnectStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataGridExport.xaml.cs">
+      <DependentUpon>DataGridExport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrendForm.xaml.cs">
+      <DependentUpon>TrendForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIPump.xaml.cs">
+      <DependentUpon>HMIPump.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMIMotor.xaml.cs">
+      <DependentUpon>HMIMotor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserControlEx.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\NavigationWithPanal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\DataServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SilverlightControl1.xaml.cs">
+      <DependentUpon>SilverlightControl1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewBase.cs" />
+    <Compile Include="Views\AngidritControlView.xaml.cs">
+      <DependentUpon>AngidritControlView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritZVGU2Ag1View.xaml.cs">
+      <DependentUpon>AngidritZVGU2Ag1View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritZVGU2Ag2View.xaml.cs">
+      <DependentUpon>AngidritZVGU2Ag2View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TestView.xaml.cs">
+      <DependentUpon>TestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritHeaterView.xaml.cs">
+      <DependentUpon>AngidritHeaterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritNPS1ColdView.xaml.cs">
+      <DependentUpon>AngidritNPS1ColdView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DevelopView.xaml.cs">
+      <DependentUpon>DevelopView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritNPS2HotView.xaml.cs">
+      <DependentUpon>AngidritNPS2HotView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritPumpingView.xaml.cs">
+      <DependentUpon>AngidritPumpingView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritVVU2MotorView.xaml.cs">
+      <DependentUpon>AngidritVVU2MotorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritVVU2HeaterView.xaml.cs">
+      <DependentUpon>AngidritVVU2HeaterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritASOPView.xaml.cs">
+      <DependentUpon>AngidritASOPView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritRP552View.xaml.cs">
+      <DependentUpon>AngidritRP552View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritRP553View.xaml.cs">
+      <DependentUpon>AngidritRP553View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritRP554View.xaml.cs">
+      <DependentUpon>AngidritRP554View.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NetworkView.xaml.cs">
+      <DependentUpon>NetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritNPS1HotView.xaml.cs">
+      <DependentUpon>AngidritNPS1HotView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritNPS2ColdView.xaml.cs">
+      <DependentUpon>AngidritNPS2ColdView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritMTBView.xaml.cs">
+      <DependentUpon>AngidritMTBView.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Controls\CheckUpdateLabel.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMILabel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIVFD.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIValve.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIFan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIHeater.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIBrake.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMILamp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIRectangle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMILevel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIDoorDouble.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIFlap.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIDoorMove.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMILabelBoolean.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMISwitch.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMITrolley.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIDoor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIComputer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Forms\DataGridExport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SilverlightControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\DockPane.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ConnectStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\TrendForm.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIPump.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\HMIMotor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AngidritControlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritZVGU2Ag1View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AngidritZVGU2Ag2View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TestView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritHeaterView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritNPS1ColdView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DevelopView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritNPS2HotView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritPumpingView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritVVU2MotorView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritVVU2HeaterView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritASOPView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritRP552View.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritRP553View.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritRP554View.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\NetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritNPS1HotView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritNPS2ColdView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritMTBView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Service References\DataServiceReference\DataService.wsdl" />
+    <None Include="Service References\DataServiceReference\DataService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataServiceReference\DataService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataServiceReference\DataService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataServiceReference\DataService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DataServiceReference\WebControl.DataServiceReference.ItemSql.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\DataServiceReference\WebControl.DataServiceReference.ItemSqlSimple.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\DataServiceReference\WebControl.DataServiceReference.ItemSqlTrends.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\DataServiceReference\WebControl.DataServiceReference.TIDELOGEx.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <Resource Include="Images\Back.png" />
+    <Resource Include="Images\Forward.png" />
+    <Resource Include="Images\OPCItem.png" />
+    <Resource Include="Images\OPCServer.png" />
+    <Resource Include="Images\OPCServer2.png" />
+    <Resource Include="Images\Pause.png" />
+    <Resource Include="Images\Export.png" />
+    <Content Include="Images\Program.ico" />
+    <Resource Include="Images\Setting.png" />
+    <Resource Include="Images\SQLServer.png" />
+    <Resource Include="Images\Update.png" />
+    <Resource Include="Images\Start.png" />
+    <None Include="Service References\DataServiceReference\DataService.disco" />
+    <None Include="Service References\DataServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\DataServiceReference\configuration.svcinfo" />
+    <None Include="Service References\DataServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="ServiceReferences.ClientConfig">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\DataServiceReference\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

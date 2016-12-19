@@ -1,0 +1,1417 @@
+D:\Temp\WebControl\WebControl\Bin\Debug\WebControl.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\WebControl.pdb
+D:\Temp\WebControl\WebControl\Bin\Debug\AppManifest.xaml
+D:\Temp\WebControl\WebControl\Bin\Debug\WebControl.xap
+D:\Temp\WebControl\WebControl\Bin\Debug\WebControlTestPage.html
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Charts.v13.1.Core.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Data.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Layout.v13.1.Core.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Mvvm.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Xml.Linq.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Windows.Data.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Data.v13.1.xml
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v13.1.xml
+D:\Temp\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v13.1.xml
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v13.1.xml
+D:\Temp\WebControl\WebControl\Bin\Debug\de\DevExpress.Data.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\DevExpress.Data.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\DevExpress.Data.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\DevExpress.Data.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.charts.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.charts.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.charts.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.charts.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Core.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Core.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Core.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Core.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.docking.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.docking.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.docking.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.docking.v13.1.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Data.Services.Client.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\de\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\es\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\it\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+D:\Temp\WebControl\WebControl\obj\Debug\App.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\Forms\TrendForm.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\MainPage.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\Page1.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\Views\ControlView.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\Views\SilverlightControl1.g.cs
+D:\Temp\WebControl\WebControl\obj\Debug\WebControl.g.resources
+D:\Temp\WebControl\WebControl\obj\Debug\WebControl.dll
+D:\Temp\WebControl\WebControl\obj\Debug\WebControl.pdb
+D:\Temp\WebControl\WebControl\obj\Debug\XapCacheFile.xml
+D:\Temp\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v13.1.xml
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v13.1.dll
+D:\Temp\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v13.1.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\WebControl.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\WebControl.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\AppManifest.xaml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\WebControl.xap
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\WebControlTestPage.html
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Printing.v14.2.Core.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Layout.v14.2.Core.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Themes.VS2010.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Reactive.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.datavisualization.toolkit.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.theming.toolkit.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Data.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Xml.Linq.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Xml.XPath.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Charts.v14.2.Core.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.Internals.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Reactive.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.datavisualization.toolkit.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.datavisualization.toolkit.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Input.Toolkit.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Input.Toolkit.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.theming.toolkit.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\system.windows.controls.theming.toolkit.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\fr\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\it\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ko\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\App.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\CheckUpdateLabel.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIVFD.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIValve.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIFan.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIHeater.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIBrake.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMILamp.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIRectangle.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMILevel.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIDoorDouble.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIFlap.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIDoorMove.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMILabelBoolean.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMISwitch.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMITrolley.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIDoor.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIComputer.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Forms\DataGridExport.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\SilverlightControl1.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Forms\ConnectStatus.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Forms\TrendForm.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIPump.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIMotor.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\MainPage.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritControlView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag1View.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag2View.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\TestView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritHeaterView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritNPS1ColdView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\DevelopView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritNPS2HotView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritPumpingView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritVVU2MotorView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritVVU2HeaterView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritASOPView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritRP552View.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritRP553View.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritRP554View.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritNPS1HotView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritNPS2ColdView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Views\AngidritMTBView.g.cs
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\WebControl.g.resources
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\WebControl.dll
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\WebControl.pdb
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\XapCacheFile.xml
+D:\Мои документы\!Projects\RapidInterface\RapidInterface\WebControl\WebControl\obj\Debug\Controls\HMIRegistrar.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\WebControl.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\WebControl.pdb
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\AppManifest.xaml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\WebControl.xap
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\WebControlTestPage.html
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Printing.v14.2.Core.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Layout.v14.2.Core.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Themes.VS2010.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\Microsoft.CSharp.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Reactive.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Windows.Data.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Xml.Linq.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Xml.XPath.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Charts.v14.2.Core.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.pdb
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\System.Reactive.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.xml
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.charts.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Core.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.docking.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.navbar.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Printing.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\Microsoft.CSharp.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Data.Services.Client.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.XPath.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\App.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\CheckUpdateLabel.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIVFD.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIValve.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIFan.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIHeater.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIBrake.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMILamp.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIRectangle.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMILevel.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoorDouble.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIFlap.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoorMove.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMILabelBoolean.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMISwitch.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMITrolley.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoor.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIComputer.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIRegistrar.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIMonitor.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMICamera.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIPLC.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Forms\DataGridExport.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\SilverlightControl1.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Forms\ConnectStatus.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Forms\TrendForm.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIPump.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\HMIMotor.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\MainPage.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritControlView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag1View.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag2View.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\TestView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritHeaterView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS1ColdView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\DevelopView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS2HotView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritPumpingView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritVVU2MotorView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritVVU2HeaterView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritASOPView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP552View.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP553View.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP554View.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS1HotView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS2ColdView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\AngidritMTBView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\WebControl.g.resources
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\WebControl.dll
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\WebControl.pdb
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\XapCacheFile.xml
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Controls\ButtonEx.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Views\ServiceInfoView.g.cs
+D:\Мои документы\!Projects\WebControl\WebControl\obj\Debug\Forms\DetailForm.g.cs
+E:\WebControl\WebControl\Bin\Debug\WebControl.dll
+E:\WebControl\WebControl\Bin\Debug\WebControl.pdb
+E:\WebControl\WebControl\Bin\Debug\AppManifest.xaml
+E:\WebControl\WebControl\Bin\Debug\WebControl.xap
+E:\WebControl\WebControl\Bin\Debug\WebControlTestPage.html
+E:\WebControl\WebControl\Bin\Debug\Microsoft.CSharp.dll
+E:\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.dll
+E:\WebControl\WebControl\Bin\Debug\System.Reactive.dll
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.dll
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.dll
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Data.dll
+E:\WebControl\WebControl\Bin\Debug\System.Xml.Linq.dll
+E:\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.dll
+E:\WebControl\WebControl\Bin\Debug\System.Xml.XPath.dll
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Charts.v14.2.Core.dll
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.dll
+E:\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.pdb
+E:\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\Microsoft.CSharp.xml
+E:\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+E:\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.xml
+E:\WebControl\WebControl\Bin\Debug\System.Reactive.xml
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.xml
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.xml
+E:\WebControl\WebControl\Bin\Debug\System.Windows.Data.xml
+E:\WebControl\WebControl\Bin\Debug\System.Xml.Linq.xml
+E:\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.xml
+E:\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.xml
+E:\WebControl\WebControl\Bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.charts.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.charts.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.charts.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.charts.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Core.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Core.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Core.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Core.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.docking.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.docking.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.docking.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.docking.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Grid.v14.2.Core.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\devexpress.xpf.navbar.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\devexpress.xpf.navbar.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\devexpress.xpf.navbar.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\devexpress.xpf.navbar.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Printing.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Printing.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Printing.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Printing.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\Microsoft.CSharp.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Data.Services.Client.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\fr\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\it\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ko\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.XPath.resources.dll
+E:\WebControl\WebControl\Bin\Debug\de\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\es\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ja\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+E:\WebControl\WebControl\Bin\Debug\ru\DevExpress.Xpf.Ribbon.v14.2.resources.dll
+E:\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+E:\WebControl\WebControl\obj\Debug\App.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\CheckUpdateLabel.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIVFD.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIValve.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIFan.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIHeater.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIBrake.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMILamp.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIRectangle.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMILevel.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIDoorDouble.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIFlap.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIDoorMove.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMILabelBoolean.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMISwitch.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMITrolley.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIDoor.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIComputer.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIRegistrar.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIMonitor.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMICamera.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIPLC.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\ButtonEx.g.cs
+E:\WebControl\WebControl\obj\Debug\Forms\DataGridExport.g.cs
+E:\WebControl\WebControl\obj\Debug\Forms\DetailForm.g.cs
+E:\WebControl\WebControl\obj\Debug\SilverlightControl1.g.cs
+E:\WebControl\WebControl\obj\Debug\Forms\ConnectStatus.g.cs
+E:\WebControl\WebControl\obj\Debug\Forms\TrendForm.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIPump.g.cs
+E:\WebControl\WebControl\obj\Debug\Controls\HMIMotor.g.cs
+E:\WebControl\WebControl\obj\Debug\MainPage.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritControlView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag1View.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag2View.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\TestView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritHeaterView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritNPS1ColdView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\DevelopView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritNPS2HotView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritPumpingView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritVVU2MotorView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritVVU2HeaterView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritASOPView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritRP552View.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritRP553View.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritRP554View.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritNPS1HotView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritNPS2ColdView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\AngidritMTBView.g.cs
+E:\WebControl\WebControl\obj\Debug\Views\ServiceInfoView.g.cs
+E:\WebControl\WebControl\obj\Debug\WebControl.g.resources
+E:\WebControl\WebControl\obj\Debug\WebControl.dll
+E:\WebControl\WebControl\obj\Debug\WebControl.pdb
+E:\WebControl\WebControl\obj\Debug\XapCacheFile.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\WebControl.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\WebControl.pdb
+D:\_Projects\WebControl\WebControl\Bin\Debug\AppManifest.xaml
+D:\_Projects\WebControl\WebControl\Bin\Debug\WebControl.xap
+D:\_Projects\WebControl\WebControl\Bin\Debug\WebControlTestPage.html
+D:\_Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Charts.v14.2.Core.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Printing.v14.2.Core.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Layout.v14.2.Core.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Themes.VS2010.v14.2.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\Microsoft.CSharp.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Reactive.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Data.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.Linq.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.XPath.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.pdb
+D:\_Projects\WebControl\WebControl\Bin\Debug\AmCharts.Windows.QuickCharts.SL.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Data.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Mvvm.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.charts.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.controls.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Core.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.docking.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.grid.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Grid.v14.2.Core.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.layoutcontrol.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\devexpress.xpf.navbar.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Printing.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\DevExpress.Xpf.Ribbon.v14.2.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\Microsoft.CSharp.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Data.Services.Client.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Reactive.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Data.Input.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Navigation.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Data.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.Linq.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.Serialization.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\System.Xml.XPath.xml
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\Microsoft.CSharp.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Data.Services.Client.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Controls.Navigation.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Linq.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.Serialization.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\de\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\es\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\fr\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\it\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ja\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.XPath.resources.dll
+D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+D:\_Projects\WebControl\WebControl\obj\Debug\App.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\CheckUpdateLabel.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIVFD.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIValve.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIFan.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIHeater.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIBrake.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMILamp.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRectangle.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMILevel.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoorDouble.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIFlap.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoorMove.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMILabelBoolean.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMISwitch.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMITrolley.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoor.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIComputer.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRegistrar.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIMonitor.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMICamera.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIPLC.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\ButtonEx.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Forms\DataGridExport.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Forms\DetailForm.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\SilverlightControl1.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Forms\ConnectStatus.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Forms\TrendForm.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIPump.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIMotor.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\MainPage.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritControlView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag1View.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritZVGU2Ag2View.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\TestView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritHeaterView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS1ColdView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\DevelopView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS2HotView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritPumpingView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritVVU2MotorView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritVVU2HeaterView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritASOPView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP552View.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP553View.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP554View.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS1HotView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS2ColdView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritMTBView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\ServiceInfoView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.g.resources
+D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.dll
+D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.pdb
+D:\_Projects\WebControl\WebControl\obj\Debug\XapCacheFile.xml

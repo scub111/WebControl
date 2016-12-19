@@ -1,0 +1,5 @@
+Для Windows 2008
+
+1. Необходимо включить в "Мастере добавления компонентов" - "Возможности .NET Framework 3.5.1" - "Активация WCF".
+
+2. C:\Windows\Microsoft.NET\Framework64\v4.0.30319>aspnet_regiis.exe -iru

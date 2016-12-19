@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2 Type=ButtonEx)" Category="CodeSchema_Class" Bounds="547.236722845637,-46.5955874269731,108.2,25" CodeSchemaProperty_IsPublic="True" CommonLabel="ButtonEx" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="ButtonEx" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/ButtonEx.xaml.cs&quot; StartLineNumber=22 StartCharacterOffset=4 EndLineNumber=22 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="(@1 Namespace=WebControl.Controls Type=LabelSecurity)" Category="CodeSchema_Class" Bounds="488.173389512304,173.404812573027,130.93,25" CodeSchemaProperty_IsPublic="True" CommonLabel="LabelSecurity" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="LabelSecurity" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/TextBoxSecurity.cs&quot; StartLineNumber=13 StartCharacterOffset=4 EndLineNumber=13 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Class" Bounds="11.0667228456368,-52.9621736184046,102.246666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIFan" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIFan" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIFan.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@11" Category="CodeSchema_Class" Bounds="411.82005617897,-46.5955874269731,105.416666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIFlap" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIFlap" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIFlap.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Class" Bounds="307.786722845637,118.404712573027,118.91,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIHeater" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIHeater" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIHeater.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@13" Category="CodeSchema_Class" Bounds="433.542258285909,-305.828386560753,111.483333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMILabel" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMILabel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMILabel.xaml.cs&quot; StartLineNumber=22 StartCharacterOffset=4 EndLineNumber=22 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@14" Category="CodeSchema_Class" Bounds="449.221846566306,-101.595687426973,154.503333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMILabelBoolean" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMILabelBoolean" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMILabelBoolean.xaml.cs&quot; StartLineNumber=22 StartCharacterOffset=4 EndLineNumber=22 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@15" Category="CodeSchema_Class" Bounds="11.0667228456368,57.0378263815954,112.636666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMILamp" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMILamp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMILamp.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@16" Category="CodeSchema_Class" Bounds="445.055497547354,-240.159212127166,110.346666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMILevel" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMILevel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMILevel.xaml.cs&quot; StartLineNumber=22 StartCharacterOffset=4 EndLineNumber=22 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@17" Category="CodeSchema_Class" Bounds="11.0667228456368,173.404812573027,126.263333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIMonitor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIMonitor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIMonitor.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@18" Category="CodeSchema_Class" Bounds="440.983389512303,63.4046125730268,116.566666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIMotor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIMotor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIPLC.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@19" Category="CodeSchema_Class" Bounds="143.313389512303,-52.9621736184046,103.29,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIPLC" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIPLC" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIMotor.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@20" Category="CodeSchema_Class" Bounds="296.593389512303,63.4046125730268,114.39,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIPump" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIPump" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIPump.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@21" Category="CodeSchema_Class" Bounds="414.594161197596,-369.719381922075,130.313333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIRealBase" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIRealBase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIRealBase.cs&quot; StartLineNumber=13 StartCharacterOffset=4 EndLineNumber=13 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@22" Category="CodeSchema_Class" Bounds="11.0667228456368,228.404912573027,135.7,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIRectangle" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIRectangle" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIRectangle.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@23" Category="CodeSchema_Class" Bounds="327.643389512304,173.404812573027,130.53,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIRegistrar" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIRegistrar" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIRegistrar.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@24" Category="CodeSchema_Class" Bounds="1.18920086507592,-540.571650699641,143.7,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMISimpleBase" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMISimpleBase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMISimpleBase.cs&quot; StartLineNumber=17 StartCharacterOffset=4 EndLineNumber=17 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@25" Category="CodeSchema_Class" Bounds="11.0667228456368,113.021510839551,117.843333333333,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMISwitch" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMISwitch" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMISwitch.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@26" Category="CodeSchema_Class" Bounds="158.91005617897,118.404712573027,118.876666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMITrolley" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMITrolley" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMITrolley.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@27" Category="CodeSchema_Class" Bounds="433.033389512304,8.40451257302686,111.98,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIValve" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIValve" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIValve.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@28" Category="CodeSchema_Class" Bounds="276.603389512303,-51.978789160449,105.216666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIVFD" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIVFD" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIVFD.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="-3.95943218105333,-170.561554087498,150.866666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIBooleanBase" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIBooleanBase" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIBooleanBase.cs&quot; StartLineNumber=13 StartCharacterOffset=4 EndLineNumber=13 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="153.703389512303,58.021410839551,112.89,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIBrake" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIBrake" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIBrake.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Class" Bounds="456.696722845636,118.404712573027,123.92,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMICamera" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMICamera" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMICamera.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="176.766722845637,228.404912573027,136.646666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIComputer" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIComputer" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIComputer.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="11.0667228456368,2.03782638159537,110.136666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIDoor" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIDoor" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIDoor.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="11.0667228456368,283.405012573027,148.606666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIDoorDouble" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIDoorDouble" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIDoorDouble.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Class" Bounds="343.413389512304,228.404912573027,139.966666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="HMIDoorMove" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="HMIDoorMove" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=&quot;file:///D:/Мои документы/!Projects/WebControl/WebControl/Controls/HMIDoorMove.xaml.cs&quot; StartLineNumber=14 StartCharacterOffset=4 EndLineNumber=14 EndCharacterOffset=4)" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@24" Category="CodeSchema_Calls" Bounds="-6.39306449890137,-506.787506103516,74.6849269866943,453.825233459473" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@10" Target="@3" Category="InheritsFrom" Bounds="63.1768654664374,-136.09101972452,6.56257749704213,83.1287461061156" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@11" Target="@24" Category="CodeSchema_Calls" Bounds="88.5358383579589,-508.518191230813,366.085968180122,461.92260380384" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@11" Target="@3" Category="InheritsFrom" Bounds="120.167277889687,-142.704086621845,304.727805507601,96.1084991948719" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@12" Target="@24" Category="CodeSchema_Calls" Bounds="80.921257019043,-507.149505615234,255.121559143066,625.554214477539" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@12" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,255.242538452148,255.27082824707" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@13" Target="@21" Category="References" Bounds="483.017900666164,-335.32339877015,4.40091461125354,29.4950122093973" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@13" Target="@24" Category="CodeSchema_Calls" Bounds="103.043394093486,-511.15063801478,364.075639056208,205.322251454028" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@14" Target="@24" Category="CodeSchema_Calls" Bounds="92.4171255015114,-509.311616662776,421.144680989381,407.715929235803" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5" />
+    <Link Source="@14" Target="@3" Category="References" Bounds="154.676547884606,-145.45024082922,296.443498529964,44.9329675216759" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@15" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,75.2490615844727,563.81078338623" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@15" Target="@3" Category="InheritsFrom" Bounds="82.8605880737305,-137.219604492188,46.4126815795898,194.257530212402" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@16" Target="@21" Category="References" Bounds="511.443237304688,-340.184356689453,44.2889404296875,100.025146484375" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="InheritsFrom" />
+    </Link>
+    <Link Source="@16" Target="@24" Category="CodeSchema_Calls" Bounds="98.1762313326944,-510.394544115917,384.277468795853,270.23533198875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@17" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,75.2490615844727,680.177673339844" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@17" Target="@3" Category="InheritsFrom" Bounds="82.8437194824219,-137.210433959961,52.3331909179688,310.615249633789" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@18" Target="@24" Category="CodeSchema_Calls" Bounds="86.6778030395508,-508.144622802734,383.095085144043,571.549236297607" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@18" Target="@3" Category="InheritsFrom" Bounds="104.31339263916,-141.227508544922,363.578727722168,204.632122039795" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@19" Target="@24" Category="CodeSchema_Calls" Bounds="78.3477361129911,-506.840439066557,113.485222230065,453.878265448152" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@19" Target="@3" Category="InheritsFrom" Bounds="91.4788938888573,-139.009972926541,90.3539493974099,86.0477993081363" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@20" Target="@24" Category="CodeSchema_Calls" Bounds="80.9536743164063,-507.154022216797,261.066528320313,570.55863571167" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@20" Target="@3" Category="InheritsFrom" Bounds="101.760261535645,-140.872375488281,242.083702087402,204.276988983154" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@21" Target="@24" Category="InheritsFrom" Bounds="111.553863291556,-511.892330955779,338.440875444569,142.172949033705" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@22" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,75.2490615844727,735.177764892578" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@22" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,63.7890930175781,365.271026611328" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@23" Target="@24" Category="CodeSchema_Calls" Bounds="81.2845153808594,-507.201202392578,274.835235595703,680.606018066406" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@23" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,275.319473266602,310.270935058594" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@25" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,75.2490615844727,619.794364929199" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@25" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,52.8553466796875,249.887626647949" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@26" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,115.966255187988,625.17756652832" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@26" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,112.786209106445,255.27082824707" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@27" Target="@24" Category="CodeSchema_Calls" Bounds="86.2299270629883,-508.056884765625,369.062950134277,516.461397171021" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@27" Target="@3" Category="InheritsFrom" Bounds="104.31339263916,-141.227508544922,329.107963562012,152.700933456421" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@28" Target="@24" Category="CodeSchema_Calls" Bounds="83.7722073682397,-507.600796449717,238.885681443332,455.622007289268" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@28" Target="@3" Category="InheritsFrom" Bounds="107.272821738414,-141.590805027011,194.770342732412,89.6120158665622" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@3" Target="@24" Category="InheritsFrom" Bounds="71.5267814563287,-506.071735706828,1.4193504332379,335.51018161933" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="6">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@4" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,121.63826751709,564.794269561768" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@4" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,120.843002319336,194.887531280518" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@5" Target="@24" Category="CodeSchema_Calls" Bounds="80.9536743164063,-507.154022216797,403.791015625,625.558731079102" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@5" Target="@3" Category="InheritsFrom" Bounds="104.31339263916,-141.227508544922,380.431297302246,259.632217407227" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@6" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,153.689552307129,735.177764892578" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@6" Target="@3" Category="InheritsFrom" Bounds="82.8459548950195,-137.211639404297,148.463829040527,365.616546630859" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@7" Target="@24" Category="CodeSchema_Calls" Bounds="78.2198944091797,-506.827911376953,69.9190216064453,508.86573767662" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@3" Category="InheritsFrom" Bounds="80.980354309082,-136.892013549805,38.7351531982422,138.929839849472" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@8" Target="@24" Category="CodeSchema_Calls" Bounds="77.620231628418,-506.772857666016,75.2490615844727,790.177856445313" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@3" Category="InheritsFrom" Bounds="82.8298492431641,-137.202926635742,69.0500946044922,420.607925415039" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@9" Target="@24" Category="CodeSchema_Calls" Bounds="80.921257019043,-507.149505615234,295.442817687988,735.554412841797" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@9" Target="@3" Category="InheritsFrom" Bounds="80.8002777099609,-136.866119384766,295.56379699707,365.271026611328" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="Вызовы" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Вызывается" OutgoingActionLabel="Вызовы" />
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Классы" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Типы" />
+    <Category Id="InheritsFrom" Label="Наследует от" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Наследуется" OutgoingActionLabel="Наследует от" />
+    <Category Id="References" Label="Ссылки" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Ссылается" OutgoingActionLabel="Ссылки" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Виртуализированные данные" Description="При значении true граф может содержать узлы и связи, которые представляют данные для виртуализированных узлов и связей (то есть которые не были фактически созданы в графе)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Состояние отложенных дочерних узлов" Description="Unspecified, если не указано состояние отложенных дочерних узлов. NotFetched, если группа содержит дочерние узлы, еще не переданные в граф. Fetched, если все отложенные дочерние узлы группы уже переданы." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Состояние отложенных связей между группами" Description="Unspecified, если не указано состояние отложенных связей между группами. NotFetched, если отложенные связи между группами в данном узле еще не переданы в граф. Fetched, если все отложенные связи между группами уже переданы." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Группа" Description="Отображать узел как группу" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Виртуализированный источник связи" Description="При значении true сторона источника связи содержит данные для виртуализированных узлов и связей (то есть которые не были фактически созданы в графе)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Виртуализированное назначение связи" Description="При значении true сторона назначения связи содержит данные для виртуализированных узлов и связей (то есть которые не были фактически созданы в графе)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Language" Label="Язык" Description="Язык" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Номер начальной строки" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Толщина" Description="Толщина" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(1ba90677-b588-4ede-a251-3cc9856233a9.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=WebControl" />
+    <Alias n="3" Id="(@1 @2 Type=HMIBooleanBase)" />
+    <Alias n="4" Id="(@1 @2 Type=HMIBrake)" />
+    <Alias n="5" Id="(@1 @2 Type=HMICamera)" />
+    <Alias n="6" Id="(@1 @2 Type=HMIComputer)" />
+    <Alias n="7" Id="(@1 @2 Type=HMIDoor)" />
+    <Alias n="8" Id="(@1 @2 Type=HMIDoorDouble)" />
+    <Alias n="9" Id="(@1 @2 Type=HMIDoorMove)" />
+    <Alias n="10" Id="(@1 @2 Type=HMIFan)" />
+    <Alias n="11" Id="(@1 @2 Type=HMIFlap)" />
+    <Alias n="12" Id="(@1 @2 Type=HMIHeater)" />
+    <Alias n="13" Id="(@1 @2 Type=HMILabel)" />
+    <Alias n="14" Id="(@1 @2 Type=HMILabelBoolean)" />
+    <Alias n="15" Id="(@1 @2 Type=HMILamp)" />
+    <Alias n="16" Id="(@1 @2 Type=HMILevel)" />
+    <Alias n="17" Id="(@1 @2 Type=HMIMonitor)" />
+    <Alias n="18" Id="(@1 @2 Type=HMIMotor)" />
+    <Alias n="19" Id="(@1 @2 Type=HMIPLC)" />
+    <Alias n="20" Id="(@1 @2 Type=HMIPump)" />
+    <Alias n="21" Id="(@1 @2 Type=HMIRealBase)" />
+    <Alias n="22" Id="(@1 @2 Type=HMIRectangle)" />
+    <Alias n="23" Id="(@1 @2 Type=HMIRegistrar)" />
+    <Alias n="24" Id="(@1 @2 Type=HMISimpleBase)" />
+    <Alias n="25" Id="(@1 @2 Type=HMISwitch)" />
+    <Alias n="26" Id="(@1 @2 Type=HMITrolley)" />
+    <Alias n="27" Id="(@1 @2 Type=HMIValve)" />
+    <Alias n="28" Id="(@1 @2 Type=HMIVFD)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Результаты" ValueLabel="Да">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Сборка" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Пространство имен" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Интерфейс" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Структура" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Перечисление" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Делегат" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Класс" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Свойство" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Метод" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Событие" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Поле" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Внешние" ValueLabel="Имеет категорию">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="Да" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="1ba90677-b588-4ede-a251-3cc9856233a9.OutputPathUri" Value="file:///D:/Мои документы/!Projects/WebControl/WebControl/Bin/Debug/WebControl.dll" />
+  </Paths>
+</DirectedGraph>

@@ -1,0 +1,14 @@
+﻿<we:UserControlEx x:Class="WebControl.DataGridExport"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:we="clr-namespace:WebControl"
+    d:DesignHeight="300" d:DesignWidth="400">
+    
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button HorizontalAlignment="Left" Margin="78,86,0,0" VerticalAlignment="Top" Width="201" Height="111"/>
+
+    </Grid>
+</we:UserControlEx>

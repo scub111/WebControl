@@ -1,0 +1,53 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking" 
+    xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar" 
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+    x:Class="WebControl.MainPage"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="1024" Loaded="UserControl_Loaded" HorizontalContentAlignment="Stretch">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <dxdo:DockLayoutManager x:Name="dockManager">
+            <dxdo:DockLayoutManager.Resources>
+                <ResourceDictionary Source="" />
+            </dxdo:DockLayoutManager.Resources>
+            <dxdo:LayoutGroup AllowExpand="False" Caption="LayoutRoot" ShowCaption="False" TabCaption="LayoutRoot">
+                <dxdo:LayoutGroup Orientation="Vertical">
+                    <dxdo:LayoutPanel x:Name="mainPanel" Caption="Навигация" ItemHeight="3*">
+                        <dxn:NavBarControl>
+                            <dxn:NavBarGroup x:Name="navBarGroup1" Header="Ангидрит">
+                                <dxn:NavBarItem x:Name="navAngidritCommon" Content="Общая" />
+                                <dxn:NavBarItem x:Name="navAngidritZVGU2Ag1" Content="ЗВГУ-2. Агрегат 1" />
+                                <dxn:NavBarItem x:Name="navAngidritZVGU2Ag2" Content="ЗВГУ-2. Агрегат 2"/>
+                                <dxn:NavBarItem x:Name="navAngidritHeater" Content="Калориферная"/>
+                                <dxn:NavBarItem x:Name="navAngidritNPS1Hot" Content="НПС-1. Горячая"/>                                
+                                <dxn:NavBarItem x:Name="navAngidritNPS1Cold" Content="НПС-1. Холодная"/>
+                                <dxn:NavBarItem x:Name="navAngidritNPS2Hot" Content="НПС-2. Горячая"/>                                
+                                <dxn:NavBarItem x:Name="navAngidritNPS2Cold" Content="НПС-2. Холодная"/>
+                                <dxn:NavBarItem x:Name="navAngidritPumping" Content="Водоотлив"/>
+                                <dxn:NavBarItem x:Name="navAngidritVVU2Motor" Content="ВВУ-2. Двигатель"/>
+                                <dxn:NavBarItem x:Name="navAngidritVVU2Heater" Content="ВВУ-2. Теплоцентр"/>
+                                <dxn:NavBarItem x:Name="navAngidritASOP" Content="АСОП"/>
+                                <dxn:NavBarItem x:Name="navAngidritRP552" Content="РП-552"/>
+                                <dxn:NavBarItem x:Name="navAngidritRP553" Content="РП-553"/>
+                                <dxn:NavBarItem x:Name="navAngidritRP554" Content="РП-554"/>
+                                <dxn:NavBarItem x:Name="navAngidritMTB" Content="МТБ"/>
+                                <dxn:NavBarItem x:Name="navServiceInfo" Content="Сервис инф."/>
+                                <dxn:NavBarItem x:Name="navNetwork" Content="Сеть"/>
+                            </dxn:NavBarGroup>
+                            <dxn:NavBarGroup x:Name="navBarGroup2" Header="Разработка" Content="Разработка">
+                                <dxn:NavBarItem x:Name="navDevelop" Content="Информация"/>
+                                <dxn:NavBarItem x:Name="navTest" Content="Test" Visibility="Collapsed"/>
+                            </dxn:NavBarGroup>
+                        </dxn:NavBarControl>
+                    </dxdo:LayoutPanel>
+                </dxdo:LayoutGroup>
+                <dxdo:DocumentGroup x:Name="documentContainer" ItemWidth="5*"/>
+            </dxdo:LayoutGroup>
+        </dxdo:DockLayoutManager>
+    </Grid>
+</UserControl>

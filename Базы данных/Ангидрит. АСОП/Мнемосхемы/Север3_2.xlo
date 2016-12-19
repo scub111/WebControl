@@ -1,0 +1,197 @@
+﻿STEPOUT Translation Log
+==============================================================================
+Date:               Wed, Nov 26, 2014
+Time:               16:39:09
+Translator Version: Mechanical Desktop 2011 (built on Feb 18 2011)
+AutoCAD Version:    18.2s (LMS Tech) on Microsoft Windows NT Version 6.1 (x86)
+Log file:           D:\Мои документы\!Projects\Единая
+диспетчерская\Ангидрит.
+АСОП\Мнемосхемы\Север3_2.xlo
+Translating From:   Север3_2.dxf
+Translating To:     D:\Мои документы\!Projects\Единая
+диспетчерская\Ангидрит.
+АСОП\Мнемосхемы\Север3_2.stp
+==============================================================================
+
+Options obtained from:  *Defaults*
+
+Options Description: 
+Application Protocol: 203 International Standard
+Conformance Class:    6
+Units Selected:       Millimeters
+Validation Properties: No
+Author:               
+Organization:         
+Address Line 1:       
+Address Line 2:       
+Address Line 3:       
+==============================================================================
+
+Translation phase
+
+*** Warning (ACAD_BLOCK_SCALING_WARNING) ***
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (ACAD_BLOCK_SCALING_WARNING) ***
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (ACAD_BLOCK_SCALING_WARNING) ***
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (ACAD_BLOCK_SCALING_WARNING) ***
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (ACAD_BLOCK_SCALING_WARNING) ***
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+*** Warning (MDA_ENTITY_NOT_LOCKED) ***
+An entity 0x2000079 is not locked.
+
+
+
+==============================================================================
+AutoCAD Entity Summary
+
+
+Entity                                    Encountered  Processed   Errors
+========================================  ===========  =========  =========
+Arc                                                34         34          0
+Block                                               4          4          0
+Block Reference                                    11         11          0
+Circle                                              3          3          0
+Line                                              937        937          0
+Polyline                                           14         14          0
+                                          ===========  =========  =========
+Totals                                           1003       1003          0
+
+==============================================================================
+
+
+STEP Entity Summary
+
+Description                                        Count
+=================================================  =====
+axis2_placement_3d                                         49
+cartesian_point                                          2046
+circle                                                     37
+direction                                                1034
+geometric_curve_set                                         5
+geometric_representation_context_extern                     5
+line                                                      936
+polyline                                                   14
+representation_context_extern                               5
+trimmed_curve                                             970
+vector                                                    936
+geometrically_bounded_wireframe_shape_representation        5
+plane_angle_unit_extern                                     2
+product_related_product_category                            1
+conversion_based_unit_extern                                1
+application_context                                         1
+solid_angle_unit_extern                                     1
+representation_relationship_with_transformation_extern       11
+item_defined_transformation                                11
+product_category_relationship                               1
+plane_angle_measure_with_unit                               1
+dimensional_exponents                                       1
+product                                                     5
+representation_relationship_extern                         11
+named_unit_extern                                           4
+product_definition_shape                                   16
+si_unit_extern                                              3
+shape_representation                                        5
+product_definition                                          5
+length_unit_extern                                          1
+product_category                                            1
+shape_definition_representation                             5
+global_unit_assigned_context_extern                         5
+mechanical_context                                          1
+uncertainty_measure_with_unit                               1
+global_uncertainty_assigned_context_extern                  5
+application_protocol_definition                             1
+security_classification                                     1
+security_classification_level                               1
+person                                                      8
+organization                                                8
+person_and_organization                                     8
+approval_person_organization                                3
+approval_role                                               3
+approval                                                    3
+cc_design_approval                                          3
+date_and_time                                               5
+calendar_date                                               5
+local_time                                                  5
+coordinated_universal_time_offset                           5
+person_and_organization_role                                5
+cc_design_security_classification                           1
+cc_design_person_and_organization_assignment                5
+cc_design_date_and_time_assignment                          2
+product_definition_formation_with_specified_source          5
+date_time_role                                              2
+approval_date_time                                          3
+approval_status                                             3
+design_context                                              1
+next_assembly_usage_occurrence                             11
+context_dependent_shape_representation                     11
+shape_representation_relationship                           5
+shape_representation_relationship_extern                   11
+external_map                                               20
+file_description                                            1
+file_name                                                   1
+file_schema                                                 1
+                                                      =====
+Total                                                  6288
+
+Error Message Summary:
+The following message was issued 11 time(s)
+An entity %<PTR2> is not locked.
+
+The following message was issued 5 time(s)
+WARNING: The block reference includes scaling which is not allowed
+in this STEP AP.  The scaling will be lost in the translation.
+
+Information: 0
+Status:      0
+Warning:     16
+Error:       0
+Fatal:       0
+
+
+
+Elapsed processor time: 00:00:04
+Elapsed clock time: 00:00:05
+

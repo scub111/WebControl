@@ -1,0 +1,123 @@
+﻿<we:UserControlEx
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/charts" 
+    xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+    xmlns:amq="clr-namespace:AmCharts.Windows.QuickCharts;assembly=AmCharts.Windows.QuickCharts.SL" 
+    xmlns:we="clr-namespace:WebControl"
+    x:Class="WebControl.TrendForm"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="600" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <DataTemplate x:Key="trendHeaderTemplate">
+            <StackPanel Orientation="Horizontal" Language="ru-RU">
+                <dxe:TextEdit Text="Время" Width="120" FontWeight="Bold" BorderBrush="Black"/>
+                <dxe:TextEdit Text="Значение" Width="100" FontWeight="Bold" BorderBrush="Black"/>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="trendDataTemplate">
+            <StackPanel Orientation="Horizontal" Language="ru-RU">
+                <!--<dxe:TextEdit Text="{Binding Path=Content.SqlTime, StringFormat=\{0:dd.MM.yy HH:mm:ss\}}"/>-->
+                <dxe:TextEdit Text="{Binding Path=Content.SqlTime, StringFormat=dd.MM.yy HH:mm:ss}" Width="120" BorderBrush="Black" IsPrintingMode="True"/>
+                <!--<dxe:TextEdit Text="{Binding Path=Content.DataValue, StringFormat=0.##}"/>-->
+                <dxe:TextEdit Text="{Binding Path=Content.DataValue}" Width="100" BorderBrush="Black"/>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="51"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <dxlc:LayoutControl Height="51" VerticalAlignment="Top" Grid.ColumnSpan="4" Background="{x:Null}">
+            <dxlc:LayoutItem Label="" Height="24" Width="24">
+                <we:ButtonEx x:Name="btnStartPause" Click="btnStartPause_Click" ImageSource="/WebControl;component/Images/Pause.png" ToolTip="Старт/пауза"/>
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="70" Height="24">
+                <dxe:ComboBoxEdit x:Name="cbeTimeDistance" SelectedIndex="0" IsTextEditable="False" EditValueChanged="cbeTimeDistance_EditValueChanged">
+                    <dxe:ComboBoxEditItem Content="---"/>
+                    <dxe:ComboBoxEditItem Content="1 час"/>
+                    <dxe:ComboBoxEditItem Content="8 часов"/>
+                    <dxe:ComboBoxEditItem Content="1 день"/>
+                    <dxe:ComboBoxEditItem Content="1 неделя"/>
+                    <dxe:ComboBoxEditItem Content="1 месяц"/>
+                    <dxe:ComboBoxEditItem Content="1 год"/>
+                    <ToolTipService.ToolTip>
+                        <TextBlock x:Name="tbToolTipTimeDistace" MaxWidth="350" 
+    						Text="Дистанция времени" 
+    						FontSize="15" TextWrapping="Wrap"/>
+                    </ToolTipService.ToolTip>
+                </dxe:ComboBoxEdit>            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="С:" Height="24">
+                <dxe:DateEdit x:Name="deBegin" Mask="G" DisplayFormatString="G" IsEnabled="False" EditValueChanging="deBegin_EditValueChanging" EditValueChanged="deBegin_EditValueChanged"/>
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="По:" Height="24">
+                <dxe:DateEdit x:Name="deEnd" Mask="" DisplayFormatString="G" IsEnabled="False" EditValueChanging="deEnd_EditValueChanging" EditValueChanged="deEnd_EditValueChanged"/>
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="24" Height="24">
+                <we:ButtonEx x:Name="btnTimePeriodAuto" Click="btnTimePeriodAuto_Click" IsEnabled="False" ImageSource="/WebControl;component/Images/Alarm_yes.png" ToolTip="Автоматический выбор периода времени"/>
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="70" Height="24">
+                <dxe:ComboBoxEdit x:Name="cbeTimePeriod" SelectedIndex="0" IsEnabled="False" IsTextEditable="False">
+                    <dxe:ComboBoxEditItem Content="5 сек"/>
+                    <dxe:ComboBoxEditItem Content="10 сек"/>
+                    <dxe:ComboBoxEditItem Content="1 мин"/>
+                    <dxe:ComboBoxEditItem Content="10 мин"/>
+                    <dxe:ComboBoxEditItem Content="1 час"/>
+                    <dxe:ComboBoxEditItem Content="6 часов"/>
+                    <ToolTipService.ToolTip>
+                        <TextBlock x:Name="tbToolTipTimePeriod" MaxWidth="350" 
+    						Text="Период времени" 
+    						FontSize="15" TextWrapping="Wrap"/>
+                    </ToolTipService.ToolTip>
+                </dxe:ComboBoxEdit>
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="24" Height="24">
+                <we:ButtonEx x:Name="btnUpdate"  Click="btnUpdate_Click" ImageSource="/WebControl;component/Images/Update.png" ToolTip ="Обновить данные"  IsEnabled="False" />
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="24" Height="24">
+                <we:ButtonEx x:Name="btnBack" Click="btnBack_Click" IsEnabled="False" ImageSource="/WebControl;component/Images/Back.png" ToolTip="Предыдушие данные" />
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="24" Height="24">
+                <we:ButtonEx x:Name="btnForward" Click="btnForward_Click" IsEnabled="False" ImageSource="/WebControl;component/Images/Forward.png" ToolTip="Следующие данные" />
+            </dxlc:LayoutItem>
+            <dxlc:LayoutItem Label="" Width="24" Height="24">
+                <we:ButtonEx x:Name="btnExport" Click="btnExport_Click" ImageSource="/WebControl;component/Images/Export.png" ToolTip="Экспорт..."/>
+            </dxlc:LayoutItem>
+        </dxlc:LayoutControl>
+
+        <amq:SerialChart x:Name="chrBase" CategoryValueMemberPath="SqlTime"
+    		AxisForeground="Black"
+    		PlotAreaBackground="#00F00B67"               
+    		MinimumCategoryGridStep="100"
+            MinimumValueGridStep="30" 
+    		GridStroke="DarkGray" 
+    		LegendVisibility="Collapsed" 
+    		Grid.ColumnSpan="4" 
+            ValueFormatString="0.#"
+            CategoryFormatString="HH:mm dd.MM"
+            Grid.RowSpan="6" 
+            Margin="-9,41,10,-13" 
+			CacheMode="BitmapCache">
+            <amq:SerialChart.Graphs>
+                <amq:LineGraph ValueMemberPath="DataValue" Title="" Brush="Black" StrokeThickness="1" />
+            </amq:SerialChart.Graphs>
+        </amq:SerialChart>
+        <TextBlock x:Name="lblStatus" Grid.ColumnSpan="4" Text="Состояние..." Foreground="#FF837575" Height="22" VerticalAlignment="Top" TextAlignment="Center" Margin="0,36,0,0" Grid.RowSpan="2"/>
+        <we:CheckUpdateLabel x:Name="ckUpdate" Grid.Row="2" Grid.Column="1"/>
+    </Grid>
+</we:UserControlEx>

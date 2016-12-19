@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/docking" 
+    xmlns:dxt="clr-namespace:DevExpress.Xpf.Docking.ThemeKeys;assembly=DevExpress.Xpf.Docking.v14.2" 
+    xmlns:ve="clr-namespace:DevExpress.Xpf.Docking.VisualElements;assembly=DevExpress.Xpf.Docking.v14.2">
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=CaptionActiveBackground}" Color="#FFCFE9B8" />
+    <SolidColorBrush x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=CaptionNormalBackground}" Color="#FFDAEEC9" />
+    <SolidColorBrush x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=CaptionActiveForeground}" Color="#FF4C8229" />
+    <SolidColorBrush x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=CaptionNormalForeground}" Color="#FF849F71" />
+    <SolidColorBrush x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=Background}" Color="#FFEFFFE3" />
+    <!-- Header -->
+
+    <DataTemplate x:Key="{dxt:DockPaneElementsThemeKey ResourceKey=Header}">
+        <Border Width="Auto" Height="Auto" x:Name="PART_CaptionBackground" ve:DockPane.HitTestType="Header" DataContext="{Binding LayoutItem}">
+            <Border.CornerRadius>
+                <Binding Path="IsFloatingRootItem">
+                    <Binding.Converter>
+                        <ve:BoolToCornerRadiusConverter FalseValue="3,3,0,0" />
+                    </Binding.Converter>
+                </Binding>
+            </Border.CornerRadius>
+            <Grid Width="Auto" Height="Auto">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <ve:TemplatedCaptionControl x:Name="PART_CaptionControlPresenter" LayoutItem="{Binding}" Padding="5,3" Foreground="#FF294C82" />
+            </Grid>
+        </Border>
+    </DataTemplate>
+</ResourceDictionary>

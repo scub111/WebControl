@@ -1,0 +1,862 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="WebControl.AngidritRP553View"
+           mc:Ignorable="d"
+           d:DesignWidth="2250" d:DesignHeight="1400">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="2250" Height="1400" Background="{x:Null}">
+        	<Path Data="M1223.71,-46.7705 L1217.7,441.688" Height="509.006" Canvas.Left="1338.009" Stretch="Fill" Stroke="Black" Canvas.Top="17.991" UseLayoutRounding="False" Width="4.03" StrokeThickness="4"/>
+        	<Path Data="M1137.5,-56.9206 L1217.7,441.688" Height="519.5" Canvas.Left="197.684" Stretch="Fill" Stroke="Black" Canvas.Top="7.455" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,897.083" Height="689" Canvas.Left="328.021" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4.027" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="458.046" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1878.055" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1727.966" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.77,25.1934 L1093.77,51.3224" Height="29" Canvas.Left="1703" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1703.436" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1688.436" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1698.436" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1693.436" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С3_301_EARTH_SWITCH" Canvas.Left="1660"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1702.966" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1597.997" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.76,25.1934 L1093.76,51.3224" Height="29" Canvas.Left="1573" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1573.467" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1558.467" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1568.467" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1563.467" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С3_305_EARTH_SWITCH" Canvas.Left="1530"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1572.997" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1467.946" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.74,24.86 L1093.74,50.989" Height="29" Canvas.Left="1442.876" Stretch="Fill" Stroke="Black" Canvas.Top="1072.681" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1443.416" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1428.416" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1438.416" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1433.416" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С3_307_EARTH_SWITCH" Canvas.Left="1400"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1442.946" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1338.043" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.75,25.1934 L1093.75,51.3224" Height="29" Canvas.Left="1313" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1313.513" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1298.513" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1308.513" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1303.513" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С3_309_EARTH_SWITCH" Canvas.Left="1270"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1313.043" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="998.042" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1094.74,25.1934 L1093.74,51.3224" Height="29" Canvas.Left="972.98" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4.02" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="973.513" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="958.513" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="968.513" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="963.513" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С2_210_EARTH_SWITCH" Canvas.Left="930"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="973.042" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.4,887.356" Height="679" Canvas.Left="868.026" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4.002" StrokeThickness="4"/>
+        	<Path Data="M1093.61,25.1934 L1093.61,51.3224" Height="29" Canvas.Left="843" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="843.526" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="828.526" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="838.526" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="833.526" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С2_208_EARTH_SWITCH" Canvas.Left="800"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="843.055" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="738.083" Stretch="Fill" Stroke="Black" Canvas.Top="692.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.74,24.86 L1093.73,51.3224" Height="29.319" Canvas.Left="713" Stretch="Fill" Stroke="Black" Canvas.Top="1072.681" UseLayoutRounding="False" Width="4.021" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="713.555" Stretch="Fill" Stroke="Black" Canvas.Top="1138.511" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="698.555" Stretch="Fill" Stroke="Black" Canvas.Top="1163.511" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="708.555" Stretch="Fill" Stroke="Black" Canvas.Top="1173.511" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="703.555" Stretch="Fill" Stroke="Black" Canvas.Top="1168.511" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С2_206_EARTH_SWITCH" Canvas.Left="670"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="713.083" Stretch="Fill" Stroke="Black" Canvas.Top="1072.991" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="588.061" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.74,24.86 L1093.74,50.989" Height="29" Canvas.Left="562.998" Stretch="Fill" Stroke="Black" Canvas.Top="1072.69" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="563.532" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="548.532" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="558.532" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="553.532" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С1_101_EARTH_SWITCH" Canvas.Left="521"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="563.061" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="198.02" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.75,25.1841 L1093.75,51.3131" Height="29" Canvas.Left="173" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="173.492" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="158.492" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="168.492" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="163.492" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С1_109_EARTH_SWITCH" Canvas.Left="130"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="173.02" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="68" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1103,148.575 L1102.98,192.244" Height="48.896" Canvas.Left="588.385" Stretch="Fill" Stroke="Black" Canvas.Top="608.144" UseLayoutRounding="False" Width="4.093" StrokeThickness="4"/>
+        	<Path Data="M1103,148.575 L1102.97,192.131" Height="48.78" Canvas.Left="458.427" Stretch="Fill" Stroke="Black" Canvas.Top="608.103" UseLayoutRounding="False" Width="4.119" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="141" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_113_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 113" Margin="0,0,0,320"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="11" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_111_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 111" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="141" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black"  Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_109_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 109" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="272" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_107_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 107" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="401" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_105_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 105" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="533" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_101_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 101" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1138.74,15.7453 L1102.83,15.7453" Height="4" Canvas.Left="173.084" Stretch="Fill" Stroke="Black" Canvas.Top="47.955" UseLayoutRounding="False" Width="74" StrokeThickness="4"/>
+        	<Path Data="M1097.5,24.8862 L1097.5,51.5377" Height="29.5" Canvas.Left="173.084" Stretch="Fill" Stroke="Black" Canvas.Top="47.97" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="173.584" Stretch="Fill" Stroke="Black" Canvas.Top="113.47" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="158.584" Stretch="Fill" Stroke="Black" Canvas.Top="138.47" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="168.584" Stretch="Fill" Stroke="Black" Canvas.Top="148.47" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="163.584" Stretch="Fill" Stroke="Black" Canvas.Top="143.47" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<Path Data="M1100.6,279.87 L1100.5,323.655" Height="49.015" Canvas.Left="197.684" Stretch="Fill" Stroke="Black" Canvas.Top="562.955" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<Path Data="M1336.44,26.9972 L1054.4,26.9972" Height="8" Canvas.Left="46" Stretch="Fill" Stroke="Black" Canvas.Top="606" UseLayoutRounding="False" Width="568" StrokeThickness="8"/>
+        	<Path Data="M1137.58,-15.9729 L1137.59,525.707" Height="564.031" Canvas.Left="458.058" Stretch="Fill" Stroke="Black" Canvas.Top="47.969" UseLayoutRounding="False" Width="4.025" StrokeThickness="4"/>
+        	<Path Data="M1118.16,27.4679 L1105.36,27.4541" Height="4.056" Canvas.Left="433.085" Stretch="Fill" Stroke="Black" Canvas.Top="47.913" UseLayoutRounding="False" Width="28.953" StrokeThickness="4"/>
+        	<Path Data="M1097.5,27.3266 L1097.5,53.4556" Height="29" Canvas.Left="433.085" Stretch="Fill" Stroke="Black" Canvas.Top="47.997" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,90.2949 L1097.67,115.336" Height="28" Canvas.Left="433.585" Stretch="Fill" Stroke="Black" Canvas.Top="113.496" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,27.1108 L1102.26,27.1108" Height="3" Canvas.Left="418.585" Stretch="Fill" Stroke="Black" Canvas.Top="138.496" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1112.83,32.1108 L1107.28,32.1108" Height="3" Canvas.Left="428.585" Stretch="Fill" Stroke="Black" Canvas.Top="148.496" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,29.6108 L1104.76,29.6108" Height="3" Canvas.Left="423.585" Stretch="Fill" Stroke="Black" Canvas.Top="143.496" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Left="390" Canvas.Top="70" DataName="Angidrit_rp_553_С1_103_EARTH_SWITCH"/>
+        	<Ellipse Height="60" Canvas.Left="275" Stroke="Black" StrokeThickness="4" Canvas.Top="212" Width="60"/>
+        	<Ellipse Height="60" Canvas.Left="275" Stroke="Black" StrokeThickness="4" Canvas.Top="172" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="288.215" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="183.385" UseLayoutRounding="False" Width="34"/>
+        	<Grid Height="29" Canvas.Left="288" Canvas.Top="229" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Path Data="M473,230" Height="0" Canvas.Left="472.605" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="310" UseLayoutRounding="False" Width="0"/>
+        	<Path Data="M1168.27,16.2491 L1114.41,16.2511" Height="4.008" Canvas.Left="198.062" Stretch="Fill" Stroke="Black" Canvas.Top="47.947" UseLayoutRounding="False" Width="109.028" StrokeThickness="4"/>
+        	<Path Data="M1168.34,47.4953 L1168.34,16.2453" Height="129" Canvas.Left="303.366" Stretch="Fill" Stroke="Black" Canvas.Top="47.932" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Rectangle Height="59" Canvas.Left="286" Stroke="Black" StrokeThickness="4" Canvas.Top="83" Width="39"/>
+        	<Path Data="M1103,148.575 L1103,192.33" Height="48.985" Canvas.Left="67.948" Stretch="Fill" Stroke="Black" Canvas.Top="607.898" UseLayoutRounding="False" Width="4.005" StrokeThickness="4"/>
+        	<Path Data="M1093.76,25.1861 L1093.76,51.3151" Height="29" Canvas.Left="43" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="43.472" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="28.472" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="38.472" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="33.472" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С1_111_EARTH_SWITCH"/>
+        	<Path Data="M1102.89,148.599 L1102.99,192.255" Height="48.883" Canvas.Left="198" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4.328" StrokeThickness="4"/>
+        	<Path Data="M1102.87,148.717 L1102.87,192.487" Height="49" Canvas.Left="328" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M816.546,140.236 L938.056,140.234 L938.056,147.266" Height="64.003" Canvas.Left="458.083" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="47.981" UseLayoutRounding="False" Width="128.982"/>
+        	<Path Data="M921.818,218.333 L940,201.667 L958.182,218.333" Height="24" Canvas.Left="563.064" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="107.983" UseLayoutRounding="False" Width="44"/>
+        	<Path Data="M921.818,238.334 L940.198,221.469 L958.182,238.334" Height="24.238" Canvas.Left="563.064" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="127.746" UseLayoutRounding="False" Width="44"/>
+        	<Ellipse Height="60" Canvas.Left="554" Stroke="Black" StrokeThickness="4" Canvas.Top="251" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="590.064" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="305.985" UseLayoutRounding="False" Width="34"/>
+        	<Path Data="M1168.27,47.4951 L1168.27,16.2491" Height="128.984" Canvas.Left="583.059" Stretch="Fill" Stroke="Black" Canvas.Top="127.985" UseLayoutRounding="False" Width="4.006" StrokeThickness="4"/>
+        	<Rectangle Height="60" Canvas.Left="564" Stroke="Black" StrokeThickness="4" Canvas.Top="161" Width="40"/>
+        	<Ellipse Height="60" Canvas.Left="576" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="567" Canvas.Top="269" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Ellipse Height="60" Canvas.Left="531" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="544" Canvas.Top="307" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Path Data="M1683.18,29.5974 L1431.38,29.5963" Height="8.009" Canvas.Left="646.015" Stretch="Fill" Stroke="Black" Canvas.Top="605.991" UseLayoutRounding="False" Width="507.985" StrokeThickness="8"/>
+        	<TextBlock Height="60" Canvas.Left="216" TextWrapping="Wrap" Canvas.Top="546" Width="240" FontSize="48" TextAlignment="Center" Text="Секция 1" FontStyle="Italic"/>
+        	<TextBlock Height="60" Canvas.Left="753" TextWrapping="Wrap" Canvas.Top="546" Width="240" FontSize="48" TextAlignment="Center" Text="Секция 2" FontStyle="Italic"/>
+        	<local:HMISwitch Canvas.Left="25" Canvas.Top="650" DataName="Angidrit_rp_553_С1_111_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="415" Canvas.Top="650" DataName="Angidrit_rp_553_С1_105_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="545" Canvas.Top="650" DataName="Angidrit_rp_553_С1_101_CLOSE"/>
+        	<local:HMITrolley Canvas.Left="65" Canvas.Top="650" DataName="Angidrit_rp_553_С1_111_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="195" Canvas.Top="650" DataName="Angidrit_rp_553_С1_109_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="325" Canvas.Top="650" DataName="Angidrit_rp_553_С1_107_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="455" Canvas.Top="650" DataName="Angidrit_rp_553_С1_105_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="585" Canvas.Top="650" DataName="Angidrit_rp_553_С1_101_DRAWN_OUT"/>
+        	<local:HMISwitch Canvas.Left="155" Canvas.Top="650" DataName="Angidrit_rp_553_С1_109_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="285" Canvas.Top="650" DataName="Angidrit_rp_553_С1_107_CLOSE"/>
+        	<Path Data="M1102.85,148.019 L1102.85,191.789" Height="49" Canvas.Left="1468" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1102.8,148.059 L1102.8,191.828" Height="49" Canvas.Left="1338" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="681" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_206_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 206" />
+
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="811" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_208_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 208" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="942" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.995" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_210_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 210" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="1281" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_309_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="309"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="1413" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_307_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="307"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1103,148.575 L1103,192.33" Height="48.985" Canvas.Left="738.234" Stretch="Fill" Stroke="Black" Canvas.Top="608.327" UseLayoutRounding="False" Width="4.005" StrokeThickness="4"/>
+        	<Path Data="M1103,148.575 L1102.99,192.255" Height="48.908" Canvas.Left="868.625" Stretch="Fill" Stroke="Black" Canvas.Top="608.403" UseLayoutRounding="False" Width="4.033" StrokeThickness="4"/>
+        	<Path Data="M1103,148.575 L1102.97,192.373" Height="49.029" Canvas.Left="998.688" Stretch="Fill" Stroke="Black" Canvas.Top="608.283" UseLayoutRounding="False" Width="4.126" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="695" Canvas.Top="650" DataName="Angidrit_rp_553_С2_206_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="1295" Canvas.Top="650" DataName="Angidrit_rp_553_С3_309_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="1425" Canvas.Top="650" DataName="Angidrit_rp_553_С3_307_CLOSE"/>
+        	<local:HMITrolley Canvas.Left="735" Canvas.Top="650" DataName="Angidrit_rp_553_С2_206_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="865" Canvas.Top="650" DataName="Angidrit_rp_553_С2_208_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="996" Canvas.Top="650" DataName="Angidrit_rp_553_С2_210_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="1335" Canvas.Top="650" DataName="Angidrit_rp_553_С3_309_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="1465" Canvas.Top="650" DataName="Angidrit_rp_553_С3_307_DRAWN_OUT"/>
+        	<local:HMISwitch Canvas.Left="825" Canvas.Top="650" DataName="Angidrit_rp_553_С2_208_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="956" Canvas.Top="650" DataName="Angidrit_rp_553_С2_210_CLOSE"/>
+        	<Grid Height="344" Canvas.Left="1541" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_305_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="305"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="1671" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_301_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="301"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="1822" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_406_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="406"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1054.61,148.257 L1054.61,192.027" Height="49" Canvas.Left="1598" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1102.8,148.183 L1102.8,191.952" Height="49" Canvas.Left="1728" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1102.8,148.291 L1102.8,192.061" Height="49" Canvas.Left="1878" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="1555" Canvas.Top="650" DataName="Angidrit_rp_553_С3_305_CLOSE"/>
+        	<local:HMITrolley Canvas.Left="1595" Canvas.Top="650" DataName="Angidrit_rp_553_С3_305_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="1725" Canvas.Top="650" DataName="Angidrit_rp_553_С3_301_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="1875" Canvas.Top="650" DataName="Angidrit_rp_553_С4_406_DRAWN_OUT"/>
+        	<local:HMISwitch Canvas.Left="1685" Canvas.Top="650" DataName="Angidrit_rp_553_С3_301_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="1835" Canvas.Top="650" DataName="Angidrit_rp_553_С4_406_CLOSE"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="43" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M1094.74,25.1841 L1093.74,51.3131" Height="29" Canvas.Left="302.985" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4.015" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="303.519" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="288.519" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="298.519" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="293.519" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С1_107_EARTH_SWITCH" Canvas.Left="260"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="303.048" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M1093.74,25.1841 L1094.74,51.313" Height="29" Canvas.Left="432.983" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4.017" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="433.517" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="418.517" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="428.517" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="423.517" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С1_105_EARTH_SWITCH" Canvas.Left="390"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="433.046" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M1093.74,25.1841 L1094.74,51.313" Height="29" Canvas.Left="1852.985" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4.015" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1853.525" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1838.525" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1848.525" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1843.525" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С4_406_EARTH_SWITCH" Canvas.Left="1810"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1853.055" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M-12904.8,147.847 L-12904.8,721.719" Height="594" Canvas.Left="668.013" Stretch="Fill" Stroke="Black" Canvas.Top="607.991" UseLayoutRounding="False" Width="4.003" StrokeThickness="4"/>
+        	<Path Data="M1143.59,58.0308 L1102.57,58.0308" Height="4" Canvas.Left="588.01" Stretch="Fill" Stroke="Black" Canvas.Top="1198" UseLayoutRounding="False" Width="84" StrokeThickness="4"/>
+        	<Path Data="M1842.33,32.8474 L1605.65,32.8474" Height="8" Canvas.Left="1276" Stretch="Fill" Stroke="Black" Canvas.Top="606" UseLayoutRounding="False" Width="478" StrokeThickness="8"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="2138" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="2008.091" Stretch="Fill" Stroke="Black" Canvas.Top="693" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.73,25.1841 L1093.73,51.313" Height="29" Canvas.Left="1983" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1983.561" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1968.561" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1978.561" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1973.561" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С4_408_EARTH_SWITCH" Canvas.Left="1940"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1983.091" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="1951" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_408_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="408"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Grid Height="344" Canvas.Left="2082" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_410_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320">
+        			<Run Text="Яч. "/>
+        			<Run Text="410"/>
+        		</TextBlock>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1102.76,148.174 L1102.76,191.944" Height="49" Canvas.Left="2008" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1102.81,148.291 L1102.81,192.061" Height="49" Canvas.Left="2138" Stretch="Fill" Stroke="Black" Canvas.Top="608" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<local:HMITrolley Canvas.Left="2005" Canvas.Top="650" DataName="Angidrit_rp_553_С4_408_DRAWN_OUT"/>
+        	<local:HMITrolley Canvas.Left="2135" Canvas.Top="650" DataName="Angidrit_rp_553_С4_410_DRAWN_OUT"/>
+        	<local:HMISwitch Canvas.Left="1965" Canvas.Top="650" DataName="Angidrit_rp_553_С4_408_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="2095" Canvas.Top="650" DataName="Angidrit_rp_553_С4_410_CLOSE"/>
+        	<Path Data="M1093.76,25.1841 L1093.76,51.313" Height="29" Canvas.Left="2113" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="2113.47" Stretch="Fill" Stroke="Black" Canvas.Top="1138.52" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="2098.47" Stretch="Fill" Stroke="Black" Canvas.Top="1163.52" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="2108.47" Stretch="Fill" Stroke="Black" Canvas.Top="1173.52" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="2103.47" Stretch="Fill" Stroke="Black" Canvas.Top="1168.52" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С4_410_EARTH_SWITCH" Canvas.Left="2070"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="2113" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Path Data="M1882.61,32.8463 L2084.05,32.8463" Height="8" Canvas.Left="1786" Stretch="Fill" Stroke="Black" Canvas.Top="606" UseLayoutRounding="False" Width="408" StrokeThickness="8"/>
+        	<Path Data="M-17908.6,-435.752 L-17908.6,887.072" Height="1364" Canvas.Left="1227.973" Stretch="Fill" Stroke="Black" Canvas.Top="7.991" UseLayoutRounding="False" Width="4.008" StrokeThickness="4"/>
+        	<Path Data="M1256.37,103.031 L789.776,103.031" Height="4" Canvas.Left="328" Stretch="Fill" Stroke="Black" Canvas.Top="1378" UseLayoutRounding="False" Width="914" StrokeThickness="4"/>
+        	<Path Data="M-12904.8,147.847 L-12904.8,721.719" Height="594" Canvas.Left="1807.964" Stretch="Fill" Stroke="Black" Canvas.Top="607.991" UseLayoutRounding="False" Width="4.003" StrokeThickness="4"/>
+        	<Path Data="M1143.59,58.0308 L1102.57,58.0308" Height="4" Canvas.Left="1727.966" Stretch="Fill" Stroke="Black" Canvas.Top="1197.991" UseLayoutRounding="False" Width="84" StrokeThickness="4"/>
+        	<Grid Height="160" Canvas.Left="402" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="#FF939393" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_103_U_12" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_103_U_23" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_103_FREQ" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С1_103_U_31" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="1.146,120.375,1.854,38.625"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,136"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 103" Margin="0,0,0,136"/>
+        		<Path Data="M210.657,-22.2529 L-30.3926,-22.1264" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0.083,24.937,2.792,133.937"/>
+        	</Grid>
+        	<Path Data="M1137.58,-15.9729 L1137.58,525.707" Height="564.031" Canvas.Left="737.956" Stretch="Fill" Stroke="Black" Canvas.Top="47.951" UseLayoutRounding="False" Width="4.017" StrokeThickness="4"/>
+        	<Path Data="M1118.16,27.4679 L1105.36,27.4541" Height="4.056" Canvas.Left="712.984" Stretch="Fill" Stroke="Black" Canvas.Top="47.895" UseLayoutRounding="False" Width="28.953" StrokeThickness="4"/>
+        	<Path Data="M1097.5,27.3266 L1097.5,53.4556" Height="29" Canvas.Left="712.984" Stretch="Fill" Stroke="Black" Canvas.Top="47.979" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,90.2949 L1097.67,115.336" Height="28" Canvas.Left="713.484" Stretch="Fill" Stroke="Black" Canvas.Top="113.478" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,27.1108 L1102.26,27.1108" Height="3" Canvas.Left="698.484" Stretch="Fill" Stroke="Black" Canvas.Top="138.478" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1112.83,32.1108 L1107.28,32.1108" Height="3" Canvas.Left="708.484" Stretch="Fill" Stroke="Black" Canvas.Top="148.478" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,29.6108 L1104.76,29.6108" Height="3" Canvas.Left="703.484" Stretch="Fill" Stroke="Black" Canvas.Top="143.478" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Left="670" Canvas.Top="70" DataName="Angidrit_rp_553_С2_204_EARTH_SWITCH"/>
+        	<Path Data="M816.538,140.236 L938.056,140.234 L938.056,147.266" Height="64.003" Canvas.Left="737.974" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="47.963" UseLayoutRounding="False" Width="128.99"/>
+        	<Path Data="M921.818,218.333 L940,201.667 L958.182,218.333" Height="24" Canvas.Left="842.963" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="107.965" UseLayoutRounding="False" Width="44"/>
+        	<Path Data="M921.818,238.334 L940.198,221.469 L958.182,238.334" Height="24.238" Canvas.Left="842.963" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="127.728" UseLayoutRounding="False" Width="44"/>
+        	<Ellipse Height="60" Canvas.Left="834" Stroke="Black" StrokeThickness="4" Canvas.Top="251" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="869.963" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="305.967" UseLayoutRounding="False" Width="34"/>
+        	<Path Data="M1168.27,47.4951 L1168.27,16.2491" Height="128.984" Canvas.Left="862.958" Stretch="Fill" Stroke="Black" Canvas.Top="127.967" UseLayoutRounding="False" Width="4.006" StrokeThickness="4"/>
+        	<Rectangle Height="60" Canvas.Left="844" Stroke="Black" StrokeThickness="4" Canvas.Top="161" Width="40"/>
+        	<Ellipse Height="60" Canvas.Left="856" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="847" Canvas.Top="269" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Ellipse Height="60" Canvas.Left="811" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="824" Canvas.Top="307" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Grid Height="160" Canvas.Left="682" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="#FF939393" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_204_U_12" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_204_U_23" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_204_FREQ" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_204_U_31" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="1.146,120.375,1.854,38.625"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,136"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 204" Margin="0,0,0,136"/>
+        		<Path Data="M210.657,-22.2529 L-30.3926,-22.1264" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0.083,24.937,2.792,133.937"/>
+        	</Grid>
+        	<Path Data="M1137.5,-56.9206 L1217.7,441.688" Height="519.5" Canvas.Left="997.721" Stretch="Fill" Stroke="Black" Canvas.Top="7.467" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="941" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_214_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 214" Margin="0,0,0,320"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1138.74,15.7453 L1102.83,15.7453" Height="4" Canvas.Left="973.12" Stretch="Fill" Stroke="Black" Canvas.Top="47.967" UseLayoutRounding="False" Width="74" StrokeThickness="4"/>
+        	<Path Data="M1097.5,24.8862 L1097.5,51.5377" Height="29.5" Canvas.Left="973.12" Stretch="Fill" Stroke="Black" Canvas.Top="47.982" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="973.62" Stretch="Fill" Stroke="Black" Canvas.Top="113.482" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="958.62" Stretch="Fill" Stroke="Black" Canvas.Top="138.482" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="968.62" Stretch="Fill" Stroke="Black" Canvas.Top="148.482" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="963.62" Stretch="Fill" Stroke="Black" Canvas.Top="143.482" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<Path Data="M1100.6,279.87 L1100.5,323.655" Height="49.015" Canvas.Left="997.721" Stretch="Fill" Stroke="Black" Canvas.Top="562.967" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="955" Canvas.Top="520" DataName="Angidrit_rp_553_С2_214_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="930" Canvas.Top="70" DataName="Angidrit_rp_553_С2_214_EARTH_SWITCH"/>
+        	<local:HMITrolley Canvas.Left="995" Canvas.Top="520" DataName="Angidrit_rp_553_С2_214_DRAWN_OUT"/>
+        	<Ellipse Height="60" Canvas.Left="1075" Stroke="Black" StrokeThickness="4" Canvas.Top="212" Width="60"/>
+        	<Ellipse Height="60" Canvas.Left="1075" Stroke="Black" StrokeThickness="4" Canvas.Top="172" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="1088.251" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="183.397" UseLayoutRounding="False" Width="34"/>
+        	<Grid Height="29" Canvas.Left="1088" Canvas.Top="229" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Path Data="M1168.27,16.2491 L1114.41,16.2511" Height="4.008" Canvas.Left="998.099" Stretch="Fill" Stroke="Black" Canvas.Top="47.959" UseLayoutRounding="False" Width="109.028" StrokeThickness="4"/>
+        	<Path Data="M1168.34,47.4953 L1168.34,16.2453" Height="129" Canvas.Left="1103.402" Stretch="Fill" Stroke="Black" Canvas.Top="47.944" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Rectangle Height="59" Canvas.Left="1086" Stroke="Black" StrokeThickness="4" Canvas.Top="83" Width="39"/>
+        	<TextBlock Height="157" Canvas.Left="801" TextWrapping="Wrap" Canvas.Top="370" Width="130" FontSize="26.667" TextAlignment="Right" Text="Ввод № 2 от РП-551 яч. 2" FontStyle="Italic"/>
+        	<TextBlock Height="157" Canvas.Left="264" TextWrapping="Wrap" Canvas.Top="370" Width="137" FontSize="26.667" Text="Ввод № 2 от РП-551 яч. 13" FontStyle="Italic"/>
+        	<Path Data="M1097.5,24.8862 L1097.5,51.5377" Height="29.5" Canvas.Left="173.084" Stretch="Fill" Stroke="Black" Canvas.Top="47.97" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="155" Canvas.Top="520" DataName="Angidrit_rp_553_С1_113_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="130" Canvas.Top="70" DataName="Angidrit_rp_553_С1_113_EARTH_SWITCH"/>
+        	<local:HMITrolley Canvas.Left="195" Canvas.Top="520" DataName="Angidrit_rp_553_С1_113_DRAWN_OUT"/>
+        	<Ellipse Height="60" Canvas.Left="275" Stroke="Black" StrokeThickness="4" Canvas.Top="212" Width="60"/>
+        	<Grid Height="29" Canvas.Left="847" Canvas.Top="269" Width="34"/>
+        	<Grid Height="29" Canvas.Left="824" Canvas.Top="307" Width="34"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="958.619" Stretch="Fill" Stroke="Black" Canvas.Top="138.482" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="968.619" Stretch="Fill" Stroke="Black" Canvas.Top="148.482" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="963.619" Stretch="Fill" Stroke="Black" Canvas.Top="143.482" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<Grid Height="344" Canvas.Left="1281" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_311_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 311" Margin="0,0,0,320"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1138.74,15.7453 L1102.83,15.7453" Height="4" Canvas.Left="1313.007" Stretch="Fill" Stroke="Black" Canvas.Top="47.997" UseLayoutRounding="False" Width="74" StrokeThickness="4"/>
+        	<Path Data="M1097.5,24.8862 L1097.5,51.5377" Height="29.5" Canvas.Left="1313.007" Stretch="Fill" Stroke="Black" Canvas.Top="48.012" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1313.507" Stretch="Fill" Stroke="Black" Canvas.Top="113.512" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1298.507" Stretch="Fill" Stroke="Black" Canvas.Top="138.512" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1308.507" Stretch="Fill" Stroke="Black" Canvas.Top="148.512" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1303.507" Stretch="Fill" Stroke="Black" Canvas.Top="143.512" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<Path Data="M1100.6,279.87 L1100.6,323.643" Height="49.003" Canvas.Left="1338" Stretch="Fill" Stroke="Black" Canvas.Top="562.997" UseLayoutRounding="False" Width="4.009" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="1295" Canvas.Top="520" DataName="Angidrit_rp_553_С3_311_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="1270" Canvas.Top="70" DataName="Angidrit_rp_553_С3_311_EARTH_SWITCH"/>
+        	<local:HMITrolley Canvas.Left="1335" Canvas.Top="520" DataName="Angidrit_rp_553_С3_311_DRAWN_OUT"/>
+        	<Path Data="M1137.58,-15.9729 L1137.59,525.707" Height="564.031" Canvas.Left="1597.981" Stretch="Fill" Stroke="Black" Canvas.Top="48.011" UseLayoutRounding="False" Width="4.025" StrokeThickness="4"/>
+        	<Path Data="M1118.16,27.4679 L1105.36,27.4541" Height="4.056" Canvas.Left="1573.009" Stretch="Fill" Stroke="Black" Canvas.Top="47.955" UseLayoutRounding="False" Width="28.953" StrokeThickness="4"/>
+        	<Path Data="M1097.5,27.3266 L1097.5,53.4556" Height="29" Canvas.Left="1573.009" Stretch="Fill" Stroke="Black" Canvas.Top="48.039" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,90.2949 L1097.67,115.336" Height="28" Canvas.Left="1573.509" Stretch="Fill" Stroke="Black" Canvas.Top="113.538" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,27.1108 L1102.26,27.1108" Height="3" Canvas.Left="1558.509" Stretch="Fill" Stroke="Black" Canvas.Top="138.538" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1112.83,32.1108 L1107.28,32.1108" Height="3" Canvas.Left="1568.509" Stretch="Fill" Stroke="Black" Canvas.Top="148.538" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,29.6108 L1104.76,29.6108" Height="3" Canvas.Left="1563.509" Stretch="Fill" Stroke="Black" Canvas.Top="143.538" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Left="1530" Canvas.Top="70" DataName="Angidrit_rp_553_С3_303_EARTH_SWITCH"/>
+        	<Ellipse Height="60" Canvas.Left="1415" Stroke="Black" StrokeThickness="4" Canvas.Top="212" Width="60"/>
+        	<Ellipse Height="60" Canvas.Left="1415" Stroke="Black" StrokeThickness="4" Canvas.Top="172" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="1428.139" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="183.427" UseLayoutRounding="False" Width="34"/>
+        	<Grid Height="29" Canvas.Left="1428" Canvas.Top="229" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Path Data="M1168.27,16.2491 L1114.41,16.2511" Height="4.008" Canvas.Left="1337.985" Stretch="Fill" Stroke="Black" Canvas.Top="47.989" UseLayoutRounding="False" Width="109.028" StrokeThickness="4"/>
+        	<Path Data="M1168.34,47.4953 L1168.34,16.2453" Height="129" Canvas.Left="1443.29" Stretch="Fill" Stroke="Black" Canvas.Top="47.974" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Rectangle Height="59" Canvas.Left="1426" Stroke="Black" StrokeThickness="4" Canvas.Top="83" Width="39"/>
+        	<Path Data="M816.546,140.236 L938.056,140.234 L938.056,147.266" Height="64.003" Canvas.Left="1598.006" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="48.023" UseLayoutRounding="False" Width="128.982"/>
+        	<Path Data="M921.818,218.333 L940,201.667 L958.182,218.333" Height="24" Canvas.Left="1702.988" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="108.025" UseLayoutRounding="False" Width="44"/>
+        	<Path Data="M921.818,238.334 L940.198,221.469 L958.182,238.334" Height="24.238" Canvas.Left="1702.988" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="127.788" UseLayoutRounding="False" Width="44"/>
+        	<Ellipse Height="60" Canvas.Left="1694" Stroke="Black" StrokeThickness="4" Canvas.Top="251" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="1729.988" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="306.027" UseLayoutRounding="False" Width="34"/>
+        	<Path Data="M1168.27,47.4951 L1168.27,16.2491" Height="128.984" Canvas.Left="1722.983" Stretch="Fill" Stroke="Black" Canvas.Top="128.027" UseLayoutRounding="False" Width="4.006" StrokeThickness="4"/>
+        	<Rectangle Height="60" Canvas.Left="1704" Stroke="Black" StrokeThickness="4" Canvas.Top="161" Width="40"/>
+        	<Ellipse Height="60" Canvas.Left="1716" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="1707" Canvas.Top="269" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Ellipse Height="60" Canvas.Left="1671" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="1684" Canvas.Top="307" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<TextBlock Height="60" Canvas.Left="1356" TextWrapping="Wrap" Canvas.Top="546" Width="240" FontSize="48" TextAlignment="Center" Text="Секция 3" FontStyle="Italic"/>
+        	<TextBlock Height="60" Canvas.Left="1858" TextWrapping="Wrap" Canvas.Top="546" Width="240" FontSize="48" TextAlignment="Center" Text="Секция 4" FontStyle="Italic"/>
+        	<Grid Height="160" Canvas.Left="1542" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="#FF939393" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_303_U_12" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_303_U_23" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_303_FREQ" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С3_303_U_31" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="1.146,120.375,1.854,38.625"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,136"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 303" Margin="0,0,0,136"/>
+        		<Path Data="M210.657,-22.2529 L-30.3926,-22.1264" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0.083,24.937,2.792,133.937"/>
+        	</Grid>
+        	<Path Data="M1137.58,-15.9729 L1137.58,525.707" Height="564.031" Canvas.Left="1842.826" Stretch="Fill" Stroke="Black" Canvas.Top="48.02" UseLayoutRounding="False" Width="4.017" StrokeThickness="4"/>
+        	<Path Data="M1118.16,27.4679 L1105.36,27.4541" Height="4.056" Canvas.Left="1817.853" Stretch="Fill" Stroke="Black" Canvas.Top="47.964" UseLayoutRounding="False" Width="28.953" StrokeThickness="4"/>
+        	<Path Data="M1097.5,27.3266 L1097.5,53.4556" Height="29" Canvas.Left="1817.853" Stretch="Fill" Stroke="Black" Canvas.Top="48.048" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,90.2949 L1097.67,115.336" Height="28" Canvas.Left="1818.353" Stretch="Fill" Stroke="Black" Canvas.Top="113.547" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,27.1108 L1102.26,27.1108" Height="3" Canvas.Left="1803.353" Stretch="Fill" Stroke="Black" Canvas.Top="138.547" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1112.83,32.1108 L1107.28,32.1108" Height="3" Canvas.Left="1813.353" Stretch="Fill" Stroke="Black" Canvas.Top="148.547" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,29.6108 L1104.76,29.6108" Height="3" Canvas.Left="1808.353" Stretch="Fill" Stroke="Black" Canvas.Top="143.547" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Left="1775" Canvas.Top="70" DataName="Angidrit_rp_553_С4_404_EARTH_SWITCH"/>
+        	<Path Data="M816.538,140.236 L938.056,140.234 L938.056,147.266" Height="64.003" Canvas.Left="1842.843" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="48.032" UseLayoutRounding="False" Width="128.99"/>
+        	<Path Data="M921.818,218.333 L940,201.667 L958.182,218.333" Height="24" Canvas.Left="1947.832" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="108.034" UseLayoutRounding="False" Width="44"/>
+        	<Path Data="M921.818,238.334 L940.198,221.469 L958.182,238.334" Height="24.238" Canvas.Left="1947.832" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="127.797" UseLayoutRounding="False" Width="44"/>
+        	<Ellipse Height="60" Canvas.Left="1939" Stroke="Black" StrokeThickness="4" Canvas.Top="251" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="1974.832" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="306.036" UseLayoutRounding="False" Width="34"/>
+        	<Path Data="M1168.27,47.4951 L1168.27,16.2491" Height="128.984" Canvas.Left="1967.827" Stretch="Fill" Stroke="Black" Canvas.Top="128.036" UseLayoutRounding="False" Width="4.006" StrokeThickness="4"/>
+        	<Rectangle Height="60" Canvas.Left="1949" Stroke="Black" StrokeThickness="4" Canvas.Top="161" Width="40"/>
+        	<Ellipse Height="60" Canvas.Left="1961" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="1952" Canvas.Top="269" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Ellipse Height="60" Canvas.Left="1916" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Grid Height="29" Canvas.Left="1929" Canvas.Top="307" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Grid Height="160" Canvas.Left="1787" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="#FF939393" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_404_U_12" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_404_U_23" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_404_FREQ" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_404_U_31" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="1.146,120.375,1.854,38.625"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,136"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 404" Margin="0,0,0,136"/>
+        		<Path Data="M210.657,-22.2529 L-30.3926,-22.1264" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0.083,24.937,2.792,133.937"/>
+        	</Grid>
+        	<Path Data="M1137.5,-56.9206 L1217.7,441.688" Height="519.5" Canvas.Left="2102.595" Stretch="Fill" Stroke="Black" Canvas.Top="7.536" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="2046" Canvas.Top="161" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С4_412_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Text="Яч. 412" Margin="0,0,0,320"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1138.74,15.7453 L1102.83,15.7453" Height="4" Canvas.Left="2077.99" Stretch="Fill" Stroke="Black" Canvas.Top="48.036" UseLayoutRounding="False" Width="74" StrokeThickness="4"/>
+        	<Path Data="M1097.5,24.8862 L1097.5,51.5377" Height="29.5" Canvas.Left="2077.99" Stretch="Fill" Stroke="Black" Canvas.Top="48.051" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="2078.49" Stretch="Fill" Stroke="Black" Canvas.Top="113.551" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="2063.49" Stretch="Fill" Stroke="Black" Canvas.Top="138.551" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="2073.49" Stretch="Fill" Stroke="Black" Canvas.Top="148.551" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="2068.49" Stretch="Fill" Stroke="Black" Canvas.Top="143.551" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<Path Data="M1100.6,279.87 L1100.5,323.655" Height="49.015" Canvas.Left="2102.595" Stretch="Fill" Stroke="Black" Canvas.Top="563.036" UseLayoutRounding="False" Width="4.401" StrokeThickness="4"/>
+        	<local:HMISwitch Canvas.Left="2060" Canvas.Top="520" DataName="Angidrit_rp_553_С4_412_CLOSE"/>
+        	<local:HMISwitch Canvas.Left="2035" Canvas.Top="70" DataName="Angidrit_rp_553_С4_412_EARTH_SWITCH"/>
+        	<local:HMITrolley Canvas.Left="2098" Canvas.Top="520" DataName="Angidrit_rp_553_С4_412_DRAWN_OUT"/>
+        	<Ellipse Height="60" Canvas.Left="2180" Stroke="Black" StrokeThickness="4" Canvas.Top="212" Width="60"/>
+        	<Ellipse Height="60" Canvas.Left="2180" Stroke="Black" StrokeThickness="4" Canvas.Top="172" Width="60"/>
+        	<Path Data="M430,175 L415,195 L445,195 z" Height="24" Canvas.Left="2193.125" Stretch="Fill" Stroke="Black" StrokeThickness="4" Canvas.Top="183.466" UseLayoutRounding="False" Width="34"/>
+        	<Grid Height="29" Canvas.Left="2193" Canvas.Top="229" Width="34">
+        		<Path Data="M415,225 L430,235 L430,250" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="0,0,15,0"/>
+        		<Path Data="M445,225 L430,235" Stretch="Fill" Stroke="Black" StrokeThickness="4" UseLayoutRounding="False" Margin="15,0,0,15"/>
+        	</Grid>
+        	<Path Data="M1168.27,16.2491 L1114.41,16.2511" Height="4.008" Canvas.Left="2102.965" Stretch="Fill" Stroke="Black" Canvas.Top="48.028" UseLayoutRounding="False" Width="109.028" StrokeThickness="4"/>
+        	<Path Data="M1168.34,47.4953 L1168.34,16.2453" Height="129" Canvas.Left="2208.275" Stretch="Fill" Stroke="Black" Canvas.Top="48.013" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Rectangle Height="59" Canvas.Left="2191" Stroke="Black" StrokeThickness="4" Canvas.Top="83" Width="39"/>
+        	<TextBlock Height="157" Canvas.Left="1906" TextWrapping="Wrap" Canvas.Top="370" Width="130" FontSize="26.667" TextAlignment="Right" Text="Ввод" FontStyle="Italic"/>
+        	<TextBlock Height="157" Canvas.Left="1404" TextWrapping="Wrap" Canvas.Top="370" Width="137" FontSize="26.667" Text="Ввод" FontStyle="Italic"/>
+        	<Path Data="M1115.67,15.7438 L1102.83,15.7453" Height="4.006" Canvas.Left="1313.007" Stretch="Fill" Stroke="Black" Canvas.Top="47.991" UseLayoutRounding="False" Width="29.031" StrokeThickness="4"/>
+        	<Path Data="M1118.16,27.4679 L1105.36,27.4541" Height="4.056" Canvas.Left="1573.009" Stretch="Fill" Stroke="Black" Canvas.Top="47.955" UseLayoutRounding="False" Width="28.953" StrokeThickness="4"/>
+        	<Ellipse Height="60" Canvas.Left="1671" Stroke="Black" StrokeThickness="4" Canvas.Top="290" Width="60"/>
+        	<Path Data="M-17906.1,-426.026 L-17906.1,896.799" Height="1364" Canvas.Left="1237.974" Stretch="Fill" Stroke="Black" Canvas.Top="17.991" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1225.65,100.533 L1041.05,100.533" Height="4" Canvas.Left="868" Stretch="Fill" Stroke="Black" Canvas.Top="1368" UseLayoutRounding="False" Width="364" StrokeThickness="4"/>
+        	<Path Data="M1506.73,6.24938 L1058.01,6.24938" Height="4" Canvas.Left="1228" Stretch="Fill" Stroke="Black" Canvas.Top="8" UseLayoutRounding="False" Width="879" StrokeThickness="4"/>
+        	<Path Data="M1115.67,8.2432 L1064.36,8.24545" Height="4.009" Canvas.Left="1238" Stretch="Fill" Stroke="Black" Canvas.Top="17.991" UseLayoutRounding="False" Width="104.039" StrokeThickness="4"/>
+        	<Path Data="M-12886.3,230.807 L-12886.3,722.003" Height="509" Canvas.Left="1127.979" Stretch="Fill" Stroke="Black" Canvas.Top="693.033" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1093.76,25.1505 L1093.76,51.2795" Height="29" Canvas.Left="1103" Stretch="Fill" Stroke="Black" Canvas.Top="1073" UseLayoutRounding="False" Width="4" StrokeThickness="4"/>
+        	<Path Data="M1097.67,87.9561 L1097.67,112.997" Height="28" Canvas.Left="1103.45" Stretch="Fill" Stroke="Black" Canvas.Top="1138.552" UseLayoutRounding="False" Width="3" StrokeThickness="3"/>
+        	<Path Data="M1117.78,26.3324 L1102.26,26.3324" Height="3" Canvas.Left="1088.45" Stretch="Fill" Stroke="Black" Canvas.Top="1163.552" UseLayoutRounding="False" Width="33" StrokeThickness="3"/>
+        	<Path Data="M1111.72,32.1658 L1106.17,32.1658" Height="3" Canvas.Left="1098.45" Stretch="Fill" Stroke="Black" Canvas.Top="1173.552" UseLayoutRounding="False" Width="13" StrokeThickness="3"/>
+        	<Path Data="M1115.29,28.8324 L1104.76,28.8324" Height="3" Canvas.Left="1093.45" Stretch="Fill" Stroke="Black" Canvas.Top="1168.552" UseLayoutRounding="False" Width="23" StrokeThickness="3"/>
+        	<local:HMISwitch Canvas.Top="1095" DataName="Angidrit_rp_553_С2_212_EARTH_SWITCH" Canvas.Left="1060"/>
+        	<Path Data="M1102.59,26.7808 L1089.77,26.7808" Height="4" Canvas.Left="1102.979" Stretch="Fill" Stroke="Black" Canvas.Top="1073.032" UseLayoutRounding="False" Width="29" StrokeThickness="4"/>
+        	<Grid Height="344" Canvas.Left="1072" Canvas.Top="716" Width="123">
+        		<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.995" Fill="#FF939393" Margin="0,0,3,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_I1" ToolTipService.ToolTip="" Margin="5,29,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_I2" ToolTipService.ToolTip="" Margin="5,59,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_U_12" ToolTipService.ToolTip="" Margin="5,124,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_U_23" ToolTipService.ToolTip="" Margin="5,154,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_U_31" ToolTipService.ToolTip="" Margin="5,184,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_I3" ToolTipService.ToolTip="" Margin="5,89,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_P" ToolTipService.ToolTip="" Margin="5,219,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_Q" ToolTipService.ToolTip="" Margin="5,249,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_COS_PHI" ToolTipService.ToolTip="" Margin="5,279,0,0"/>
+        		<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_rp_553_С2_212_FREQ" ToolTipService.ToolTip="" Margin="5,309,0,0"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,121.5,3,221.5"/>
+        		<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,8,320"/>
+        		<TextBlock TextWrapping="Wrap" Foreground="Black" FontSize="18.667" TextAlignment="Center" Margin="0,0,0,320" Text="Яч. 212" />
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,26,3,317"/>
+        		<Path Data="M212.554,-22.3154 L-28.2426,-22.3154" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Opacity="0.495" Margin="0,216,3,127"/>
+        	</Grid>
+        	<Path Data="M1103,148.575 L1102.97,192.373" Height="49.029" Canvas.Left="1128.625" Stretch="Fill" Stroke="Black" Canvas.Top="608.325" UseLayoutRounding="False" Width="4.126" StrokeThickness="4"/>
+        	<local:HMITrolley Canvas.Left="1125" Canvas.Top="650" DataName="Angidrit_rp_553_С2_212_DRAWN_OUT"/>
+        	<local:HMISwitch Canvas.Left="1085" Canvas.Top="650" DataName="Angidrit_rp_553_С2_212_CLOSE"/>
+        	<TextBlock Height="90" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="38" Canvas.Left="141" TextWrapping="Wrap" Canvas.Top="1360" Width="120" FontSize="26.667" TextAlignment="Center" FontStyle="Italic">
+        		<Run Text="ВВУ-2"/>
+        	</TextBlock>
+        	<TextBlock Height="150" Canvas.Left="400" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Фидер" FontStyle="Italic"/>
+        	<TextBlock Height="150" Canvas.Left="530" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" FontStyle="Italic">
+        		<Run Text="Секц."/>
+        		<LineBreak/>
+        		<Run Text="выключ."/>
+        	</TextBlock>
+        	<TextBlock Height="150" Canvas.Left="680" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Фидер" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="940" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="1070" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="40" Canvas.Left="1605" TextWrapping="Wrap" Canvas.Top="60" Width="115" FontSize="26.667" Text="ШТН" TextAlignment="Center" FontStyle="Italic"/>
+        	<TextBlock Height="40" Canvas.Left="1850" TextWrapping="Wrap" Canvas.Top="60" Width="115" FontSize="26.667" Text="ШТН" TextAlignment="Center" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="1280" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="1410" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Двигат." FontStyle="Italic"/>
+        	<TextBlock Height="150" Canvas.Left="1540" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Фидер" FontStyle="Italic"/>
+        	<TextBlock Height="150" Canvas.Left="1660" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="СВ" FontStyle="Italic"/>
+        	<TextBlock Height="150" Canvas.Left="1820" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Фидер" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="1950" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="90" Canvas.Left="2080" TextWrapping="Wrap" Canvas.Top="1220" Width="120" FontSize="26.667" TextAlignment="Center" Text="Резерв" FontStyle="Italic"/>
+        	<TextBlock Height="40" Canvas.Left="465" TextWrapping="Wrap" Canvas.Top="60" Width="115" FontSize="26.667" Text="ШТН" TextAlignment="Center" FontStyle="Italic"/>
+        	<TextBlock Height="40" Canvas.Left="745" TextWrapping="Wrap" Canvas.Top="60" Width="115" FontSize="26.667" Text="ШТН" TextAlignment="Center" FontStyle="Italic"/>
+        	<local:HMIFan x:Name="hmiFan1" Canvas.Left="130" Canvas.Top="1215" DataName="Angidrit_vvu_2_VUD_Motor_run" ValueOFF="2" Height="140" Width="140"/>
+        	<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_vvu_2_D_P" ToolTipService.ToolTip="" Canvas.Left="15" Canvas.Top="1310"/>
+    	</Canvas>
+    </Viewbox>
+</local:ViewBase>

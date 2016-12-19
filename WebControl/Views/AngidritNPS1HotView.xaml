@@ -1,0 +1,424 @@
+﻿<we:ViewBase
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:we="clr-namespace:WebControl"
+    xmlns:local="clr-namespace:WebControl" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="WebControl.AngidritNPS1HotView"    
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1024">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Height="768" Width="1024" Background="{x:Null}">
+            <Path Data="M440,396 L439.986,40.982 L434.986,35.982 L429.986,30.982 L430,386 L440,396 z" Height="365.018" Canvas.Left="580" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="135" UseLayoutRounding="False" Width="10.014" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform TranslateX="35" TranslateY="-35"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M603.167,784.982 L613.171,784.982 L613.171,784.982 L613.154,644.997 L603.149,654.998 z" Height="139.987" Canvas.Left="541.202" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="381.187" UseLayoutRounding="False" Width="10.017" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="8.8104848861694336" TranslateY="8.8275156021118164"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M602.375,772.356 L607.377,797.355 L612.378,772.356 L612.378,392.358 L602.375,392.358 z" Height="405.001" Canvas.Left="326.202" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="26.187" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="-123.68800354003906" TranslateY="-123.68800354003906"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M600,857.107 L610,847.107 L610,577.107 L605,572.107 L600,577.107 z" Height="285" Canvas.Left="335.014" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="105" UseLayoutRounding="False" Width="10">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M603.543,641.184 L608.545,646.183 L613.547,651.183 L613.565,576.171 L603.562,576.171 z" Height="75.013" Canvas.Left="326.215" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="306.187" UseLayoutRounding="False" Width="10.019" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="41.296484470367432" TranslateY="41.315515041351318"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <local:HMIPump x:Name="pump3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100" Canvas.Left="430" Canvas.Top="373" DataName="Angidrit_nps_1_technograph3_K3" RenderTransformOrigin="0.5,0.5" ValueON="1" ValueOFF="510">
+            	<local:HMIPump.RenderTransform>
+            		<CompositeTransform ScaleX="-1"/>
+            	</local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <Path Height="14.625" Canvas.Left="410.028" Stroke="Black" Canvas.Top="378.268" Width="20" StrokeThickness="0" Data="M166.279,-5 L172.779,-6.75 L172.779,7.875 L166.279,5 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Height="15" Canvas.Left="530.027" Stroke="Black" Canvas.Top="452.851" Width="20.002" StrokeThickness="0" Data="M161.728,-5 L168.229,-2.83301 L168.229,7.16699 L161.728,10 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M603.543,641.185 L608.545,646.185 L613.546,641.185 L613.565,576.171 L603.562,576.171 z" Height="70.015" Canvas.Left="326.216" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="166.187" UseLayoutRounding="False" Width="10.019" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="43.795485019683838" TranslateY="43.814515590667725"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <local:HMIPump x:Name="pump2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100" Canvas.Left="430" Canvas.Top="233" DataName="Angidrit_nps_1_technograph3_K2" RenderTransformOrigin="0.5,0.5" ValueON="0" ValueOFF="510">
+            	<local:HMIPump.RenderTransform>
+            		<CompositeTransform ScaleX="-1"/>
+            	</local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <Path Height="14.625" Canvas.Left="410.028" Stroke="Black" Canvas.Top="238.268" Width="20" StrokeThickness="0" Data="M166.279,-5 L172.779,-6.75 L172.779,7.875 L166.279,5 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Height="15" Canvas.Left="530.027" Stroke="Black" Canvas.Top="312.851" Width="20.002" StrokeThickness="0" Data="M161.728,-5 L168.229,-2.83301 L168.229,7.16699 L161.728,10 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <local:HMIPump x:Name="pump1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="100" Canvas.Left="430" Canvas.Top="93" DataName="Angidrit_nps_1_technograph3_K1" RenderTransformOrigin="0.5,0.5" ValueON="0" ValueOFF="510">
+            	<local:HMIPump.RenderTransform>
+            		<CompositeTransform ScaleX="-1"/>
+            	</local:HMIPump.RenderTransform>
+            </local:HMIPump>
+            <Path Height="14.625" Canvas.Left="410.028" Stroke="Black" Canvas.Top="98.268" Width="20" StrokeThickness="0" Data="M166.279,-5 L172.779,-6.75 L172.779,7.875 L166.279,5 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Height="15" Canvas.Left="530.027" Stroke="Black" Canvas.Top="172.851" Width="20.002" StrokeThickness="0" Data="M161.728,-5 L168.229,-2.83301 L168.229,7.16699 L161.728,10 z" Stretch="Fill" UseLayoutRounding="False">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0.5,1." StartPoint="0.5,0"
+>
+            			<GradientStop
+            				Color="Blue" Offset="0"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M600.54,972.606 L610.544,962.607 L610.545,602.607 L605.543,602.607 L600.54,602.607 z" Height="370" Canvas.Left="901.202" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="26.187" UseLayoutRounding="False" Width="10.001" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="-106.18801546096802" TranslateY="-106.18698453903198"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M606.998,571.156 L612,566.157 L611.982,501.173 L601.979,501.173 L601.997,566.157 z" Height="69.985" Canvas.Left="631.217" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="241.205" UseLayoutRounding="False" Width="10.019" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="-90" TranslateX="-51.205522060394287" TranslateY="43.811522006988525"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M608.688,493.797 L608.688,1448.79 L618.693,1448.79 L618.692,493.797 L613.69,468.798 z" Height="980" Canvas.Left="926.187" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="581.187" UseLayoutRounding="False" Width="10.001" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="90" TranslateX="-411.18796968460083" TranslateY="-411.18703031539917"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M825,540" Height="0" Canvas.Left="820.014" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="490" UseLayoutRounding="False" Width="0">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="805" Canvas.Top="640" Height="40" Width="40" DataName="" ValueON="1" Actual="True"/>
+            <local:HMIValve Canvas.Left="155" Canvas.Top="85" Height="40" Width="40" DataName="" ValueON="1" Actual="True"/>
+            <Path Data="M600.359,789.003 L610.337,789.104 L615.363,764.004 L605.36,774.004 L595.358,764.005 z" Height="25.102" Canvas.Left="86.188" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="586.187" UseLayoutRounding="False" Width="20" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="-90" TranslateX="-78.63752269744873" TranslateY="61.2625150680542"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <TextBlock Height="60" Canvas.Left="530" TextWrapping="Wrap" Text="1" Canvas.Top="75" Width="35" Foreground="Blue" FontSize="48" FontStyle="Italic"/>
+            <TextBlock Height="60" Canvas.Left="530" TextWrapping="Wrap" Text="2" Canvas.Top="215" Width="35" Foreground="Blue" FontSize="48" FontStyle="Italic"/>
+            <TextBlock Height="60" Canvas.Left="530" TextWrapping="Wrap" Text="3" Canvas.Top="355" Width="35" Foreground="Blue" FontSize="48" FontStyle="Italic"/>
+            <Path Data="M607.061,570.723 L612.062,565.723 L612.043,500.74 L602.043,500.74 L602.061,565.723 z" Height="69.986" Canvas.Left="631.217" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="101.204" UseLayoutRounding="False" Width="10.018" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="-90" TranslateX="-51.204522132873535" TranslateY="43.811514854431152"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <Path Data="M596.046,786.436 L606.049,775.314 L616.054,786.437 L611.051,761.441 L601.048,761.441 z" Height="25.001" Canvas.Left="1066.202" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="31.186" UseLayoutRounding="False" Width="20" RenderTransformOrigin="0.5,0.5">
+            	<Path.RenderTransform>
+            		<CompositeTransform Rotation="-90" TranslateX="-78.688022613525391" TranslateY="61.313022613525391"/>
+            	</Path.RenderTransform>
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <TextBlock TextWrapping="Wrap" FontSize="21" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="60" VerticalAlignment="Bottom" FontStyle="Italic">
+            	<Run Text="Прямая на"/>
+            	<LineBreak/>
+            	<Run Text="рудник"/>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="60" VerticalAlignment="Bottom" Canvas.Left="820" FontStyle="Italic">
+            	<Run Text="Прямая от"/>
+            	<LineBreak/>
+            	<Run Text="ТВГС"/>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="60" VerticalAlignment="Bottom" Canvas.Top="705" FontStyle="Italic">
+            	<Run Text="Обратная с"/>
+            	<LineBreak/>
+            	<Run Text="рудника"/>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="60" VerticalAlignment="Bottom" Canvas.Left="820" Canvas.Top="705" FontStyle="Italic">
+            	<Run Text="Обратная на"/>
+            	<LineBreak/>
+            	<Run Text="ТВГС"/>
+            </TextBlock>
+            <local:HMIValve Canvas.Left="805" Canvas.Top="85" Height="40" Width="40" DataName="" ValueON="1" Actual="True"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph2_K2" ToolTipService.ToolTip="" Canvas.Left="35" Canvas.Top="620"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K3" ToolTipService.ToolTip="" Canvas.Left="35" Canvas.Top="115"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K7" ToolTipService.ToolTip="" Canvas.Left="35" Canvas.Top="65"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph2_K1" ToolTipService.ToolTip="" Canvas.Left="200" Canvas.Top="65"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K4" ToolTipService.ToolTip="" Canvas.Left="645" Canvas.Top="115"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K8" ToolTipService.ToolTip="" Canvas.Left="645" Canvas.Top="65"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K2" ToolTipService.ToolTip="" Canvas.Left="855" Canvas.Top="115"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph2_K4" ToolTipService.ToolTip="" Canvas.Left="855" Canvas.Top="65"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph1_K1" ToolTipService.ToolTip="" Canvas.Left="855" Canvas.Top="670"/>
+            <local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_nps_1_technograph2_K3" ToolTipService.ToolTip="" Canvas.Left="855" Canvas.Top="620"/>
+            <Path Data="M860,585 L865,590 L870,585 L870,40 L865,35 L860,40 z" Height="555" Canvas.Left="775" Stretch="Fill" Stroke="Black" StrokeThickness="0" Canvas.Top="105" UseLayoutRounding="False" Width="10" RenderTransformOrigin="0.5,0.5">
+            	<Path.Fill>
+            		<LinearGradientBrush
+            			EndPoint="0,0.5" StartPoint="1,0.5"
+>
+            			<GradientStop
+            				Color="Blue"/>
+            			<GradientStop
+            				Color="White" Offset="0.5"/>
+            			<GradientStop
+            				Color="Blue" Offset="1"/>
+            		</LinearGradientBrush>
+            	</Path.Fill>
+            </Path>
+            <local:HMIValve Canvas.Left="760" Canvas.Top="360" Height="40" Width="40" DataName="" ValueON="1" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Actual="True">
+            	<local:HMIValve.RenderTransform>
+            		<CompositeTransform Rotation="-90"/>
+            	</local:HMIValve.RenderTransform>
+            </local:HMIValve>
+            <Grid Height="215" Canvas.Left="865" Canvas.Top="150" Width="150">
+            	<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_Flow1" ToolTipService.ToolTip="" Margin="5,30,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Temperature1" ToolTipService.ToolTip="" Margin="5,60,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_TotalMass1" ToolTipService.ToolTip="" Margin="5,180,0,-25"/>
+            	<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,190"/>
+            	<TextBlock TextWrapping="Wrap" Text="Взлет-ТСРВ т1" Foreground="Black" FontSize="18.667" Margin="5,1,5,190" TextAlignment="Center"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Pressure1" ToolTipService.ToolTip="" Margin="5,90,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Density1" ToolTipService.ToolTip="" Margin="5,120,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_Enthalpy1" ToolTipService.ToolTip="" Margin="5,150,0,0"/>
+            </Grid>
+            <Grid Height="215" Canvas.Left="865" Canvas.Top="400" Width="150">
+            	<Rectangle RadiusY="15" RadiusX="15" Stroke="Black" Opacity="0.5" Fill="#FF939393"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_Flow2" ToolTipService.ToolTip="" Margin="5,30,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Temperature2" ToolTipService.ToolTip="" Margin="5,60,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_TotalMass2" ToolTipService.ToolTip="" Margin="5,180,0,-25"/>
+            	<Rectangle Fill="Yellow" RadiusY="10" RadiusX="10" Opacity="0.6" Margin="5,4,5,190"/>
+            	<TextBlock TextWrapping="Wrap" Text="Взлет-ТСРВ т2" Foreground="Black" FontSize="18.667" Margin="5,1,5,190" TextAlignment="Center"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Pressure2" ToolTipService.ToolTip="" Margin="5,90,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx_TSRV_020_Device1_Density2" ToolTipService.ToolTip="" Margin="5,120,0,0"/>
+            	<local:HMILabel CaptionFontSize="15" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="140" DataName="Angidrit_nps_1_KEPServerEx__AdvancedTags_TSRV_020_Enthalpy2" ToolTipService.ToolTip="" Margin="5,150,0,0"/>
+            </Grid>
+            <Path Data="M1040.23,-120.155 L1040.23,-75.785" Height="46" Canvas.Left="969.5" Stretch="Fill" Stroke="Red" Canvas.Top="615" UseLayoutRounding="False" Width="1"/>
+            <Ellipse Height="20" Canvas.Left="960" Stroke="Black" Canvas.Top="650" Width="20">
+            	<Ellipse.Fill>
+            		<RadialGradientBrush>
+            			<GradientStop Color="White" Offset="0"/>
+            			<GradientStop Color="#FF00CD00" Offset="1"/>
+            		</RadialGradientBrush>
+            	</Ellipse.Fill>
+            </Ellipse>
+            <Path Data="M1170.23,-166.99 L1170.23,-125.085" Height="43.5" Canvas.Left="969.5" Stretch="Fill" Stroke="Red" Canvas.Top="107" UseLayoutRounding="False" Width="1"/>
+            <Ellipse Height="20" Canvas.Left="960" Stroke="Black" Canvas.Top="95" Width="20">
+            	<Ellipse.Fill>
+            		<RadialGradientBrush>
+            			<GradientStop Color="White" Offset="0"/>
+            			<GradientStop Color="#FF00CD00" Offset="1"/>
+            		</RadialGradientBrush>
+            	</Ellipse.Fill>
+            </Ellipse>
+        </Canvas>
+    </Viewbox>
+</we:ViewBase>
