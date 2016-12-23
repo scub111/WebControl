@@ -467,7 +467,7 @@ namespace WebControl
                     return item;
              */
             // Для повышения быстродействия.
-            if (ItemsRealDict.ContainsKey(dataName))
+            if (!string.IsNullOrEmpty(dataName) && ItemsRealDict.ContainsKey(dataName))
                 return ItemsRealDict[dataName];
             return null;
         }

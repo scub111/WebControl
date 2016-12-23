@@ -1415,3 +1415,4 @@ D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.g.resources
 D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.dll
 D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.pdb
 D:\_Projects\WebControl\WebControl\obj\Debug\XapCacheFile.xml
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMINodeEx.g.cs

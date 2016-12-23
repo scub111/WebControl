@@ -293,7 +293,7 @@
     <Compile Include="Controls\HMICamera.xaml.cs">
       <DependentUpon>HMICamera.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\TextBoxSecurity.cs" />
+    <Compile Include="Controls\LabelSecurity.cs" />
     <Compile Include="Controls\HMIPLC.xaml.cs">
       <DependentUpon>HMIPLC.xaml</DependentUpon>
     </Compile>
@@ -318,6 +318,9 @@
     <Compile Include="Forms\UserControlEx.cs" />
     <Compile Include="Forms\DetailForm.xaml.cs">
       <DependentUpon>DetailForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HMINodeEx.xaml.cs">
+      <DependentUpon>HMINodeEx.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -498,6 +501,10 @@
     <Page Include="Forms\DetailForm.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMINodeEx.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SilverlightControl1.xaml">
       <SubType>Designer</SubType>

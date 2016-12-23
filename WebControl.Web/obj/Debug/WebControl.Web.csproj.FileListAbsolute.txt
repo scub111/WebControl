@@ -57,3 +57,19 @@ D:\Мои документы\!Projects\WebControl\WebControl.Web\bin\ru\DevExpre
 D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
 D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
 D:\Мои документы\!Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb
+D:\_Projects\WebControl\WebControl.Web\bin\WebControl.Web.dll.config
+D:\_Projects\WebControl\WebControl.Web\bin\WebControl.Web.dll
+D:\_Projects\WebControl\WebControl.Web\bin\WebControl.Web.pdb
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.dll
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.dll
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.dll
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.dll
+D:\_Projects\WebControl\WebControl.Web\bin\System.ComponentModel.Composition.dll
+D:\_Projects\WebControl\WebControl.Web\bin\System.ComponentModel.DataAnnotations.dll
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.xml
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.xml
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.xml
+D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.xml
+D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
+D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
+D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb
