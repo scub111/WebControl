@@ -37,6 +37,15 @@ namespace WebControl
         }
 
         /// <summary>
+        /// Наименование шрифта.
+        /// </summary>
+        public FontFamily CaptionFontFamily
+        {
+            get { return txtCaption.FontFamily; }
+            set { txtCaption.FontFamily = value; }
+        }
+
+        /// <summary>
         /// Радиус скругления.
         /// </summary>
         public double RectangleRadius

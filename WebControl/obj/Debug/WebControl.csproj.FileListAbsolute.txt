@@ -1358,7 +1358,6 @@ D:\_Projects\WebControl\WebControl\Bin\Debug\ko\System.Xml.XPath.resources.dll
 D:\_Projects\WebControl\WebControl\Bin\Debug\ru\System.Xml.XPath.resources.dll
 D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hans\System.Xml.XPath.resources.dll
 D:\_Projects\WebControl\WebControl\Bin\Debug\zh-Hant\System.Xml.XPath.resources.dll
-D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
 D:\_Projects\WebControl\WebControl\obj\Debug\App.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\CheckUpdateLabel.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMILabel.g.cs
@@ -1406,7 +1405,6 @@ D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritASOPView.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP552View.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP553View.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritRP554View.g.cs
-D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS1HotView.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritNPS2ColdView.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\AngidritMTBView.g.cs
@@ -1416,3 +1414,7 @@ D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.dll
 D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.pdb
 D:\_Projects\WebControl\WebControl\obj\Debug\XapCacheFile.xml
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMINodeEx.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRectangleEx.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView0.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs

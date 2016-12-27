@@ -18,4 +18,3 @@ D:\_Projects\WebControl\WcfDataService\bin\WcfDataService.dll
 D:\_Projects\WebControl\WcfDataService\bin\WcfDataService.pdb
 D:\_Projects\WebControl\WcfDataService\obj\Debug\WcfDataService.dll
 D:\_Projects\WebControl\WcfDataService\obj\Debug\WcfDataService.pdb
-D:\_Projects\WebControl\WcfDataService\obj\Debug\WcfDataService.csprojResolveAssemblyReference.cache

@@ -230,6 +230,9 @@
     </Compile>
     <Compile Include="Controls\HMIBooleanBase.cs" />
     <Compile Include="Controls\HMIRealBase.cs" />
+    <Compile Include="Controls\HMIRectangleEx.xaml.cs">
+      <DependentUpon>HMIRectangleEx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HMISimpleBase.cs" />
     <Compile Include="Classes\RealClass.cs" />
     <Compile Include="Classes\ThreadTimer.cs" />
@@ -335,6 +338,9 @@
     <Compile Include="SilverlightControl1.xaml.cs">
       <DependentUpon>SilverlightControl1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\NetworkView.xaml.cs">
+      <DependentUpon>NetworkView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ViewBase.cs" />
     <Compile Include="Views\AngidritControlView.xaml.cs">
       <DependentUpon>AngidritControlView.xaml</DependentUpon>
@@ -381,8 +387,8 @@
     <Compile Include="Views\AngidritRP554View.xaml.cs">
       <DependentUpon>AngidritRP554View.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\NetworkView.xaml.cs">
-      <DependentUpon>NetworkView.xaml</DependentUpon>
+    <Compile Include="Views\NetworkView0.xaml.cs">
+      <DependentUpon>NetworkView0.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\AngidritNPS1HotView.xaml.cs">
       <DependentUpon>AngidritNPS1HotView.xaml</DependentUpon>
@@ -407,6 +413,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Controls\HMILabel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HMIRectangleEx.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -546,6 +556,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\NetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\TestView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -594,7 +608,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\NetworkView.xaml">
+    <Page Include="Views\NetworkView0.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

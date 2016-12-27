@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Controls;
 
 namespace WebControl
 {
-    public partial class HMINodeEx : UserControl
+    public partial class HMINodeEx : UserControlEx
     {
         public HMINodeEx()
         {
-            InitializeComponent();
+            InitializeComponent();  
         }
 
         string _DataNameEx;
@@ -25,6 +24,24 @@ namespace WebControl
                 rectangle1.DataName = string.Format("{0}_Status", _DataNameEx);
                 label1.DataName = string.Format("{0}_ReplyTime", _DataNameEx);
             }
+        }
+
+        /// <summary>
+        /// Надпись основная.
+        /// </summary>
+        public string CaptionMain
+        {
+            get { return tbCaption.Text; }
+            set { tbCaption.Text = value; }
+        }
+
+        /// <summary>
+        /// Надпись IP.
+        /// </summary>
+        public string CaptionIP
+        {
+            get { return rectangle1.DescriptionText; }
+            set { rectangle1.DescriptionText = value; }
         }
     }
 }

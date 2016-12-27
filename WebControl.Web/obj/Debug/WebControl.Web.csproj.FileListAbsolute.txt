@@ -70,6 +70,6 @@ D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Data.v14.2.xml
 D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Printing.v14.2.Core.xml
 D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpf.Printing.v14.2.Service.xml
 D:\_Projects\WebControl\WebControl.Web\bin\DevExpress.Xpo.v14.2.xml
-D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache
 D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.dll
 D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.pdb
+D:\_Projects\WebControl\WebControl.Web\obj\Debug\WebControl.Web.csprojResolveAssemblyReference.cache

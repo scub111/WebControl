@@ -2,16 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Net;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 
 namespace WebControl
 {
@@ -22,7 +15,7 @@ namespace WebControl
             Loaded += ViewBase_Loaded;
             Unloaded += ViewBase_Unloaded;
             ItemsInited = false;
-            HMIControls = new Collection<HMISimpleBase>();
+            UserControlExs = new Collection<UserControlEx>();
             ItemDataNames = new Collection<string>();
         }
 
@@ -39,7 +32,7 @@ namespace WebControl
         /// <summary>
         /// Коллекция визуальнх элементов.
         /// </summary>
-        Collection<HMISimpleBase> HMIControls { get; set; }
+        Collection<UserControlEx> UserControlExs { get; set; }
 
         /// <summary>
         /// Список записей.
@@ -51,8 +44,6 @@ namespace WebControl
             if (NavItem != null && NavItem.Group != null)
                 NavItem.Group.SelectedItem = NavItem;
 
-            Collection<HMISimpleBase> hmiSimpleBaseCollection = new Collection<HMISimpleBase>();
-
             if (!ItemsInited)
             {
                 Type myType = GetType();
@@ -61,13 +52,29 @@ namespace WebControl
                 UIElement uiElement = null;
                 foreach (FieldInfo info in FieldInfos)
                     if (info.Name == "LayoutRoot")
-                        uiElement = info.GetValue(this) as UIElement;                
+                        uiElement = info.GetValue(this) as UIElement;
 
                 if (uiElement != null)
-                    GetTextBoxes(uiElement, HMIControls);
+                    GetTextBoxes(uiElement, UserControlExs);
 
-                foreach (HMISimpleBase hmiSimple in HMIControls)
-                    ItemDataNames.Add(hmiSimple.DataName);
+                foreach (UserControlEx userControl in UserControlExs)
+                {
+                    if (userControl is HMISimpleBase)
+                    {
+                        HMISimpleBase hmiSimple = userControl as HMISimpleBase;
+                        if (!string.IsNullOrEmpty(hmiSimple.DataName))
+                            ItemDataNames.Add(hmiSimple.DataName);
+                    }
+                    else if (userControl is HMINodeEx)
+                    {
+                        HMINodeEx hmiNodeEx = userControl as HMINodeEx;
+                        if (!string.IsNullOrEmpty(hmiNodeEx.DataNameEx))
+                        {
+                            ItemDataNames.Add(string.Format("{0}_Status", hmiNodeEx.DataNameEx));
+                            ItemDataNames.Add(string.Format("{0}_ReplyTime", hmiNodeEx.DataNameEx));
+                        }
+                    }
+                }
 
                 ItemsInited = true;
             }
@@ -87,9 +94,9 @@ namespace WebControl
                 Global.Default.VisualControlDeactivate(dataName);
         }
 
-        private void GetTextBoxes(UIElement uiElement, Collection<HMISimpleBase> textBoxList)
+        private void GetTextBoxes(UIElement uiElement, Collection<UserControlEx> textBoxList)
         {
-            HMISimpleBase textBox = uiElement as HMISimpleBase;
+            UserControlEx textBox = uiElement as UserControlEx;
             if (textBox != null)
             {
                 // If the UIElement is a Textbox, add it to the list.
@@ -108,7 +115,5 @@ namespace WebControl
                 }
             }
         } 
-
-
     }
 }

@@ -6,7 +6,7 @@
     xmlns:we="clr-namespace:WebControl"
     mc:Ignorable="d"
     d:DesignHeight="50" d:DesignWidth="50" ItemInited="HMIRectangle_ItemInited">
-    <Viewbox>
+    <Grid>
         <ToolTipService.ToolTip>
             <TextBlock x:Name="tbToolTip" MaxWidth="350" 
                        Text="Неопределен" Foreground="Black"
@@ -91,34 +91,32 @@
                 </VisualState>
 			</VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <Canvas Height="50" Width="50">
-            <Rectangle x:Name="recBase" Height="50" Stroke="Black" Width="50">
-            	<Rectangle.Fill>
-            		<LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-            			<GradientStop Color="#FF474747" Offset="1"/>
-            			<GradientStop Color="White"/>
-            		</LinearGradientBrush>
-            	</Rectangle.Fill>
+            <Rectangle x:Name="recBase" Stroke="Black">
+                <Rectangle.Fill>
+            	    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            		    <GradientStop Color="#FF474747" Offset="1"/>
+            		    <GradientStop Color="White"/>
+            	    </LinearGradientBrush>
+                </Rectangle.Fill>
             </Rectangle>
             <TextBlock x:Name="tbUnknown" Height="35" TextWrapping="Wrap" Text="???" Canvas.Top="5" Width="50" TextAlignment="Center" FontSize="26.667" RenderTransformOrigin="0.5,0.5" Foreground="Red">
                 <TextBlock.RenderTransform>
                     <CompositeTransform/>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <Viewbox x:Name="vwWarning" Height="37" Canvas.Left="6" Canvas.Top="3" Width="38">
-            	<Grid Height="31" Width="31">
-            		<Path Data="M15.5005,-0.596458 L30.5005,31.0358 L0.500407,31.0358 z" Stretch="Fill" Stroke="Black" UseLayoutRounding="False">
-            			<Path.Fill>
-            				<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-            					<GradientStop Color="#FFC2E000" Offset="0"/>
-            					<GradientStop Color="#FFF0410E" Offset="1"/>
-            				</LinearGradientBrush>
-            			</Path.Fill>
-            		</Path>
-            		<TextBlock TextWrapping="Wrap" Text="!" FontSize="26.667" TextAlignment="Center"/>
-            	</Grid>
+            <Viewbox x:Name="vwWarning" Margin="0,5">
+                <Grid Height="31" Width="31">
+            	    <Path Data="M15.5005,-0.596458 L30.5005,31.0358 L0.500407,31.0358 z" Stretch="Fill" Stroke="Black" UseLayoutRounding="False">
+            		    <Path.Fill>
+            			    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            				    <GradientStop Color="#FFC2E000" Offset="0"/>
+            				    <GradientStop Color="#FFF0410E" Offset="1"/>
+            			    </LinearGradientBrush>
+            		    </Path.Fill>
+            	    </Path>
+            	    <TextBlock TextWrapping="Wrap" Text="!" FontSize="26.667" TextAlignment="Center"/>
+                </Grid>
             </Viewbox>
-            <Rectangle x:Name="recMouse" Height="50" Stroke="#FF000CFD" StrokeThickness="2" Width="50" Visibility="Collapsed"/>
-        </Canvas>
-    </Viewbox>
+            <Rectangle x:Name="recMouse" Stroke="#FF000CFD" StrokeThickness="2" Visibility="Collapsed"/>
+        </Grid>
 </we:HMIBooleanBase>
