@@ -109,7 +109,7 @@
     		LegendVisibility="Collapsed" 
     		Grid.ColumnSpan="4" 
             ValueFormatString="0.#"
-            CategoryFormatString="HH:mm dd.MM"
+            CategoryFormatString="dd.MM HH:mm"
             Grid.RowSpan="6" 
             Margin="-9,41,10,-13" 
 			CacheMode="BitmapCache">

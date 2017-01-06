@@ -368,7 +368,7 @@ namespace WebControl
         /// </summary>
         public void Init()
         {
-            Version = "1.42.09";
+            Version = "1.42.10";
 
             Debug = true;
 

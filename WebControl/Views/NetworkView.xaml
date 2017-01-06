@@ -83,11 +83,6 @@
                     </LinearGradientBrush>
                 </Rectangle.Fill>
             </Rectangle>
-            <Grid Height="100" Canvas.Left="727" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_106_144_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_144_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="Зеркало UNGP" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="686" Canvas.Top="53" FontStyle="Italic"/>
             <Grid Height="100" Canvas.Left="788" Canvas.Top="363" Width="100">
                 <local:HMIComputer DataName="ping_172_24_92_124_Status"/>
                 <local:HMILabel x:Name="test1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_124_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
@@ -98,13 +93,6 @@
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_125_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="&quot;125&quot;" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="952" Canvas.Top="302" FontStyle="Italic"/>
-            <Grid Height="100" Canvas.Left="2010" Canvas.Top="1276" Width="100">
-                <local:HMIComputer DataName="ping_172_24_88_77_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_88_77_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1970" Canvas.Top="1227" FontStyle="Italic">
-				<Run Text="ДЖ"/>
-            </TextBlock>
             <Grid Height="100" Canvas.Left="1589" Canvas.Top="363" Width="100">
                 <local:HMIComputer DataName="ping_172_24_92_3_Status"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_3_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
@@ -237,45 +225,38 @@
             </Rectangle>
             <TextBlock TextWrapping="Wrap" FontSize="30" TextAlignment="Center" Text="(5)Кайерканский    " HorizontalAlignment="Left" Width="300" Height="50" VerticalAlignment="Bottom" Canvas.Left="1641" FontStyle="Italic" Canvas.Top="1"/>
             <Grid Height="100" Canvas.Left="1589" Canvas.Top="902" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_92_148_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.148"/>
+                <local:HMIRegistrator DataName="ping_172_24_92_148_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.148"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_148_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1548" Canvas.Top="853" FontStyle="Italic" Text="Видеорег."/>
             <Grid Height="100" Canvas.Left="1207" Canvas.Top="1276" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_92_121_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.121:8080/"/>
+                <local:HMIRegistrator DataName="ping_172_24_92_121_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.121:8080/"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_121_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1166" Canvas.Top="1227" FontStyle="Italic">
 				<Run Text="Подземка"/>
             </TextBlock>
             <Grid Height="100" Canvas.Left="1197" Canvas.Top="543" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_92_75_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.75"/>
+                <local:HMIRegistrator DataName="ping_172_24_92_75_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.75"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_75_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1156" Canvas.Top="495" FontStyle="Italic">
 				<Run Text="Диспетчерская"/>
             </TextBlock>
             <Grid Height="100" Canvas.Left="1394" Canvas.Top="362" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_92_13_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.13:8080/"/>
+                <local:HMIRegistrator DataName="ping_172_24_92_13_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.13:8080/"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_13_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1353" Canvas.Top="313" FontStyle="Italic" Text="Серверная"/>
             <Grid Height="100" Canvas.Left="1394" Canvas.Top="543" Width="100">
-                <local:HMIMonitor DataName="ping_172_24_92_145_Status" Margin="0,32,0,-2"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_145_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="73*"/>
+                    <ColumnDefinition Width="27*"/>
+                </Grid.ColumnDefinitions>
             </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="Видео. ПК" HorizontalAlignment="Left" Width="162" Height="30" VerticalAlignment="Bottom" Canvas.Left="1361" Canvas.Top="494" FontStyle="Italic"/>
-            <Grid Height="100" Canvas.Left="1589" Canvas.Top="544" Width="100">
-                <local:HMICamera DataName="ping_172_24_92_146_Status" Margin="4,37,10,4" ExternalLink="http://172.24.92.146"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_146_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="Видео. IP" HorizontalAlignment="Left" Width="162" Height="30" VerticalAlignment="Bottom" Canvas.Left="1557" Canvas.Top="495" FontStyle="Italic"/>
-            <Controls:LabelSecurity Canvas.Left="712" Canvas.Top="77" Content="172.31.106.144" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="778" Canvas.Top="324" Content="172.24.92.124" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="982" Canvas.Top="324" Content="172.24.92.125" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1187" Canvas.Top="339" Content="172.24.92.149" Foreground="Blue" FontSize="16"/>
-            <Controls:LabelSecurity Canvas.Left="1384" Canvas.Top="519" Content="172.24.92.145" Foreground="Blue" FontSize="16"/>
-            <Controls:LabelSecurity Canvas.Left="1579" Canvas.Top="520" Content="172.24.92.146" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1589" Canvas.Top="339" Content="172.24.92.3" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1389" Canvas.Top="338" Content="172.24.92.13" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1584" Canvas.Top="1059" Content="172.24.92.12" Foreground="Blue" FontSize="16"/>
@@ -284,7 +265,6 @@
             <Controls:LabelSecurity Canvas.Left="1197" Canvas.Top="1252" Content="172.24.92.121" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1383" Canvas.Top="878" Content="172.24.92.120" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="1579" Canvas.Top="878" Content="172.24.92.148" Foreground="Blue" FontSize="16"/>
-            <Controls:LabelSecurity Canvas.Left="2005" Canvas.Top="1252" Content="172.24.88.77" Foreground="Blue" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="395" Canvas.Top="519" Content="192.168.0.5" Foreground="#FF008312" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="161" Canvas.Top="519" Content="192.168.1.12" Foreground="#FF008312" FontSize="16"/>
             <Controls:LabelSecurity Canvas.Left="585" Canvas.Top="519" Content="192.168.1.33" Foreground="#FF008312" FontSize="16"/>
@@ -300,36 +280,8 @@
             <Controls:LabelSecurity Canvas.Left="993" Canvas.Top="1239" Content="192.168.0.2" Foreground="#FF008312" FontSize="16"/>
             <Button Width="83" Height="39" Click="Button_Click" Canvas.Left="2254" Canvas.Top="1113"/>
             <Grid Height="100" Canvas.Left="722" Canvas.Top="101" Width="100"/>
-            <Grid Height="100" Canvas.Left="542" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_106_4_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_4_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="Lotus" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="501" Canvas.Top="53" FontStyle="Italic"/>
-            <Controls:LabelSecurity Canvas.Left="537" Canvas.Top="77" Content="172.31.106.4" Foreground="Blue" FontSize="16"/>
-            <Grid Height="100" Canvas.Left="362" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_106_9_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_9_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="SQL" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="321" Canvas.Top="53" FontStyle="Italic"/>
-            <Controls:LabelSecurity Canvas.Left="356" Canvas.Top="77" Content="172.31.106.9" Foreground="Blue" FontSize="16"/>
-            <Grid Height="100" Canvas.Left="183" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_106_121_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_121_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="&quot;121&quot;" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="142" Canvas.Top="53" FontStyle="Italic"/>
-            <Controls:LabelSecurity Canvas.Left="168" Canvas.Top="77" Content="172.31.106.121" Foreground="Blue" FontSize="16"/>
-            <Grid Height="100" Canvas.Left="907" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_106_253_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_253_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" Text="Файловый серв." HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="866" Canvas.Top="53" FontStyle="Italic"/>
-            <Controls:LabelSecurity Canvas.Left="892" Canvas.Top="77" Content="172.31.106.253" Foreground="Blue" FontSize="16"/>
-            <Grid Height="100" Canvas.Left="1087" Canvas.Top="101" Width="100">
-                <local:HMIRegistrar DataName="ping_172_31_106_57_Status" Margin="0,10,0,-10" ExternalLink="http://172.31.106.57:8080/"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_57_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1046" Canvas.Top="52" FontStyle="Italic" Text="Серверная"/>
-            <Controls:LabelSecurity Canvas.Left="1077" Canvas.Top="77" Content="172.31.106.57" Foreground="Blue" FontSize="16"/>
+            <Grid Height="100" Canvas.Left="183" Canvas.Top="101" Width="100"/>
+            <Controls:LabelSecurity Canvas.Left="1077" Canvas.Top="77" Content="" Foreground="Blue" FontSize="16"/>
             <Grid Height="100" Canvas.Left="788" Canvas.Top="1083" Width="100">
                 <local:HMIPLC DataName="ping_172_24_92_124_from_192_168_0_1_Status" Margin="0,10,0,-10"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_124_from_192_168_0_1_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
@@ -398,17 +350,9 @@
                     <CompositeTransform Rotation="-90"/>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <Grid Height="100" Canvas.Left="2014" Canvas.Top="910" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_43_204_Status" ExternalLink="http://172.24.43.204" Margin="-3,-28,3,28"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_43_204_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="1,-34,0,0"/>
-            </Grid>
-            <Grid Height="100" Canvas.Left="2199" Canvas.Top="910" Width="100">
-                <local:HMIComputer DataName="ping_172_24_43_201_Status" Margin="-3,-38,3,38"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_43_201_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="1,-34,0,0"/>
-            </Grid>
-            <Rectangle Height="176" Canvas.Left="1814" RadiusY="25" RadiusX="25" Stroke="#FFCE00EE" Canvas.Top="639" Width="526" StrokeThickness="5"/>
+            <Rectangle Height="72" Canvas.Left="1956" RadiusY="13" RadiusX="10" Stroke="#FFCE00EE" Canvas.Top="642" Width="380" StrokeThickness="4"/>
             <Grid Height="100" Canvas.Left="168" Canvas.Top="724" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_92_123_from_192_168_1_50_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.123:8081/"/>
+                <local:HMIRegistrator DataName="ping_172_24_92_123_from_192_168_1_50_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.123:8081/"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_123_from_192_168_1_50_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="127" Canvas.Top="675" FontStyle="Italic">
@@ -572,28 +516,6 @@
             </Rectangle>
             <local:HMIRectangle Canvas.Left="141" Canvas.Top="121" Height="28" Width="28" DataName="ping_172_31_106_121__ServiceInfo_IsReading"/>
             <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="133" Canvas.Top="105" FontStyle="Italic"/>
-            <Viewbox Height="32" Canvas.Left="251" Canvas.Top="139" Width="28">
-                <Grid Height="108.5" Width="93">
-                    <Path Stroke="Black" Data="M92,16 C92,24.5604 71.129,32 46,32 C20.871,32 0,24.5604 0,16 C0,7.43959 20.871,0 46,0 C71.129,0 92,7.43959 92,16 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,0,0,76">
-                        <Path.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                                <GradientStop Color="#FFFFFFFE" Offset="0"/>
-                                <GradientStop Color="#FFFFF300" Offset="1"/>
-                            </LinearGradientBrush>
-                        </Path.Fill>
-                    </Path>
-                    <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24 C0,11.4167 0,-14.078 0,-13.75 C0,-9.51544 21,-5.75 44,-5.75 C67,-5.75 92,-9.49948 92,-13.75 C92,-14.0775 92,11.4167 92,24 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,15.993,0,0.5">
-                        <Path.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-                                <GradientStop Color="#FFFFFFFE" Offset="0"/>
-                                <GradientStop Color="#FFFFF300" Offset="1"/>
-                            </LinearGradientBrush>
-                        </Path.Fill>
-                    </Path>
-                    <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,67.578,0,24.422" />
-                    <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,41.329,0,50.671" />
-                </Grid>
-            </Viewbox>
             <Viewbox Height="32" Canvas.Left="1265" Canvas.Top="401" Width="28">
                 <Grid Height="108.5" Width="93">
                     <Path Stroke="Black" Data="M92,16 C92,24.5604 71.129,32 46,32 C20.871,32 0,24.5604 0,16 C0,7.43959 20.871,0 46,0 C71.129,0 92,7.43959 92,16 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,0,0,76">
@@ -648,12 +570,6 @@
             <Controls:LabelSecurity Canvas.Left="2107" Content="Шлюз: 172.31.71.105" Foreground="Blue" FontSize="16" Canvas.Top="274"/>
             <TextBlock x:Name="teSqlTime" TextWrapping="Wrap" FontSize="30" TextAlignment="Center" Text="???" HorizontalAlignment="Left" Width="352" Height="50" VerticalAlignment="Bottom" Canvas.Left="863" FontStyle="Italic" Canvas.Top="1"/>
             <TextBlock TextWrapping="Wrap" FontSize="30" Text="(3)Известняки" HorizontalAlignment="Left" Width="299" Height="50" VerticalAlignment="Bottom" Canvas.Left="1811" Canvas.Top="584" FontStyle="Italic"/>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1970" Canvas.Top="823" FontStyle="Italic" Text="2-ой ствол"/>
-            <Controls:LabelSecurity Canvas.Left="2001" Canvas.Top="848" Content="172.24.43.204" Foreground="Blue" FontSize="16"/>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="2156" Canvas.Top="823" FontStyle="Italic">
-            	<Run Text="Подземка"/>
-            </TextBlock>
-            <Controls:LabelSecurity Canvas.Left="2186" Canvas.Top="848" Content="172.24.43.201" Foreground="Blue" FontSize="16"/>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1711" Canvas.Top="712" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Диспетчерская" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <TextBlock.RenderTransform>
                     <CompositeTransform Rotation="-90"/>
@@ -662,12 +578,6 @@
             <Controls:LabelSecurity Canvas.Left="2105" Content="Маска: 255.255.255.192" Foreground="Blue" FontSize="16" Canvas.Top="597"/>
             <Controls:LabelSecurity Canvas.Left="2107" Content="Шлюз: 172.24.43.193" Foreground="Blue" FontSize="16" Canvas.Top="613"/>
             <Grid Height="100" Canvas.Left="2195" Canvas.Top="1276" Width="100"/>
-            <Grid Height="100" Canvas.Left="2196" Canvas.Top="1276" Width="100">
-                <local:HMIRegistrar DataName="ping_172_24_88_94_Status" Margin="0,10,0,-10" ExternalLink="http://172.24.92.148"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_88_94_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="2156" Canvas.Top="1227" FontStyle="Italic" Text="Видеорег."/>
-            <Controls:LabelSecurity Canvas.Left="2190" Canvas.Top="1252" Content="172.24.88.94" Foreground="Blue" FontSize="16"/>
             <Grid Height="100" Canvas.Left="1484" Canvas.Top="1276" Width="100">
                 <local:HMIComputer DataName="ping_172_24_92_40_Status"/>
                 <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_24_92_40_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
@@ -686,31 +596,30 @@
                 </TextBlock.RenderTransform>
             </TextBlock>
             <TextBlock TextWrapping="Wrap" FontSize="30" TextAlignment="Center" Text="ГИВЦ" HorizontalAlignment="Left" Width="136" Height="50" VerticalAlignment="Bottom" Canvas.Left="1284" FontStyle="Italic" Canvas.Top="1"/>
-            <Grid Height="100" Canvas.Left="1324" Canvas.Top="101" Width="100">
-                <local:HMIComputer DataName="ping_172_31_80_21_Status"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_80_21_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1284" Canvas.Top="52" FontStyle="Italic" Text="DNS 1"/>
-            <Controls:LabelSecurity Canvas.Left="1318" Canvas.Top="77" Content="172.31.80.21" Foreground="Blue" FontSize="16"/>
-            <Grid Height="100" Canvas.Left="1439" Canvas.Top="101" Width="100">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="7*"/>
-                    <ColumnDefinition Width="3*"/>
-                </Grid.ColumnDefinitions>
-                <local:HMIComputer DataName="ping_172_31_51_34_Status" Grid.ColumnSpan="2"/>
-                <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_51_34_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0" Grid.ColumnSpan="2"/>
-            </Grid>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="1399" Canvas.Top="52" FontStyle="Italic" Text="DNS 2"/>
-            <Controls:LabelSecurity Canvas.Left="1434" Canvas.Top="77" Content="172.31.51.34" Foreground="Blue" FontSize="16"/>
-            <local:HMINodeEx Canvas.Left="1926" Canvas.Top="58" DataNameEx="ping_172_24_228_77" Height="50" Width="100" CaptionIP="172.24.228.77" CaptionMain="Теплосчетчик"/>
-            <local:HMINodeEx Canvas.Left="2026" Canvas.Top="58" DataNameEx="ping_172_24_228_66" Height="50" Width="100" CaptionIP="172.24.228.66" CaptionMain="Видеорегистр."/>
-            <local:HMINodeEx Canvas.Left="2126" Canvas.Top="58" DataNameEx="ping_172_24_228_60" Height="50" Width="100" CaptionIP="172.24.228.60" CaptionMain="Видео. ПК"/>
-            <local:HMINodeEx Canvas.Left="2226" Canvas.Top="58" DataNameEx="ping_172_24_228_61" Height="50" Width="100" CaptionIP="172.24.228.61" CaptionMain="Видео. IP"/>
-            <local:HMINodeEx Canvas.Left="2226" Canvas.Top="301" DataNameEx="ping_172_31_71_110" Height="50" Width="100" CaptionIP="172.31.71.110" CaptionMain="ДЖ"/>
-            <local:HMINodeEx Canvas.Left="2126" Canvas.Top="301" DataNameEx="ping_172_31_71_109" Height="50" Width="100" CaptionIP="172.31.71.109" CaptionMain="Операторная"/>
-            <local:HMINodeEx Canvas.Left="2226" Canvas.Top="647" DataNameEx="ping_172_24_43_196" Height="50" Width="100" CaptionIP="172.24.43.196" CaptionMain="2-ой ствол"/>
-            <local:HMINodeEx Canvas.Left="2226" Canvas.Top="752" DataNameEx="ping_172_24_43_200" Height="50" Width="100" CaptionIP="172.24.43.200" CaptionMain="ДЖ"/>
-            <local:HMINodeEx Canvas.Left="2226" Canvas.Top="699" DataNameEx="ping_172_24_43_205" Height="50" Width="100" CaptionIP="172.24.43.205" CaptionMain="Надшахт. зд."/>
+            <local:HMINodeEx Canvas.Left="1856" Canvas.Top="64" DataNameEx="ping_172_24_228_77" Height="60" Width="120" CaptionAdditional="172.24.228.77" CaptionMain="Теплосчетчик"/>
+            <local:HMINodeEx Canvas.Left="1976" Canvas.Top="64" DataNameEx="ping_172_24_228_66" Height="60" Width="120" CaptionAdditional="172.24.228.66" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.228.66:8080"/>
+            <local:HMINodeEx Canvas.Left="2096" Canvas.Top="64" DataNameEx="ping_172_24_228_60" Height="60" Width="120" CaptionAdditional="172.24.228.60" CaptionMain="Видео. ПК"/>
+            <local:HMINodeEx Canvas.Left="2216" Canvas.Top="64" DataNameEx="ping_172_24_228_61" Height="60" Width="120" CaptionAdditional="172.24.228.61" CaptionMain="Видео. IP" Type="Camera" ExternalLink="http://172.24.228.61"/>
+            <local:HMINodeEx Canvas.Left="1976" Canvas.Top="311" DataNameEx="ping_172_31_71_110" Height="60" Width="120" CaptionAdditional="172.31.71.110" CaptionMain="ДЖ" Type="Database"/>
+            <local:HMINodeEx Canvas.Left="2096" Canvas.Top="311" DataNameEx="ping_172_31_71_109" Height="60" Width="120" CaptionAdditional="172.31.71.109" CaptionMain="Операторная"/>
+            <local:HMINodeEx Canvas.Left="2086" Canvas.Top="647" DataNameEx="ping_172_24_43_196" Height="60" Width="120" CaptionAdditional="172.24.43.196" CaptionMain="2-ой ствол"/>
+            <local:HMINodeEx Canvas.Left="1966" Canvas.Top="647" DataNameEx="ping_172_24_43_200" Height="60" Width="120" CaptionAdditional="172.24.43.200" CaptionMain="ДЖ" Type="Database"/>
+            <local:HMINodeEx Canvas.Left="2206" Canvas.Top="647" DataNameEx="ping_172_24_43_205" Height="60" Width="120" CaptionAdditional="172.24.43.205" CaptionMain="Надшахт. зд." Type="Registrator" ExternalLink="http://172.24.43.205"/>
+            <local:HMINodeEx Canvas.Left="1429" Canvas.Top="507" DataNameEx="ping_172_24_92_145" Height="60" Width="120" CaptionAdditional="172.24.92.145" CaptionMain="Видео. ПК" Type="Monitor"/>
+            <local:HMINodeEx Canvas.Left="1549" Canvas.Top="507" DataNameEx="ping_172_24_92_146" Height="60" Width="120" CaptionAdditional="172.24.92.146" CaptionMain="Видео. IP" Type="Camera" ExternalLink="http://172.24.92.146"/>
+            <local:HMINodeEx Canvas.Left="1077" Canvas.Top="231" DataNameEx="" Height="60" Width="120" CaptionAdditional="172." CaptionMain="?"/>
+            <local:HMINodeEx Canvas.Left="187" Canvas.Top="59" DataNameEx="ping_172_31_106_121" Height="60" Width="120" CaptionAdditional="172.31.106.121" CaptionMain="&quot;121&quot;" Type="Database"/>
+            <local:HMINodeEx Canvas.Left="307" Canvas.Top="59" DataNameEx="ping_172_31_106_9" Height="60" Width="120" CaptionAdditional="172.31.106.9" CaptionMain="SQL" Type="Database"/>
+            <local:HMINodeEx Canvas.Left="427" Canvas.Top="59" DataNameEx="ping_172_31_106_4" Height="60" Width="120" CaptionAdditional="172.31.106.4" CaptionMain="Lotus" Type="Server"/>
+            <local:HMINodeEx Canvas.Left="547" Canvas.Top="59" DataNameEx="ping_172_31_106_144" Height="60" Width="120" CaptionAdditional="172.31.106.144" CaptionMain="Зеркало UNGP" Type="Server"/>
+            <local:HMINodeEx Canvas.Left="667" Canvas.Top="59" DataNameEx="ping_172_31_106_253" Height="60" Width="120" CaptionAdditional="172.31.106.253" CaptionMain="Файловый" Type="Computer"/>
+            <local:HMINodeEx Canvas.Left="787" Canvas.Top="59" DataNameEx="ping_172_31_106_57" Height="60" Width="120" CaptionAdditional="172.31.106.57" CaptionMain="Серверная" Type="Registrator" ExternalLink="http://172.31.106.57:8080/"/>
+            <local:HMINodeEx Canvas.Left="1294" Canvas.Top="64" DataNameEx="ping_172_31_80_21" Height="60" Width="120" CaptionAdditional="172.31.80.21" CaptionMain="DNS 1" Type="Server"/>
+            <local:HMINodeEx Canvas.Left="1414" Canvas.Top="64" DataNameEx="ping_172_31_51_34" Height="60" Width="120" CaptionAdditional="172.31.51.34" CaptionMain="DNS 2" Type="Server"/>
+            <local:HMINodeEx Canvas.Left="2085" Canvas.Top="719" DataNameEx="ping_172_24_43_204" Height="60" Width="120" CaptionAdditional="172.24.43.204" CaptionMain="2-ой ствол" Type="Registrator" ExternalLink="http://172.24.43.204"/>
+            <local:HMINodeEx Canvas.Left="2206" Canvas.Top="719" DataNameEx="ping_172_24_43_201" Height="60" Width="120" CaptionAdditional="172.24.43.201" CaptionMain="Подземка"/>
+            <local:HMINodeEx Canvas.Left="1856" Canvas.Top="1258" DataNameEx="ping_172_24_88_77" Height="60" Width="120" CaptionAdditional="172.24.88.77" CaptionMain="ДЖ" Type="Database"/>
+            <local:HMINodeEx Canvas.Left="1990" Canvas.Top="1258" DataNameEx="ping_172_24_88_94" Height="60" Width="120" CaptionAdditional="172.24.88.94" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.88.94"/>
 
         </Canvas>
     </Viewbox>

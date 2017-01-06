@@ -1377,7 +1377,6 @@ D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMISwitch.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMITrolley.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIDoor.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIComputer.g.cs
-D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRegistrar.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIMonitor.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMICamera.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIPLC.g.cs
@@ -1418,3 +1417,4 @@ D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRectangleEx.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.csprojResolveAssemblyReference.cache
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView0.g.cs
 D:\_Projects\WebControl\WebControl\obj\Debug\Views\NetworkView.g.cs
+D:\_Projects\WebControl\WebControl\obj\Debug\Controls\HMIRegistrator.g.cs

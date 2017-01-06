@@ -5,7 +5,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:we="clr-namespace:WebControl"
     mc:Ignorable="d"
-    d:DesignHeight="50" d:DesignWidth="50" ItemInited="HMIRectangleEx_ItemInited">
+    d:DesignHeight="50" d:DesignWidth="50" ItemInited="HMIRectangleEx_ItemInited" Loaded="HMIBooleanBase_Loaded">
     <Grid>
         <ToolTipService.ToolTip>
             <TextBlock x:Name="tbToolTip" MaxWidth="350" 
@@ -99,16 +99,9 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock x:Name="tbDescription" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" Foreground="Blue" FontFamily="Agency FB">
-            <TextBlock.RenderTransform>
-                <CompositeTransform/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
-        <TextBlock x:Name="tbUnknown" Height="35" TextWrapping="Wrap" Text="???" Canvas.Top="5" Width="50" TextAlignment="Center" FontSize="26.667" RenderTransformOrigin="0.5,0.5" Foreground="Red">
-            <TextBlock.RenderTransform>
-                <CompositeTransform/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
+        <TextBlock x:Name="tbCaptionAdditional" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" Foreground="Blue" FontFamily="Agency FB" Margin="0,21,0,0"/>
+        <TextBlock x:Name="tbCaptionMain" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" FontFamily="Agency FB"/>
+        <TextBlock x:Name="tbUnknown" Height="35" TextWrapping="Wrap" Text="???" Canvas.Top="5" Width="50" TextAlignment="Center" FontSize="26.667" RenderTransformOrigin="0.5,0.5" Foreground="Red"/>
         <Viewbox x:Name="vwWarning" Margin="0,5">
             <Grid Height="31" Width="31">
                 <Path Data="M15.5005,-0.596458 L30.5005,31.0358 L0.500407,31.0358 z" Stretch="Fill" Stroke="Black" UseLayoutRounding="False">
@@ -123,5 +116,87 @@
             </Grid>
         </Viewbox>
         <Rectangle x:Name="recMouse" Stroke="#FF000CFD" StrokeThickness="2" Visibility="Collapsed"/>
+        <Grid x:Name="grpCamera" HorizontalAlignment="Left" Height="14" Margin="4,0,0,4" VerticalAlignment="Bottom" Width="14">
+            <Path x:Name="path2" UseLayoutRounding="False" Width="4" RenderTransformOrigin="0.5,0.5" Data="M0,0 L4,4 L4,10 L0,14 z" HorizontalAlignment="Left" Fill="Black" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Path x:Name="path3" Data="M2,0 L2,4 L0,4 L0,10 L2,10 L2,14 L10,14 L10,0 z" UseLayoutRounding="False" Margin="4,0,0,0" Fill="Black" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" />
+        </Grid>
+        <Grid x:Name="grpComputer" HorizontalAlignment="Left" Height="15" Margin="4,0,0,4" VerticalAlignment="Bottom" Width="13">
+            <Path x:Name="path1" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0,3 L2,0 L11,0 L13,3 z" Height="3" VerticalAlignment="Bottom" Fill="Blue" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Path x:Name="path4" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M13,0 L0,0 L0,10 L5,10 L5,12 L8,12 L8,10 L13,10 z" Fill="Blue" Margin="0,0,0,3" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FFDEDEDE" Margin="1,1,1,6" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+        </Grid>
+        <Grid x:Name="grpRegistrator" HorizontalAlignment="Left" Height="14" Margin="4,0,0,4" VerticalAlignment="Bottom" Width="37">
+            <Path x:Name="path5" UseLayoutRounding="False" Width="4" RenderTransformOrigin="0.5,0.5" Data="M0,0 L4,4 L4,10 L0,14 z" HorizontalAlignment="Left" Fill="Black" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Path x:Name="path6" Data="M2,0 L2,4 L0,4 L0,10 L2,10 L2,14 L10,14 L10,0 z" UseLayoutRounding="False" Fill="Black" HorizontalAlignment="Left" Width="10" Margin="4,0,0,0" d:LayoutOverrides="TopPosition, BottomPosition" />
+            <Rectangle Stroke="Black" Width="18" Fill="Black" Margin="0,5,0,0" HorizontalAlignment="Right" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Path Data="M-34.5,33.5 L-24.5,33.5" Fill="Black" Height="1" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Margin="13.5,2.5,12.5,0" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Path Data="M-24.5005,33.5625 L-24.5005,35.5625" Fill="Black" Height="3" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" Width="1" VerticalAlignment="Top" Margin="0,2.562,12.5,0" HorizontalAlignment="Right"/>
+            <Rectangle Width="7" Fill="#FF06F73D" Margin="0,6,10,5" HorizontalAlignment="Right" d:LayoutOverrides="TopPosition, BottomPosition"/>
+        </Grid>
+        <Viewbox x:Name="grpRegistratorDB" Height="7" Width="6" HorizontalAlignment="Left" Margin="34,0,0,5" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment">
+            <Grid Height="108.5" Width="93">
+                <Path Stroke="Black" Data="M92,16 C92,24.5604 71.129,32 46,32 C20.871,32 0,24.5604 0,16 C0,7.43959 20.871,0 46,0 C71.129,0 92,7.43959 92,16 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,0,0,76">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                            <GradientStop Color="#FFFFF300" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24 C0,11.4167 0,-14.078 0,-13.75 C0,-9.51544 21,-5.75 44,-5.75 C67,-5.75 92,-9.49948 92,-13.75 C92,-14.0775 92,11.4167 92,24 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,15.993,0,0.5">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                            <GradientStop Color="#FFFFF300" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,67.578,0,24.422" />
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,41.329,0,50.671" />
+            </Grid>
+        </Viewbox>
+        <Viewbox x:Name="grpDatabase" Height="18" Width="15" HorizontalAlignment="Left" Margin="4,0,0,2" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment">
+            <Grid Height="108.5" Width="93">
+                <Path Stroke="Black" Data="M92,16 C92,24.5604 71.129,32 46,32 C20.871,32 0,24.5604 0,16 C0,7.43959 20.871,0 46,0 C71.129,0 92,7.43959 92,16 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,0,0,76">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                            <GradientStop Color="#FFFFF300" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24 C0,11.4167 0,-14.078 0,-13.75 C0,-9.51544 21,-5.75 44,-5.75 C67,-5.75 92,-9.49948 92,-13.75 C92,-14.0775 92,11.4167 92,24 z" Stretch="Fill" UseLayoutRounding="False" Margin="0,15.993,0,0.5">
+                    <Path.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                            <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                            <GradientStop Color="#FFFFF300" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,67.578,0,24.422" />
+                <Path Stroke="Black" Data="M92,24 C92,28.2708 71.129,32 46,32 C20.871,32 0,28.2656 0,24" Stretch="Fill" UseLayoutRounding="False" Margin="0,41.329,0,50.671" />
+            </Grid>
+        </Viewbox>
+        <Grid x:Name="grpMonitor" HorizontalAlignment="Left" Height="16" Margin="4,0,0,3" VerticalAlignment="Bottom" Width="19">
+            <Path x:Name="path7" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0,2 L0,0 L9,0 L9,2 z" Height="2" VerticalAlignment="Bottom" Fill="Black" Margin="5,0" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Path x:Name="path8" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M19,0 L0,0 L0,12 L8,12 L8,14 L11,14 L11,12 L19,12 z" Fill="Black" Margin="0,0,0,2" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Margin="1,1,1,5" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,0" StartPoint="0.5,1">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <Path x:Name="pathExternalLink" UseLayoutRounding="False" Width="9" RenderTransformOrigin="0.5,0.5" Data="M9,0 L9,3 L9,9 L0,0 z" HorizontalAlignment="Right" Margin="0,1,1,0" Fill="Blue" Height="9" VerticalAlignment="Top"/>
+        <Grid x:Name="grpServer" Height="16" Margin="4,0,7,3" HorizontalAlignment="Left" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition">
+            <Path x:Name="path9" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0.15,11.15 L11.15,0.15 L39.15,0.150002 L28.15,11.15 z" Fill="Blue" Stroke="Black" StrokeThickness="0.3" Margin="0,0,-0.3,4.7" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="Blue" Height="5" VerticalAlignment="Bottom" Stroke="Black" StrokeThickness="0.3" Margin="0,0,11,0" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="3" VerticalAlignment="Bottom" Width="8" Margin="1,0,0,1"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="3" VerticalAlignment="Bottom" Width="8" RenderTransformOrigin="-2.467,2.667" Margin="10,0,0,1"/>
+            <Rectangle Fill="Black" Height="3" VerticalAlignment="Bottom" Margin="19,0,12,1" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Path x:Name="path9_Copy" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0.15,16.15 L0.15,11.15 L11.15,0.15 L11.15,5.15 z" Fill="Blue" Width="11.3" Stroke="Black" StrokeThickness="0.3" HorizontalAlignment="Right" Margin="0,0,-0.3,-0.3" d:LayoutOverrides="TopPosition, BottomPosition"/>
+        </Grid>
     </Grid>
 </we:HMIBooleanBase>

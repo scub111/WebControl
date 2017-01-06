@@ -5,14 +5,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:we="clr-namespace:WebControl" x:Class="WebControl.HMINodeEx"
     mc:Ignorable="d"
-    d:DesignHeight="50" d:DesignWidth="100">
+    d:DesignHeight="60" d:DesignWidth="120" Loaded="UserControlEx_Loaded">
     <Grid x:Name="LayoutRoot" >
-        <we:HMIRectangleEx x:Name="rectangle1" Margin="0,16,0,0" DescriptionText="255.255.255.255" DescriptionFontSize="16" DescriptionFontFamily="Arial Narrow"/>
-        <we:HMILabel x:Name="label1" Margin="44,32,0,0" CaptionFontSize="16" RectangleRadius="3" FontSize="16" CaptionFontFamily="Arial Narrow" />
-        <TextBlock x:Name="tbCaption" TextWrapping="Wrap" Text="Узел связи" TextAlignment="Center" FontSize="18" RenderTransformOrigin="1.412,-0.326" Foreground="Black" HorizontalAlignment="Right" Width="100" Height="19" VerticalAlignment="Top" FontFamily="Arial Narrow" Margin="0,-3,0,0">
-            <TextBlock.RenderTransform>
-                <CompositeTransform/>
-            </TextBlock.RenderTransform>
-        </TextBlock>
+        <we:HMIRectangleEx x:Name="rectangle1" CaptionAdditionalText="255.255.255.255" CaptionAdditionalFontSize="18" CaptionAdditionalFontFamily="Arial Narrow" CaptionMainFontFamily="Arial Narrow" CaptionMainText="Узел связи" CaptionMainFontSize="20"/>
+        <we:HMILabel x:Name="label1" Margin="0,40,0,0" CaptionFontSize="16" RectangleRadius="3" FontSize="16" CaptionFontFamily="Arial Narrow" HorizontalAlignment="Right" Width="60" />
     </Grid>
 </we:UserControlEx>

@@ -287,8 +287,8 @@
     <Compile Include="Controls\HMIComputer.xaml.cs">
       <DependentUpon>HMIComputer.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\HMIRegistrar.xaml.cs">
-      <DependentUpon>HMIRegistrar.xaml</DependentUpon>
+    <Compile Include="Controls\HMIRegistrator.xaml.cs">
+      <DependentUpon>HMIRegistrator.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\HMIMonitor.xaml.cs">
       <DependentUpon>HMIMonitor.xaml</DependentUpon>
@@ -484,7 +484,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Controls\HMIRegistrar.xaml">
+    <Page Include="Controls\HMIRegistrator.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

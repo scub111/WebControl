@@ -17,8 +17,7 @@
             	</Path.RenderTransform>
             	<Path.Fill>
             		<LinearGradientBrush
-            			EndPoint="0,0.5" StartPoint="1,0.5"
->
+            			EndPoint="0,0.5" StartPoint="1,0.5">
             			<GradientStop
             				Color="Blue"/>
             			<GradientStop
