@@ -192,8 +192,13 @@ namespace WebControl
         /// <summary>
         /// Панель сети Известняков.
         /// </summary>
-        public NavigationWithPanal navPanLimeNetwork { get; set; }             
-        
+        public NavigationWithPanal navPanLimeNetwork { get; set; }
+                     
+        /// <summary>
+        /// Панель сети Скального.
+        /// </summary>
+        public NavigationWithPanal navPanRockyNetwork { get; set; }  
+                        
         /// <summary>
         /// Панель сети КУРа.
         /// </summary>
@@ -408,7 +413,7 @@ namespace WebControl
         /// </summary>
         public void Init()
         {
-            Version = "1.42.11";
+            Version = "1.42.12";
 
             Debug = true;
 

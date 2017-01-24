@@ -43,7 +43,8 @@
                                 <dxn:NavBarItem x:Name="navAngidritNetwork" Content="(2)Ангидрит"/>
                                 <dxn:NavBarItem x:Name="navKayerkanskiyNetwork" Content="(5)Кайерканский"/>
                                 <dxn:NavBarItem x:Name="navKURNetwork" Content="(5)КУР"/>
-                                <dxn:NavBarItem x:Name="navLimeNetwork" Content="(3)Известняки"/>
+                                <dxn:NavBarItem x:Name="navRockyNetwork" Content="(3)Известняки"/>
+                                <dxn:NavBarItem x:Name="navLimeNetwork" Content="(4)Скальный"/>
                             </dxn:NavBarGroup>
                             <dxn:NavBarGroup x:Name="navBarGroup2" Header="Разработка" Content="Разработка">
                                 <dxn:NavBarItem x:Name="navDevelop" Content="Информация"/>

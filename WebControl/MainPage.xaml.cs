@@ -49,6 +49,7 @@ namespace WebControl
             Global.Default.navPanKayerkanskiyNetwork = new NavigationWithPanal(navKayerkanskiyNetwork, "KayerkanskiyNetworkView", dockManager, documentContainer); Global.Default.navPanKayerkanskiyNetwork.Activate();
             Global.Default.navPanKURNetwork = new NavigationWithPanal(navKURNetwork, "KURNetworkView", dockManager, documentContainer); Global.Default.navPanKURNetwork.Activate();
             Global.Default.navPanLimeNetwork = new NavigationWithPanal(navLimeNetwork, "LimeNetworkView", dockManager, documentContainer); Global.Default.navPanLimeNetwork.Activate();
+            Global.Default.navPanRockyNetwork = new NavigationWithPanal(navRockyNetwork, "RockyNetworkView", dockManager, documentContainer); Global.Default.navPanRockyNetwork.Activate();
             Global.Default.navPanDevelop = new NavigationWithPanal(navDevelop, "DevelopView", dockManager, documentContainer); //navPanDevelop.Activate();
             NavigationWithPanal navPanTest = new NavigationWithPanal(navTest, "TestView", dockManager, documentContainer); //navPanTest.Activate();
             NavigationWithPanal navPanAngidritCommon = new NavigationWithPanal(navAngidritCommon, "AngidritControlView", dockManager, documentContainer); navPanAngidritCommon.Activate();

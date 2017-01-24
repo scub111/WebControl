@@ -21,7 +21,7 @@
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle Height="414" Canvas.Left="22" RadiusY="10" RadiusX="10" Stroke="Black" Canvas.Top="976" Width="765" Opacity="0.585" StrokeThickness="3">
+            <Rectangle Height="414" Canvas.Left="22" RadiusY="10" RadiusX="10" Stroke="Black" Canvas.Top="976" Width="781" Opacity="0.585" StrokeThickness="3">
                 <Rectangle.Fill>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                         <GradientStop Color="#FFFFFFFE" Offset="0"/>
@@ -30,7 +30,7 @@
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle Height="71" Canvas.Left="346" RadiusY="10" RadiusX="10" Stroke="#FFACD300" Canvas.Top="1291" Width="253" StrokeThickness="3"/>
+            <Rectangle Height="154" Canvas.Left="446" RadiusY="10" RadiusX="10" Stroke="#FFACD300" Canvas.Top="1219" Width="137" StrokeThickness="3"/>
             <Rectangle Height="152" Canvas.Left="1951" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="728" Width="393" Opacity="0.585">
                 <Rectangle.Fill>
                     <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
@@ -40,12 +40,12 @@
                 </Rectangle.Fill>
             </Rectangle>
 
-            <Rectangle Height="71" Canvas.Left="86" RadiusY="10" RadiusX="10" Stroke="#FFACD300" Canvas.Top="1291" Width="252" StrokeThickness="3"/>
+            <Rectangle Height="154" Canvas.Left="635" RadiusY="10" RadiusX="10" Stroke="#FFACD300" Canvas.Top="1219" Width="136" StrokeThickness="3"/>
 
-            <Rectangle Height="275" Canvas.Left="75" RadiusY="10" RadiusX="10" Stroke="#FF5100FF" Canvas.Top="980" Width="694" StrokeThickness="2"/>
+            <Rectangle Height="224" Canvas.Left="75" RadiusY="10" RadiusX="10" Stroke="#FF5100FF" Canvas.Top="980" Width="717" StrokeThickness="2"/>
 
-            <Rectangle Height="72" Canvas.Left="327" RadiusY="10" RadiusX="10" Stroke="#FF09FF2A" Canvas.Top="1173" Width="251" StrokeThickness="3"/>
-            <Rectangle Height="147" Canvas.Left="86" RadiusY="10" RadiusX="10" Stroke="Red" Canvas.Top="993" Width="671" StrokeThickness="3"/>
+            <Rectangle Height="72" Canvas.Left="327" RadiusY="10" RadiusX="10" Stroke="#FF09FF2A" Canvas.Top="1128" Width="251" StrokeThickness="3"/>
+            <Rectangle Height="133" Canvas.Left="86" RadiusY="10" RadiusX="10" Stroke="Red" Canvas.Top="993" Width="700" StrokeThickness="3"/>
 
             <Rectangle Height="92" Canvas.Left="1951" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="424" Width="393" Opacity="0.585">
                 <Rectangle.Fill>
@@ -63,7 +63,6 @@
                     </LinearGradientBrush>
                 </Rectangle.Fill>
             </Rectangle>
-            <TextBlock TextWrapping="Wrap" FontSize="30" Text="(4)Скальный" HorizontalAlignment="Left" Width="220" Height="50" VerticalAlignment="Bottom" Canvas.Left="1984" Canvas.Top="1110" FontStyle="Italic"/>
 
             <Rectangle Height="165" Canvas.Left="22" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="51" Width="542" Opacity="0.585">
                 <Rectangle.Fill>
@@ -93,15 +92,24 @@
                 </TextBlock.RenderTransform>
             </TextBlock>
             <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="65" Canvas.Top="993" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Серверная"/>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="122" Canvas.Top="1261" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="ГСМ"/>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="362" Canvas.Top="1143" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="3-ий этаж"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="152.282" Height="30" VerticalAlignment="Bottom" Canvas.Left="541.609" Canvas.Top="1280.891" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="ГСМ" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="62.25" Height="52.374" VerticalAlignment="Bottom" Canvas.Left="259.938" Canvas.Top="1137.188" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="3-ий этаж" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
             <Rectangle Height="72" Canvas.Left="1966" RadiusY="13" RadiusX="10" Stroke="#FFCE00EE" Canvas.Top="735" Width="376" StrokeThickness="4"/>
-            <Controls:LabelSecurity Canvas.Left="2071" Content="IP диапазон: 172.24.88.65-94" Foreground="Blue" FontSize="16" Canvas.Top="1158"/>
-            <Controls:LabelSecurity Canvas.Left="2120" Content="Маска: 255.255.255.224" Foreground="Blue" FontSize="16" Canvas.Top="1174"/>
-            <Controls:LabelSecurity Canvas.Left="2122" Content="Шлюз: 172.24.88.65" Foreground="Blue" FontSize="16" Canvas.Top="1190"/>
             <TextBlock x:Name="teSqlTime" TextWrapping="Wrap" FontSize="30" TextAlignment="Center" Text="???" HorizontalAlignment="Left" Width="352" Height="50" VerticalAlignment="Bottom" Canvas.Left="1258" FontStyle="Italic"/>
             <Grid Height="100" Canvas.Left="2195" Canvas.Top="1276" Width="100"/>
-            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="163" Height="30" VerticalAlignment="Bottom" Canvas.Left="391" Canvas.Top="1260" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Новый гараж"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="152.699" Height="29.755" VerticalAlignment="Bottom" Canvas.Left="353.183" Canvas.Top="1281.061" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Новый гараж" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
             <TextBlock TextWrapping="Wrap" FontSize="30" TextAlignment="Center" Text="ГИВЦ" HorizontalAlignment="Left" Width="136" Height="50" VerticalAlignment="Bottom" Canvas.Left="869" FontStyle="Italic" Canvas.Top="-4"/>
             <local:HMINodeEx Canvas.Left="2096" Canvas.Top="124" DataNameEx="ping_172_24_228_77" Height="60" Width="120" CaptionAdditional="172.24.228.77" CaptionMain="Теплосчетчик" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="2216" Canvas.Top="124" DataNameEx="ping_172_24_228_66" Height="60" Width="120" CaptionAdditional="172.24.228.66" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.228.66:8080" AutoCaptions="True"/>
@@ -112,8 +120,8 @@
             <local:HMINodeEx Canvas.Left="2096" Canvas.Top="740" DataNameEx="ping_172_24_43_196" Height="60" Width="120" CaptionAdditional="172.24.43.196" CaptionMain="2-ой ствол" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="1976" Canvas.Top="740" DataNameEx="ping_172_24_43_200" Height="60" Width="120" CaptionAdditional="172.24.43.200" CaptionMain="ДЖ" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="2216" Canvas.Top="740" DataNameEx="ping_172_24_43_205" Height="60" Width="120" CaptionAdditional="172.24.43.205" CaptionMain="Надшахт. зд." Type="Registrator" ExternalLink="http://172.24.43.205" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="333" Canvas.Top="1179" DataNameEx="ping_172_24_92_145" Height="60" Width="120" CaptionAdditional="172.24.92.145" CaptionMain="Видео. ПК" Type="Monitor" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="453" Canvas.Top="1179" DataNameEx="ping_172_24_92_146" Height="60" Width="120" CaptionAdditional="172.24.92.146" CaptionMain="Видео. IP" Type="Camera" ExternalLink="http://172.24.92.146" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="333" Canvas.Top="1134" DataNameEx="ping_172_24_92_145" Height="60" Width="120" CaptionAdditional="172.24.92.145" CaptionMain="Видео. ПК" Type="Monitor" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="453" Canvas.Top="1134" DataNameEx="ping_172_24_92_146" Height="60" Width="120" CaptionAdditional="172.24.92.146" CaptionMain="Видео. IP" Type="Camera" ExternalLink="http://172.24.92.146" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="53" Canvas.Top="59" DataNameEx="ping_172_31_106_121" Height="60" Width="120" CaptionAdditional="172.31.106.121" CaptionMain="&quot;121&quot;" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="173" Canvas.Top="59" DataNameEx="ping_172_31_106_9" Height="60" Width="120" CaptionAdditional="172.31.106.9" CaptionMain="SQL" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="293" Canvas.Top="59" DataNameEx="ping_172_31_106_4" Height="60" Width="120" CaptionAdditional="172.31.106.4" CaptionMain="Lotus" Type="Server" AutoCaptions="True"/>
@@ -126,19 +134,17 @@
             <local:HMINodeEx Canvas.Left="2216" Canvas.Top="812" DataNameEx="ping_172_24_43_201" Height="60" Width="120" CaptionAdditional="172.24.43.201" CaptionMain="Подземка" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="2096" Canvas.Top="1227" DataNameEx="ping_172_24_88_77" Height="60" Width="120" CaptionAdditional="172.24.88.77" CaptionMain="ДЖ" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="2216" Canvas.Top="1227" DataNameEx="ping_172_24_88_94" Height="60" Width="120" CaptionAdditional="172.24.88.94" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.88.94" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="626" Canvas.Top="1179" DataNameEx="ping_172_24_92_75" Height="60" Width="120" CaptionAdditional="172.24.92.75" CaptionMain="Диспетчерская" Type="Registrator" ExternalLink="http://172.24.92.75" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="212" Canvas.Top="1297" DataNameEx="ping_172_24_92_148" Height="60" Width="120" CaptionAdditional="172.24.92.148" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.92.148" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="92" Canvas.Top="1297" DataNameEx="ping_172_24_92_120" Height="60" Width="120" CaptionAdditional="172.24.92.120" CaptionMain="ПК" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="352" Canvas.Top="1297" DataNameEx="ping_172_24_92_40" Height="60" Width="120" CaptionAdditional="172.24.92.40" CaptionMain="ПК 1" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="473" Canvas.Top="1297" DataNameEx="ping_172_24_92_88" Height="60" Width="120" CaptionAdditional="172.24.92.88" CaptionMain="ПК 2" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="333" Canvas.Top="1014" DataNameEx="ping_172_24_92_13" Height="60" Width="120" CaptionAdditional="172.24.92.13" CaptionMain="Серверная" Type="Registrator" ExternalLink="http://172.24.92.13:8080/" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="453" Canvas.Top="1014" DataNameEx="ping_172_24_92_3" Height="60" Width="120" CaptionAdditional="172.24.92.3" CaptionMain="ДЖ" Type="Database" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="453" Canvas.Top="1074" DataNameEx="ping_172_24_92_149" Height="60" Width="120" CaptionAdditional="172.24.92.149" CaptionMain="&quot;149&quot;" Type="Database" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="333" Canvas.Top="1074" DataNameEx="ping_172_24_92_125" Height="60" Width="120" CaptionAdditional="172.24.92.125" CaptionMain="&quot;125&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="213" Canvas.Top="1074" DataNameEx="ping_172_24_92_124" Height="60" Width="120" CaptionAdditional="172.24.92.124" CaptionMain="&quot;124&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="93" Canvas.Top="1074" DataNameEx="ping_172_24_92_123" Height="60" Width="120" CaptionAdditional="172.24.92.123" CaptionMain="&quot;123&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="626" Canvas.Top="1320" DataNameEx="ping_172_24_92_12" Height="60" Width="120" CaptionAdditional="172.24.92.12" CaptionMain="Калориферная" ExternalLink="" AutoCaptions="True"/>
-            <local:HMINodeEx Canvas.Left="626" Canvas.Top="1260" DataNameEx="ping_172_24_92_121" Height="60" Width="120" CaptionAdditional="172.24.92.121" CaptionMain="Серверная" Type="Registrator" ExternalLink="http://172.24.92.121:8080/" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="607" Canvas.Top="1135" DataNameEx="ping_172_24_92_75" Height="60" Width="120" CaptionAdditional="172.24.92.75" CaptionMain="Диспетчерская" Type="Registrator" ExternalLink="http://172.24.92.75" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="643" Canvas.Top="1304" DataNameEx="ping_172_24_92_148" Height="60" Width="120" CaptionAdditional="172.24.92.148" CaptionMain="Видеорегистр." Type="Registrator" ExternalLink="http://172.24.92.148" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="643" Canvas.Top="1244" DataNameEx="ping_172_24_92_120" Height="60" Width="120" CaptionAdditional="172.24.92.120" CaptionMain="ПК" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="454" Canvas.Top="1244" DataNameEx="ping_172_24_92_40" Height="60" Width="120" CaptionAdditional="172.24.92.40" CaptionMain="ПК 1" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="454" Canvas.Top="1304" DataNameEx="ping_172_24_92_88" Height="60" Width="120" CaptionAdditional="172.24.92.88" CaptionMain="ПК 2" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="333" Canvas.Top="999" DataNameEx="ping_172_24_92_13" Height="60" Width="120" CaptionAdditional="172.24.92.13" CaptionMain="Серверная" Type="Registrator" ExternalLink="http://172.24.92.13:8080/" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="453" Canvas.Top="999" DataNameEx="ping_172_24_92_3" Height="60" Width="120" CaptionAdditional="172.24.92.3" CaptionMain="ДЖ" Type="Database" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="453" Canvas.Top="1059" DataNameEx="ping_172_24_92_149" Height="60" Width="120" CaptionAdditional="172.24.92.149" CaptionMain="&quot;149&quot;" Type="Database" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="333" Canvas.Top="1059" DataNameEx="ping_172_24_92_125" Height="60" Width="120" CaptionAdditional="172.24.92.125" CaptionMain="&quot;125&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="213" Canvas.Top="1059" DataNameEx="ping_172_24_92_124" Height="60" Width="120" CaptionAdditional="172.24.92.124" CaptionMain="&quot;124&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="93" Canvas.Top="1059" DataNameEx="ping_172_24_92_123" Height="60" Width="120" CaptionAdditional="172.24.92.123" CaptionMain="&quot;123&quot;" Type="Server" ExternalLink="" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="416" Canvas.Top="141" DataNameEx="ping_172_31_106_1" Height="60" Width="120" CaptionAdditional="172.31.106.1" CaptionMain="" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="626" Canvas.Top="999" DataNameEx="ping_172_24_92_1" Height="60" Width="120" CaptionAdditional="172.24.92.1" CaptionMain="" Type="Database" AutoCaptions="True"/>
             <local:HMINodeEx Canvas.Left="22" Canvas.Top="215" DataNameEx="ping_172_24_251_145" Height="60" Width="120" CaptionAdditional="172.24.251.145" CaptionMain="" Type="Database" AutoCaptions="True" CaptionMainHide="True"/>
@@ -219,9 +225,9 @@
             <Path Data="M-20499.9,664.496 L-20499.9,682.319" Height="22" Canvas.Left="476.5" Stretch="Fill" Stroke="Black" Canvas.Top="818.5" UseLayoutRounding="False" Width="1"/>
             <Path Data="M-20499.9,716.268 L-20499.9,734.091" Height="22" Canvas.Left="476.5" Stretch="Fill" Stroke="Black" Canvas.Top="879.5" UseLayoutRounding="False" Width="1"/>
             <Path Data="M-20489,768.039 L-20350.9,825.752" Height="69" Canvas.Left="487.5" Stretch="Fill" Stroke="Black" Canvas.Top="940.5" UseLayoutRounding="False" Width="139.001"/>
-            <Path Data="M-20404.9,852.911 L-20350.9,846.121" Height="9" Canvas.Left="571.5" Stretch="Fill" Stroke="Black" Canvas.Top="1032.5" UseLayoutRounding="False" Width="55"/>
-            <Path Data="M-20240.7,970.037 L-20291.9,868.049" Height="121.166" Canvas.Left="684.5" Stretch="Fill" Stroke="Black" Canvas.Top="1058.334" UseLayoutRounding="False" Width="3"/>
-            <Path Data="M-23645.5,970.041 L-20829.5,868.193" Height="121" Canvas.Left="553.5" Stretch="Fill" Stroke="Black" Canvas.Top="1058.5" UseLayoutRounding="False" Width="111"/>
+            <Path Data="M-20403.9,841.877 L-20350.9,841.877" Height="1" Canvas.Left="572.5" Stretch="Fill" Stroke="Black" Canvas.Top="1027.5" UseLayoutRounding="False" Width="53.999"/>
+            <Path Data="M-20269.5,932.693 L-20269.5,868.049" Height="77.166" Canvas.Left="666.812" Stretch="Fill" Stroke="Black" Canvas.Top="1058.334" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-23440.7,931.848 L-21495.1,868.193" Height="76" Canvas.Left="561.5" Stretch="Fill" Stroke="Black" Canvas.Top="1058.5" UseLayoutRounding="False" Width="77"/>
             <Path Data="M-20440.9,391.056 L-20214.9,391.056" Height="1" Canvas.Left="535.501" Stretch="Fill" Stroke="Black" Canvas.Top="496.5" UseLayoutRounding="False" Width="227"/>
             <Path Data="M-20094.9,408.184 L-19936.9,515.134" Height="127" Canvas.Left="881.5" Stretch="Fill" Stroke="Black" Canvas.Top="516.5" UseLayoutRounding="False" Width="159"/>
             <Path Data="M-20230.9,584.722 L-19961,537.19" Height="57" Canvas.Left="745.5" Stretch="Fill" Stroke="Black" Canvas.Top="668.5" UseLayoutRounding="False" Width="270.998"/>
@@ -292,6 +298,115 @@
             <Button x:Name="btnKayerkanskiyNetworkView" Content="(5)Кайерканский" Canvas.Left="1951" Canvas.Top="9" Width="255" Height="42" FontSize="24" Click="btnKayerkanskiyNetworkView_Click"/>
             <Button x:Name="btnKURNetworkView" Content="(5)КУР" Canvas.Left="1951" Canvas.Top="382" Width="117" Height="42" FontSize="24" Click="btnKURNetworkView_Click"/>
             <Button x:Name="btnLimeNetworkView" Content="(3)Известняки" Canvas.Left="1951" Canvas.Top="686" Width="203" Height="42" FontSize="24" Click="btnLimeNetworkView_Click"/>
+            <Button x:Name="btnRockyNetworkView" Content="(4)Скальный" Canvas.Left="1951" Canvas.Top="1169" Width="203" Height="42" FontSize="24" Click="btnRockyNetworkView_Click"/>
+            <Rectangle Height="154" Canvas.Left="239" RadiusY="10" RadiusX="10" Stroke="#FFACD300" Canvas.Top="1219" Width="136" StrokeThickness="3"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="152.624" Height="30" VerticalAlignment="Bottom" Canvas.Left="146.188" Canvas.Top="1281.062" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Text="СШРУ">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <local:HMINodeEx Canvas.Left="247" Canvas.Top="1304" DataNameEx="ping_172_24_92_223" Height="60" Width="120" CaptionAdditional="172.24.92.223" CaptionMain="ПК2" Type="Computer" ExternalLink="" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="247" Canvas.Top="1244" DataNameEx="ping_172_24_92_111" Height="60" Width="120" CaptionAdditional="172.24.92.111" CaptionMain="ПК1" ExternalLink="" AutoCaptions="True"/>
+            <Rectangle Height="15" Canvas.Left="754" Canvas.Top="1044" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF95B601" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="754" Canvas.Top="1044" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="mid"/>
+            <Rectangle Height="15" Canvas.Left="725" Canvas.Top="1069" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF7689FF" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="725" Canvas.Top="1069" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="idsl"/>
+            <Rectangle Height="15" Canvas.Left="754" Canvas.Top="1022" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF95B601" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="754" Canvas.Top="1022" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="mid"/>
+            <Rectangle Height="15" Canvas.Left="725" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF7689FF" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="725" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="idsl"/>
+            <Rectangle Height="15" Canvas.Left="695" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF9B1570" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="695" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="sw"/>
+            <Rectangle Height="15" Canvas.Left="502" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF9B1570" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="502" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="sw"/>
+            <Rectangle Height="15" Canvas.Left="297" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF9B1570" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="297" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="sw"/>
+            <Rectangle Height="15" Canvas.Left="532" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF95B601" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="532" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="mid"/>
+            <Rectangle Height="15" Canvas.Left="327" Canvas.Top="1225" Width="20" RadiusY="4" Stroke="Black">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF95B601" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="10" TextAlignment="Center" HorizontalAlignment="Left" Width="20" Height="14" VerticalAlignment="Bottom" Canvas.Left="327" Canvas.Top="1225" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="mid"/>
+            <Path Data="M-20183.9,843.582 L-20191.9,843.582" Height="1" Canvas.Left="745.5" Stretch="Fill" Stroke="Black" Canvas.Top="1029.5" UseLayoutRounding="False" Width="9"/>
+            <Path Data="M-20183.9,861.253 L-20191.9,861.253" Height="1" Canvas.Left="745.499" Stretch="Fill" Stroke="Black" Canvas.Top="1050.5" UseLayoutRounding="False" Width="9.001"/>
+            <Path Data="M-20202.9,876.397 L-20202.9,867.766" Height="11.17" Canvas.Left="734.625" Stretch="Fill" Stroke="Black" Canvas.Top="1058.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20212.9,1015.01 L-20222.9,1015.01" Height="1" Canvas.Left="714.5" Stretch="Fill" Stroke="Black" Canvas.Top="1231.5" UseLayoutRounding="False" Width="11"/>
+            <Path Data="M-20405.8,1015.01 L-20415.8,1015.01" Height="1" Canvas.Left="521.5" Stretch="Fill" Stroke="Black" Canvas.Top="1231.5" UseLayoutRounding="False" Width="11"/>
+            <Path Data="M-20610.8,1015.01 L-20620.8,1015.01" Height="1" Canvas.Left="316.5" Stretch="Fill" Stroke="Black" Canvas.Top="1231.5" UseLayoutRounding="False" Width="11"/>
+            <Path Data="M-20202.9,1009.08 L-20202.9,889.412" Height="142" Canvas.Left="734.5" Stretch="Fill" Stroke="Black" Canvas.Top="1083.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20232.9,1027.01 L-20232.9,1023.01" Height="5" Canvas.Left="704.5" Stretch="Fill" Stroke="Black" Canvas.Top="1239.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20425.9,1027.01 L-20425.9,1023.01" Height="5" Canvas.Left="511.5" Stretch="Fill" Stroke="Black" Canvas.Top="1239.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20630.9,1026.96 L-20630.9,1022.97" Height="5" Canvas.Left="306.5" Stretch="Fill" Stroke="Black" Canvas.Top="1239.458" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20207.4,999.317 L-20207.4,873.711" Height="149" Canvas.Left="763.5" Stretch="Fill" Stroke="Black" Canvas.Top="1058.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20207.4,1003.7 L-20206.9,849.24" Height="183" Canvas.Left="777.5" Stretch="Fill" Stroke="Black" Canvas.Top="1029.5" UseLayoutRounding="False" Width="1.001"/>
+            <Path Data="M-20193.4,849.25 L-20197.4,849.25" Height="1" Canvas.Left="773.499" Stretch="Fill" Stroke="Black" Canvas.Top="1029.5" UseLayoutRounding="False" Width="5.001"/>
+            <Path Data="M-20634.4,999.315 L-20207.4,999.315" Height="1" Canvas.Left="336.5" Stretch="Fill" Stroke="Black" Canvas.Top="1206.5" UseLayoutRounding="False" Width="428"/>
+            <Path Data="M-20429.4,1003.55 L-20193.4,1003.55" Height="1" Canvas.Left="541.5" Stretch="Fill" Stroke="Black" Canvas.Top="1211.5" UseLayoutRounding="False" Width="237"/>
+            <Path Data="M-20429.4,1003.55 L-20429.4,1014.66" Height="14" Canvas.Left="541.5" Stretch="Fill" Stroke="Black" Canvas.Top="1211.5" UseLayoutRounding="False" Width="1"/>
+            <Path Data="M-20634.4,999.277 L-20634.4,1014.66" Height="19" Canvas.Left="336.5" Stretch="Fill" Stroke="Black" Canvas.Top="1206.5" UseLayoutRounding="False" Width="1"/>
+
+
 
         </Canvas>
     </Viewbox>

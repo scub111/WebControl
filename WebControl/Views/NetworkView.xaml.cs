@@ -49,5 +49,10 @@ namespace WebControl
         {
             Global.Default.navPanLimeNetwork.Activate();
         }
+
+        private void btnRockyNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanRockyNetwork.Activate();
+        }
     }
 }
