@@ -93,6 +93,11 @@ namespace WebControl
         public int TimeOut { get; set; }
 
         /// <summary>
+        /// Комментарий.
+        /// </summary>
+        public string Comment { get; set; }
+
+        /// <summary>
         /// Словарь визуальных элементов интерфейса.
         /// </summary>
         Dictionary<UserControlEx, int> VisualControlDict { get; set; }

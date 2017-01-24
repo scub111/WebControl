@@ -3,8 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using static WebControl.HMIRectangleEx;
 
 namespace WebControl
 {
@@ -39,6 +41,28 @@ namespace WebControl
         /// </summary>
         public Collection<string> ItemDataNames { get; set; }
 
+        string FindExtension(string inStr)
+        {
+            string strOut = "";
+
+            bool isInited = false;
+            bool isFinished = false;
+
+            for (int i = 0; i < inStr.Length; i++)
+            {
+                if (inStr[i] == '}')
+                    isFinished = true;
+
+                if (isInited && !isFinished)
+                    strOut += inStr[i];
+
+                if (inStr[i] == '{')
+                    isInited = true;
+            }
+
+            return strOut;
+        }
+
         void ViewBase_Loaded(object sender, RoutedEventArgs e)
         {
             if (NavItem != null && NavItem.Group != null)
@@ -57,6 +81,9 @@ namespace WebControl
                 if (uiElement != null)
                     GetTextBoxes(uiElement, UserControlExs);
 
+                string dataName;
+                string extension;
+                //Regex regex = new Regex("({\\w*\\.\\w*\\.\\w*\\.\\w*\\;(\\w*|\\w*\"\\w *\"\\w*)\\;\\w*})");
                 foreach (UserControlEx userControl in UserControlExs)
                 {
                     if (userControl is HMISimpleBase)
@@ -73,6 +100,26 @@ namespace WebControl
                             ItemDataNames.Add(string.Format("{0}_Status", hmiNodeEx.DataNameEx));
                             ItemDataNames.Add(string.Format("{0}_ReplyTime", hmiNodeEx.DataNameEx));
                         }
+
+                        if (hmiNodeEx.AutoCaptions)
+                        {
+                            dataName = string.Format("{0}_Status", hmiNodeEx.DataNameEx);
+                            if (Global.Default.ItemsRealDict.ContainsKey(dataName))
+                            {
+                                //MatchCollection matches = regex.Matches(Global.Default.ItemsRealDict[dataName].Description);
+                                try
+                                {
+                                    extension = FindExtension(Global.Default.ItemsRealDict[dataName].Comment);
+
+                                    string[] strOut = extension.Split(';');
+
+                                    hmiNodeEx.CaptionAdditional = strOut[0];
+                                    hmiNodeEx.CaptionMain = strOut[1];
+                                    hmiNodeEx.Type = (NodeType)int.Parse(strOut[2]);
+                                }
+                                catch { }
+                            }
+                        }                
                     }
                 }
 

@@ -338,6 +338,27 @@
     <Compile Include="SilverlightControl1.xaml.cs">
       <DependentUpon>SilverlightControl1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\RockyNetworkView.xaml.cs">
+      <DependentUpon>RockyNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LimeNetworkView.xaml.cs">
+      <DependentUpon>LimeNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\KURNetworkView.xaml.cs">
+      <DependentUpon>KURNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\KayerkanskiyNetworkView.xaml.cs">
+      <DependentUpon>KayerkanskiyNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritNetworkView.xaml.cs">
+      <DependentUpon>AngidritNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AdministrationNetworkView.xaml.cs">
+      <DependentUpon>AdministrationNetworkView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AngidritASUTPNetworkView.xaml.cs">
+      <DependentUpon>AngidritASUTPNetworkView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\NetworkView.xaml.cs">
       <DependentUpon>NetworkView.xaml</DependentUpon>
     </Compile>
@@ -544,7 +565,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\RockyNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\LimeNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\KURNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\KayerkanskiyNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\AngidritControlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritNetworkView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -555,6 +596,14 @@
     <Page Include="Views\AngidritZVGU2Ag2View.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AdministrationNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\AngidritASUTPNetworkView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\NetworkView.xaml">
       <Generator>MSBuild:Compile</Generator>

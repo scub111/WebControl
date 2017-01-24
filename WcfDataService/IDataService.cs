@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 
 namespace WcfDataService
 {
@@ -26,6 +23,9 @@ namespace WcfDataService
 
         [OperationContract]
         DateTime GetSqlCurrentTime();
+
+        [OperationContract]
+        string GetVersion();
 
         [OperationContract]
         DateTimeOffset GetDateTimeOffset();

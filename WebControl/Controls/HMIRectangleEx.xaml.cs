@@ -11,12 +11,16 @@ namespace WebControl
     {
         public enum NodeType
         {
-            Computer,
-            Camera,
-            Registrator,
-            Database,
-            Monitor,
-            Server
+            None = 0,
+            Computer = 1,
+            Camera = 2,
+            Registrator = 3,
+            Database = 4,
+            Monitor = 5,
+            Server = 6,
+            PLC = 7,
+            Router = 8,
+            Switch = 9
         }
 
         public HMIRectangleEx()
@@ -24,6 +28,7 @@ namespace WebControl
             InitializeComponent();
             Type = NodeType.Computer;
             pathExternalLink.Visibility = Visibility.Collapsed;
+            _CaptionMainHide = false;
         }
 
         /// <summary>
@@ -87,6 +92,30 @@ namespace WebControl
             set { tbCaptionAdditional.Text = value; }
         }
 
+        bool _CaptionMainHide;
+        /// <summary>
+        /// Скрытый основый текст.
+        /// </summary>
+        public bool CaptionMainHide
+        {
+            get { return _CaptionMainHide; }
+            set
+            {
+
+                _CaptionMainHide = value;
+                if (_CaptionMainHide)
+                {
+                    tbCaptionMain.Visibility = Visibility.Collapsed;
+                    tbCaptionAdditional.Margin = new Thickness(0, 0, 0, 0);
+                }
+                else
+                {
+                    tbCaptionMain.Visibility = Visibility.Visible;
+                    tbCaptionAdditional.Margin = new Thickness(0, 20, 0, 0);
+                }
+            }
+        }
+
         /// <summary>
         /// Тип узла сети.
         /// </summary>
@@ -104,6 +133,9 @@ namespace WebControl
                 grpDatabase.Visibility = Visibility.Collapsed;
                 grpMonitor.Visibility = Visibility.Collapsed;
                 grpServer.Visibility = Visibility.Collapsed;
+                grpPLC.Visibility = Visibility.Collapsed;
+                grpRouter.Visibility = Visibility.Collapsed;
+                grpSwitch.Visibility = Visibility.Collapsed;
 
                 switch (_RectangleType)
                 {
@@ -125,6 +157,15 @@ namespace WebControl
                         break;
                     case NodeType.Server:
                         grpServer.Visibility = Visibility.Visible;
+                        break;
+                    case NodeType.PLC:
+                        grpPLC.Visibility = Visibility.Visible;
+                        break;
+                    case NodeType.Router:
+                        grpRouter.Visibility = Visibility.Visible;
+                        break;
+                    case NodeType.Switch:
+                        grpSwitch.Visibility = Visibility.Visible;
                         break;
                 }
             }

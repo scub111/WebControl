@@ -39,6 +39,12 @@
   <wsdl:message name="IDataService_GetSqlCurrentTime_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetSqlCurrentTimeResponse" />
   </wsdl:message>
+  <wsdl:message name="IDataService_GetVersion_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersion" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetVersion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVersionResponse" />
+  </wsdl:message>
   <wsdl:message name="IDataService_GetDateTimeOffset_InputMessage">
     <wsdl:part name="parameters" element="tns:GetDateTimeOffset" />
   </wsdl:message>
@@ -89,6 +95,10 @@
     <wsdl:operation name="GetSqlCurrentTime">
       <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetSqlCurrentTime" message="tns:IDataService_GetSqlCurrentTime_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetSqlCurrentTimeResponse" message="tns:IDataService_GetSqlCurrentTime_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetVersion" message="tns:IDataService_GetVersion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetVersionResponse" message="tns:IDataService_GetVersion_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetDateTimeOffset">
       <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetDateTimeOffset" message="tns:IDataService_GetDateTimeOffset_InputMessage" />
@@ -151,6 +161,15 @@
     </wsdl:operation>
     <wsdl:operation name="GetSqlCurrentTime">
       <soap:operation soapAction="http://tempuri.org/IDataService/GetSqlCurrentTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVersion">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetVersion" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

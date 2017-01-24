@@ -44,6 +44,7 @@
             <sdk:Label x:Name="teServiceInfo" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="264" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="694"/>
             <sdk:Label HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="290" FontSize="18" Content="Синх-ия обновления записей:" Canvas.Left="68" Canvas.Top="431"/>
             <sdk:Label x:Name="teServerItemUpdateSync" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="490" FontSize="18" Content="???" Canvas.Left="380" Canvas.Top="431"/>
+            <Button Width="83" Height="39" Click="Button_Click" Canvas.Left="882" Canvas.Top="420"/>
         </Canvas>
     </Viewbox>
 </we:ViewBase>

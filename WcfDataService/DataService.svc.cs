@@ -4,10 +4,7 @@ using System.Collections.ObjectModel;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
-using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 
 namespace WcfDataService
 {
@@ -19,6 +16,8 @@ namespace WcfDataService
     {
         public DataService()
         {
+            Version = "1.3.2";
+
             if (IsLocalIpAddress("172.31.106.146"))
                 ConnectionString = @"Data Source=172.31.106.121,1444;Initial Catalog=WebControl;Persist Security Info=True;User ID=sa;Password=qwe+ASDFG";
             else
@@ -66,7 +65,7 @@ namespace WcfDataService
             {
                 connection.Open();
 
-                SqlCommand command = new SqlCommand(string.Format("SELECT DataName, Trend, Description, Unit, FormatValue, MinValue, MaxValue, DataType, DataValue, Quality, SqlTime, DeviceTime, TimeOut FROM {0}",
+                SqlCommand command = new SqlCommand(string.Format("SELECT DataName, Trend, Description, Unit, FormatValue, MinValue, MaxValue, DataType, DataValue, Quality, SqlTime, DeviceTime, TimeOut, Comment FROM {0}",
                                                                     ValuesCurrentTableName),
                                                                     connection);
 
@@ -75,27 +74,26 @@ namespace WcfDataService
                 int i = 0;
                 while (reader.Read())
                 {
-                    ItemSql item = new ItemSql()
-                    {
-                        DataName = reader.GetString(0).TrimEnd(),
-                        Trend = reader.GetBoolean(1),
-                        Description = reader.GetString(2).TrimEnd(),
-                        Unit = reader.GetString(3).TrimEnd(),
-                        FormatValue = reader.GetString(4).TrimEnd(),
-                        MinValue = reader.GetDouble(5),
-                        MaxValue = reader.GetDouble(6),
-                        DataType = (short)reader.GetByte(7),
-                        DataValue = reader.GetDouble(8),
-                        Quality = (short)reader.GetInt32(9),
-                        SqlTime = reader.GetDateTime(10),
-                        DeviceTime = reader.GetDateTime(11),
-                        TimeOut = reader.GetInt32(12)
-                    };
+                    ItemSql item = new ItemSql();
+                    item.DataName = reader.GetString(0).TrimEnd();
+                    item.Trend = reader.GetBoolean(1);
+                    item.Description = reader.GetString(2).TrimEnd();
+                    item.Unit = reader.GetString(3).TrimEnd();
+                    item.FormatValue = reader.GetString(4).TrimEnd();
+                    item.MinValue = reader.GetDouble(5);
+                    item.MaxValue = reader.GetDouble(6);
+                    item.DataType = (short)reader.GetByte(7);
+                    item.DataValue = reader.GetDouble(8);
+                    item.Quality = (short)reader.GetInt32(9);
+                    item.SqlTime = reader.GetDateTime(10);
+                    item.DeviceTime = reader.GetDateTime(11);
+                    item.TimeOut = reader.GetInt32(12);
+                    item.Comment = reader.GetString(13).TrimEnd();
 
                     if (!ItemsInited)
                     {
                         ItemSqls.Add(item);
-                        ItemSqlDict.Add(item.DataName, item); 
+                        ItemSqlDict.Add(item.DataName, item);
                         ItemSqlShorts.Add(item.GetItemSimple());
                     }
                     else
@@ -103,7 +101,7 @@ namespace WcfDataService
                         ItemSqls[i] = item;
                         if (ItemSqlDict.ContainsKey(item.DataName))
                             ItemSqlDict[item.DataName] = item;
-                        ItemSqlShorts[i] = item.GetItemSimple();                        
+                        ItemSqlShorts[i] = item.GetItemSimple();
                     }
                     i++;
                 }
@@ -124,12 +122,16 @@ namespace WcfDataService
             {
                 connection.Close();
             }
-
         }
 
         public void Test()
         {
         }
+
+        /// <summary>
+        /// Версия.
+        /// </summary>
+        public string Version { get; set; }
 
         /// <summary>
         /// Инициализация элементов.
@@ -433,6 +435,14 @@ namespace WcfDataService
             }
 
             return dateTime;
+        }
+
+        /// <summary>
+        /// Получение текущего версии WCF-службы.
+        /// </summary>
+        public string GetVersion()
+        {
+            return Version;
         }
 
         /// <summary>

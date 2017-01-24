@@ -10,7 +10,9 @@ namespace WebControl
     {
         public HMINodeEx()
         {
-            InitializeComponent();  
+            InitializeComponent();
+            CaptionMainHide = false;
+            AutoCaptions = false;
         }
 
         string _DataNameEx;
@@ -56,6 +58,11 @@ namespace WebControl
         }
 
         /// <summary>
+        /// Автоматическое заполнение названий.
+        /// </summary>
+        public bool AutoCaptions { get; set; }
+
+        /// <summary>
         /// Внешняя ссылка для перехода.
         /// </summary>
         public string ExternalLink
@@ -66,6 +73,31 @@ namespace WebControl
                 rectangle1.ExternalLink = value;
                 if (!string.IsNullOrEmpty(rectangle1.ExternalLink))
                     rectangle1.pathExternalLink.Visibility = Visibility.Visible;
+                else
+                    rectangle1.pathExternalLink.Visibility = Visibility.Collapsed;
+            }
+        }
+
+        bool _CaptionMainHide;
+        /// <summary>
+        /// Скрытый основый текст.
+        /// </summary>
+        public bool CaptionMainHide
+        {
+            get { return _CaptionMainHide; }
+            set
+            {
+
+                _CaptionMainHide = value;
+                if (_CaptionMainHide)
+                {
+                    rectangle1.Margin = new Thickness(0, 20, 0, 0);
+                }
+                else
+                {
+                    rectangle1.Margin = new Thickness(0, 0, 0, 0);
+                }
+                rectangle1.CaptionMainHide = _CaptionMainHide;
             }
         }
 

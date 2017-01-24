@@ -69,5 +69,30 @@ namespace WebControl
             if (e.Error == null)
                 teServiceInfo.Content = e.Result;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //if (App.Current.HasElevatedPermissions)
+                //{
+                //for notepad
+                //dynamic notepad = AutomationFactory.CreateObject("WScript.shell");
+                //notepad.Run(@"C:\WINDOWS\NOTEPAD.EXE");
+                ThemeManager.ApplicationTheme = Theme.VS2010;
+
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Нет разрешений");
+                //}
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
     }
 }

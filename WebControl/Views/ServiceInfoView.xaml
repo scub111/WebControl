@@ -430,7 +430,7 @@
             	<local:HMIComputer DataName="ping_172_31_106_121_Status"/>
             	<local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_121_ReplyTime" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Margin="4,4,0,0"/>
             </Grid>
-            <Controls:LabelSecurity Canvas.Left="259" Canvas.Top="107" Content="172.31.106.121" Foreground="Blue" FontSize="16"/>
+            <Controls:LabelSecurity Canvas.Left="259" Canvas.Top="107" Content="172.24.43.121" Foreground="Blue" FontSize="16"/>
             <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_121__ServiceInfo_ConnectSuccessCount" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Canvas.Left="397" Canvas.Top="151"/>
             <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_121__ServiceInfo_ConnectFaultCount" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Canvas.Left="397" Canvas.Top="179"/>
             <local:HMILabel HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="92" DataName="ping_172_31_106_121__ServiceInfo_ReceiveSuccessCount" ToolTipService.ToolTip="" CaptionFontSize="20" RectangleRadius="4" Canvas.Left="397" Canvas.Top="207"/>

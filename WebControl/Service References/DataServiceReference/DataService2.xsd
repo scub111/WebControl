@@ -10,6 +10,7 @@
     <xs:complexContent mixed="false">
       <xs:extension base="tns:ItemSqlSimple">
         <xs:sequence>
+          <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="DataName" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="DataType" type="xs:short" />
           <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />

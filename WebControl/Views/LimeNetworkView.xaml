@@ -1,0 +1,93 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:Controls="clr-namespace:WebControl.Controls" x:Class="WebControl.LimeNetworkView"
+           mc:Ignorable="d"
+           d:DesignWidth="2350" d:DesignHeight="1400">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="2350" Height="1400" Background="{x:Null}">
+            <Rectangle Height="310" Canvas.Left="140" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="180" Width="2110" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFA2A2A2" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <TextBlock TextWrapping="Wrap" FontSize="30" Text="(3)Известняки" HorizontalAlignment="Left" Width="318" Height="50" VerticalAlignment="Bottom" Canvas.Left="160" Canvas.Top="129" FontStyle="Italic"/>
+            <local:HMINodeEx Canvas.Left="158" Canvas.Top="200" DataNameEx="ping_172_24_43_193" Height="60" Width="120" CaptionAdditional="172.24.43.193" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="288" Canvas.Top="200" DataNameEx="ping_172_24_43_194" Height="60" Width="120" CaptionAdditional="172.24.43.194" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="418" Canvas.Top="200" DataNameEx="ping_172_24_43_195" Height="60" Width="120" CaptionAdditional="172.24.43.195" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="548" Canvas.Top="200" DataNameEx="ping_172_24_43_196" Height="60" Width="120" CaptionAdditional="172.24.43.196" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="678" Canvas.Top="200" DataNameEx="ping_172_24_43_197" Height="60" Width="120" CaptionAdditional="172.24.43.197" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="808" Canvas.Top="200" DataNameEx="ping_172_24_43_198" Height="60" Width="120" CaptionAdditional="172.24.43.198" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="938" Canvas.Top="200" DataNameEx="ping_172_24_43_199" Height="60" Width="120" CaptionAdditional="172.24.43.199" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1068" Canvas.Top="200" DataNameEx="ping_172_24_43_200" Height="60" Width="120" CaptionAdditional="172.24.43.200" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1198" Canvas.Top="200" DataNameEx="ping_172_24_43_201" Height="60" Width="120" CaptionAdditional="172.24.43.201" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1328" Canvas.Top="200" DataNameEx="ping_172_24_43_202" Height="60" Width="120" CaptionAdditional="172.24.43.202" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="158" Canvas.Top="270" DataNameEx="ping_172_24_43_209" Height="60" Width="120" CaptionAdditional="172.24.43.209" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="288" Canvas.Top="270" DataNameEx="ping_172_24_43_210" Height="60" Width="120" CaptionAdditional="172.24.43.210" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="418" Canvas.Top="270" DataNameEx="ping_172_24_43_211" Height="60" Width="120" CaptionAdditional="172.24.43.211" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="548" Canvas.Top="270" DataNameEx="ping_172_24_43_212" Height="60" Width="120" CaptionAdditional="172.24.43.212" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="678" Canvas.Top="270" DataNameEx="ping_172_24_43_213" Height="60" Width="120" CaptionAdditional="172.24.43.213" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="808" Canvas.Top="270" DataNameEx="ping_172_24_43_214" Height="60" Width="120" CaptionAdditional="172.24.43.214" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="938" Canvas.Top="270" DataNameEx="ping_172_24_43_215" Height="60" Width="120" CaptionAdditional="172.24.43.215" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1068" Canvas.Top="270" DataNameEx="ping_172_24_43_216" Height="60" Width="120" CaptionAdditional="172.24.43.216" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1198" Canvas.Top="270" DataNameEx="ping_172_24_43_217" Height="60" Width="120" CaptionAdditional="172.24.43.217" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1328" Canvas.Top="270" DataNameEx="ping_172_24_43_218" Height="60" Width="120" CaptionAdditional="172.24.43.218" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="158" Canvas.Top="340" DataNameEx="ping_172_24_43_225" Height="60" Width="120" CaptionAdditional="172.24.43.225" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="288" Canvas.Top="340" DataNameEx="ping_172_24_43_226" Height="60" Width="120" CaptionAdditional="172.24.43.226" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="418" Canvas.Top="340" DataNameEx="ping_172_24_43_227" Height="60" Width="120" CaptionAdditional="172.24.43.227" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="548" Canvas.Top="340" DataNameEx="ping_172_24_43_228" Height="60" Width="120" CaptionAdditional="172.24.43.228" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="678" Canvas.Top="340" DataNameEx="ping_172_24_43_229" Height="60" Width="120" CaptionAdditional="172.24.43.229" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="808" Canvas.Top="340" DataNameEx="ping_172_24_43_230" Height="60" Width="120" CaptionAdditional="172.24.43.230" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="938" Canvas.Top="340" DataNameEx="ping_172_24_43_231" Height="60" Width="120" CaptionAdditional="172.24.43.231" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1068" Canvas.Top="340" DataNameEx="ping_172_24_43_232" Height="60" Width="120" CaptionAdditional="172.24.43.232" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1198" Canvas.Top="340" DataNameEx="ping_172_24_43_233" Height="60" Width="120" CaptionAdditional="172.24.43.233" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1328" Canvas.Top="340" DataNameEx="ping_172_24_43_234" Height="60" Width="120" CaptionAdditional="172.24.43.234" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="158" Canvas.Top="410" DataNameEx="ping_172_24_43_241" Height="60" Width="120" CaptionAdditional="172.24.43.241" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="288" Canvas.Top="410" DataNameEx="ping_172_24_43_242" Height="60" Width="120" CaptionAdditional="172.24.43.242" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="418" Canvas.Top="410" DataNameEx="ping_172_24_43_243" Height="60" Width="120" CaptionAdditional="172.24.43.243" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="548" Canvas.Top="410" DataNameEx="ping_172_24_43_244" Height="60" Width="120" CaptionAdditional="172.24.43.244" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="678" Canvas.Top="410" DataNameEx="ping_172_24_43_245" Height="60" Width="120" CaptionAdditional="172.24.43.245" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="808" Canvas.Top="410" DataNameEx="ping_172_24_43_246" Height="60" Width="120" CaptionAdditional="172.24.43.246" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="938" Canvas.Top="410" DataNameEx="ping_172_24_43_247" Height="60" Width="120" CaptionAdditional="172.24.43.247" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1068" Canvas.Top="410" DataNameEx="ping_172_24_43_248" Height="60" Width="120" CaptionAdditional="172.24.43.248" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1198" Canvas.Top="410" DataNameEx="ping_172_24_43_249" Height="60" Width="120" CaptionAdditional="172.24.43.249" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1328" Canvas.Top="410" DataNameEx="ping_172_24_43_250" Height="60" Width="120" CaptionAdditional="172.24.43.250" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1458" Canvas.Top="200" DataNameEx="ping_172_24_43_203" Height="60" Width="120" CaptionAdditional="172.24.43.203" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1588" Canvas.Top="200" DataNameEx="ping_172_24_43_204" Height="60" Width="120" CaptionAdditional="172.24.43.204" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1718" Canvas.Top="200" DataNameEx="ping_172_24_43_205" Height="60" Width="120" CaptionAdditional="172.24.43.205" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1848" Canvas.Top="200" DataNameEx="ping_172_24_43_206" Height="60" Width="120" CaptionAdditional="172.24.43.206" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1978" Canvas.Top="200" DataNameEx="ping_172_24_43_207" Height="60" Width="120" CaptionAdditional="172.24.43.207" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="2108" Canvas.Top="200" DataNameEx="ping_172_24_43_208" Height="60" Width="120" CaptionAdditional="172.24.43.208" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1458" Canvas.Top="270" DataNameEx="ping_172_24_43_219" Height="60" Width="120" CaptionAdditional="172.24.43.219" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1588" Canvas.Top="270" DataNameEx="ping_172_24_43_220" Height="60" Width="120" CaptionAdditional="172.24.43.220" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1718" Canvas.Top="270" DataNameEx="ping_172_24_43_221" Height="60" Width="120" CaptionAdditional="172.24.43.221" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1848" Canvas.Top="270" DataNameEx="ping_172_24_43_222" Height="60" Width="120" CaptionAdditional="172.24.43.222" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1978" Canvas.Top="270" DataNameEx="ping_172_24_43_223" Height="60" Width="120" CaptionAdditional="172.24.43.223" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="2108" Canvas.Top="270" DataNameEx="ping_172_24_43_224" Height="60" Width="120" CaptionAdditional="172.24.43.224" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1458" Canvas.Top="340" DataNameEx="ping_172_24_43_235" Height="60" Width="120" CaptionAdditional="172.24.43.235" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1588" Canvas.Top="340" DataNameEx="ping_172_24_43_236" Height="60" Width="120" CaptionAdditional="172.24.43.236" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1718" Canvas.Top="340" DataNameEx="ping_172_24_43_237" Height="60" Width="120" CaptionAdditional="172.24.43.237" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1848" Canvas.Top="340" DataNameEx="ping_172_24_43_238" Height="60" Width="120" CaptionAdditional="172.24.43.238" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1978" Canvas.Top="340" DataNameEx="ping_172_24_43_239" Height="60" Width="120" CaptionAdditional="172.24.43.239" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="2108" Canvas.Top="340" DataNameEx="ping_172_24_43_240" Height="60" Width="120" CaptionAdditional="172.24.43.240" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1458" Canvas.Top="410" DataNameEx="ping_172_24_43_251" Height="60" Width="120" CaptionAdditional="172.24.43.251" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1588" Canvas.Top="410" DataNameEx="ping_172_24_43_252" Height="60" Width="120" CaptionAdditional="172.24.43.252" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1718" Canvas.Top="410" DataNameEx="ping_172_24_43_253" Height="60" Width="120" CaptionAdditional="172.24.43.253" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1848" Canvas.Top="410" DataNameEx="ping_172_24_43_254" Height="60" Width="120" CaptionAdditional="172.24.43.254" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <local:HMINodeEx Canvas.Left="1978" Canvas.Top="410" DataNameEx="ping_172_24_43_255" Height="60" Width="120" CaptionAdditional="172.24.43.255" CaptionMain="" Type="Database" AutoCaptions="True"/>
+            <Button x:Name="btnNavNetworkView" Content="Общая сеть" Canvas.Left="1070" Canvas.Top="67" Width="250" Height="65" FontSize="30" Click="btnNavNetworkView_Click"/>
+            <Controls:LabelSecurity Canvas.Left="488" Content="IP диапазон: 172.24.43.193-254" Foreground="Blue" FontSize="16" Canvas.Top="109"/>
+            <Controls:LabelSecurity Canvas.Left="537" Content="Маска: 255.255.255.192" Foreground="Blue" FontSize="16" Canvas.Top="133"/>
+            <Controls:LabelSecurity Canvas.Left="540" Content="Шлюз: 172.24.43.193" Foreground="Blue" FontSize="16" Canvas.Top="155"/>
+        </Canvas>
+    </Viewbox>
+</local:ViewBase>

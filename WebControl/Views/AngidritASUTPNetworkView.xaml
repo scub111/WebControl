@@ -1,0 +1,265 @@
+﻿<local:ViewBase 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:we="clr-namespace:WebControl"
+           xmlns:local="clr-namespace:WebControl" 
+		   xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:Controls="clr-namespace:WebControl.Controls" x:Class="WebControl.AngidritASUTPNetworkView"
+           mc:Ignorable="d"
+           d:DesignWidth="2350" d:DesignHeight="1400">
+
+    <Viewbox>
+        <Canvas x:Name="LayoutRoot" Width="2350" Height="1400" Background="{x:Null}">
+
+            <Rectangle Height="1092" Canvas.Left="113" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="298" Width="1615" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFA2A2A2" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+
+            <Rectangle Height="906" Canvas.Left="129" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="303" Width="605"/>
+
+            <Rectangle Height="353" Canvas.Left="335" RadiusY="25" RadiusX="25" Stroke="#FF00D3D3" Canvas.Top="848" Width="399" StrokeThickness="5"/>
+
+            <Rectangle Height="550" Canvas.Left="295" RadiusY="30" RadiusX="30" Stroke="#FF5100FF" Canvas.Top="298" Width="1424" StrokeThickness="5"/>
+
+            <Rectangle Height="349" Canvas.Left="335" RadiusY="25" RadiusX="25" Stroke="#FFCE00EE" Canvas.Top="494" Width="1011" StrokeThickness="5"/>
+
+            <Rectangle Height="1087" Canvas.Left="938" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="303" Width="205"/>
+            <Rectangle Height="906" Canvas.Left="734" RadiusY="25" RadiusX="25" Stroke="Black" Canvas.Top="303" Width="204"/>
+            <Rectangle Height="192" Canvas.Left="335" RadiusY="25" RadiusX="25" Stroke="Red" Canvas.Top="303" Width="1380" StrokeThickness="5"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="550" Canvas.Top="495" FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="126" Canvas.Top="495" FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" FontSize="30" Text="(2)Ангидрит" HorizontalAlignment="Left" Width="224" Height="50" VerticalAlignment="Bottom" Canvas.Left="169" Canvas.Top="248" FontStyle="Italic"/>
+            <Grid Height="100" Canvas.Left="1394" Canvas.Top="543" Width="100">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="73*"/>
+                    <ColumnDefinition Width="27*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Controls:LabelSecurity Canvas.Left="1589" Canvas.Top="339" Content="" Foreground="Blue" FontSize="16"/>
+            <Controls:LabelSecurity Canvas.Left="1192" Canvas.Top="520" Content="" Foreground="Blue" FontSize="16"/>
+            <Grid Height="100" Canvas.Left="1288" Canvas.Top="319" Width="100"/>
+            <Controls:LabelSecurity Canvas.Left="1077" Canvas.Top="77" Content="" Foreground="Blue" FontSize="16"/>
+            <Controls:LabelSecurity Canvas.Left="788" Canvas.Top="1059" Content="" Foreground="#FF008312" FontSize="16"/>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="188" Canvas.Top="399" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="АБК" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="223" Canvas.Top="384" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Серверная" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="223" Canvas.Top="587" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="Диспетчерская" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" FontSize="21.333" TextAlignment="Center" HorizontalAlignment="Left" Width="180" Height="30" VerticalAlignment="Bottom" Canvas.Left="224" Canvas.Top="995" FontStyle="Italic" RenderTransformOrigin="0.5,0.5" Text="ЗВГУ-2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Rectangle Height="168" Canvas.Left="540" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="316" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="548" Canvas.Top="390" Height="28" Width="28" DataName="Angidrit_zvgu_2_arm_1__ServiceInfo_IsReading"/>
+            <local:HMIRectangle Canvas.Left="548" Canvas.Top="449" Height="28" Width="28" DataName="Angidrit_zvgu_2_arm_2__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="ЗВГУ-2 Аг1" HorizontalAlignment="Left" Width="44" Height="30" VerticalAlignment="Bottom" Canvas.Left="540" Canvas.Top="360" FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="ЗВГУ-2 Аг2" HorizontalAlignment="Left" Width="44" Height="30" VerticalAlignment="Bottom" Canvas.Left="540" Canvas.Top="419" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="345" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="363" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="353" Canvas.Top="383" Height="28" Width="28" DataName="Angidrit_asop__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="АСОП" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="345" Canvas.Top="367" FontStyle="Italic"/>
+            <Controls:LabelSecurity Canvas.Left="584" Canvas.Top="329" Content="192.168.0.1" Foreground="#FF008312" FontSize="16"/>
+            <Controls:LabelSecurity Canvas.Left="584" Canvas.Top="343" Content="192.168.1.36" Foreground="#FF008312" FontSize="16"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" Text="АСОП+В." HorizontalAlignment="Left" Width="53" Height="16" VerticalAlignment="Bottom" Canvas.Left="683" Canvas.Top="333" FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" Text="ЗВГУ-2" HorizontalAlignment="Left" Width="39" Height="16" VerticalAlignment="Bottom" Canvas.Left="694" Canvas.Top="347" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="540" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="544" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="548" Canvas.Top="564" Height="28" Width="28" DataName="Angidrit_pumping__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Вод." HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="540" Canvas.Top="548" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="739" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="544" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="747" Canvas.Top="564" Height="28" Width="28" DataName="Angidrit_nps_2__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="НПС-2" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="739" Canvas.Top="548" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="739" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="724" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="747" Canvas.Top="744" Height="28" Width="28" DataName="Angidrit_vvu_2__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="ВВУ-2" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="739" Canvas.Top="728" FontStyle="Italic"/>
+            <local:HMIRectangle Canvas.Left="548" Canvas.Top="331" Height="28" Width="28" DataName="ping_172_24_92_123_from_192_168_0_5__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="15" VerticalAlignment="Bottom" Canvas.Left="540" Canvas.Top="316" FontStyle="Italic"/>
+            <Controls:LabelSecurity Canvas.Left="584" Canvas.Top="329" Content="192.168.0.1" Foreground="#FF008312" FontSize="16"/>
+            <Controls:LabelSecurity Canvas.Left="778" Canvas.Top="339" Content="192.168.0.154" Foreground="#FF008312" FontSize="16"/>
+            <Rectangle Height="55" Canvas.Left="739" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="363" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="747" Canvas.Top="383" Height="28" Width="28" DataName="ping_172_24_92_124_from_192_168_0_2__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="739" Canvas.Top="367" FontStyle="Italic"/>
+            <Controls:LabelSecurity Canvas.Left="993" Canvas.Top="339" Content="192.168.0.5" Foreground="#FF008312" FontSize="16"/>
+            <Rectangle Height="55" Canvas.Left="943" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="363" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="951" Canvas.Top="383" Height="28" Width="28" DataName="ping_172_24_92_125_from_192_168_0_21__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="943" Canvas.Top="367" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="943" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="544" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="951" Canvas.Top="564" Height="28" Width="28" DataName="Angidrit_rp_55X__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="РП" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="943" Canvas.Top="548" FontStyle="Italic"/>
+            <Rectangle Height="190" Canvas.Left="1345" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="1025" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="1353" Canvas.Top="1086" Height="28" Width="28" DataName="Angidrit_nps_1_technograph2__ServiceInfo_IsReading"/>
+            <local:HMIRectangle Canvas.Left="1353" Canvas.Top="1132" Height="28" Width="28" DataName="Angidrit_nps_1_technograph3__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Тех. 2" HorizontalAlignment="Left" Width="44" Height="15" VerticalAlignment="Bottom" Canvas.Left="1345" Canvas.Top="1071" FontStyle="Italic"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Тех. 3" HorizontalAlignment="Left" Width="44" Height="15" VerticalAlignment="Bottom" Canvas.Left="1345" Canvas.Top="1117" FontStyle="Italic"/>
+            <local:HMIRectangle Canvas.Left="1353" Canvas.Top="1040" Height="28" Width="28" DataName="Angidrit_nps_1_technograph1__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Тех. 1" HorizontalAlignment="Left" Width="44" Height="15" VerticalAlignment="Bottom" Canvas.Left="1345" Canvas.Top="1025" FontStyle="Italic"/>
+            <local:HMIRectangle Canvas.Left="1353" Canvas.Top="1179" Height="28" Width="28" DataName="Angidrit_nps_1_KEPServerEx__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Взлет" HorizontalAlignment="Left" Width="44" Height="15" VerticalAlignment="Bottom" Canvas.Left="1345" Canvas.Top="1164" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="1539" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="1083" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="1547" Canvas.Top="1103" Height="28" Width="28" DataName="Angidrit_heater_technograph1__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="Тех. 1" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="1539" Canvas.Top="1087" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="1344" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="902" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="1352" Canvas.Top="922" Height="28" Width="28" DataName="Angidrit_MTB__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="КМАЗС" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="1344" Canvas.Top="906" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="1147" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="363" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="1155" Canvas.Top="383" Height="28" Width="28" DataName="ping_172_24_92_149__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="1147" Canvas.Top="367" FontStyle="Italic"/>
+            <Rectangle Height="55" Canvas.Left="1238" RadiusY="5" RadiusX="5" Stroke="Black" Canvas.Top="319" Width="44" Opacity="0.585">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FF0068FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMIRectangle Canvas.Left="1246" Canvas.Top="339" Height="28" Width="28" DataName="ping_172_31_106_121__ServiceInfo_IsReading"/>
+            <TextBlock TextWrapping="Wrap" FontSize="10.667" TextAlignment="Center" Text="*.*.*.*" HorizontalAlignment="Left" Width="44" Height="16" VerticalAlignment="Bottom" Canvas.Left="1238" Canvas.Top="323" FontStyle="Italic"/>
+            <Rectangle Height="17" Canvas.Left="688" Stroke="Black" Canvas.Top="421" Width="21">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFF300FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Height="17" Canvas.Left="886" Stroke="Black" Canvas.Top="421" Width="21">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFF300FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Rectangle Height="17" Canvas.Left="1087" Stroke="Black" Canvas.Top="421" Width="21">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFFFFFE" Offset="0"/>
+                        <GradientStop Color="#FFF300FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <local:HMINodeEx Canvas.Left="988" Canvas.Top="360" DataNameEx="ping_172_24_92_125" Height="60" Width="120" CaptionAdditional="172.24.92.125" CaptionMain="&quot;125&quot;" Type="Server" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="787" Canvas.Top="360" DataNameEx="ping_172_24_92_124" Height="60" Width="120" CaptionAdditional="172.24.92.124" CaptionMain="&quot;124&quot;" Type="Server" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="589" Canvas.Top="360" DataNameEx="ping_172_24_92_123" Height="60" Width="120" CaptionAdditional="172.24.92.123" CaptionMain="&quot;123&quot;" Type="Server" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="994" Canvas.Top="541" DataNameEx="ping_172_24_92_125_from_192_168_0_21" Height="60" Width="120" CaptionAdditional="192.168.0.21" CaptionMain="РП АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="988" Canvas.Top="866" DataNameEx="ping_172_24_92_125_from_192_168_0_3" Height="60" Width="120" CaptionAdditional="192.168.0.3" CaptionMain="РП-552 АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="988" Canvas.Top="925" DataNameEx="ping_172_24_92_125_from_192_168_0_1" Height="60" Width="120" CaptionAdditional="192.168.0.1" CaptionMain="РП-553 АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="988" Canvas.Top="984" DataNameEx="ping_172_24_92_125_from_192_168_0_2" Height="60" Width="120" CaptionAdditional="192.168.0.2" CaptionMain="РП-554 АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="783" Canvas.Top="541" DataNameEx="ping_172_24_92_124_from_192_168_0_3" Height="60" Width="120" CaptionAdditional="192.168.0.3" CaptionMain="НПС-2 АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="783" Canvas.Top="721" DataNameEx="ping_172_24_92_124_from_192_168_0_2" Height="60" Width="120" CaptionAdditional="192.168.0.2" CaptionMain="ВВУ-2 АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="778" Canvas.Top="862" DataNameEx="ping_172_24_92_124_from_192_168_0_12" Height="60" Width="120" CaptionAdditional="192.168.0.12" CaptionMain="НПС-2 ПЛК" ExternalLink="" Type="PLC"/>
+            <local:HMINodeEx Canvas.Left="778" Canvas.Top="922" DataNameEx="ping_172_24_92_124_from_192_168_0_1" Height="60" Width="120" CaptionAdditional="192.168.0.1" CaptionMain="ВВУ-2 ПЛК" ExternalLink="" Type="PLC"/>
+            <local:HMINodeEx Canvas.Left="389" Canvas.Top="360" DataNameEx="ping_172_24_92_123_from_192_168_0_4" Height="60" Width="120" CaptionAdditional="192.168.0.4" CaptionMain="АСОП Сервер" ExternalLink="" Type="Server"/>
+            <local:HMINodeEx Canvas.Left="390" Canvas.Top="541" DataNameEx="ping_172_24_92_123_from_192_168_0_5" Height="60" Width="120" CaptionAdditional="192.168.0.5" CaptionMain="АСОП АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="589" Canvas.Top="541" DataNameEx="ping_172_24_92_123_from_192_168_1_33" Height="60" Width="120" CaptionAdditional="192.168.1.33" CaptionMain="Вод. АРМ" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="389" Canvas.Top="730" DataNameEx="ping_172_24_92_123_from_192_168_1_13" Height="60" Width="120" CaptionAdditional="192.168.1.13" CaptionMain="ЗВГУ-2 АБК-1" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="589" Canvas.Top="730" DataNameEx="ping_172_24_92_123_from_192_168_1_22" Height="60" Width="120" CaptionAdditional="192.168.1.22" CaptionMain="ЗВГУ-2 АБК-2" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="389" Canvas.Top="866" DataNameEx="ping_172_24_92_123_from_192_168_1_11" Height="60" Width="120" CaptionAdditional="192.168.1.11" CaptionMain="ЗВГУ-2 АРМ-1" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="589" Canvas.Top="866" DataNameEx="ping_172_24_92_123_from_192_168_1_21" Height="60" Width="120" CaptionAdditional="192.168.1.21" CaptionMain="ЗВГУ-2 АРМ-2" ExternalLink=""/>
+            <local:HMINodeEx Canvas.Left="390" Canvas.Top="964" DataNameEx="ping_172_24_92_123_from_192_168_1_1" Height="60" Width="120" CaptionAdditional="192.168.1.1" CaptionMain="ЗВГУ-2 ПЛК-1" ExternalLink="" Type="PLC"/>
+            <local:HMINodeEx Canvas.Left="589" Canvas.Top="964" DataNameEx="ping_172_24_92_123_from_192_168_1_2" Height="60" Width="120" CaptionAdditional="192.168.1.2" CaptionMain="ЗВГУ-2 ПЛК-2" ExternalLink="" Type="PLC"/>
+            <local:HMINodeEx Canvas.Left="148" Canvas.Top="541" DataNameEx="ping_172_24_92_123_from_192_168_1_12" Height="60" Width="120" CaptionAdditional="192.168.1.12" CaptionMain="Вод. BARTEC" ExternalLink=""/>
+            <Button x:Name="btnNavNetworkView" Content="Общая сеть" Canvas.Left="1070" Canvas.Top="67" Width="250" Height="65" FontSize="30" Click="btnNavNetworkView_Click"/>
+        </Canvas>
+    </Viewbox>
+</local:ViewBase>

@@ -99,7 +99,6 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock x:Name="tbCaptionAdditional" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" Foreground="Blue" FontFamily="Agency FB" Margin="0,21,0,0"/>
         <TextBlock x:Name="tbCaptionMain" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" FontFamily="Agency FB"/>
         <TextBlock x:Name="tbUnknown" Height="35" TextWrapping="Wrap" Text="???" Canvas.Top="5" Width="50" TextAlignment="Center" FontSize="26.667" RenderTransformOrigin="0.5,0.5" Foreground="Red"/>
         <Viewbox x:Name="vwWarning" Margin="0,5">
@@ -112,7 +111,7 @@
                         </LinearGradientBrush>
                     </Path.Fill>
                 </Path>
-                <TextBlock TextWrapping="Wrap" Text="!" FontSize="26.667" TextAlignment="Center"/>
+                <TextBlock TextWrapping="Wrap" Text="!" FontSize="26.667" TextAlignment="Center" Margin="0,-1,0,1"/>
             </Grid>
         </Viewbox>
         <Rectangle x:Name="recMouse" Stroke="#FF000CFD" StrokeThickness="2" Visibility="Collapsed"/>
@@ -190,13 +189,72 @@
             </Rectangle>
         </Grid>
         <Path x:Name="pathExternalLink" UseLayoutRounding="False" Width="9" RenderTransformOrigin="0.5,0.5" Data="M9,0 L9,3 L9,9 L0,0 z" HorizontalAlignment="Right" Margin="0,1,1,0" Fill="Blue" Height="9" VerticalAlignment="Top"/>
-        <Grid x:Name="grpServer" Height="16" Margin="4,0,7,3" HorizontalAlignment="Left" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition">
-            <Path x:Name="path9" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0.15,11.15 L11.15,0.15 L39.15,0.150002 L28.15,11.15 z" Fill="Blue" Stroke="Black" StrokeThickness="0.3" Margin="0,0,-0.3,4.7" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
-            <Rectangle Fill="Blue" Height="5" VerticalAlignment="Bottom" Stroke="Black" StrokeThickness="0.3" Margin="0,0,11,0" d:LayoutOverrides="LeftPosition, RightPosition"/>
-            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="3" VerticalAlignment="Bottom" Width="8" Margin="1,0,0,1"/>
-            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="3" VerticalAlignment="Bottom" Width="8" RenderTransformOrigin="-2.467,2.667" Margin="10,0,0,1"/>
-            <Rectangle Fill="Black" Height="3" VerticalAlignment="Bottom" Margin="19,0,12,1" d:LayoutOverrides="LeftPosition, RightPosition"/>
-            <Path x:Name="path9_Copy" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0.15,16.15 L0.15,11.15 L11.15,0.15 L11.15,5.15 z" Fill="Blue" Width="11.3" Stroke="Black" StrokeThickness="0.3" HorizontalAlignment="Right" Margin="0,0,-0.3,-0.3" d:LayoutOverrides="TopPosition, BottomPosition"/>
+        <Grid x:Name="grpServer" HorizontalAlignment="Left" Height="18" Margin="4,0,0,2" VerticalAlignment="Bottom" Width="22">
+            <Rectangle Fill="#FF4949FF" Stroke="Black" StrokeThickness="0" Margin="2,0,2,2" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="Red" HorizontalAlignment="Left" Height="4" VerticalAlignment="Top" Width="4" Margin="4,1,0,0"/>
+            <Path x:Name="path9" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Data="M0.15,2.15 L2.15,0.15 L20.15,0.150331 L22.15,2.15 z" Fill="Black" Stroke="Black" StrokeThickness="0" Margin="0,0,-0.3,-0.15" Height="2.3" VerticalAlignment="Bottom" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Rectangle Fill="#FFB1B1FD" Margin="4,6,4,8" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition" StrokeThickness="4"/>
+            <Rectangle Fill="#FFB1B1FD" Height="4" VerticalAlignment="Bottom" Margin="4,0,4,3" d:LayoutOverrides="LeftPosition, RightPosition" StrokeThickness="4"/>
+            <Rectangle Fill="#FFB1B1FD" Height="4" VerticalAlignment="Top" Margin="8,1,4,0" d:LayoutOverrides="LeftPosition, RightPosition" StrokeThickness="4"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="4" Margin="4,6,0,8" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FFD1FF00" HorizontalAlignment="Left" Height="4" VerticalAlignment="Bottom" Width="4" Margin="4,0,0,3"/>
+        </Grid>
+        <Grid x:Name="grpPLC" HorizontalAlignment="Left" Height="16" Margin="4,0,0,4" VerticalAlignment="Bottom" Width="35">
+            <Rectangle Fill="Black" Stroke="Black" StrokeThickness="0" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF7E7EF9" StrokeThickness="4" Margin="1,1,0,1" HorizontalAlignment="Left" Width="9" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF7E7EF9" StrokeThickness="4" Margin="11,1,17,1" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="4" Margin="2,7,0,5" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF7E7EF9" StrokeThickness="4" Margin="0,1,9,1" HorizontalAlignment="Right" Width="7" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Rectangle Fill="Red" HorizontalAlignment="Left" Height="4" Width="4" VerticalAlignment="Top" Margin="2,3,0,0"/>
+            <Rectangle Fill="#FF7E7EF9" StrokeThickness="4" Margin="0,1,1,1" HorizontalAlignment="Right" Width="7" RenderTransformOrigin="1.857,0.429" d:LayoutOverrides="TopPosition, BottomPosition"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="1" Width="7" VerticalAlignment="Top" Margin="2,1,0,0"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="2" Margin="15,3,0,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="2" Margin="15,6,0,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="2" Margin="15,0,0,5" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="2" Margin="15,0,0,2" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="Black" Height="1" VerticalAlignment="Top" Margin="12,1,0,0" HorizontalAlignment="Left" Width="5"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Right" Height="1" Width="5" VerticalAlignment="Top" Margin="0,1,10,0"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Right" Height="1" Width="5" VerticalAlignment="Top" Margin="0,1,2,0" RenderTransformOrigin="1.571,1"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,3,10,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,6,10,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,0,10,5" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,0,10,2" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,3,2,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,6,2,0" Height="2" VerticalAlignment="Top"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,0,2,5" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="2" Margin="0,0,2,2" Height="2" VerticalAlignment="Bottom"/>
+            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="1" Width="2.781" VerticalAlignment="Bottom" Margin="6,0,0,3" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="41.524"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Grid>
+        <TextBlock x:Name="tbCaptionAdditional" TextWrapping="Wrap" Text="-.-.-.-" TextAlignment="Center" FontSize="13" Foreground="Blue" FontFamily="Agency FB" Margin="0,20,0,0"/>
+        <Grid x:Name="grpSwitch" HorizontalAlignment="Left" Height="11" Margin="4,0,0,6" VerticalAlignment="Bottom" Width="19">
+            <Rectangle Fill="Black" Stroke="Black" StrokeThickness="0" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FFF97EF3" StrokeThickness="4" Margin="1" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="3" Height="3" VerticalAlignment="Bottom" Margin="2,0,0,2"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="3" Height="3" VerticalAlignment="Bottom" Margin="6,0,0,2"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="3" Height="3" VerticalAlignment="Bottom" Margin="0,0,6,2"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="3" Height="3" VerticalAlignment="Bottom" Margin="0,0,2,2"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="3" Height="3" VerticalAlignment="Top" Margin="2,2,0,0"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Left" Width="3" Height="3" VerticalAlignment="Top" Margin="6,2,0,0"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="3" Height="3" VerticalAlignment="Top" Margin="0,2,6,0"/>
+            <Rectangle Fill="#FF17FF00" HorizontalAlignment="Right" Width="3" Height="3" VerticalAlignment="Top" Margin="0,2,2,0"/>
+        </Grid>
+        <Grid x:Name="grpRouter" HorizontalAlignment="Left" Height="18" Margin="4,0,0,3" VerticalAlignment="Bottom" Width="42">
+            <Rectangle Fill="Black" Stroke="Black" StrokeThickness="0" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FFF97EF3" StrokeThickness="4" Margin="1" d:LayoutOverrides="LeftPosition, RightPosition, TopPosition, BottomPosition"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Left" Width="6" Height="6" VerticalAlignment="Top" Margin="2,2,0,0"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Left" Width="6" Height="6" VerticalAlignment="Top" Margin="10,2,0,0"/>
+            <Rectangle Fill="#FF000CFF" Height="6" VerticalAlignment="Top" Margin="18,2,18,0" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Right" Width="6" Height="6" VerticalAlignment="Top" Margin="0,2,10,0"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Right" Width="6" Height="6" VerticalAlignment="Top" Margin="0,2,2,0"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Left" Width="6" Height="6" VerticalAlignment="Bottom" Margin="2,0,0,2"/>
+            <Rectangle Fill="#FF000CFF" Height="6" VerticalAlignment="Bottom" Margin="18,0,18,2" d:LayoutOverrides="LeftPosition, RightPosition"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Right" Width="6" Height="6" VerticalAlignment="Bottom" Margin="0,0,10,2"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Right" Width="6" Height="6" VerticalAlignment="Bottom" Margin="0,0,2,2"/>
+            <Rectangle Fill="#FF000CFF" HorizontalAlignment="Left" Width="6" Height="6" VerticalAlignment="Bottom" Margin="10,0,0,2"/>
         </Grid>
     </Grid>
 </we:HMIBooleanBase>

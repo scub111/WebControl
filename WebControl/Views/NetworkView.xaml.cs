@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
-using DevExpress.Xpf.Core;
 
 namespace WebControl
 {
@@ -23,31 +20,34 @@ namespace WebControl
         {
 
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnNavAdministrationNetworkView_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                //if (App.Current.HasElevatedPermissions)
-                //{
-                //for notepad
-                //dynamic notepad = AutomationFactory.CreateObject("WScript.shell");
-                //notepad.Run(@"C:\WINDOWS\NOTEPAD.EXE");
-                ThemeManager.ApplicationTheme = Theme.VS2010;
+            Global.Default.navPanAdministrationNetwork.Activate();
+        }
 
+        private void btnNavAngidritNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanAngidritNetwork.Activate();
+        }
 
-                //}
-                //else
-                //{
-                //    MessageBox.Show("Нет разрешений");
-                //}
+        private void btnNavAngidritASUTPNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanAngidritASUTPNetwork.Activate();
+        }
 
-            }
-            catch (Exception ex)
-            {
+        private void btnKayerkanskiyNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanKayerkanskiyNetwork.Activate();
+        }
 
-                MessageBox.Show(ex.ToString());
-            }
+        private void btnKURNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanKURNetwork.Activate();
+        }
+
+        private void btnLimeNetworkView_Click(object sender, RoutedEventArgs e)
+        {
+            Global.Default.navPanLimeNetwork.Activate();
         }
     }
 }

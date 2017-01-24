@@ -133,6 +133,11 @@ namespace WcfDataService
         /// </summary>
         public int TimeOut { get; set; }
 
+        /// <summary>
+        /// Комментарий.
+        /// </summary>
+        public string Comment { get; set; }
+
         public ItemSqlSimple GetItemSimple()
         {
             ItemSqlSimple item = new ItemSqlSimple();

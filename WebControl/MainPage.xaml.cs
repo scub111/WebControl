@@ -1,17 +1,10 @@
 ﻿using DevExpress.Xpf.Core;
 using DevExpress.Xpf.Docking;
-using DevExpress.Xpf.NavBar;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 
 namespace WebControl
 {
@@ -50,10 +43,16 @@ namespace WebControl
             NavigationWithPanal navPanAngidritRP554 = new NavigationWithPanal(navAngidritRP554, "AngidritRP554View", dockManager, documentContainer); navPanAngidritRP554.Activate();
             NavigationWithPanal navPanAngidritMTB = new NavigationWithPanal(navAngidritMTB, "AngidritMTBView", dockManager, documentContainer); navPanAngidritMTB.Activate();
             NavigationWithPanal navPanServiceInfo = new NavigationWithPanal(navServiceInfo, "ServiceInfoView", dockManager, documentContainer); navPanServiceInfo.Activate();
-            NavigationWithPanal navPanNetwork = new NavigationWithPanal(navNetwork, "NetworkView", dockManager, documentContainer); navPanNetwork.Activate();
+            Global.Default.navPanAdministrationNetwork = new NavigationWithPanal(navAdministrationNetwork, "AdministrationNetworkView", dockManager, documentContainer); Global.Default.navPanAdministrationNetwork.Activate();
+            Global.Default.navPanAngidritNetwork = new NavigationWithPanal(navAngidritNetwork, "AngidritNetworkView", dockManager, documentContainer); Global.Default.navPanAngidritNetwork.Activate();
+            Global.Default.navPanAngidritASUTPNetwork = new NavigationWithPanal(navAngidritASUTPNetwork, "AngidritASUTPNetworkView", dockManager, documentContainer); Global.Default.navPanAngidritASUTPNetwork.Activate();
+            Global.Default.navPanKayerkanskiyNetwork = new NavigationWithPanal(navKayerkanskiyNetwork, "KayerkanskiyNetworkView", dockManager, documentContainer); Global.Default.navPanKayerkanskiyNetwork.Activate();
+            Global.Default.navPanKURNetwork = new NavigationWithPanal(navKURNetwork, "KURNetworkView", dockManager, documentContainer); Global.Default.navPanKURNetwork.Activate();
+            Global.Default.navPanLimeNetwork = new NavigationWithPanal(navLimeNetwork, "LimeNetworkView", dockManager, documentContainer); Global.Default.navPanLimeNetwork.Activate();
             Global.Default.navPanDevelop = new NavigationWithPanal(navDevelop, "DevelopView", dockManager, documentContainer); //navPanDevelop.Activate();
             NavigationWithPanal navPanTest = new NavigationWithPanal(navTest, "TestView", dockManager, documentContainer); //navPanTest.Activate();
             NavigationWithPanal navPanAngidritCommon = new NavigationWithPanal(navAngidritCommon, "AngidritControlView", dockManager, documentContainer); navPanAngidritCommon.Activate();
+            Global.Default.navPanNetwork = new NavigationWithPanal(navNetwork, "NetworkView", dockManager, documentContainer); Global.Default.navPanNetwork.Activate();
             ShowStatusConnectionForm();
         }
 

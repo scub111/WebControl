@@ -160,6 +160,46 @@ namespace WebControl
         Collection<HMISimpleBase> UIControls { get; set; }
 
         /// <summary>
+        /// Панель общей сети
+        /// </summary>
+        public NavigationWithPanal navPanNetwork { get; set; }
+
+        /// <summary>
+        /// Панель сети Рудоуправления.
+        /// </summary>
+        public NavigationWithPanal navPanAdministrationNetwork { get; set; }
+
+        /// <summary>
+        /// Панель сети Ангидрита.
+        /// </summary>
+        public NavigationWithPanal navPanAngidritNetwork { get; set; }
+
+        /// <summary>
+        /// Панель сети АСУТП Ангидрита.
+        /// </summary>
+        public NavigationWithPanal navPanAngidritASUTPNetwork { get; set; }
+
+        /// <summary>
+        /// Панель сети Кайерканского.
+        /// </summary>
+        public NavigationWithPanal navPanKayerkanskiyNetwork { get; set; }
+
+        /// <summary>
+        /// Панель сети КУРа.
+        /// </summary>
+        public NavigationWithPanal navPanKURNetwork { get; set; }        
+        
+        /// <summary>
+        /// Панель сети Известняков.
+        /// </summary>
+        public NavigationWithPanal navPanLimeNetwork { get; set; }             
+        
+        /// <summary>
+        /// Панель сети КУРа.
+        /// </summary>
+        public NavigationWithPanal navPanLimNetwork { get; set; }        
+
+        /// <summary>
         /// Информационная панель.
         /// </summary>
         public NavigationWithPanal navPanDevelop { get; set; }
@@ -368,7 +408,7 @@ namespace WebControl
         /// </summary>
         public void Init()
         {
-            Version = "1.42.10";
+            Version = "1.42.11";
 
             Debug = true;
 
@@ -381,6 +421,7 @@ namespace WebControl
             //Автоматическое определение IP-сервера и его WCF-службе подключения в зависимости от режима разработки проекта.
             if (Debug)
                 ServerIPAddress = "172.31.106.121";
+                //ServerIPAddress = "127.0.0.1";
             else
             {
                 if (!string.IsNullOrEmpty(Application.Current.Host.Source.Host))
@@ -609,7 +650,8 @@ namespace WebControl
                         Quality = itemReal.Quality,
                         SqlTime = itemReal.SqlTime,
                         DeviceTime = itemReal.DeviceTime,
-                        TimeOut = itemReal.TimeOut
+                        TimeOut = itemReal.TimeOut,
+                        Comment = itemReal.Comment
                     };
                     ItemsReal.Add(item);
                     ItemsRealDict.Add(itemReal.DataName, item);
