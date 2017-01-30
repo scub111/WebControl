@@ -16,17 +16,17 @@ namespace WebControl
             ThemeManager.ApplicationTheme = Theme.VS2010;
             InitializeComponent();
         }
-        
+
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            this.mainPanel.Closed = true;
+            mainPanel.Closed = true;
             Global.Default.MainForm = this;
 
             Global.Default.ThreadMain.InterfaceChanged += ThreadMain_InterfaceChanged;
 
             Global.Default.DockManager = dockManager;
             Global.Default.DocumentContainer = documentContainer;
-            
+
             NavigationWithPanal navPanAngidritZVGU2Ag1 = new NavigationWithPanal(navAngidritZVGU2Ag1, "AngidritZVGU2Ag1View", dockManager, documentContainer); navPanAngidritZVGU2Ag1.Activate();
             NavigationWithPanal navPanAngidritZVGU2Ag2 = new NavigationWithPanal(navAngidritZVGU2Ag2, "AngidritZVGU2Ag2View", dockManager, documentContainer); navPanAngidritZVGU2Ag2.Activate();
             NavigationWithPanal navPanAngidritHeater = new NavigationWithPanal(navAngidritHeater, "AngidritHeaterView", dockManager, documentContainer); navPanAngidritHeater.Activate();
@@ -52,9 +52,10 @@ namespace WebControl
             Global.Default.navPanRockyNetwork = new NavigationWithPanal(navRockyNetwork, "RockyNetworkView", dockManager, documentContainer); Global.Default.navPanRockyNetwork.Activate();
             Global.Default.navPanDevelop = new NavigationWithPanal(navDevelop, "DevelopView", dockManager, documentContainer); //navPanDevelop.Activate();
             NavigationWithPanal navPanTest = new NavigationWithPanal(navTest, "TestView", dockManager, documentContainer); //navPanTest.Activate();
-            NavigationWithPanal navPanAngidritCommon = new NavigationWithPanal(navAngidritCommon, "AngidritControlView", dockManager, documentContainer); navPanAngidritCommon.Activate();
             Global.Default.navPanNetwork = new NavigationWithPanal(navNetwork, "NetworkView", dockManager, documentContainer); Global.Default.navPanNetwork.Activate();
+            NavigationWithPanal navPanAngidritCommon = new NavigationWithPanal(navAngidritCommon, "AngidritControlView", dockManager, documentContainer); navPanAngidritCommon.Activate();
             ShowStatusConnectionForm();
+            //Global.Default.navPanNetwork.Activate();
         }
 
         /// <summary>
@@ -102,9 +103,12 @@ namespace WebControl
             if (!Global.Default.ItemsUpdateSuccess)
                 ShowStatusConnectionForm();
             else
+            {
                 if (StatusConnectDocumentPanel != null)
                     StatusConnectDocumentPanel.Closed = true;
 
+                Global.Default.navPanNetwork.Activate();
+            }
         }
     }
 }

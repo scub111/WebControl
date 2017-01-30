@@ -37,7 +37,7 @@
                                 <dxn:NavBarItem x:Name="navAngidritRP554" Content="РП-554"/>
                                 <dxn:NavBarItem x:Name="navAngidritMTB" Content="МТБ"/>
                                 <dxn:NavBarItem x:Name="navServiceInfo" Content="Сервис инф."/>
-                                <dxn:NavBarItem x:Name="navNetwork" Content="Сеть общая"/>
+                                <dxn:NavBarItem x:Name="navNetwork" Content="Общая сеть"/>
                                 <dxn:NavBarItem x:Name="navAngidritASUTPNetwork" Content="Сеть АСУТП"/>
                                 <dxn:NavBarItem x:Name="navAdministrationNetwork" Content="(1)Рудоуправление"/>
                                 <dxn:NavBarItem x:Name="navAngidritNetwork" Content="(2)Ангидрит"/>

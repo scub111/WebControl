@@ -405,7 +405,6 @@ namespace WebControl
             DataClient.GetSqlCurrentTimeCompleted += DataClient_GetSqlCurrentTimeCompleted;
             DataClient.GetDateTimeOffsetCompleted += DataClient_GetDateTimeOffsetCompleted;
             DataClient.SetClientInfoFullCompleted += DataClient_SetClientInfoFullCompleted; 
-            DataClient.SetClientInfoShortCompleted += DataClient_SetClientInfoShortCompleted;
         }
 
         /// <summary>
@@ -413,7 +412,7 @@ namespace WebControl
         /// </summary>
         public void Init()
         {
-            Version = "1.42.12";
+            Version = "1.42.14";
 
             Debug = true;
 
@@ -836,10 +835,6 @@ namespace WebControl
         {
             if (e.Error == null) 
                 ClientInfoInited = e.Result;
-        }
-
-        void DataClient_SetClientInfoShortCompleted(object sender, SetClientInfoShortCompletedEventArgs e)
-        {
         }
     }
 
