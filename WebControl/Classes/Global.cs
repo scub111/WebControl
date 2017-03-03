@@ -13,6 +13,17 @@ using System.ComponentModel;
 
 namespace WebControl
 {
+    /// <summary>
+    /// Тип режима работы проекта.
+    /// </summary>
+    public enum ModeType
+    {
+        Real,
+        Debug,
+        Demo
+    }
+
+
     public class GlobalDefault
     {
         public GlobalDefault()
@@ -25,9 +36,9 @@ namespace WebControl
         public string Version { get; set; }
 
         /// <summary>
-        /// Отладочный режим работы проекта.
+        /// Режим работы проекта.
         /// </summary>
-        public bool Debug { get; set; }
+        public ModeType Mode { get; set; }
 
         /// <summary>
         /// Основная форма приложения.
@@ -412,9 +423,9 @@ namespace WebControl
         /// </summary>
         public void Init()
         {
-            Version = "1.42.14";
+            Version = "1.42.16";
 
-            Debug = true;
+            Mode = ModeType.Demo;
 
             T0 = DateTime.Now;
 
@@ -423,10 +434,10 @@ namespace WebControl
             ClientIPAddress = "unknown";
 
             //Автоматическое определение IP-сервера и его WCF-службе подключения в зависимости от режима разработки проекта.
-            if (Debug)
+            if (Mode == ModeType.Debug)
                 ServerIPAddress = "172.31.106.121";
                 //ServerIPAddress = "127.0.0.1";
-            else
+            else if (Mode == ModeType.Real)
             {
                 if (!string.IsNullOrEmpty(Application.Current.Host.Source.Host))
                     ServerIPAddress = Application.Current.Host.Source.Host;
@@ -434,10 +445,17 @@ namespace WebControl
                     ServerIPAddress = "127.0.0.1";
             }
 
-            WCFEndpointAddress = string.Format("http://{0}:5555/DataService.svc", ServerIPAddress);
+            if (Mode == ModeType.Debug || Mode == ModeType.Real)
+            {
+                WCFEndpointAddress = string.Format("http://{0}:5555/DataService.svc", ServerIPAddress);
+                RecreateDataClient();
+            }
+
             ClientInfoInited = false;
 
             ApplicationStarted = false;
+
+            ItemsInited = false;
 
             ShortUpdateTime = new TimeSpan(0, 0, 0);
             
@@ -456,11 +474,9 @@ namespace WebControl
 
             ItemsRealDataNameActivated = new ObservableCollection<string>();
 
-            ItemsInited = false;
 
-            RecreateDataClient();
-
-            ThreadMain = new ThreadTimer() { Period = 5000, Delay = 1000 };
+            //ThreadMain = new ThreadTimer() { Period = 5000, Delay = 1000 };
+            ThreadMain = new ThreadTimer() { Period = 1000, Delay = 100 };
             ThreadMain.WorkChanged += ThreadMain_WorkChanged;
             ThreadMain.Run();
 
@@ -602,6 +618,183 @@ namespace WebControl
                 VisualControlDict.Remove(dataName);
         }
 
+        static void GenerateIPAddress(string network, int from, int to, ObservableCollection<ItemSql> collection)
+        {
+            for (int i = from; i <= to; i++)
+            {
+                collection.Add(new ItemSql()
+                {
+                    DataName = string.Format("ping_{0}_{1}_Status", network.Replace('.', '_'), i),
+                    Description = string.Format("Узел связи {0}.{1}", network, i),
+                    SqlTime = DateTime.Now,
+                    DeviceTime = DateTime.Now,
+                    DataType = 1,
+                    DataValue = 1,
+                    MinValue = 0,
+                    MaxValue = 1,
+                    Trend = true,
+                    TimeOut = 20
+                });
+
+                collection.Add(new ItemSql()
+                {
+                    DataName = string.Format("ping_{0}_{1}_ReplyTime", network.Replace('.', '_'), i),
+                    Description = string.Format("Узел связи {0}.{1}", network, i),
+                    SqlTime = DateTime.Now,
+                    DeviceTime = DateTime.Now,
+                    DataType = 2,
+                    DataValue = 5,
+                    MinValue = 0,
+                    MaxValue = 1,
+                    Trend = true,
+                    TimeOut = 20
+                });
+            }
+        }
+
+        static void GetASOPItem(int index, string postfix, ObservableCollection<ItemSql> collection, string unit = "")
+        {
+            collection.Add(
+            new ItemSql()
+            {
+                DataName = string.Format("Angidrit_asop_FA000SD{0:D2}{1}", index, postfix),
+                Description = string.Format("Переменная АСОП. Станция {0}", index),
+                SqlTime = DateTime.Now,
+                DeviceTime = DateTime.Now,
+                DataType = 2,
+                DataValue = 1,
+                MinValue = 0,
+                MaxValue = 1,
+                Trend = true,
+                TimeOut = 20,
+                Unit = unit,
+                FormatValue = "0.00"
+            }
+            );
+
+            collection.Add(
+            new ItemSql()
+            {
+                DataName = string.Format("Angidrit_asop_FA000SD{0:D2}{1}_F", index, postfix),
+                Description = string.Format("Переменная АСОП. Станция {0}", index),
+                SqlTime = DateTime.Now,
+                DeviceTime = DateTime.Now,
+                DataType = 1,
+                DataValue = 1,
+                MinValue = 0,
+                MaxValue = 1,
+                Trend = true,
+                TimeOut = 20
+            }
+            );
+        }
+
+        static void GenerateASOP(ObservableCollection<ItemSql> collection)
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                GetASOPItem(i, "CO", collection, "ppm");
+                GetASOPItem(i, "V", collection, "м/c");
+                GetASOPItem(i, "T", collection, "C");
+                GetASOPItem(i, "DT", collection);
+                GetASOPItem(i, "SM", collection);
+            }
+        }
+
+        ObservableCollection<ItemSql> GetDemoItemSqls()
+        {
+            ObservableCollection<ItemSql> results = new ObservableCollection<ItemSql>();
+
+            // Рудоуправление.
+            GenerateIPAddress("172.31.106", 1, 255, results);
+
+            // Ангидрит.
+            GenerateIPAddress("172.24.92", 1, 255, results);
+
+            // Известняки.
+            GenerateIPAddress("172.24.43", 193, 255, results);
+
+            // Скальный.
+            GenerateIPAddress("172.24.88", 65, 94, results);
+
+            // Кайерканский.
+            GenerateIPAddress("172.24.228", 1, 128, results);
+
+            // КУР.
+            GenerateIPAddress("172.31.71", 1, 255, results);
+
+            // Межсеть.
+            GenerateIPAddress("172.24.251", 1, 255, results);
+            GenerateIPAddress("172.24.254", 1, 255, results);
+            GenerateIPAddress("172.31.127", 1, 255, results);
+
+            GenerateASOP(results);
+
+            return results;
+        }
+
+        ObservableCollection<ItemSqlSimple> GetDemoItemSqlSimples(ObservableCollection<string> ItemsRealDataNameActivated)
+        {
+            ObservableCollection<ItemSqlSimple> results = new ObservableCollection<ItemSqlSimple>();
+
+            // Имитация передачи первой записи.
+            results.Add(new ItemSqlSimple()
+            {
+                SqlTime = DateTime.Now
+            });
+
+            Random random = new Random();
+            int currentStatus = 0;
+
+            foreach (var item in ItemsRealDataNameActivated)
+            {
+
+                if (item.Contains("_Status"))
+                {
+                    currentStatus = random.Next(0, 2);
+
+                    results.Add(new ItemSqlSimple()
+                    {
+                        SqlTime = DateTime.Now,
+                        DeviceTime = DateTime.Now,
+                        DataValue = currentStatus,
+                        Quality = 192
+                    });
+                }
+
+                else if (item.Contains("_ReplyTime"))
+                {
+                    results.Add(new ItemSqlSimple()
+                    {
+                        SqlTime = DateTime.Now,
+                        DeviceTime = DateTime.Now,
+                        DataValue = currentStatus == 1 ? random.Next(0, 25) : -1,
+                        Quality = 192
+                    });
+                }
+                else if (item.Replace("_FA", "").Contains("_F") || item.Contains("DT") || item.Contains("SM"))
+                {
+                    results.Add(new ItemSqlSimple()
+                    {
+                        SqlTime = DateTime.Now,
+                        DeviceTime = DateTime.Now,
+                        DataValue = random.Next(0, 2),
+                        Quality = 192
+                    });
+                }
+                else if (item.Contains("Angidrit_asop"))
+                {
+                    results.Add(new ItemSqlSimple()
+                    {
+                        SqlTime = DateTime.Now,
+                        DeviceTime = DateTime.Now,
+                        DataValue = random.Next(0, 50) + random.NextDouble(),
+                        Quality = 192
+                    });
+                }
+            }
+            return results;
+        }
         /// <summary>
         /// Основная функция, которая выполняется в главном потоке.
         /// </summary>
@@ -614,17 +807,40 @@ namespace WebControl
                 {
                     ItemsReal.Clear();
                     ItemsRealDict.Clear();
-                    DataClient.GetItemsFullAsync();
+                    if (Mode == ModeType.Real || Mode == ModeType.Debug)
+                    {
+                        DataClient.GetItemsFullAsync();
+                        DataClient.GetSqlCurrentTimeAsync();
+                        DataClient.GetDateTimeOffsetAsync();
+                    }
+                    else
+                    {
+                        DataClient_GetItemsFullCompleted(this, 
+                            new GetItemsFullCompletedEventArgs(new object[] { GetDemoItemSqls() }, null, false, null));
+
+                        DataClient_GetSqlCurrentTimeCompleted(this,
+                            new GetSqlCurrentTimeCompletedEventArgs(new object[] { DateTime.Now}, null, false, null));
+
+                        DataClient_GetDateTimeOffsetCompleted(this,
+                            new GetDateTimeOffsetCompletedEventArgs(new object[] { new DateTimeOffset(DateTime.Now) }, null, false, null));
+                    }
                     InitItemsBusy = true;
-                    DataClient.GetSqlCurrentTimeAsync();
-                    DataClient.GetDateTimeOffsetAsync();
                 }
             }
             if (ItemsInited)
             {
                 T0Short = DateTime.Now;
                 //DataClient.GetItemsShortAsync();
-                DataClient.GetItemsShortByDataNamesAsync(ItemsRealDataNameActivated);
+
+                if (Mode == ModeType.Real || Mode == ModeType.Debug)
+                {
+                    DataClient.GetItemsShortByDataNamesAsync(ItemsRealDataNameActivated);
+                }
+                else
+                {
+                    DataClient_GetItemsShortByDataNamesCompleted(this,
+                        new GetItemsShortByDataNamesCompletedEventArgs(new object[] { GetDemoItemSqlSimples(ItemsRealDataNameActivated) }, null, false, null));
+                }
             }
 
             if (sender == ThreadMain)
@@ -670,9 +886,8 @@ namespace WebControl
             {
                 InitFaultCount++;
                 ItemsInited = false;
-                //DataClient.CloseAsync();
-                //DataClient.OpenAsync();
-                RecreateDataClient();
+                if (Mode == ModeType.Real || Mode == ModeType.Debug)
+                    RecreateDataClient();
             }
             InitItemsBusy = false;
             LoadTime = DateTime.Now - T0;
@@ -729,7 +944,8 @@ namespace WebControl
         {
             if (e.Error == null)
             {
-                if (ItemsRealDataNameActivated.Count + 1 == e.Result.Count)
+                if (e.Result.Count > 0 &&
+                    ItemsRealDataNameActivated.Count + 1 == e.Result.Count)
                 {
                     ServerItemUpdateTime = e.Result[0].SqlTime - ServerClientTimeZoneDiff;
 
@@ -763,11 +979,12 @@ namespace WebControl
             }
 
             // Удедомление интерфейсного потока о завершении обновления элементов.
-            MainForm.Dispatcher.BeginInvoke(() =>
-            {
-                if (ItemsUpdated != null)
-                    ItemsUpdated(null, null);
-            });
+            if (MainForm != null)
+                MainForm.Dispatcher.BeginInvoke(() =>
+                {
+                    if (ItemsUpdated != null)
+                        ItemsUpdated(null, null);
+                });
 
             ShortUpdateTime = DateTime.Now - T0Short;
         }
@@ -775,8 +992,12 @@ namespace WebControl
 
         void ThreadSQLSync_WorkChanged(object sender, EventArgs e)
         {
-            DataClient.GetSqlCurrentTimeAsync();
-            DataClient.GetDateTimeOffsetAsync();
+            if (Mode == ModeType.Real || Mode == ModeType.Debug)
+            {
+
+                DataClient.GetSqlCurrentTimeAsync();
+                DataClient.GetDateTimeOffsetAsync();
+            }
         }
 
         void DataClient_GetSqlCurrentTimeCompleted(object sender, GetSqlCurrentTimeCompletedEventArgs e)
@@ -792,13 +1013,14 @@ namespace WebControl
             else
                 DateTimeSyncSuccess = false;
 
-            MainForm.Dispatcher.BeginInvoke(() =>
-            {
-                if (DateTimeSynchronized != null)
-                    DateTimeSynchronized(null, null);
-            });
+            if (MainForm != null)
+                MainForm.Dispatcher.BeginInvoke(() =>
+                {
+                    if (DateTimeSynchronized != null)
+                        DateTimeSynchronized(null, null);
+                });
         }
-        
+
         void DataClient_GetDateTimeOffsetCompleted(object sender, GetDateTimeOffsetCompletedEventArgs e)
         {
             if (e.Error == null)
@@ -812,22 +1034,26 @@ namespace WebControl
             else
                 DateTimeOffsetSyncSuccess = false;
 
-            MainForm.Dispatcher.BeginInvoke(() =>
-            {
-                if (DateTimeOffsetSynchronized != null)
-                    DateTimeOffsetSynchronized(null, null);
-            });
+            if (MainForm != null)
+                MainForm.Dispatcher.BeginInvoke(() =>
+                {
+                    if (DateTimeOffsetSynchronized != null)
+                        DateTimeOffsetSynchronized(null, null);
+                });
         }
 
         void ThreadStatistic_WorkChanged(object sender, EventArgs e)
         {
-            if (ApplicationStarted)
+            if (Mode == ModeType.Real || Mode == ModeType.Debug)
             {
-                if (!ClientInfoInited)
-                    DataClient.SetClientInfoFullAsync(ClientGUID, ClientIPAddress, Version, DateTime.Now, ClientBrowserInformation);
+                if (ApplicationStarted)
+                {
+                    if (!ClientInfoInited)
+                        DataClient.SetClientInfoFullAsync(ClientGUID, ClientIPAddress, Version, DateTime.Now, ClientBrowserInformation);
 
-                if (ClientInfoInited)
-                    DataClient.SetClientInfoShortAsync(ClientGUID, DateTime.Now);
+                    if (ClientInfoInited)
+                        DataClient.SetClientInfoShortAsync(ClientGUID, DateTime.Now);
+                }
             }
         }
 

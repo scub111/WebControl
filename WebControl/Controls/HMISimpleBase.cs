@@ -184,7 +184,6 @@ namespace WebControl
         public void ShowDetail()
         {
             if (Item != null &&
-                Item.Trend &&
                 Global.Default.DockManager != null &&
                 Global.Default.DocumentContainer != null)
                 GlobalDefault.ShowForm(ref DetailDocumentPanel, Item.Description, "/WebControl;component/Forms/DetailForm.xaml", new Size(420, 430), true, this);
@@ -270,10 +269,7 @@ namespace WebControl
 
         private void HMIBase_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (Item != null && Item.Trend)
-            {
-                ShowTrend();
-            }
+            ShowTrend();
         }
 
         private void HMIBase_ActualChanged(object sender, EventArgs e)
@@ -336,10 +332,7 @@ namespace WebControl
 
         void MenuItemDetail_Click(object sender, RoutedEventArgs e)
         {
-            if (Item != null)
-            {
-                ShowDetail();
-            }
+            ShowDetail();
         }
     }
 }

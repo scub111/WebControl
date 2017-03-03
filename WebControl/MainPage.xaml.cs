@@ -15,7 +15,13 @@ namespace WebControl
             Global.Default.Init();
             ThemeManager.ApplicationTheme = Theme.VS2010;
             InitializeComponent();
+            FirstShow = false;
         }
+
+        /// <summary>
+        /// Первый показ.
+        /// </summary>
+        bool FirstShow { get; set; }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
@@ -106,8 +112,11 @@ namespace WebControl
             {
                 if (StatusConnectDocumentPanel != null)
                     StatusConnectDocumentPanel.Closed = true;
-
-                Global.Default.navPanNetwork.Activate();
+                if (!FirstShow)
+                {
+                    FirstShow = true;
+                    //Global.Default.navPanNetwork.Activate();
+                }
             }
         }
     }

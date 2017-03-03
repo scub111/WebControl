@@ -27,6 +27,12 @@ namespace WebControl
 
             deBegin.EditValue = Global.Default.SqlCurrentTime - new TimeSpan(24, 0, 0);
             deEnd.EditValue = Global.Default.SqlCurrentTime;
+
+            if (Global.Default.Mode == ModeType.Real || Global.Default.Mode == ModeType.Debug)
+            {
+                DataClient = Global.Default.CreateDataClient();
+                DataClient.GetMTBTIDELOGsCompleted += DataClient_GetMTBTIDELOGsCompleted;
+            }
         }
 
         /// <summary>
@@ -73,7 +79,10 @@ namespace WebControl
             lblStatus.Text = "Запрос данных...";
             T0 = DateTime.Now;
             ckUpdate.Visibility = System.Windows.Visibility.Visible;
-            DataClient.GetMTBTIDELOGsAsync("_Angidrit_MTB_TIDELOG", (DateTime)deBegin.EditValue + Global.Default.ServerClientTimeZoneDiff, (DateTime)deEnd.EditValue + Global.Default.ServerClientTimeZoneDiff);
+            if (Global.Default.Mode == ModeType.Real || Global.Default.Mode == ModeType.Debug)
+            {
+                DataClient.GetMTBTIDELOGsAsync("_Angidrit_MTB_TIDELOG", (DateTime)deBegin.EditValue + Global.Default.ServerClientTimeZoneDiff, (DateTime)deEnd.EditValue + Global.Default.ServerClientTimeZoneDiff);
+            }
         }
 
         void DataClient_GetMTBTIDELOGsCompleted(object sender, GetMTBTIDELOGsCompletedEventArgs e)
@@ -101,10 +110,6 @@ namespace WebControl
 
         private void AngidritMTBView_Loaded(object sender, RoutedEventArgs e)
         {
-            DataClient = Global.Default.CreateDataClient();
-
-            DataClient.GetMTBTIDELOGsCompleted += DataClient_GetMTBTIDELOGsCompleted;
-
             Timer = new ThreadTimer();
             Timer.Period = 120000;
             Timer.InterfaceChanged += Timer_InterfaceChanged;

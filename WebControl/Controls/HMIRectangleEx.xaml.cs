@@ -20,7 +20,8 @@ namespace WebControl
             Server = 6,
             PLC = 7,
             Router = 8,
-            Switch = 9
+            Switch = 9,
+            Device = 10
         }
 
         public HMIRectangleEx()

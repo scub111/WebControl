@@ -1,48 +1,48 @@
-﻿<xapCache source="D:\_Projects\WebControl\WebControl\Bin\Debug\WebControl.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="30.01.2017 16:37:14">
-  <file source="D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.dll" archivePath="WebControl.dll" lastWriteTime="30.01.2017 16:37:08" />
-  <file source="D:\_Projects\amChartsQuickCharts\QuickChartsSL\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll" archivePath="AmCharts.Windows.QuickCharts.SL.dll" lastWriteTime="05.01.2017 9:50:05" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Charts.v14.2.Core.dll" archivePath="DevExpress.Charts.v14.2.Core.dll" lastWriteTime="01.06.2015 19:06:02" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Data.v14.2.dll" archivePath="DevExpress.Data.v14.2.dll" lastWriteTime="01.06.2015 19:06:05" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Mvvm.v14.2.dll" archivePath="DevExpress.Mvvm.v14.2.dll" lastWriteTime="01.06.2015 19:06:15" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Printing.v14.2.Core.dll" archivePath="DevExpress.Printing.v14.2.Core.dll" lastWriteTime="01.06.2015 19:06:16" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.charts.v14.2.dll" archivePath="devexpress.xpf.charts.v14.2.dll" lastWriteTime="01.06.2015 19:06:02" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.controls.v14.2.dll" archivePath="devexpress.xpf.controls.v14.2.dll" lastWriteTime="01.06.2015 19:06:03" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Core.v14.2.dll" archivePath="DevExpress.Xpf.Core.v14.2.dll" lastWriteTime="01.06.2015 19:06:04" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.docking.v14.2.dll" archivePath="devexpress.xpf.docking.v14.2.dll" lastWriteTime="01.06.2015 19:06:11" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Grid.v14.2.Core.dll" archivePath="DevExpress.Xpf.Grid.v14.2.Core.dll" lastWriteTime="01.06.2015 19:06:14" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.grid.v14.2.dll" archivePath="devexpress.xpf.grid.v14.2.dll" lastWriteTime="01.06.2015 19:06:14" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Layout.v14.2.Core.dll" archivePath="DevExpress.Xpf.Layout.v14.2.Core.dll" lastWriteTime="01.06.2015 19:06:11" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.layoutcontrol.v14.2.dll" archivePath="devexpress.xpf.layoutcontrol.v14.2.dll" lastWriteTime="01.06.2015 19:06:15" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.navbar.v14.2.dll" archivePath="devexpress.xpf.navbar.v14.2.dll" lastWriteTime="01.06.2015 19:06:15" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Printing.v14.2.dll" archivePath="DevExpress.Xpf.Printing.v14.2.dll" lastWriteTime="01.06.2015 19:06:16" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Ribbon.v14.2.dll" archivePath="DevExpress.Xpf.Ribbon.v14.2.dll" lastWriteTime="01.06.2015 19:06:16" />
-  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Themes.VS2010.v14.2.dll" archivePath="DevExpress.Xpf.Themes.VS2010.v14.2.dll" lastWriteTime="01.06.2015 19:06:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\Microsoft.CSharp.dll" archivePath="Microsoft.CSharp.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Data.Services.Client.dll" archivePath="System.Data.Services.Client.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="D:\_Projects\WebControl\packages\Rx-Main.1.0.10621\lib\SL4\System.Reactive.dll" archivePath="System.Reactive.dll" lastWriteTime="26.12.2014 13:19:24" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\system.windows.controls.datavisualization.toolkit.dll" archivePath="system.windows.controls.datavisualization.toolkit.dll" lastWriteTime="09.12.2011 10:25:04" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll" archivePath="System.Windows.Controls.Input.Toolkit.dll" lastWriteTime="09.12.2011 10:25:04" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Navigation.dll" archivePath="System.Windows.Controls.Navigation.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\system.windows.controls.theming.toolkit.dll" archivePath="system.windows.controls.theming.toolkit.dll" lastWriteTime="09.12.2011 10:25:04" />
-  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="09.12.2011 10:25:04" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.Linq.dll" archivePath="System.Xml.Linq.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.Serialization.dll" archivePath="System.Xml.Serialization.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.XPath.dll" archivePath="System.Xml.XPath.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\Microsoft.CSharp.resources.dll" archivePath="ru\Microsoft.CSharp.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.ComponentModel.DataAnnotations.resources.dll" archivePath="ru\System.ComponentModel.DataAnnotations.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Data.Services.Client.resources.dll" archivePath="ru\System.Data.Services.Client.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.resources.dll" archivePath="ru\System.Windows.Controls.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.Data.Input.resources.dll" archivePath="ru\System.Windows.Controls.Data.Input.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.Navigation.resources.dll" archivePath="ru\System.Windows.Controls.Navigation.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Data.resources.dll" archivePath="ru\System.Windows.Data.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.Linq.resources.dll" archivePath="ru\System.Xml.Linq.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.Serialization.resources.dll" archivePath="ru\System.Xml.Serialization.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.XPath.resources.dll" archivePath="ru\System.Xml.XPath.resources.dll" lastWriteTime="18.11.2011 22:40:20" />
-  <file source="D:\_Projects\WebControl\WebControl\Images\Program.ico" archivePath="Images\Program.ico" lastWriteTime="23.07.2014 17:28:24" />
-  <file source="D:\_Projects\WebControl\WebControl\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="11.01.2017 10:20:48" />
-  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="20.01.2017 15:47:36" />
+﻿<xapCache source="D:\_Projects\WebControl\WebControl\Bin\Debug\WebControl.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="27.02.2017 1:47:29">
+  <file source="D:\_Projects\WebControl\WebControl\obj\Debug\WebControl.dll" archivePath="WebControl.dll" lastWriteTime="27.02.2017 1:47:17" />
+  <file source="D:\_Projects\amChartsQuickCharts\QuickChartsSL\Bin\Debug\AmCharts.Windows.QuickCharts.SL.dll" archivePath="AmCharts.Windows.QuickCharts.SL.dll" lastWriteTime="05.01.2017 5:50:05" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Charts.v14.2.Core.dll" archivePath="DevExpress.Charts.v14.2.Core.dll" lastWriteTime="01.06.2015 15:06:02" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Data.v14.2.dll" archivePath="DevExpress.Data.v14.2.dll" lastWriteTime="01.06.2015 15:06:05" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Mvvm.v14.2.dll" archivePath="DevExpress.Mvvm.v14.2.dll" lastWriteTime="01.06.2015 15:06:15" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Printing.v14.2.Core.dll" archivePath="DevExpress.Printing.v14.2.Core.dll" lastWriteTime="01.06.2015 15:06:16" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.charts.v14.2.dll" archivePath="devexpress.xpf.charts.v14.2.dll" lastWriteTime="01.06.2015 15:06:02" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.controls.v14.2.dll" archivePath="devexpress.xpf.controls.v14.2.dll" lastWriteTime="01.06.2015 15:06:03" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Core.v14.2.dll" archivePath="DevExpress.Xpf.Core.v14.2.dll" lastWriteTime="01.06.2015 15:06:04" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.docking.v14.2.dll" archivePath="devexpress.xpf.docking.v14.2.dll" lastWriteTime="01.06.2015 15:06:11" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Grid.v14.2.Core.dll" archivePath="DevExpress.Xpf.Grid.v14.2.Core.dll" lastWriteTime="01.06.2015 15:06:14" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.grid.v14.2.dll" archivePath="devexpress.xpf.grid.v14.2.dll" lastWriteTime="01.06.2015 15:06:14" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Layout.v14.2.Core.dll" archivePath="DevExpress.Xpf.Layout.v14.2.Core.dll" lastWriteTime="01.06.2015 15:06:11" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.layoutcontrol.v14.2.dll" archivePath="devexpress.xpf.layoutcontrol.v14.2.dll" lastWriteTime="01.06.2015 15:06:15" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\devexpress.xpf.navbar.v14.2.dll" archivePath="devexpress.xpf.navbar.v14.2.dll" lastWriteTime="01.06.2015 15:06:15" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Printing.v14.2.dll" archivePath="DevExpress.Xpf.Printing.v14.2.dll" lastWriteTime="01.06.2015 15:06:16" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Ribbon.v14.2.dll" archivePath="DevExpress.Xpf.Ribbon.v14.2.dll" lastWriteTime="01.06.2015 15:06:16" />
+  <file source="D:\_Projects\WebControl\WebControl\DLL\DevExpress.Xpf.Themes.VS2010.v14.2.dll" archivePath="DevExpress.Xpf.Themes.VS2010.v14.2.dll" lastWriteTime="01.06.2015 15:06:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\Microsoft.CSharp.dll" archivePath="Microsoft.CSharp.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Data.Services.Client.dll" archivePath="System.Data.Services.Client.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="D:\_Projects\WebControl\packages\Rx-Main.1.0.10621\lib\SL4\System.Reactive.dll" archivePath="System.Reactive.dll" lastWriteTime="26.12.2014 9:19:24" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\system.windows.controls.datavisualization.toolkit.dll" archivePath="system.windows.controls.datavisualization.toolkit.dll" lastWriteTime="09.12.2011 6:25:04" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Input.Toolkit.dll" archivePath="System.Windows.Controls.Input.Toolkit.dll" lastWriteTime="09.12.2011 6:25:04" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Navigation.dll" archivePath="System.Windows.Controls.Navigation.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\system.windows.controls.theming.toolkit.dll" archivePath="system.windows.controls.theming.toolkit.dll" lastWriteTime="09.12.2011 6:25:04" />
+  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="09.12.2011 6:25:04" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.Linq.dll" archivePath="System.Xml.Linq.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.Serialization.dll" archivePath="System.Xml.Serialization.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Xml.XPath.dll" archivePath="System.Xml.XPath.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\Microsoft.CSharp.resources.dll" archivePath="ru\Microsoft.CSharp.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.ComponentModel.DataAnnotations.resources.dll" archivePath="ru\System.ComponentModel.DataAnnotations.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Data.Services.Client.resources.dll" archivePath="ru\System.Data.Services.Client.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.resources.dll" archivePath="ru\System.Windows.Controls.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.Data.Input.resources.dll" archivePath="ru\System.Windows.Controls.Data.Input.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Controls.Navigation.resources.dll" archivePath="ru\System.Windows.Controls.Navigation.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Windows.Data.resources.dll" archivePath="ru\System.Windows.Data.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.Linq.resources.dll" archivePath="ru\System.Xml.Linq.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.Serialization.resources.dll" archivePath="ru\System.Xml.Serialization.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\ru\System.Xml.XPath.resources.dll" archivePath="ru\System.Xml.XPath.resources.dll" lastWriteTime="19.11.2011 5:40:20" />
+  <file source="D:\_Projects\WebControl\WebControl\Images\Program.ico" archivePath="Images\Program.ico" lastWriteTime="23.07.2014 13:28:24" />
+  <file source="D:\_Projects\WebControl\WebControl\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="11.01.2017 6:20:48" />
+  <file source="D:\_Projects\WebControl\WebControl\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="20.01.2017 11:47:36" />
 </xapCache>

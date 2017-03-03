@@ -1594,27 +1594,7 @@
         	</Ellipse>
         	<TextBlock TextWrapping="Wrap" Text="ЮГ" Foreground="Black" FontSize="32" Height="42" Canvas.Left="1010" Width="130" TextAlignment="Center" Canvas.Top="10" FontStyle="Italic"/>
         	<TextBlock TextWrapping="Wrap" Text="СЕВЕР" Foreground="Black" FontSize="32" Height="42" Canvas.Left="350" Width="130" TextAlignment="Center" Canvas.Top="10" FontStyle="Italic"/>
-        	<Path Data="M357.975,-15.5981 L387.483,-69.8268" Height="56" Stretch="Fill" Stroke="Red" Canvas.Top="59.5" UseLayoutRounding="False" Width="31" Canvas.Left="24.5"/>
-        	<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_abk_technograph1_K1" ToolTipService.ToolTip="" Canvas.Left="10" Canvas.Top="30"/>
-        	<Path Data="M357.483,-15.1051 L324.533,-46.9029" Height="33.25" Stretch="Fill" Stroke="Red" Canvas.Top="447.25" UseLayoutRounding="False" Width="34.5" Canvas.Left="323"/>
-        	<Ellipse Height="10" Canvas.Left="20" Stroke="Black" Canvas.Top="110" Width="10">
-        		<Ellipse.Fill>
-        			<RadialGradientBrush>
-        				<GradientStop Color="White" Offset="0"/>
-        				<GradientStop Color="#FF00CD00" Offset="1"/>
-        			</RadialGradientBrush>
-        		</Ellipse.Fill>
-        	</Ellipse>
-        	<local:HMILabel CaptionFontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="110" DataName="Angidrit_abk_technograph1_K2" ToolTipService.ToolTip="" Canvas.Left="255" Canvas.Top="418"/>
-        	<Ellipse Height="10" Canvas.Left="352" Stroke="Black" Canvas.Top="475" Width="10">
-        		<Ellipse.Fill>
-        			<RadialGradientBrush>
-        				<GradientStop Color="White" Offset="0"/>
-        				<GradientStop Color="#FF00CD00" Offset="1"/>
-        			</RadialGradientBrush>
-        		</Ellipse.Fill>
-        	</Ellipse>
 
-		</Canvas>
+        </Canvas>
     </Viewbox>
 </local:ViewBase>

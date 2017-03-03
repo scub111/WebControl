@@ -1,21 +1,14 @@
-﻿using DevExpress.Xpf.Charts;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
-using System.Net;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 using WebControl.DataServiceReference;
 using System.Windows.Media.Imaging;
 using DevExpress.Xpf.Printing;
 using System.Windows.Data;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace WebControl
 {
@@ -27,8 +20,12 @@ namespace WebControl
             OnlineUpdate = true;
             TrendInited = false;
             Trends = new Collection<ItemSqlTrend>();
-            DataClient = Global.Default.CreateDataClient();
-            DataClient.GetTrendsCompleted += DataClient_GetTrendsCompleted;
+
+            if (Global.Default.Mode == ModeType.Real || Global.Default.Mode == ModeType.Debug)
+            {
+                DataClient = Global.Default.CreateDataClient();
+                DataClient.GetTrendsCompleted += DataClient_GetTrendsCompleted;
+            }
 
             InitTimeT0 = Global.Default.SqlCurrentTime;
             Count10s = Count1m = Count10m = Count1h = Count6h = Count1d = 1;
@@ -53,6 +50,12 @@ namespace WebControl
         {
             deBegin.EditValue = Global.Default.SqlCurrentTime - new TimeSpan(1, 0, 0);
             deEnd.EditValue = Global.Default.SqlCurrentTime;
+
+            if (Global.Default.Mode == ModeType.Demo)
+            {
+                btnTimePeriodAuto_Click(this, null);
+                cbeTimePeriod.SelectedIndex = 1;
+            }
 
             UpdateChart();
         }
@@ -211,6 +214,52 @@ namespace WebControl
         /// </summary>
         bool DateEditComplete { get; set; }
 
+        ItemSqlTrends GenerateDemoTrens()
+        {
+
+            ItemSqlTrends result = new ItemSqlTrends();
+            result.Records = new ObservableCollection<ItemSqlTrend>();
+
+            Random random = new Random();
+            TimeSpan tsHour = new TimeSpan(1, 0, 0);
+            DateTime starTime = DateTime.Now - tsHour;
+
+            double minValue = 0;
+            double maxValue = 0;
+
+            for (int i = 0; i < 360; i++)
+            {
+                ItemSqlTrend trend = new ItemSqlTrend();
+                trend.SqlTime = starTime + new TimeSpan(0, 0, 10 * i);
+
+                switch (Item.DataType)
+                {
+                    case ItemReal.DataTypeSimple.Boolean:
+                        trend.DataValue = random.Next(0, 2);
+                        break;
+                    case ItemReal.DataTypeSimple.Integer:
+                        trend.DataValue = random.Next(0, 50);
+                        break;
+                    case ItemReal.DataTypeSimple.Real:
+                        trend.DataValue = random.Next(0, 50) + random.NextDouble();
+                        break;
+                }
+
+                if (trend.DataValue < minValue)
+                    minValue = trend.DataValue;
+
+                if (trend.DataValue > maxValue)
+                    maxValue = trend.DataValue;
+
+                result.Records.Add(trend);
+            }
+
+            result.MinValue = minValue;
+            result.MaxValue = maxValue;
+
+            return result;
+        }
+
         /// <summary>
         /// Обновление тренда.
         /// </summary>
@@ -221,13 +270,29 @@ namespace WebControl
             ckUpdate.Visibility = System.Windows.Visibility.Visible;
 
             int timePeriod = cbeTimePeriod.SelectedIndex;
-            
-            DataClient.GetTrendsAsync(
-                Item.DataName, 
-                (int)Item.DataType, 
-                (DateTime)deBegin.EditValue + Global.Default.ServerClientTimeZoneDiff, 
-                (DateTime)deEnd.EditValue + Global.Default.ServerClientTimeZoneDiff,
-                timePeriod);
+
+            if (Global.Default.Mode == ModeType.Real || Global.Default.Mode == ModeType.Debug)
+                DataClient.GetTrendsAsync(
+                    Item.DataName,
+                    (int)Item.DataType,
+                    (DateTime)deBegin.EditValue + Global.Default.ServerClientTimeZoneDiff,
+                    (DateTime)deEnd.EditValue + Global.Default.ServerClientTimeZoneDiff,
+                    timePeriod);
+            else
+            {
+                Task task = new Task(() => 
+                {
+                    Random random = new Random();
+
+                    Thread.Sleep(random.Next(300, 800));
+                    this.Dispatcher.BeginInvoke(() =>
+                    {
+                        DataClient_GetTrendsCompleted(this,
+                            new GetTrendsCompletedEventArgs(new object[] { GenerateDemoTrens() }, null, false, null));
+                    });
+                });
+                task.Start();
+            }
         }
 
         /// <summary>

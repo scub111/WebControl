@@ -321,7 +321,9 @@ namespace WcfDataService
             ItemSqlSimple sqlItem = new ItemSqlSimple();
             sqlItem.SqlTime = ItemUpdateTime;
             items.Add(sqlItem);
-            items[0].SqlTime = ItemUpdateTime;
+
+            // Дублированная запись
+            //items[0].SqlTime = ItemUpdateTime;
 
             // Передача записей по имени.
             foreach (string dataName in dataNames)
